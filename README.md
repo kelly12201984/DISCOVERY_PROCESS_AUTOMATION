@@ -2,7 +2,7 @@
 
 ## What This Repo Is
 
-This is the working repository for a **3-week operations discovery engagement** at **Savannah Tank & Equipment Corporation**, conducted by **Kelly Arseneau / Savannah Intelligence Systems LLC** (March 16 – April 3, 2026).
+This is the working repository for a **3-week operations discovery engagement** at **Savannah Tank & Equipment Corporation**, conducted by **Kelly Fletcher / Savannah Intelligence Systems LLC** (March 16 – April 3, 2026).
 
 Everything in this repo exists to answer one question: **Where can automation eliminate manual work, reduce errors, and give people their time back?**
 
