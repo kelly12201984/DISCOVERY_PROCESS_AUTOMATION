@@ -1,196 +1,172 @@
-# April Lewis — Project Management Briefing
+# April Lewis — Project Management Briefing (Pre-Discovery)
 **Role:** Project Manager, Savannah Tank & Equipment
-**Date:** March 18, 2026 | **Source:** Discovery documents from `DISCOVERY/APRIL/`
+**Date:** March 18, 2026 | **Source:** Discovery documents from `APRIL/`
+**Note:** Pre-discovery — documents only, no interview yet.
 
 ---
 
 ## What April Owns
 
-| Document | What It Is | Format | Rows/Jobs |
-|----------|-----------|--------|-----------|
-| **PM Tracker - Working.xlsx** | Master job lifecycle tracker (6 sheets) | Excel | 360+ rows |
-| **Released Jobs.xlsx** | Active shop floor jobs with task-level status | Excel | 14 jobs |
-| **MASTER SCHEDULE.xlsx** | All jobs — certified & uncertified — with milestone dates | Excel | 55+ jobs |
-| **Production Schedule.xlsx** | Capacity planning, workforce allocation, hours by job | Excel | All active |
-| **Project Process.xlsx** | Step-by-step order-to-ship workflow (her playbook) | Excel | N/A |
-| **2026 PM Meeting - Working Agenda.docx** | Weekly Monday 1:30 PM meeting structure | Word | N/A |
+| Document | What It Is | Format | Scope |
+|----------|-----------|--------|-------|
+| **PM Tracker - Working.xlsx** | Master job tracker with PO values, dates, material/drawing status | Excel | 66+ active jobs, ~$14.5M portfolio |
+| **MASTER SCHEDULE.xlsx** | Gantt-style weekly schedule (week of 3/10) | Excel | 66 jobs across ~35 weeks (Jan-Aug 2026) |
+| **Production Schedule.xlsx** | Weekly labor-hour loading by job | Excel | Hours allocated per job per week |
+| **Released Jobs.xlsx** | Jobs fully released to shop floor | Excel | 37 released jobs |
+| **Epic - Working Project Schedule (as of 3-16).xlsx** | Detailed sub-item tracker for Epic package | Excel | 14 vessels, 337 sub-items |
+| **Epic Status.xlsx** | Production stage tracker for Epic jobs | Excel | 9 stages per job |
+| **Vertiv Tanks.xlsx** | High-volume buffer tank tracker (2025) | Excel | 232 tanks |
+| **Project Process.xlsx** | End-to-end workflow from RFQ to closeout | Excel | 34 process steps |
+| **Pages 1-4.pdf** | Visual flowchart of project process | PDF | 4-page process diagram |
+| **2026 Project Management Meeting - Working Agenda.docx** | PM meeting agenda | Word | Could not extract (format issue) |
 
 ---
 
-## Released Jobs Snapshot (as of 3/16/2026)
+## Active Job Portfolio — ~$14.5M Across 66+ Jobs
 
-| Job # | Customer | Status | Ship Date | Progress | Concern? |
-|-------|----------|--------|-----------|----------|----------|
-| 25-099 | Burke | On Track | 3/19 | 44% | Ships tomorrow — only 44% |
-| 25-013 | Kimberly-Clark | **@ Risk** | 3/19 | 29% | **Ships tomorrow — 29% complete** |
-| 25-098 | Coastal Tech | **On Hold** | 3/30 | 19% | On hold, 12 days to ship |
-| 25-092 | Symrise | On Track | 4/2 | 1% | Just started, 2 weeks out |
-| 25-093 | Symrise | On Track | 4/2 | 1% | Just started, 2 weeks out |
-| 25-040 | Nak Kiln | On Track | 4/3 | 3% | Very early, 2 weeks out |
-| 25-068 | Reco/Nudyne | On Track | 4/6 | 95% | Nearly done |
-| 25-069 | Reco/Nudyne | On Track | 4/6 | 49% | Half done, 3 weeks out |
-| 25-070 | Reco/Nudyne | On Track | 4/27 | 22% | 6 weeks out — OK |
-| 25-071 | Reco/Nudyne | On Track | 4/27 | 2% | Just started, 6 weeks out |
-| 24-083 | Synthomer | On Track | 4/9 | 34% | Customer (Michelle) visiting for test |
-| 25-117 | Merrick | On Track | 4/13 | 12% | 4 weeks out |
-| 25-118 | Merrick | On Track | 5/11 | 1% | 8 weeks out — OK |
-| 24-046 | Syms | On Track | 4/13 | 1% | Just started, 4 weeks out |
+### By Customer
 
----
+| Customer | # Jobs | Total PO Value | Fab Weeks | Key Notes |
+|----------|--------|---------------|-----------|-----------|
+| **SNF** | 8 | ~$5.07M | 18-26 wks | **LDs (liquidated damages)** — highest financial risk |
+| **Reco (Nudyne)** | 10 | ~$3.03M | 22-38 wks | SS & CS reactors + shipping frames |
+| **KC (Kimberly-Clark)** | 14 | ~$1.98M | 14-18 wks | Multiple chest types; 3 "Bonnie" jobs uncertified |
+| **Valmet** | 1 | $1,485,000 | 24 wks | Penn. Dissolving Tank — 64,000 lbs, single largest job |
+| **Synthomer** | 2 | $1,431,000 | 18-26 wks | Reactor ($760K) + HX ($671K) |
+| **Andritz** | 2 | $1,266,500 | 10-26 wks | Ductwork ($34.5K) + Dissolving Tank ($1.232M, 62,000 lbs) |
+| **Epic** | 14 | ~$1,188,000 | 18 wks each | Amine/glycol treatment package — 337 sub-items |
+| **Polynt** | 1 | $671,000 | 18 wks | Reactor, 28,000 lbs |
+| **US Sugar** | 1 | $531,000 | 20 wks | Dissolving Tank |
+| **Nak Kiln (Nudyne)** | 1 | $419,000 | 22 wks | Rotary Kiln, 20,500 lbs |
+| **Harper Love** | 1 | $371,000 | 18 wks | Alkyd Reactor, 13,000 lbs |
+| **Sylvamo** | 2 | $410,000 | 16 wks each | Economizers |
+| **Others** | 9 | ~$1.0M | Various | Symrise, Atlas, Merrick, Airgas, Burke, Coastal Tech |
 
-## Released Jobs — Fabrication Task Breakdown
+### Release Status
 
-Each job tracks ~25 discrete fabrication tasks. Color-coded status: **Complete / In Process / @ Risk / Late / To Start / N/A**
+| Status | # Jobs | Notes |
+|--------|--------|-------|
+| Released to shop (build plan complete) | 37 | All material in hand, drawings certified |
+| Pending (not yet certified) | ~29 | Waiting on drawing certification |
 
-### Task Categories (left → right across the production floor)
+### Heaviest Jobs (Logistics / Crane / Rigging Risk)
 
-| Phase | Tasks |
-|-------|-------|
-| **Materials** | Head(s) Rcvd, Pipe & Flange Rcvd, Receive Special Items, Materials Inspected |
-| **Pre-Fab** | Cut Parts on Plasma, Form Internal Coil, Shell(s) Rolled, Skirt Rolled, Roll Repads |
-| **Fabrication** | Build Supports, Nozzle(s) Made, Build Top/Bottom, Build Manway, Make Ladders/Handrail/Platform, Weld Cone(s) |
-| **Assembly** | Fit Ladders/Handrail/Platform, QA Inspect Ladders, Weld Shell Seams, Weld Top to Shell, Weld Bottom to Shell, Weld Tank Supports, Install Nozzles, Install Special External/Internal Parts |
-| **Finishing** | Test, Clean & Prep, Sandblast/Paint |
-| **Ship Prep** | Ship to Galv (Ladders), Recv from Galv, Take/Recv parts Machine Shop, Arrange Truck |
-
-### Hot Jobs — Task Status Detail
-
-**25-013 Kimberly-Clark (@ Risk, 29%, ships 3/19)**
-| Done | In Process | To Start |
-|------|-----------|----------|
-| — | Build Top/Bottom (3) | Weld Shell Seams (11), Weld Top to Shell (1), Weld Tank Supports (1), Install Nozzles (6), Test, Clean, Arrange Truck |
-
-**25-099 Burke (On Track, 44%, ships 3/19)**
-| Done | In Process | To Start |
-|------|-----------|----------|
-| Shell Rolled (1) | Nozzle(s) Made (1) | Install Nozzles (2), Install Special Internal (1), Weld Cones (2), Test, Clean, Arrange Truck |
-
-**25-068 Reco/Nudyne (On Track, 95%, ships 4/6)**
-| Done | In Process | To Start |
-|------|-----------|----------|
-| Nearly all tasks complete | Sandblast/Paint (partial) | Arrange Truck |
+| Job | Customer | Description | Weight |
+|-----|----------|-------------|--------|
+| 089-25 | Valmet | Dissolving Tank | 64,000 lbs |
+| 120-25 | Andritz | Dissolving Tank | 62,000 lbs |
+| 083-25 | Synthomer | Reactor | 52,000 lbs |
+| 014-26 thru 018-26 | SNF | Reactors (x5) | 45,000 lbs each |
+| 356-25 | Synthomer | HX | 40,000 lbs |
+| 116-25 | Polynt | Reactor | 28,000 lbs |
+| 002-26 thru 004-26 | SNF | Flocculant Tanks (x3) | 20,700 lbs each |
 
 ---
 
-## PM Tracker Structure (6 Sheets)
+## Epic Project — Deep Dive (14 Vessels, Target Ship 5/4/2026)
 
-| Sheet | Purpose | Key Data |
-|-------|---------|----------|
-| **Drawing Submittal** | Tracks drawing sent → customer response cycle | Target date, actual date, days +/-, revision # |
-| **Customer Drawing Return** | When customer returns marked-up drawings | Return date, turnaround time |
-| **RTR (Release to Shop Readiness)** | Checklist gate before job hits shop floor | 8 items must be checked (see below) |
-| **Actual Dates** | Real milestone dates per job | PO date → ship date actuals |
-| **Change Orders** | Scope/material/schedule changes | CO description, cost impact, date |
-| **Ship Date** | Calculated ship date per formula | Formula-driven from fab start |
+### Production Stage Status (as of 3/16/2026)
 
-### RTR Checklist (8 Items)
+| Job # | Description | ENG | BOM | MAT | FIT UP | WELD | NDE | PWHT | HYDRO | PAINT/SHIP | % |
+|-------|-------------|-----|-----|-----|--------|------|-----|------|-------|------------|---|
+| 102-25 | Lean Amine Flash Drum | DONE | DONE | DONE | IN PROG | - | - | - | - | - | 30% |
+| 103-25 | Lean/Rich Amine HX | DONE | DONE | DONE | - | - | - | - | - | - | 25% |
+| 104-25 | LP Acid Gas KO Drum | DONE | DONE | DONE | - | - | - | - | - | - | 25% |
+| 105-25 | Amine Contactor | DONE | DONE | DONE | IN PROG | - | - | - | - | - | 30% |
+| 106-25 | Solvent Stripper | DONE | DONE | DONE | IN PROG | - | - | - | - | - | 30% |
+| 107-25 | HP Acid Gas KO Drum | DONE | DONE | DONE | - | - | - | - | - | - | 25% |
+| 108-25 | Reflux Accumulator | DONE | DONE | DONE | - | - | - | - | - | - | 25% |
+| 109-25 | Amine Solvent Surge Drum | DONE | DONE | DONE | - | - | - | - | - | - | 25% |
+| 110-25 | Lean Amine Cooler | IN PROG | - | - | - | - | - | - | - | - | 5% |
+| 111-25 | Stripper Condenser | IN PROG | - | - | - | - | - | - | - | - | 5% |
+| 112-25 | Stripper Reboiler | DONE | DONE | IN PROG | - | - | - | - | - | - | 20% |
+| 113-25 | Lean Amine Trim Cooler | IN PROG | - | - | - | - | - | - | - | - | 5% |
+| 114-25 | Glycol Flash Drum | IN PROG | - | - | - | - | - | - | - | - | 5% |
+| 115-25 | Glycol Contactor | IN PROG | - | - | - | - | - | - | - | - | 5% |
 
-| # | Item | Description |
-|---|------|-------------|
-| 1 | App Prints | Approved/certified drawings on hand |
-| 2 | Long-Lead Items | Long-lead materials ordered & tracked |
-| 3 | BOM | Bill of Materials finalized |
-| 4 | Calcs | Engineering calculations complete |
-| 5 | Certified Drawings | Customer-certified drawing set |
-| 6 | Stock Check | Inventory verified for available materials |
-| 7 | Build Plan | Fabrication sequence documented |
-| 8 | Burn File | CNC plasma cutting files ready |
-
----
-
-## Ship Date Formula
-
-| Phase | Standard Duration |
-|-------|------------------|
-| Fabrication | 14 days |
-| Testing | 7 days |
-| Painting | 7 days |
-| Cleaning | 7 days |
-| Shipping Prep | 7 days |
-| **Total Baseline** | **42 days from fab start** |
+**Risk:** 14 vessels at 5-30% complete with ~7 weeks to ship date. No jobs have reached welding yet. 5 vessels still in engineering. Total of 337 sub-items to complete.
 
 ---
 
-## Master Schedule — Uncertified Jobs (Awaiting Drawing Approval)
+## Project Process — 34 Steps, RFQ to Closeout
 
-| Job # | Customer | Description | Key Notes |
-|-------|----------|-------------|-----------|
-| 120-25 | Andritz | Dissolving Tank 20'x44' oval, split 2 sections | Ship 7/6/26, 1,842 quoted hrs |
-| 002-004-26 | SNF | Rail Buffer Tanks (3) | **LDs apply**, ship 7/1/26 |
-| 014-018-26 | SNF | Reactor/Storage Tanks (5) | **LDs apply**, ship 6/1–7/8/26 |
-| 020-021-26 | US Sugar | On hold — customer providing dimensions | TBD |
-| Multiple | Epic Systems | Several jobs | Not yet certified |
-| 025-26 | Blake & Pendleton | Air Receiver, ASME | Ship 8/10/26 |
+April's documented workflow with owners:
 
----
+| Phase | Steps | Key Owner(s) |
+|-------|-------|-------------|
+| **Sales/Intake** (1-3) | RFQ received, Estimating/proposal, PO received | Chris/Sales |
+| **Job Setup** (4-6) | Job # assigned (JobBOSS), Folder created (network drive), PO logged (PM Tracker) | April |
+| **Engineering** (7-12) | Kickoff, Calcs (Compress/AME Tank), Drawings (Inventor/AutoCAD), Review, Send to customer, Certification | April/Nick |
+| **Procurement** (13-17) | Certified dwg to shop, BOM, Material takeoff, Order POs, Receive (JobBOSS) | April/Nick/Receiving |
+| **Shop Release** (18-19) | Build plan created (Dustin, Excel), Job released (Released Jobs list) | Dustin/April |
+| **Fabrication** (20-22) | Pre-fab (cutting, rolling, forming), Fit-up, Welding | Dustin/Shop |
+| **Quality/NDE** (23-27) | NDE (RT, UT, MT, PT), PWHT, Hydro test, Final inspection, Nameplate/stamping | John/Contractor |
+| **Finish/Ship** (28-32) | Paint/coating, Final doc package (MDR), Ship prep, Customer notification, Ship | April/Dustin/John |
+| **Close** (33-34) | Invoice (JobBOSS), Job closeout (PM Tracker/JobBOSS) | April/Accounting |
 
-## Monday PM Meeting (1:30 PM Weekly)
-
-| Section | What's Covered | Led By |
-|---------|---------------|--------|
-| **1. Engineering & Drawings** | Certified drawings, change orders, job release readiness | April + Nick |
-| **2. Jobs in Production** | RAG review (Red/Amber/Green) vs. committed dates, customer inspections next 2 wks | April + Dustin |
-| **3. Shipping Schedule** | 3-week lookahead, super loads (14'+ dia = 4-6 wk truck lead) | April + Dustin |
-| **4. Post-Ship Close-Out** | As-builts, QC package, customer feedback (within 2 wks of ship) | April + John |
-
-**Attendees:** April (leader), Dustin, John, Chris, Nick, David
-
----
-
-## Project Lifecycle (Order → Ship)
-
-| Step | What Happens | Key Outputs |
-|------|-------------|-------------|
-| **1. PO Received** | Kick-off meeting, review T&Ls, scope, schedule | Job History, Entry Form, Design Form, UDR1 (ASME) |
-| **2. JobBOSS Entry** | Job created in ERP | Job #, added to Production Schedule |
-| **3. Engineering** | Calcs, drawings, BOM | Preliminary schedule sent to customer |
-| **4. Drawing Cycle** | Send to customer → comments → revise → repeat | Certified drawing set |
-| **5. Post-Certification** | Invoice released, BOM final, ITP created, build plan, burn files, purchasing | RTR checklist complete |
-| **6. Release to Shop** | Job hits floor | Customer updates begin, photo updates, meetings |
-| **7. Production** | Fab → Test → Clean → Paint → Ship Prep | Progress tracked in Released Jobs |
-| **8. Ship** | Verify loose items/spares, photographs, truck arranged | Ship date met (or not) |
-| **9. Close-Out** | As-builts, QC package, customer feedback | Within 2 weeks of ship |
+Key process notes:
+- Drawing certification triggers the fabrication week countdown
+- Material lead times can significantly impact schedule
+- NDE requirements vary by code and customer spec
+- PWHT adds 1-2 weeks to schedule
+- Hydro test is the final quality gate before shipping
+- MDR (Manufacturer's Data Report) required for all ASME jobs
+- Some jobs require third-party inspection (AI, TUV, etc.)
+- Customer may require witness points during fabrication
+- Liquidated damages apply to some contracts
 
 ---
 
-## Capacity Snapshot
+## Master Schedule — Gantt View (Week of 3/10/2026)
+
+66 jobs plotted across ~35 weekly columns (Jan 2026 - Aug 2026). Schedule markers include:
+- **"S"** markers (likely start points)
+- **"BRK"** markers (likely breakdown/break points)
+- **Overhead (Job 431):** 55 hours/week allocated
+- **Peak loading:** Multiple large jobs overlap in Q1-Q2 2026
+
+---
+
+## Production Schedule — Hours Loading
+
+Same 66 jobs with labor hours allocated per week. Key hour consumers:
+
+| Group | Est. Total Hours | Notes |
+|-------|-----------------|-------|
+| SNF Reactors (5) | ~5,000 hrs | Largest block |
+| Reco package (10 jobs) | ~4,500 hrs | Long-cycle, phased delivery |
+| KC (14 jobs) | ~3,500 hrs | Batch production |
+| Epic (14 jobs) | ~3,000 hrs | All due 5/4/2026 |
+| Valmet Dissolving Tank | ~2,500 hrs | Single largest job |
+| Andritz Dissolving Tank | ~2,400 hrs | 62,000 lbs |
+| Synthomer (2 jobs) | ~2,700 hrs | Reactor + HX |
+
+- **Weekly capacity:** approximately 500-900 hours during peak periods
+- **Overhead allocation:** 55 hrs/week (Job 431)
+
+---
+
+## Vertiv Tanks — 2025 High-Volume Production
 
 | Metric | Value |
 |--------|-------|
-| Total headcount | 39 (31 shop + 8 office) |
-| Direct labor | 25.5 FTE |
-| Indirect/supervision | 5.5 FTE |
-| Weekly capacity baseline | 22 production hrs/week |
-| Overhead allocation | 55 hrs/week (Job 431) |
-| Total submitted hours (active) | 6,573 hrs |
-| Weekly load (current) | ~690 hrs |
+| Total units | 232 (224 buffer + 8 expansion) |
+| Year | 2025 |
+| Status | Mix of shipped, in production, pending |
+| Significance | Drove the 5x job volume spike (74 to 360 jobs) |
+| Tracking | Individual tank #, model, ship date, carrier, destination, PO # |
 
 ---
 
-## Top Jobs by Quoted Hours
+## April's Coordination Points
 
-| Job | Customer | Quoted Hrs | Submitted | % |
-|-----|----------|-----------|-----------|---|
-| 089-25 | Valmet | 1,975 | 1,633 | 83% |
-| 101-25 | Harper Love | 781 | 69 | 9% |
-| 046-24 | SYMS (Lansing) | 705 | 253 | 36% |
-| 083-25 | Synthomer | 597 | 177 | 30% |
-| 117/118-25 | Merrick (2) | 526 ea | early | — |
-| 066-071-25 | Nudyne (6) | 520 ea | various | — |
-| 013-25 | Kimberly Clark | 513 | 147 | 29% |
-| Vertiv | Vertiv | 2,240 | 981 | 44% |
-
----
-
-## Upcoming Unreleased Large Jobs
-
-| Job | Customer | Quoted Hrs | Target Ship |
-|-----|----------|-----------|-------------|
-| 120-25 | Andritz Dissolving Tank | 1,842 | 6/1/26 |
-| 002-004-26 | SNF Rail Buffers (3) | 574 ea | 7/1/26 |
-| 014-018-26 | SNF Reactor/Storage (5) | 393-494 ea | 6/1-7/8/26 |
-| 121-25 | Kimberly Clark | 528 | 5/19/26 |
-| 116-25 | Polynt | 522 | 4/30/26 |
+| Who | What They Share | Direction |
+|-----|----------------|-----------|
+| **Dustin Bolgrihn** | Build plans, shop release, delivery windows, production status | Bi-directional — **parallel trackers, no single source of truth** |
+| **John Corwin** | QC inspection status, quality gates, NDE scheduling, documentation packages | John to April |
+| **Nick Patel** | Engineering status, drawing certification, BOM readiness | Nick to April |
+| **Chris Fletcher** | PO details, customer commitments, delivery promises | Chris to April |
+| **David Onachilla** | Strategic decisions, capacity, hiring | David to April |
 
 ---
 
@@ -198,24 +174,39 @@ Each job tracks ~25 discrete fabrication tasks. Color-coded status: **Complete /
 
 | Risk | Detail |
 |------|--------|
-| **Kimberly-Clark 25-013** | @ Risk, 29% complete, ships 3/19 — likely late |
-| **Coastal Tech 25-098** | On Hold at 19%, ships 3/30 |
-| **SNF jobs (multiple)** | Liquidated Damages — schedule slippage = financial penalties |
-| **25+ uncertified jobs** | Drawings not yet approved — blocks release to shop |
-| **Epic Systems** | Multiple jobs with no certified dates |
-| **Capacity** | Tight/negative weeks ahead on production schedule |
+| **Epic package — 7 weeks to ship, 5-30% complete** | 14 vessels, none past welding stage, 5 still in engineering, 337 sub-items |
+| **SNF jobs carry LDs** | 8 jobs worth ~$5M with liquidated damages clauses |
+| **~29 jobs not yet certified** | ~44% of portfolio still waiting on drawings — will hit schedule in waves |
+| **Parallel trackers with Dustin** | PM Tracker != Delivery Window != Build Plan Log — data drift risk |
+| **$14.5M portfolio managed entirely in Excel** | No automated scheduling, manual Gantt, manual hour loading |
+| **Merrick jobs carry LDs** | 2 air receivers, not yet certified |
+| **Capacity: 500-900 hrs/wk peak loading** | Multiple large jobs overlapping in Q2 |
+| **Heaviest jobs need special logistics** | Valmet (64K lbs), Andritz (62K lbs), Synthomer (52K lbs) — super loads need 4-6 wk truck lead |
 
 ---
 
-## Automation Pain Points (April-Specific)
+## What We Don't Know Yet (Discovery Interview Questions)
 
-| Pain Point | Current State | Impact |
-|------------|--------------|--------|
-| PM Tracker updates | Manual Excel, 360+ rows, 6 sheets | Hours/week of data entry |
-| Released Jobs tracking | Manual color-coding across ~25 tasks per job | Easy to miss status changes |
-| Master Schedule maintenance | Separate Excel from PM Tracker | Duplicate data entry |
-| Ship date calculations | Formula in Excel, manual inputs | Error-prone at scale |
-| Monday meeting prep | Manually pull data from multiple sheets | Weekly time sink |
-| RTR checklist | Excel — may not be enforced | Jobs can hit floor without all items checked |
-| Customer communication | Manual email for schedule updates, photos | No system of record |
-| Change order tracking | Sheet in PM Tracker | Easy to lose track at volume |
+### Tools & Systems
+- What systems does April use day-to-day? (JobBOSS? Email? Excel only?)
+- How does April get notified when drawings are certified?
+- How does material status get updated — manual check or automated from POs?
+- How does April communicate job release to Dustin?
+
+### Process & Workflow
+- What does April's typical day/week look like?
+- How are the weekly PM meetings structured? (Agenda doc couldn't be extracted)
+- How does April handle schedule changes / customer delays?
+- What's the process for change orders?
+- How does April track and communicate delivery dates to customers?
+
+### Pain Points
+- What takes the most time in April's role?
+- Where do things fall through the cracks?
+- How does April handle the ~29 uncertified jobs — how does she plan for them?
+- What happens when Dustin's Delivery Window and her PM Tracker disagree?
+
+### Vertiv / High-Volume
+- How did the Vertiv experience change April's processes?
+- What broke at 232 tanks that worked fine at 74 jobs/year?
+- Is the Vertiv model repeatable for future high-volume work (e.g., data center)?
