@@ -1,0 +1,32 @@
+Work_Center,Department,Type,Machines,Operators,Setup_Labor_Rate,Run_Labor_Rate,Labor_Burden,Machine_Burden,GA_Burden,Status,Equipment
+ACADEMY,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+BUILD,Fabrication,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+CODE PKG,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+DETAIL,Fabrication,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+DRAWINGS,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+DWG APPROV,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+FAC. MAINT,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+FINAL BOM,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+FINISHING,Fabrication,Direct,2,2,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+FIT,FIT,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+FIT TEAM 1,Fit Up Team 1,Direct,4,4,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+FIT TEAM 2,Fit Up Team 2,Direct,6,6,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+FIT TEAM 3,Fit Up Team 3,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+INSPECTION,Office,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+LONG LEAD,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+MAINTENANC,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+MOVE TANK,Fabrication,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+OVERHEAD,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+PRE FAB,Fabrication,Direct,6,6,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+PREL BOM,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+RELEASE,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+REMAIN MAT,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+REPAIR,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+SAFETY,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+SEND CERT,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+SHIPPING,Fabrication,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+SHOP,,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False
+STOCK CHK,Design,Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+SUPERVISN,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+TRAINING,(none),Indirect,1,1,0.0000,0.0000,0.0,0.0000,0.0000,True,False
+WELD,Fabrication,Direct,1,1,20.0000,20.0000,230.0,0.0000,0.0000,True,False

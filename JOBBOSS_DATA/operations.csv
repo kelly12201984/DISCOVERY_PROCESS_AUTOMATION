@@ -1,0 +1,209 @@
+Operation,Description,Work_Center,Est_Setup_Hrs,Run,Run_Method
+.010,Receive Material,PRE FAB,0.0,0.0,FixedHrs
+.100,Cut Nozzle Pipe and Clean,PRE FAB,0.0,0.0,FixedHrs
+.105,Build Nozzles-Weld,PRE FAB,0.0,0.0,FixedHrs
+.107,Build Repads for Nozzles,PRE FAB,0.0,0.0,FixedHrs
+.110,Build Dip Tubes-Weld,PRE FAB,0.0,0.0,FixedHrs
+.115,Make Manway Parts,PRE FAB,0.0,0.0,FixedHrs
+.120,"Brn MW Neck, Clean, Bevel",PRE FAB,0.0,0.0,FixedHrs
+.125,Roll Manway Neck,PRE FAB,0.0,0.0,FixedHrs
+.130,"S/U Weld MW Flg, Neck Sem",PRE FAB,0.0,0.0,FixedHrs
+.135,Bld Davit Arm Aby Cover,PRE FAB,0.0,0.0,FixedHrs
+.140,Build Hatch/Door,PRE FAB,0.0,0.0,FixedHrs
+.145,Install Cladding on Flng,PRE FAB,0.0,0.0,FixedHrs
+.147,Install Clad on Blind/Cov,PRE FAB,0.0,0.0,FixedHrs
+.150,"B&C Top, Bottom Plates",PRE FAB,0.0,0.0,FixedHrs
+.155,Cut Parts on Burn Table,PRE FAB,0.0,0.0,FixedHrs
+.156,Clean & Prep Parts,PRE FAB,0.0,0.0,FixedHrs
+.160,"B&C parts-stiff, vr, etc",PRE FAB,0.0,0.0,FixedHrs
+.165,Build Supports,PRE FAB,0.0,0.0,FixedHrs
+.170,Roll Repads-Drill & Tap,PRE FAB,0.0,0.0,FixedHrs
+.175,"B&W Base Ring, Skirt",PRE FAB,0.0,0.0,FixedHrs
+.180,"Skirt-BI, SQ, T&C",PRE FAB,0.0,0.0,FixedHrs
+.185,Roll Skirt Shells,PRE FAB,0.0,0.0,FixedHrs
+.200,"Bld Lift Lugs, Grd Lugs",PRE FAB,0.0,0.0,FixedHrs
+.205,Roll Rim Angle,PRE FAB,0.0,0.0,FixedHrs
+.210,Roll Insulation Rings,PRE FAB,0.0,0.0,FixedHrs
+.215,B&C Baffles,PRE FAB,0.0,0.0,FixedHrs
+.220,Form Baffles,PRE FAB,0.0,0.0,FixedHrs
+.225,"Cut, Make Baffle Supports",PRE FAB,0.0,0.0,FixedHrs
+.230,Build Baffles-Weld,PRE FAB,0.0,0.0,FixedHrs
+.235,Bld T-B Stiffeners,PRE FAB,0.0,0.0,FixedHrs
+.240,Roll/Burn vacuum rings,PRE FAB,0.0,0.0,FixedHrs
+.245,Cut Parts-Mixer Bridge,PRE FAB,0.0,0.0,FixedHrs
+.250,Roll Pipe-Internal Coil,PRE FAB,0.0,0.0,FixedHrs
+.252,Fab Miscellaneous Parts,PRE FAB,0.0,0.0,FixedHrs
+.255,Drill/Punch holes,PRE FAB,0.0,0.0,FixedHrs
+.257,Build Flanges,PRE FAB,0.0,0.0,FixedHrs
+.260,Sandblast Parts/Plates,PRE FAB,0.0,0.0,FixedHrs
+.261,Misc Fabrication,PRE FAB,0.0,0.0,FixedHrs
+.262,"Cut, Build Ladder Parts",PRE FAB,0.0,0.0,FixedHrs
+.265,Form and Roll Ladder Hoop,PRE FAB,0.0,0.0,FixedHrs
+.270,Build Ladder-Weld,PRE FAB,0.0,0.0,FixedHrs
+.272,"Cut, Build Handrail Parts",PRE FAB,0.0,0.0,FixedHrs
+.275,Roll Handrail Pipe,PRE FAB,0.0,0.0,FixedHrs
+.280,Roll Handrail Toe Plate,PRE FAB,0.0,0.0,FixedHrs
+.282,Build Handrail-Weld,PRE FAB,0.0,0.0,FixedHrs
+.285,"Cut, Build Platform Parts",PRE FAB,0.0,0.0,FixedHrs
+.290,Burn Platform Grating,PRE FAB,0.0,0.0,FixedHrs
+.292,Build Platform-Weld,PRE FAB,0.0,0.0,FixedHrs
+.295,Mount Platform Handrail,PRE FAB,0.0,0.0,FixedHrs
+.300,Wrap Top & Bottom Heads,PRE FAB,0.0,0.0,FixedHrs
+.305,"BI, SQ, T&C Shells",PRE FAB,0.0,0.0,FixedHrs
+.310,Bevel Shell Plates,PRE FAB,0.0,0.0,FixedHrs
+.315,"Roll Shell, Tack-Weld I/S",PRE FAB,0.0,0.0,FixedHrs
+.320,S/U and Build Sides,FIT,0.0,0.0,FixedHrs
+.325,Install Body Flg-Shell,FIT,0.0,0.0,FixedHrs
+.326,Weld Body Flg Shell,FIT,0.0,0.0,FixedHrs
+.350,Build Top Head/Cone,PRE FAB,0.0,0.0,FixedHrs
+.355,"L/O Top, B&C Holes",PRE FAB,0.0,0.0,FixedHrs
+.360,Bevel Top Head,PRE FAB,0.0,0.0,FixedHrs
+.365,Set Nozzles & Lugs - Top,PRE FAB,0.0,0.0,FixedHrs
+.366,Weld Nozzles - Top Head,PRE FAB,0.0,0.0,FixedHrs
+.370,I&W Repads -Top,PRE FAB,0.0,0.0,FixedHrs
+.375,Install Top Stiffeners,PRE FAB,0.0,0.0,FixedHrs
+.380,Build Mixer Bridge,PRE FAB,0.0,0.0,FixedHrs
+.382,Install Body Flange - Top,FIT,0.0,0.0,FixedHrs
+.383,Weld Body Flg-Top W/C,FIT,0.0,0.0,FixedHrs
+.385,Dye Pen Top,PRE FAB,0.0,0.0,FixedHrs
+.390,Grind I/S Weld Smooth-Top,PRE FAB,0.0,0.0,FixedHrs
+.395,Polish I/S Weld Seam-Top,PRE FAB,0.0,0.0,FixedHrs
+.450,Build Bottom Head/Cone,PRE FAB,0.0,0.0,FixedHrs
+.455,"L/O Bottom, B&C Holes",PRE FAB,0.0,0.0,FixedHrs
+.460,Bevel Bottom Head,PRE FAB,0.0,0.0,FixedHrs
+.465,Set Nozzles - Bottom Head,PRE FAB,0.0,0.0,FixedHrs
+.466,Weld Nozzles - Bot. Head,PRE FAB,0.0,0.0,FixedHrs
+.470,I&W Bottom Repads,PRE FAB,0.0,0.0,FixedHrs
+.475,Install Bottom Stiffeners,PRE FAB,0.0,0.0,FixedHrs
+.477,Cut & Fit Btm Jacket ,FIT,0.0,0.0,FixedHrs
+.478,Weld Jacket to Bottom,FIT,0.0,0.0,FixedHrs
+.479,Install Jacket Nozzle-Btm,FIT,0.0,0.0,FixedHrs
+.482,Install Body Flg - Bottom,FIT,0.0,0.0,FixedHrs
+.483,Weld Body Flg - Bot Hd.,FIT,0.0,0.0,FixedHrs
+.485,Dye Pen Bottom Head,PRE FAB,0.0,0.0,FixedHrs
+.490,Grind I/S Weld Smooth-Btm,PRE FAB,0.0,0.0,FixedHrs
+.495,Polish I/S Weld Seam-Btm,PRE FAB,0.0,0.0,FixedHrs
+.500,"Bld Skirt, Roll & Tack",PRE FAB,0.0,0.0,FixedHrs
+.510,"Bld Skirt, F&T to Base",PRE FAB,0.0,0.0,FixedHrs
+.515,Weld Skirt,FIT,0.0,0.0,FixedHrs
+.520,"L/O Skirt, B&C Holes",FIT,0.0,0.0,FixedHrs
+.530,"Bld Skirt, Fit Anchor/Gst",FIT,0.0,0.0,FixedHrs
+.540,Set Nzl/MW in Skirt-Tack,FIT,0.0,0.0,FixedHrs
+.545,"Weld Skirt Nozzles, Etc.",FIT,0.0,0.0,FixedHrs
+.580,Fab Internal Coil Support,PRE FAB,0.0,0.0,FixedHrs
+.590,Fab Internal Coil,PRE FAB,0.0,0.0,FixedHrs
+.600,Fit Bottom Head to Shell,FIT,0.0,0.0,FixedHrs
+.605,Tack Shell Courses,FIT,0.0,0.0,FixedHrs
+.610,Weld Inside Round Seams,FIT,0.0,0.0,FixedHrs
+.615,Install Rim Angle,FIT,0.0,0.0,FixedHrs
+.616,Weld Rim Angle,FIT,0.0,0.0,FixedHrs
+.620,"L/O Shell, B&C Holes",FIT,0.0,0.0,FixedHrs
+.625,Install Baffles-Weld,FIT,0.0,0.0,FixedHrs
+.630,Install Internal Parts,FIT,0.0,0.0,FixedHrs
+.635,Install Internal Coil/Spt,FIT,0.0,0.0,FixedHrs
+.637,Grind I/S Weld Smooth-Shl,FIT,0.0,0.0,FixedHrs
+.638,Polish I/S Weld Seam-Shl,FIT,0.0,0.0,FixedHrs
+.640,Fit Top to Shell,FIT,0.0,0.0,FixedHrs
+.641,Weld top to shell ,FIT,0.0,0.0,FixedHrs
+.645,Weld all Outside Seams,FIT,0.0,0.0,FixedHrs
+.700,Fit Jacket to Shell,FIT,0.0,0.0,FixedHrs
+.705,Weld Jacket to Shell,FIT,0.0,0.0,FixedHrs
+.710,Install Jacket Nozzles,FIT,0.0,0.0,FixedHrs
+.711,Weld Jacket Nozzles,FIT,0.0,0.0,FixedHrs
+.715,Install Insul/Vac Rings,FIT,0.0,0.0,FixedHrs
+.717,Install Lift Lugs on Shl,FIT,0.0,0.0,FixedHrs
+.720,Install Support Parts,FIT,0.0,0.0,FixedHrs
+.721,"Weld rings, lugs, suppts",FIT,0.0,0.0,FixedHrs
+.725,Set Nozzles in Shell,FIT,0.0,0.0,FixedHrs
+.726,Weld Shell Nozz & M/Ws,FIT,0.0,0.0,FixedHrs
+.730,Add Repads-Weld,FIT,0.0,0.0,FixedHrs
+.735,Install Dip Pipe Supports,FIT,0.0,0.0,FixedHrs
+.740,Install Dip Pipes,FIT,0.0,0.0,FixedHrs
+.745,Install Mixer Bridge,FIT,0.0,0.0,FixedHrs
+.750,"Fit Handrail, I&W Clips",FIT,0.0,0.0,FixedHrs
+.755,"Fit Ladder, I&W Clips",FIT,0.0,0.0,FixedHrs
+.760,"Fit Platform, I&W Clips",FIT,0.0,0.0,FixedHrs
+.765,Install Name Tag,FINISHING,0.0,0.0,FixedHrs
+.770,"Inspect Tank, Make Repair",FIT,0.0,0.0,FixedHrs
+.800,Move Tank to Detail Rolls,MOVE TANK,0.0,0.0,FixedHrs
+.801,Move to Shop Test Area,MOVE TANK,0.0,0.0,FixedHrs
+.802,Move to Paint Area,MOVE TANK,0.0,0.0,FixedHrs
+.850,Remove Head,FIT,0.0,0.0,FixedHrs
+.855,Remove Nozzles,FIT,0.0,0.0,FixedHrs
+.860,Remove Jacket,FIT,0.0,0.0,FixedHrs
+.900,Dye Pen Test,FINISHING,0.0,0.0,FixedHrs
+.910,Test Tank,FINISHING,0.0,0.0,FixedHrs
+.920,Clean Tank Complete,FINISHING,0.0,0.0,FixedHrs
+.930,Blast & Paint,FINISHING,0.0,0.0,FixedHrs
+.940,Prepare Tank for Shipment,FINISHING,0.0,0.0,FixedHrs
+.950,"Check BOM, Pack Parts",FINISHING,0.0,0.0,FixedHrs
+.960,Load on Truck,SHIPPING,0.0,0.0,FixedHrs
+.970,Take Parts - Galvanizers,SHIPPING,0.0,0.0,FixedHrs
+.971,Take Parts - Machine Shop,SHIPPING,0.0,0.0,FixedHrs
+.972,P/U Parts - Galvanizers,SHIPPING,0.0,0.0,FixedHrs
+.973,P/U Parts - Machine Shop,SHIPPING,0.0,0.0,FixedHrs
+.974,Deliver Tank,SHIPPING,0.0,0.0,FixedHrs
+.975,Deliver Misellaneous Part,SHIPPING,0.0,0.0,FixedHrs
+.OI1,ASME Hold Point,INSPECTION,0.0,0.0,FixedHrs
+.OI2,ASME Inspection Internal,INSPECTION,0.0,0.0,FixedHrs
+.OI3,ASME Inspection Test,INSPECTION,0.0,0.0,FixedHrs
+.OI4,Customer Inspection,INSPECTION,0.0,0.0,FixedHrs
+.QC1,UT Top & Bottom Heads,INSPECTION,0.0,0.0,FixedHrs
+.QC2,QC Inspection - Pre Sub C,INSPECTION,0.0,0.0,FixedHrs
+.QC21,QC Inspection - Ret Com,INSPECTION,0.0,0.0,FixedHrs
+.QC3,UT Shells,INSPECTION,0.0,0.0,FixedHrs
+.QC4,QC Inspection -Top/Bot/Co,INSPECTION,0.0,0.0,FixedHrs
+.QC5,QC Inspection - Internal,INSPECTION,0.0,0.0,FixedHrs
+.QC51,UT Components,INSPECTION,0.0,0.0,FixedHrs
+.QC6,QC Inspection - Fab,INSPECTION,0.0,0.0,FixedHrs
+.QC7,QC Inspection - Test,INSPECTION,0.0,0.0,FixedHrs
+.QC8,QC Inspection - Clean,INSPECTION,0.0,0.0,FixedHrs
+.QC9,QC Inspection - Sandblast,INSPECTION,0.0,0.0,FixedHrs
+.QC90,QC Inspection - Paint,INSPECTION,0.0,0.0,FixedHrs
+.QC95,QC Inspection - Final & L,INSPECTION,0.0,0.0,FixedHrs
+10,RECEIVE MATERIALS,PRE FAB,0.0,0.0,FixedHrs
+11,FAB MANWAY NOZZLE DP TUBE,PRE FAB,0.0,0.0,FixedHrs
+13,FAB LIFT LUGS & SUPPORTS,PRE FAB,0.0,0.0,FixedHrs
+14,FAB BAFFLES,PRE FAB,0.0,0.0,FixedHrs
+15,FAB TOP/BOTTOM STIFFENERS,PRE FAB,0.0,0.0,FixedHrs
+16,FAB MIXER BRIDGE,PRE FAB,0.0,0.0,FixedHrs
+19,"FAB MISC - TRANSTN, ETC",PRE FAB,0.0,0.0,FixedHrs
+20,FAB TOP HEAD,FIT,0.0,0.0,FixedHrs
+22,INSTALL TP MW NZL LFT LUG,FIT,0.0,0.0,FixedHrs
+25,INSTALL TOP STIFF/REPAD,FIT,0.0,0.0,FixedHrs
+26,INSTALL TOP MIXER BRIDGE,FIT,0.0,0.0,FixedHrs
+30,FAB BOTTOM HEAD,FIT,0.0,0.0,FixedHrs
+32,"INSTALL BTM MANWY, NOZZLE",FIT,0.0,0.0,FixedHrs
+34,INSTALL MANWAY BTM CONE,FIT,0.0,0.0,FixedHrs
+35,INSTALL BTM STIFF/REPAD,FIT,0.0,0.0,FixedHrs
+41,ROLL SHELLS,FIT,0.0,0.0,FixedHrs
+42,TACK SHELL COURSES,FIT,0.0,0.0,FixedHrs
+43,WELD SHELL COURSES,FIT,0.0,0.0,FixedHrs
+44,"RIM ANGLE-ROLL, TRIM, FIT",FIT,0.0,0.0,FixedHrs
+45,LAYOUT SHELL,FIT,0.0,0.0,FixedHrs
+46,FIT HEADS TO SHELL & WELD,FIT,0.0,0.0,FixedHrs
+48,"SKIRT-ROLL, INSTALL, WELD",FIT,0.0,0.0,FixedHrs
+49,FAB & ASSM SIDE PANELS,FIT,0.0,0.0,FixedHrs
+50,INSTALL SHELL NOZZLE MANW,FIT,0.0,0.0,FixedHrs
+52,"FIT SUPPORTS, LUGS, ETC",FIT,0.0,0.0,FixedHrs
+54,INSTALL VAC/INS RINGS,FIT,0.0,0.0,FixedHrs
+55,INSTALL BAFFLES,FIT,0.0,0.0,FixedHrs
+58,GRIND/POLISH INTERNAL WLD,FIT,0.0,0.0,FixedHrs
+59,CUT TANK APART,FIT,0.0,0.0,FixedHrs
+60,FAB LADDER,PRE FAB,0.0,0.0,FixedHrs
+61,FAB HANDRAIL,PRE FAB,0.0,0.0,FixedHrs
+62,FAB PLATFORM,PRE FAB,0.0,0.0,FixedHrs
+65,FIT LADDER HANDRL PLATFRM,FIT,0.0,0.0,FixedHrs
+70,INSTALL JACKET SHELL,FIT,0.0,0.0,FixedHrs
+71,INSTALL JACKET HEAD,FIT,0.0,0.0,FixedHrs
+76,FAB PIPE COIL,FIT,0.0,0.0,FixedHrs
+77,INSTALL PIPE COIL,FIT,0.0,0.0,FixedHrs
+80,MOVE TANK,MOVE TANK,0.0,0.0,FixedHrs
+90,HYDRO/AIR/DYE PEN TEST,FINISHING,0.0,0.0,FixedHrs
+91,CLEAN TANK,FINISHING,0.0,0.0,FixedHrs
+93,CLOSE FOR SHIPPING/PALLET,FINISHING,0.0,0.0,FixedHrs
+94,LOAD ON TRUCK,SHIPPING,0.0,0.0,FixedHrs
+98,DELIVER/PU COMPONENTS,SHIPPING,0.0,0.0,FixedHrs
+99,DELIVER TANK,SHIPPING,0.0,0.0,FixedHrs
+X BLD TANK,TRANSFERED HRS FROM BOOK,SHOP,0.0,0.0,FixedHrs
+Z-FIN BLD,FINISH BUILDING TANK,SHOP,0.0,0.0,FixedHrs
