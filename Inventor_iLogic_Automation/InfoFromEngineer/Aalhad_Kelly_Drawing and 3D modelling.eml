@@ -1,3 +1,28 @@
+Hi Kelly,
+Good morning.
+
+We were trying to figure out a way to produce an excel sheet using the XML3=
+D file that we get from Compress. I was told by David that you are doing th=
+e same with the AI app we use for estimation. I wanted to know if we can ge=
+t an excel sheet similar to what we get for the estimate, but with all desi=
+gn data like diameter(ID or OD) length, number of legs, type of legs etc. w=
+hich can be then used in Inventor ilogic to instantly get a 3D file. Since =
+we have additional tabs for the internals like coil and baffle already set =
+in, can we use the same AI tool to fulfil this requirement as well?
+I tried a code in python, and I was able to extract the data, but when we u=
+sed the ilogic in inventor, we found some errors. I am not proficient enoug=
+h with python so I wasnt able to fix it. ( I am using gemini pro for help w=
+ith coding, but I am providing it with the logic).
+What would you suggest that we can do?
+Please let me know.
+Also feel free to contact me if you have any questions.
+
+I am attaching the code I used, if you want to take a look. You might have =
+to change the path and stuff. I will also attach the XML3D file I am using.=
+ Let me know if it is useful.
+
+
+
 Received: from PH7PR17MB6084.namprd17.prod.outlook.com (::1) by
  IA3PR17MB7840.namprd17.prod.outlook.com with HTTPS; Mon, 23 Mar 2026 12:11:26
  +0000
@@ -48,55 +73,6 @@ Content-Type: multipart/alternative;
 --_000_CY8PR17MB65808556BD7FB5F51B5C8E0EA84BACY8PR17MB6580namp_
 Content-Type: text/plain; charset="iso-8859-1"
 Content-Transfer-Encoding: quoted-printable
-
-Hi Kelly,
-Good morning.
-
-We were trying to figure out a way to produce an excel sheet using the XML3=
-D file that we get from Compress. I was told by David that you are doing th=
-e same with the AI app we use for estimation. I wanted to know if we can ge=
-t an excel sheet similar to what we get for the estimate, but with all desi=
-gn data like diameter(ID or OD) length, number of legs, type of legs etc. w=
-hich can be then used in Inventor ilogic to instantly get a 3D file. Since =
-we have additional tabs for the internals like coil and baffle already set =
-in, can we use the same AI tool to fulfil this requirement as well?
-I tried a code in python, and I was able to extract the data, but when we u=
-sed the ilogic in inventor, we found some errors. I am not proficient enoug=
-h with python so I wasnt able to fix it. ( I am using gemini pro for help w=
-ith coding, but I am providing it with the logic).
-What would you suggest that we can do?
-Please let me know.
-Also feel free to contact me if you have any questions.
-
-I am attaching the code I used, if you want to take a look. You might have =
-to change the path and stuff. I will also attach the XML3D file I am using.=
- Let me know if it is useful.
-
-
-
-Thank you
-
-Aalhad Deshpande
-
-Design Engineer
-
-SAVANNAH TANK
-
-& EQUIPMENT PRIVATE LIMITED
-
-Plot No: 5/6/7, Suvas Industrial Park
-
-Near Railway Crossing, Moraiya
-
-Sarkhej- Bavla Highway, Ahmedabad- 382213
-
-www.savannahtank.com<http://www.savannahtank.com>
-
-
-Email: aalhad@savannahtank.com
-
-M: +91 7600801097
-
 --_000_CY8PR17MB65808556BD7FB5F51B5C8E0EA84BACY8PR17MB6580namp_
 Content-Type: text/html; charset="iso-8859-1"
 Content-Transfer-Encoding: quoted-printable
