@@ -1,0 +1,4510 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cw:vessel version="1.14.0000" creationDate="2026-01-18" xmlns:cw="urn:PressureVessel">
+<!-- saved from url=(0024)http://www.codeware.com/ -->
+	<pressureVessel>
+		<revisions>
+			<revision>
+				<revNumber>0</revNumber>
+				<revDate>2024-07-16</revDate>
+				<operator>melior</operator>
+				<notes>New vessel created ASME Section VIII Division 1 [COMPRESS 2024 Build 8400]</notes>
+			</revision>
+		</revisions>
+		<generalVesselInfo>
+			<identifier>Q9434 POTABLE WATER TANK REVISED</identifier>
+			<location></location>
+			<purchaser></purchaser>
+			<service></service>
+			<tagNumber></tagNumber>
+			<tagClass></tagClass>
+			<tagCategory></tagCategory>
+			<!-- Design Code Info -->
+			<designCode>ASME Section VIII Division 1</designCode>
+			<designCodeEdition>2023</designCodeEdition>
+			<!-- Vessel Data -->
+			<units>U.S. Customary</units>
+			<orientation>Vertical</orientation>
+			<tangentToTangentLength units="in">124.0000</tangentToTangentLength>
+			<structureHeight units="in">149.4024</structureHeight>
+			<outerDiameter units="in">36.0000</outerDiameter>
+			<datumOffsetFrom>Bottom Shell Seam</datumOffsetFrom>
+			<datumOffset units="in">0.0000</datumOffset>
+			<!-- Use [Component Elevation - DatumElevation] to get elevation from user datum -->
+			<datumElevation units="in">0.0000</datumElevation>
+			<purchaseOrderNumber></purchaseOrderNumber>
+			<customProperties>
+				<customProperty>
+					<name>Unit Number</name>
+					<value></value>
+				</customProperty>
+			</customProperties>
+		</generalVesselInfo>
+		<pressureChamberConditions>
+			<identifier>Chamber bounded by BOTTOM DISH and TOP DISH</identifier>
+			<MAWP units="psi">125.0000</MAWP>
+			<MAWPTemperature units="degF">200.0000</MAWPTemperature>
+			<compGoverningChamberMAWP>Legs #1</compGoverningChamberMAWP>
+			<MAP units="psi">128.1107</MAP>
+			<MAPTemperature units="degF">70.0000</MAPTemperature>
+			<compGoverningChamberMAP>TOP DISH</compGoverningChamberMAP>
+			<MAEP units="psi">0.0000</MAEP>
+			<MAEPTemperature units="degF">200.0000</MAEPTemperature>
+			<compGoverningChamberMAEP></compGoverningChamberMAEP>
+			<MDMT units="degF">-320.0000</MDMT>
+			<designMDMT units="degF">-20.0000</designMDMT>
+			<hydrostaticTestPressure units="psi">162.5000</hydrostaticTestPressure>
+			<lethalService>FALSE</lethalService>
+			<designPressure units="psi">125.0000</designPressure>
+			<designTemperature units="degF">200.0000</designTemperature>
+			<externalPressure units="psi">0.0000</externalPressure>
+			<externalTemperature units="degF">200.0000</externalTemperature>
+			<innerCorrosion units="in">0.0000</innerCorrosion>
+			<outerCorrosion units="in">0.0000</outerCorrosion>
+			<RT>None</RT>
+			<PWHT>None</PWHT>
+			<materials>
+				<cylinders>SA-240 304</cylinders>
+				<heads>SA-240 304</heads>
+				<support>SA-240 304</support>
+				<transitions>SA-240 304</transitions>
+			</materials>
+		</pressureChamberConditions>
+		<vesselResults>
+			<weightOperatingCorroded units="lbf">5795.4329</weightOperatingCorroded>
+			<weightOperatingNew units="lbf">5795.4329</weightOperatingNew>
+			<weightEmptyCorroded units="lbf">1068.4569</weightEmptyCorroded>
+			<weightEmptyNew units="lbf">1068.4569</weightEmptyNew>
+			<weightTestNew units="lbf">5795.9119</weightTestNew>
+			<capacityNew units="US_gal">566.9478</capacityNew>
+			<capacityCorroded units="US_gal">566.9478</capacityCorroded>
+			<liquidWeightOperating units="lbf">4726.9761</liquidWeightOperating>
+			<liquidWeightOperatingNew units="lbf">4726.9761</liquidWeightOperatingNew>
+			<liquidWeightTest units="lbf">4727.4550</liquidWeightTest>
+			<liquidWeightTestCorroded units="lbf">4727.4550</liquidWeightTestCorroded>
+			<weightLift units="lbf">998.0285</weightLift>
+			<centerOfGravityFromDatum units="in">57.0530</centerOfGravityFromDatum>
+			<note>Vessel designed by COMPRESS software by Codeware Inc.</note>
+		</vesselResults>
+		<closure1>
+			<topClosure>
+				<fdHead>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>TOP DISH</identifier>
+						<idNumber>1768324104</idNumber>
+						<attachedTo>SHELL 2</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1768292811</attachedToidNumber>
+						<material>SA-240 304</material>
+						<material2>
+							<specification>SA-240 304</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Plate</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="14" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">35.5300</innerDiameter>
+						<outerDiameter units="in">36.0000</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.2350</nominalThickness>
+						<length units="in">8.2890</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">0.2253</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">125.2253</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>None UW-11(c) Type 1</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">120.0000</startElevation>
+						<endElevation units="in">128.2890</endElevation>
+						<designThicknessInternalPressure units="in">0.2298</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.2298</designThickness>
+						<requiredThicknessInternalPressure units="in">0.2298</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.2298</requiredThickness>
+						<governingLoadCondition>Internal</governingLoadCondition>
+						<MAWP units="psi">127.8854</MAWP>
+						<MAP units="psi">128.1107</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">101.9841</weightNew>
+						<weightCorroded units="lbf">101.9841</weightCorroded>
+						<capacityNew units="US_gal">24.3460</capacityNew>
+						<capacityCorroded units="US_gal">24.3460</capacityCorroded>
+						<surfaceArea units="ft2">10.2545</surfaceArea>
+						<color>
+							<red>199</red>
+							<green>195</green>
+							<blue>192</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<straightFlangeLength units="in">2.0000</straightFlangeLength>
+					<straightFlangeNominalThickness units="in">0.3125</straightFlangeNominalThickness>
+					<straightFlangeInnerDiameter units="in">35.3750</straightFlangeInnerDiameter>
+					<straightFlangeOuterDiameter units="in">36.0000</straightFlangeOuterDiameter>
+					<straightFlangeStaticHeadOperating units="psi">0.2975</straightFlangeStaticHeadOperating>
+					<straightFlangeStaticHeadOperatingPlusDesignP units="psi">125.2975</straightFlangeStaticHeadOperatingPlusDesignP>
+					<fdHeadCrownRadius units="in">35.6100</fdHeadCrownRadius>
+					<fdHeadKnuckleRadius units="in">2.3950</fdHeadKnuckleRadius>
+				</fdHead>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #1 (A)</identifier>
+						<idNumber>1768590707</idNumber>
+						<attachedTo>TOP DISH</attachedTo>
+						<attachedToKind>F&amp;D Head</attachedToKind>
+						<attachedToidNumber>1768324104</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">2.3740</innerDiameter>
+						<outerDiameter units="in">3.0000</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.3130</nominalThickness>
+						<pipeNPSandSchedule>NPS 2 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">3.3800</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">0.0067</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">125.0067</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">128.0224</startElevation>
+						<endElevation units="in">131.4024</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">265.3683</MAWP>
+						<MAP units="psi">265.3683</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">2.5899</weightNew>
+						<weightCorroded units="lbf">2.5899</weightCorroded>
+						<capacityNew units="US_gal">0.0597</capacityNew>
+						<capacityCorroded units="US_gal">0.0597</capacityCorroded>
+						<surfaceArea units="ft2">0.2038</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>A</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">3.3800</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>TOP DISH</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">0.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">0.0000</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">0.0000</intersectionPointX>
+					<intersectionPointY units="in">0.000000</intersectionPointY>
+					<intersectionPointZ units="in">128.2890</intersectionPointZ>
+					<endPointX units="in">0.0000</endPointX>
+					<endPointY units="in">0.000000</endPointY>
+					<endPointZ units="in">131.4024</endPointZ>
+					<lclIntersectionPointX units="in">0.0000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">-0.000000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">8.2890</lclIntersectionPointZ>
+					<lclEndPointX units="in">0.0000</lclEndPointX>
+					<lclEndPointY units="in">-0.000000</lclEndPointY>
+					<lclEndPointZ units="in">11.4024</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.3125</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+			</topClosure>
+		</closure1>
+		<closure2>
+			<bottomClosure>
+				<fdHead>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>BOTTOM DISH</identifier>
+						<idNumber>1763165267</idNumber>
+						<attachedTo>Undefined</attachedTo>
+						<attachedToKind>Undefined</attachedToKind>
+						<attachedToidNumber>0</attachedToidNumber>
+						<material>SA-240 304</material>
+						<material2>
+							<specification>SA-240 304</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Plate</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="14" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">35.5124</innerDiameter>
+						<outerDiameter units="in">36.0000</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.2438</nominalThickness>
+						<length units="in">8.2931</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">4.9197</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">129.9197</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>None UW-11(c) Type 1</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">-8.2931</startElevation>
+						<endElevation units="in">0.0000</endElevation>
+						<designThicknessInternalPressure units="in">0.2384</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.2384</designThickness>
+						<requiredThicknessInternalPressure units="in">0.2384</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.2384</requiredThickness>
+						<governingLoadCondition>Internal</governingLoadCondition>
+						<MAWP units="psi">127.9846</MAWP>
+						<MAP units="psi">132.9043</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">105.0159</weightNew>
+						<weightCorroded units="lbf">105.0159</weightCorroded>
+						<capacityNew units="US_gal">24.3206</capacityNew>
+						<capacityCorroded units="US_gal">24.3206</capacityCorroded>
+						<surfaceArea units="ft2">10.2578</surfaceArea>
+						<color>
+							<red>199</red>
+							<green>195</green>
+							<blue>192</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<straightFlangeLength units="in">2.0000</straightFlangeLength>
+					<straightFlangeNominalThickness units="in">0.3125</straightFlangeNominalThickness>
+					<straightFlangeInnerDiameter units="in">35.3750</straightFlangeInnerDiameter>
+					<straightFlangeOuterDiameter units="in">36.0000</straightFlangeOuterDiameter>
+					<straightFlangeStaticHeadOperating units="psi">4.7013</straightFlangeStaticHeadOperating>
+					<straightFlangeStaticHeadOperatingPlusDesignP units="psi">129.7013</straightFlangeStaticHeadOperatingPlusDesignP>
+					<fdHeadCrownRadius units="in">35.6188</fdHeadCrownRadius>
+					<fdHeadKnuckleRadius units="in">2.4038</fdHeadKnuckleRadius>
+				</fdHead>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #5 (E)</identifier>
+						<idNumber>1768656948</idNumber>
+						<attachedTo>BOTTOM DISH</attachedTo>
+						<attachedToKind>F&amp;D Head</attachedToKind>
+						<attachedToidNumber>1763165267</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">2.3740</innerDiameter>
+						<outerDiameter units="in">3.0000</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.3130</nominalThickness>
+						<pipeNPSandSchedule>NPS 2 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">3.3800</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">5.0317</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">130.0317</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">-11.3977</startElevation>
+						<endElevation units="in">-8.0177</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">270.2655</MAWP>
+						<MAP units="psi">275.2944</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">2.5899</weightNew>
+						<weightCorroded units="lbf">2.5899</weightCorroded>
+						<capacityNew units="US_gal">0.0595</capacityNew>
+						<capacityCorroded units="US_gal">0.0595</capacityCorroded>
+						<surfaceArea units="ft2">0.2032</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>E</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">3.3800</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>BOTTOM DISH</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">0.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">0.0000</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">0.0000</intersectionPointX>
+					<intersectionPointY units="in">0.0000</intersectionPointY>
+					<intersectionPointZ units="in">-8.2931</intersectionPointZ>
+					<endPointX units="in">0.0000</endPointX>
+					<endPointY units="in">0.0000</endPointY>
+					<endPointZ units="in">-11.3977</endPointZ>
+					<lclIntersectionPointX units="in">0.0000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">0.0000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">8.2931</lclIntersectionPointZ>
+					<lclEndPointX units="in">0.0000</lclEndPointX>
+					<lclEndPointY units="in">0.0000</lclEndPointY>
+					<lclEndPointZ units="in">11.3977</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.3125</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+				<insulation>
+					<thickness units="in">1.5000</thickness>
+					<density units="lb/ft3">9.3600</density>
+					<supportSpacing units="in">0.0000</supportSpacing>
+					<supportWeight-each units="lbf">0.0000</supportWeight-each>
+					<presentWhenEmpty>TRUE</presentWhenEmpty>
+					<presentForHydrotest>TRUE</presentForHydrotest>
+					<includeInLiftWeight>FALSE</includeInLiftWeight>
+					<!-- Insulation Results -->
+					<weight units="lbf">12.9961</weight>
+				</insulation>
+			</bottomClosure>
+		</closure2>
+		<shell>
+			<cylinder>
+				<standardComponentData>
+					<!-- Standard Component Data -->
+					<identifier>SHELL 2</identifier>
+					<idNumber>1768292811</idNumber>
+					<attachedTo>SHELL 1</attachedTo>
+					<attachedToKind>Cylinder</attachedToKind>
+					<attachedToidNumber>1752163526</attachedToidNumber>
+					<material>SA-240 304</material>
+					<material2>
+						<specification>SA-240 304</specification>
+						<definition>Full ASME</definition>
+						<density units="lb/ft3">501.1200</density>
+						<productForm>Plate</productForm>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<fineGrainPractice>FALSE</fineGrainPractice>
+						<xref lineNumber="14" pageNumber="92" />
+						<groupNo>1</groupNo>
+						<pNo>8</pNo>
+						<ucs66Curve>None</ucs66Curve>
+						<unsNo>S30400</unsNo>
+					</material2>
+					<outerDiameterDesign>TRUE</outerDiameterDesign>
+					<innerDiameter units="in">35.6250</innerDiameter>
+					<outerDiameter units="in">36.0000</outerDiameter>
+					<innerCorrosion units="in">0.0000</innerCorrosion>
+					<outerCorrosion units="in">0.0000</outerCorrosion>
+					<nominalThickness units="in">0.1875</nominalThickness>
+					<length units="in">60.0000</length>
+					<designPressure units="psi">125.0000</designPressure>
+					<designTemperature units="degF">200.0000</designTemperature>
+					<externalPressure units="psi">0.0000</externalPressure>
+					<externalTemperature units="degF">200.0000</externalTemperature>
+					<designMDMT units="degF">-20.0000</designMDMT>
+					<staticHeadOperating units="psi">2.4633</staticHeadOperating>
+					<staticHeadOperatingPlusDesignP units="psi">127.4633</staticHeadOperatingPlusDesignP>
+					<radiographyLongSeam>None UW-11(c) Type 1</radiographyLongSeam>
+					<radiographyCircSeam>None UW-11(c) Type 1</radiographyCircSeam>
+					<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+					<impactTested>FALSE</impactTested>
+					<normalized>FALSE</normalized>
+					<!-- Results -->
+					<startElevation units="in">60.0000</startElevation>
+					<endElevation units="in">120.0000</endElevation>
+					<designThicknessInternalPressure units="in">0.1633</designThicknessInternalPressure>
+					<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+					<designThickness units="in">0.1633</designThickness>
+					<requiredThicknessInternalPressure units="in">0.1633</requiredThicknessInternalPressure>
+					<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+					<requiredThickness units="in">0.1633</requiredThickness>
+					<governingLoadCondition>Internal</governingLoadCondition>
+					<MAWP units="psi">143.9802</MAWP>
+					<MAP units="psi">146.4435</MAP>
+					<MAEP units="psi">0.0000</MAEP>
+					<MDMT units="degF">-320.0000</MDMT>
+					<weightNew units="lbf">367.0583</weightNew>
+					<weightCorroded units="lbf">367.0583</weightCorroded>
+					<capacityNew units="US_gal">258.9041</capacityNew>
+					<capacityCorroded units="US_gal">258.9041</capacityCorroded>
+					<surfaceArea units="ft2">47.0706</surfaceArea>
+					<color>
+						<red>176</red>
+						<green>178</green>
+						<blue>187</blue>
+						<alpha>1.00</alpha>
+					</color>
+				</standardComponentData>
+				<longSeam>
+					<seamNumber>1</seamNumber>
+					<longSeamAngle units="deg">30.0000</longSeamAngle>
+				</longSeam>
+				<shellPlate>
+					<plateNumber>1</plateNumber>
+					<plateLength units="in">112.5083</plateLength>
+				</shellPlate>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #2 (B)</identifier>
+						<idNumber>1768608357</idNumber>
+						<attachedTo>SHELL 2</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1768292811</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">2.3740</innerDiameter>
+						<outerDiameter units="in">3.0000</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.3130</nominalThickness>
+						<pipeNPSandSchedule>NPS 2 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">3.3800</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">0.7013</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">125.7013</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">108.5000</startElevation>
+						<endElevation units="in">111.5000</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">208.5053</MAWP>
+						<MAP units="psi">209.2022</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">2.5899</weightNew>
+						<weightCorroded units="lbf">2.5899</weightCorroded>
+						<capacityNew units="US_gal">0.0600</capacityNew>
+						<capacityCorroded units="US_gal">0.0600</capacityCorroded>
+						<surfaceArea units="ft2">0.2048</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>B</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">3.3800</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>SHELL 2</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">10.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">21.1292</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">17.7265</intersectionPointX>
+					<intersectionPointY units="in">3.1257</intersectionPointY>
+					<intersectionPointZ units="in">110.0000</intersectionPointZ>
+					<endPointX units="in">20.8082</endPointX>
+					<endPointY units="in">3.6691</endPointY>
+					<endPointZ units="in">110.0000</endPointZ>
+					<lclIntersectionPointX units="in">17.7265</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">-3.1257</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">50.0000</lclIntersectionPointZ>
+					<lclEndPointX units="in">20.8082</lclEndPointX>
+					<lclEndPointY units="in">-3.6691</lclEndPointY>
+					<lclEndPointZ units="in">50.0000</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.1875</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #3 (C)</identifier>
+						<idNumber>1768621598</idNumber>
+						<attachedTo>SHELL 2</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1768292811</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">0.6740</innerDiameter>
+						<outerDiameter units="in">0.8800</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.1030</nominalThickness>
+						<pipeNPSandSchedule>NPS 0.375 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">1.5000</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">0.6706</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">125.6706</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">109.5600</startElevation>
+						<endElevation units="in">110.4400</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">208.5335</MAWP>
+						<MAP units="psi">209.2022</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">0.1094</weightNew>
+						<weightCorroded units="lbf">0.1094</weightCorroded>
+						<capacityNew units="US_gal">0.0020</capacityNew>
+						<capacityCorroded units="US_gal">0.0020</capacityCorroded>
+						<surfaceArea units="ft2">0.0251</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>C</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">1.5000</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>SHELL 2</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">90.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">19.3071</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">-0.000000</intersectionPointX>
+					<intersectionPointY units="in">18.0000</intersectionPointY>
+					<intersectionPointZ units="in">110.0000</intersectionPointZ>
+					<endPointX units="in">-0.000000</endPointX>
+					<endPointY units="in">19.3071</endPointY>
+					<endPointZ units="in">110.0000</endPointZ>
+					<lclIntersectionPointX units="in">-0.000000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">-18.0000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">50.0000</lclIntersectionPointZ>
+					<lclEndPointX units="in">-0.000000</lclEndPointX>
+					<lclEndPointY units="in">-19.3071</lclEndPointY>
+					<lclEndPointZ units="in">50.0000</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.1875</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+			</cylinder>
+			<cylinder>
+				<standardComponentData>
+					<!-- Standard Component Data -->
+					<identifier>SHELL 1</identifier>
+					<idNumber>1752163526</idNumber>
+					<attachedTo>BOTTOM DISH</attachedTo>
+					<attachedToKind>F&amp;D Head</attachedToKind>
+					<attachedToidNumber>1763165267</attachedToidNumber>
+					<material>SA-240 304</material>
+					<material2>
+						<specification>SA-240 304</specification>
+						<definition>Full ASME</definition>
+						<density units="lb/ft3">501.1200</density>
+						<productForm>Plate</productForm>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<fineGrainPractice>FALSE</fineGrainPractice>
+						<xref lineNumber="14" pageNumber="92" />
+						<groupNo>1</groupNo>
+						<pNo>8</pNo>
+						<ucs66Curve>None</ucs66Curve>
+						<unsNo>S30400</unsNo>
+					</material2>
+					<outerDiameterDesign>TRUE</outerDiameterDesign>
+					<innerDiameter units="in">35.6250</innerDiameter>
+					<outerDiameter units="in">36.0000</outerDiameter>
+					<innerCorrosion units="in">0.0000</innerCorrosion>
+					<outerCorrosion units="in">0.0000</outerCorrosion>
+					<nominalThickness units="in">0.1875</nominalThickness>
+					<length units="in">60.0000</length>
+					<designPressure units="psi">125.0000</designPressure>
+					<designTemperature units="degF">200.0000</designTemperature>
+					<externalPressure units="psi">0.0000</externalPressure>
+					<externalTemperature units="degF">200.0000</externalTemperature>
+					<designMDMT units="degF">-20.0000</designMDMT>
+					<staticHeadOperating units="psi">4.6291</staticHeadOperating>
+					<staticHeadOperatingPlusDesignP units="psi">129.6291</staticHeadOperatingPlusDesignP>
+					<radiographyLongSeam>None UW-11(c) Type 1</radiographyLongSeam>
+					<radiographyCircSeam>None UW-11(c) Type 1</radiographyCircSeam>
+					<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+					<impactTested>FALSE</impactTested>
+					<normalized>FALSE</normalized>
+					<!-- Results -->
+					<startElevation units="in">0.0000</startElevation>
+					<endElevation units="in">60.0000</endElevation>
+					<designThicknessInternalPressure units="in">0.1661</designThicknessInternalPressure>
+					<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+					<designThickness units="in">0.1661</designThickness>
+					<requiredThicknessInternalPressure units="in">0.1661</requiredThicknessInternalPressure>
+					<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+					<requiredThickness units="in">0.1661</requiredThickness>
+					<governingLoadCondition>Internal</governingLoadCondition>
+					<MAWP units="psi">141.8144</MAWP>
+					<MAP units="psi">146.4435</MAP>
+					<MAEP units="psi">0.0000</MAEP>
+					<MDMT units="degF">-320.0000</MDMT>
+					<weightNew units="lbf">367.0583</weightNew>
+					<weightCorroded units="lbf">367.0583</weightCorroded>
+					<capacityNew units="US_gal">258.9041</capacityNew>
+					<capacityCorroded units="US_gal">258.9041</capacityCorroded>
+					<surfaceArea units="ft2">46.9135</surfaceArea>
+					<color>
+						<red>176</red>
+						<green>178</green>
+						<blue>187</blue>
+						<alpha>1.00</alpha>
+					</color>
+				</standardComponentData>
+				<longSeam>
+					<seamNumber>1</seamNumber>
+					<longSeamAngle units="deg">35.0000</longSeamAngle>
+				</longSeam>
+				<shellPlate>
+					<plateNumber>1</plateNumber>
+					<plateLength units="in">112.5083</plateLength>
+				</shellPlate>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #4 (D)</identifier>
+						<idNumber>1768643667</idNumber>
+						<attachedTo>SHELL 1</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1752163526</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">2.3740</innerDiameter>
+						<outerDiameter units="in">3.0000</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.3130</nominalThickness>
+						<pipeNPSandSchedule>NPS 2 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">3.3800</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">3.9500</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">128.9500</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">18.5000</startElevation>
+						<endElevation units="in">21.5000</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">205.2562</MAWP>
+						<MAP units="psi">209.2022</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">2.5899</weightNew>
+						<weightCorroded units="lbf">2.5899</weightCorroded>
+						<capacityNew units="US_gal">0.0600</capacityNew>
+						<capacityCorroded units="US_gal">0.0600</capacityCorroded>
+						<surfaceArea units="ft2">0.2048</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>D</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">3.3800</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>SHELL 1</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">0.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">21.1292</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">18.0000</intersectionPointX>
+					<intersectionPointY units="in">0.0000</intersectionPointY>
+					<intersectionPointZ units="in">20.0000</intersectionPointZ>
+					<endPointX units="in">21.1292</endPointX>
+					<endPointY units="in">0.0000</endPointY>
+					<endPointZ units="in">20.0000</endPointZ>
+					<lclIntersectionPointX units="in">18.0000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">0.0000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">20.0000</lclIntersectionPointZ>
+					<lclEndPointX units="in">21.1292</lclEndPointX>
+					<lclEndPointY units="in">-0.0000</lclEndPointY>
+					<lclEndPointZ units="in">20.0000</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.1875</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #6 (F)</identifier>
+						<idNumber>1768768252</idNumber>
+						<attachedTo>SHELL 1</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1752163526</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">0.8400</innerDiameter>
+						<outerDiameter units="in">1.1200</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.1400</nominalThickness>
+						<pipeNPSandSchedule>NPS 0.5 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">1.8800</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">2.8394</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">127.8394</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">49.4400</startElevation>
+						<endElevation units="in">50.5600</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">206.3675</MAWP>
+						<MAP units="psi">209.2022</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">0.2350</weightNew>
+						<weightCorroded units="lbf">0.2350</weightCorroded>
+						<capacityNew units="US_gal">0.0040</capacityNew>
+						<capacityCorroded units="US_gal">0.0040</capacityCorroded>
+						<surfaceArea units="ft2">0.0411</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>F</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">1.8800</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>SHELL 1</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">0.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">19.6837</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">18.0000</intersectionPointX>
+					<intersectionPointY units="in">0.0000</intersectionPointY>
+					<intersectionPointZ units="in">50.0000</intersectionPointZ>
+					<endPointX units="in">19.6837</endPointX>
+					<endPointY units="in">0.0000</endPointY>
+					<endPointZ units="in">50.0000</endPointZ>
+					<lclIntersectionPointX units="in">18.0000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">0.0000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">50.0000</lclIntersectionPointZ>
+					<lclEndPointX units="in">19.6837</lclEndPointX>
+					<lclEndPointY units="in">-0.0000</lclEndPointY>
+					<lclEndPointZ units="in">50.0000</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.1875</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #7 (G)</identifier>
+						<idNumber>1768781717</idNumber>
+						<attachedTo>SHELL 1</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1752163526</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">0.8400</innerDiameter>
+						<outerDiameter units="in">1.1200</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.1400</nominalThickness>
+						<pipeNPSandSchedule>NPS 0.5 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">1.8800</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">2.8394</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">127.8394</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">49.4400</startElevation>
+						<endElevation units="in">50.5600</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">206.3675</MAWP>
+						<MAP units="psi">209.2022</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">0.2350</weightNew>
+						<weightCorroded units="lbf">0.2350</weightCorroded>
+						<capacityNew units="US_gal">0.0040</capacityNew>
+						<capacityCorroded units="US_gal">0.0040</capacityCorroded>
+						<surfaceArea units="ft2">0.0411</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>G</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">1.8800</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>SHELL 1</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">90.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">19.6837</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">-0.000000</intersectionPointX>
+					<intersectionPointY units="in">18.0000</intersectionPointY>
+					<intersectionPointZ units="in">50.0000</intersectionPointZ>
+					<endPointX units="in">-0.000000</endPointX>
+					<endPointY units="in">19.6837</endPointY>
+					<endPointZ units="in">50.0000</endPointZ>
+					<lclIntersectionPointX units="in">-0.000000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">-18.0000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">50.0000</lclIntersectionPointZ>
+					<lclEndPointX units="in">-0.000000</lclEndPointX>
+					<lclEndPointY units="in">-19.6837</lclEndPointY>
+					<lclEndPointZ units="in">50.0000</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.1875</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #8 (H)</identifier>
+						<idNumber>1768795190</idNumber>
+						<attachedTo>SHELL 1</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1752163526</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">2.3740</innerDiameter>
+						<outerDiameter units="in">3.0000</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.3130</nominalThickness>
+						<pipeNPSandSchedule>NPS 2 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">3.3800</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">2.8671</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">127.8671</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">48.5000</startElevation>
+						<endElevation units="in">51.5000</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">206.3392</MAWP>
+						<MAP units="psi">209.2022</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">2.5899</weightNew>
+						<weightCorroded units="lbf">2.5899</weightCorroded>
+						<capacityNew units="US_gal">0.0600</capacityNew>
+						<capacityCorroded units="US_gal">0.0600</capacityCorroded>
+						<surfaceArea units="ft2">0.2048</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>H</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">3.3800</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>SHELL 1</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">180.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">21.1292</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">-18.0000</intersectionPointX>
+					<intersectionPointY units="in">-0.00000</intersectionPointY>
+					<intersectionPointZ units="in">50.0000</intersectionPointZ>
+					<endPointX units="in">-21.1292</endPointX>
+					<endPointY units="in">-0.00000</endPointY>
+					<endPointZ units="in">50.0000</endPointZ>
+					<lclIntersectionPointX units="in">-18.0000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">0.00000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">50.0000</lclIntersectionPointZ>
+					<lclEndPointX units="in">-21.1292</lclEndPointX>
+					<lclEndPointY units="in">0.00000</lclEndPointY>
+					<lclEndPointZ units="in">50.0000</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.1875</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+				<nozzle>
+					<standardComponentData>
+						<!-- Standard Component Data -->
+						<identifier>Nozzle #9 (I)</identifier>
+						<idNumber>1768808719</idNumber>
+						<attachedTo>SHELL 1</attachedTo>
+						<attachedToKind>Cylinder</attachedToKind>
+						<attachedToidNumber>1752163526</attachedToidNumber>
+						<material>SA-182 F304 &lt;= 5</material>
+						<material2>
+							<specification>SA-182 F304 &lt;= 5</specification>
+							<definition>Full ASME</definition>
+							<density units="lb/ft3">501.1200</density>
+							<productForm>Forgings</productForm>
+							<impactTested>FALSE</impactTested>
+							<normalized>FALSE</normalized>
+							<fineGrainPractice>FALSE</fineGrainPractice>
+							<xref lineNumber="4" pageNumber="92" />
+							<groupNo>1</groupNo>
+							<pNo>8</pNo>
+							<ucs66Curve>None</ucs66Curve>
+							<unsNo>S30400</unsNo>
+						</material2>
+						<outerDiameterDesign>TRUE</outerDiameterDesign>
+						<innerDiameter units="in">3.5000</innerDiameter>
+						<outerDiameter units="in">4.2500</outerDiameter>
+						<innerCorrosion units="in">0.0000</innerCorrosion>
+						<outerCorrosion units="in">0.0000</outerCorrosion>
+						<nominalThickness units="in">0.3750</nominalThickness>
+						<pipeNPSandSchedule>NPS 3 Class 3000 - Threaded Full Coupling</pipeNPSandSchedule>
+						<length units="in">4.2500</length>
+						<designPressure units="psi">125.0000</designPressure>
+						<designTemperature units="degF">200.0000</designTemperature>
+						<externalPressure units="psi">0.0000</externalPressure>
+						<externalTemperature units="degF">200.0000</externalTemperature>
+						<designMDMT units="degF">-20.0000</designMDMT>
+						<staticHeadOperating units="psi">2.8874</staticHeadOperating>
+						<staticHeadOperatingPlusDesignP units="psi">127.8874</staticHeadOperatingPlusDesignP>
+						<radiographyLongSeam>Seamless No RT</radiographyLongSeam>
+						<radiographyCircSeam>N/A</radiographyCircSeam>
+						<postWeldHeatTreatment>FALSE</postWeldHeatTreatment>
+						<impactTested>FALSE</impactTested>
+						<normalized>FALSE</normalized>
+						<!-- Results -->
+						<startElevation units="in">47.8750</startElevation>
+						<endElevation units="in">52.1250</endElevation>
+						<designThicknessInternalPressure units="in">0.0000</designThicknessInternalPressure>
+						<designThicknessExternalPressure units="in">0.0000</designThicknessExternalPressure>
+						<designThickness units="in">0.0000</designThickness>
+						<requiredThicknessInternalPressure units="in">0.0000</requiredThicknessInternalPressure>
+						<requiredThicknessExternalPressure units="in">0.0000</requiredThicknessExternalPressure>
+						<requiredThickness units="in">0.0000</requiredThickness>
+						<governingLoadCondition>Unknown</governingLoadCondition>
+						<MAWP units="psi">206.3204</MAWP>
+						<MAP units="psi">209.2022</MAP>
+						<MAEP units="psi">0.0000</MAEP>
+						<MDMT units="degF">-320.0000</MDMT>
+						<weightNew units="lbf">5.6265</weightNew>
+						<weightCorroded units="lbf">5.6265</weightCorroded>
+						<capacityNew units="US_gal">0.1639</capacityNew>
+						<capacityCorroded units="US_gal">0.1639</capacityCorroded>
+						<surfaceArea units="ft2">0.3649</surfaceArea>
+						<color>
+							<red>183</red>
+							<green>179</green>
+							<blue>168</blue>
+							<alpha>1.00</alpha>
+						</color>
+					</standardComponentData>
+					<!-- Nozzle Specific Data -->
+					<nozzleType>16</nozzleType>
+					<nozzleTypeDescription>Type 16 - Fitting, no internal projection, with lower groove weld, UW-16.1(z-1)(z-2)</nozzleTypeDescription>
+					<nozzleStyle>2</nozzleStyle>
+					<nozzleStyleDescription>Coupling</nozzleStyleDescription>
+					<nozzleAttachment>0</nozzleAttachment>
+					<nozzleAttachmentDescription>Set In (Implant)</nozzleAttachmentDescription>
+					<drawingMark>I</drawingMark>
+					<fittingType>0</fittingType>
+					<fittingTypeDescription>Full Coupling</fittingTypeDescription>
+					<fittingEndStyle>0</fittingEndStyle>
+					<fittingEndStyleDescription>Threaded</fittingEndStyleDescription>
+					<fittingLengthEndToEnd units="in">4.2500</fittingLengthEndToEnd>
+					<fittingHasCustomDimensions>FALSE</fittingHasCustomDimensions>
+					<attachedTo>SHELL 1</attachedTo>
+					<quantityToCost>1</quantityToCost>
+					<orientation>Radial</orientation>
+					<orientationAngle units="deg">270.0000</orientationAngle>
+					<tippingAngle units="deg">0.0000</tippingAngle>
+					<radialDistance units="in">21.9353</radialDistance>
+					<minimumInternalProjection units="in">0.0000</minimumInternalProjection>
+					<intersectionPointX units="in">0.000000</intersectionPointX>
+					<intersectionPointY units="in">-18.0000</intersectionPointY>
+					<intersectionPointZ units="in">50.0000</intersectionPointZ>
+					<endPointX units="in">0.000000</endPointX>
+					<endPointY units="in">-21.9353</endPointY>
+					<endPointZ units="in">50.0000</endPointZ>
+					<lclIntersectionPointX units="in">0.000000</lclIntersectionPointX>
+					<lclIntersectionPointY units="in">18.0000</lclIntersectionPointY>
+					<lclIntersectionPointZ units="in">50.0000</lclIntersectionPointZ>
+					<lclEndPointX units="in">0.000000</lclEndPointX>
+					<lclEndPointY units="in">21.9353</lclEndPointY>
+					<lclEndPointZ units="in">50.0000</lclEndPointZ>
+					<radialClearance units="in">0.0625</radialClearance>
+					<offset units="in">0.0000</offset>
+					<nozzleService>Nozzle</nozzleService>
+					<hasPad>FALSE</hasPad>
+					<reinforcingPadMaterial>SA-516 70</reinforcingPadMaterial>
+					<reinforcingPadFineGrain>FALSE</reinforcingPadFineGrain>
+					<reinforcingPadImpactTested>FALSE</reinforcingPadImpactTested>
+					<reinforcingPadNormalized>FALSE</reinforcingPadNormalized>
+					<reinforcingPadThickness units="in">0.0000</reinforcingPadThickness>
+					<reinforcingPadWidth units="in">0.0000</reinforcingPadWidth>
+					<!-- Welds -->
+					<innerFilletWeld_A41 units="in">0.1875</innerFilletWeld_A41>
+					<outerFilletWeld_A42 units="in">0.0</outerFilletWeld_A42>
+					<lowerFilletWeld_A43 units="in">0.0</lowerFilletWeld_A43>
+					<upperGrooveWeld_Pad units="in">0.0</upperGrooveWeld_Pad>
+					<lowerGrooveWeld_Shell units="in">0.1875</lowerGrooveWeld_Shell>
+					<weldFromOutside>TRUE</weldFromOutside>
+					<excludeShellAreaA1>FALSE</excludeShellAreaA1>
+					<excludeOutwardNozzleAreaA2>FALSE</excludeOutwardNozzleAreaA2>
+					<excludeInwardNozzleAreaA3>FALSE</excludeInwardNozzleAreaA3>
+					<excludeWeldAreasA41>FALSE</excludeWeldAreasA41>
+					<excludeWeldAreasA42>FALSE</excludeWeldAreasA42>
+					<excludeWeldAreasA43>FALSE</excludeWeldAreasA43>
+					<!-- WRC Nozzle Loads -->
+					<radialLoad units="lbf">0.0000</radialLoad>
+					<momentCircumferential units="ft.lbf">0.0000</momentCircumferential>
+					<momentLongitudinal units="ft.lbf">0.0000</momentLongitudinal>
+					<shearCircumferential units="lbf">0.0000</shearCircumferential>
+					<shearLongitudinal units="lbf">0.0000</shearLongitudinal>
+					<torsion units="ft.lbf">0.0000</torsion>
+					<designFactor>3.0000</designFactor>
+					<solveFor>None</solveFor>
+					<!-- Nozzle Results -->
+					<areaAvailable units="in2">0.0000</areaAvailable>
+					<areaRequired units="in2">0.0000</areaRequired>
+					<requiredTn units="in">0.0625</requiredTn>
+				</nozzle>
+				<insulation>
+					<thickness units="in">1.5000</thickness>
+					<density units="lb/ft3">9.3600</density>
+					<supportSpacing units="in">0.0000</supportSpacing>
+					<supportWeight-each units="lbf">0.0000</supportWeight-each>
+					<presentWhenEmpty>TRUE</presentWhenEmpty>
+					<presentForHydrotest>TRUE</presentForHydrotest>
+					<includeInLiftWeight>FALSE</includeInLiftWeight>
+					<!-- Insulation Results -->
+					<weight units="lbf">57.4322</weight>
+				</insulation>
+			</cylinder>
+		</shell>
+		<support>
+		<!-- Leg Data -->
+		<legs>
+			<legType>Equal Angle (Leg in)</legType>
+			<size>3x3x1/4 Equal Angle</size>
+			<identifier>Legs #1</identifier>
+			<idNumber>1765971921</idNumber>
+			<attachedTo>SHELL 1</attachedTo>
+			<attachedToKind>Cylinder</attachedToKind>
+			<attachedToidNumber>1752163526</attachedToidNumber>
+			<material>SS 304</material>
+			<material2>
+				<specification>SS 304</specification>
+				<definition>Name Only</definition>
+				<density units="lb/ft3">489.0240</density>
+			</material2>
+			<numberOfLegs>3</numberOfLegs>
+			<length units="in">24.0000</length>
+			<lengthBaseToGirth units="in">18.0000</lengthBaseToGirth>
+			<orientationAngle units="deg">0.0000</orientationAngle>
+			<basePlateLength units="in">6.0000</basePlateLength>
+			<basePlateWidth units="in">6.0000</basePlateWidth>
+			<basePlateThickness units="in">0.3750</basePlateThickness>
+			<legFilletWeld units="in">0.1875</legFilletWeld>
+			<hasPad>FALSE</hasPad>
+			<padLength units="in">0.0000</padLength>
+			<padWidth units="in">0.0000</padWidth>
+			<padThickness units="in">0.0000</padThickness>
+			<padFilletWeld units="in">0.0000</padFilletWeld>
+			<boltMaterial>SA 193 GR B7</boltMaterial>
+			<boltMaterial2>
+				<specification>SA 193 GR B7</specification>
+				<definition>Name Only</definition>
+			</boltMaterial2>
+			<boltDiameter units="in">0.6250</boltDiameter>
+			<boltType>Coarse threaded</boltType>
+			<boltCircle units="in">34.0000</boltCircle>
+			<boltClearance units="in">0.2500</boltClearance>
+			<numberOfBoltsPerLeg>1</numberOfBoltsPerLeg>
+			<color>
+				<red>137</red>
+				<green>139</green>
+				<blue>139</blue>
+				<alpha>1.00</alpha>
+			</color>
+			<!-- Leg Results -->
+			<sectionWidth units="in">3.0000</sectionWidth>
+			<sectionLength units="in">3.0000</sectionLength>
+			<area units="in2">1.4400</area>
+			<momentOfInertiaX units="in4">1.2400</momentOfInertiaX>
+			<momentOfInertiaY units="in4">1.2400</momentOfInertiaY>
+			<sectionData>
+				<description>3x3x1/4 Equal Angle</description>
+				<category>2</category>
+				<metric>FALSE</metric>
+				<area units="in2">1.4400</area>
+				<distanceX units="in">0.8420</distanceX>
+				<distanceY units="in">0.8420</distanceY>
+				<inertiaX units="in4">1.2400</inertiaX>
+				<inertiaY units="in4">1.2400</inertiaY>
+				<sectionDepth units="in">3.0000</sectionDepth>
+				<sectionWidth units="in">3.0000</sectionWidth>
+				<thickness units="in">0.2500</thickness>
+			</sectionData>
+			<baseMoment units="ft.lbf">28098.3156</baseMoment>
+			<baseShear units="lbf">5795.4329</baseShear>
+			<weight units="lbf">40.8029</weight>
+			<surfaceArea units="ft2">6.6875</surfaceArea>
+		</legs>
+			<foundationLoadSummary>
+				<foundationLoadData>
+			<identifier>Legs #1</identifier>
+			<idNumber>1765971921</idNumber>
+			<supportKind>Legs</supportKind>
+				<foundationLineItem>
+					<load>Weight Only (D)</load>
+					<condition>Operating</condition>
+					<corroded>TRUE</corroded>
+					<baseShear units="lbf">0.0000</baseShear>
+					<baseMoment units="ft.lbf">10.1763</baseMoment>
+					<verticalForce units="lbf">5795.4329</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Weight Only (D)</load>
+					<condition>Operating</condition>
+					<corroded>FALSE</corroded>
+					<baseShear units="lbf">0.0000</baseShear>
+					<baseMoment units="ft.lbf">10.1763</baseMoment>
+					<verticalForce units="lbf">5795.4329</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Weight Only (D)</load>
+					<condition>Empty</condition>
+					<corroded>TRUE</corroded>
+					<baseShear units="lbf">0.0000</baseShear>
+					<baseMoment units="ft.lbf">10.1763</baseMoment>
+					<verticalForce units="lbf">1068.4569</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Weight Only (D)</load>
+					<condition>Empty</condition>
+					<corroded>FALSE</corroded>
+					<baseShear units="lbf">0.0000</baseShear>
+					<baseMoment units="ft.lbf">10.1763</baseMoment>
+					<verticalForce units="lbf">1068.4569</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Weight Only (D)</load>
+					<condition>Shop Hydrotest</condition>
+					<corroded>FALSE</corroded>
+					<baseShear units="lbf">0.0000</baseShear>
+					<baseMoment units="ft.lbf">10.1763</baseMoment>
+					<verticalForce units="lbf">5795.9119</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Wind Only (0.6 * W)</load>
+					<condition>Operating</condition>
+					<corroded>TRUE</corroded>
+					<baseShear units="lbf">333.7734</baseShear>
+					<baseMoment units="ft.lbf">2102.7874</baseMoment>
+					<verticalForce units="lbf">0.0000</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Wind Only (0.6 * W)</load>
+					<condition>Operating</condition>
+					<corroded>FALSE</corroded>
+					<baseShear units="lbf">333.7734</baseShear>
+					<baseMoment units="ft.lbf">2102.7874</baseMoment>
+					<verticalForce units="lbf">0.0000</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Wind Only (0.6 * W)</load>
+					<condition>Empty</condition>
+					<corroded>TRUE</corroded>
+					<baseShear units="lbf">333.7734</baseShear>
+					<baseMoment units="ft.lbf">2102.7874</baseMoment>
+					<verticalForce units="lbf">0.0000</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Wind Only (0.6 * W)</load>
+					<condition>Empty</condition>
+					<corroded>FALSE</corroded>
+					<baseShear units="lbf">333.7734</baseShear>
+					<baseMoment units="ft.lbf">2102.7874</baseMoment>
+					<verticalForce units="lbf">0.0000</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Seismic Only (0.7 * E)</load>
+					<condition>Operating</condition>
+					<corroded>TRUE</corroded>
+					<baseShear units="lbf">308.3170</baseShear>
+					<baseMoment units="ft.lbf">2456.3603</baseMoment>
+					<verticalForce units="lbf">123.3268</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Seismic Only (0.7 * E)</load>
+					<condition>Operating</condition>
+					<corroded>FALSE</corroded>
+					<baseShear units="lbf">308.3170</baseShear>
+					<baseMoment units="ft.lbf">2456.3603</baseMoment>
+					<verticalForce units="lbf">123.3268</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Seismic Only (0.7 * E)</load>
+					<condition>Empty</condition>
+					<corroded>TRUE</corroded>
+					<baseShear units="lbf">34.1051</baseShear>
+					<baseMoment units="ft.lbf">275.8217</baseMoment>
+					<verticalForce units="lbf">22.7368</verticalForce>
+				</foundationLineItem>
+				<foundationLineItem>
+					<load>Seismic Only (0.7 * E)</load>
+					<condition>Empty</condition>
+					<corroded>FALSE</corroded>
+					<baseShear units="lbf">34.1051</baseShear>
+					<baseMoment units="ft.lbf">275.8217</baseMoment>
+					<verticalForce units="lbf">22.7368</verticalForce>
+				</foundationLineItem>
+				</foundationLoadData>
+			</foundationLoadSummary>
+		</support>
+		<windCode>
+			<ASCE>
+				<edition>7-22</edition>
+				<elevationAboveGrade units="in">0.0000</elevationAboveGrade>
+				<increaseEffectiveOuterDiameter units="in">0.0000</increaseEffectiveOuterDiameter>
+				<windForceCoefficient>0.5026</windForceCoefficient>
+				<basicWindSpeed units="mph">107.0000</basicWindSpeed>
+				<importanceFactor>1.0000</importanceFactor>
+				<exposureCategory>C</exposureCategory>
+				<topographicalFactorKzt>1.0000</topographicalFactorKzt>
+				<windDirectionalityFactor>0.9500</windDirectionalityFactor>
+				<flexibilityRatioLimit>4.0000</flexibilityRatioLimit>
+				<shieldedBelowSupport>FALSE</shieldedBelowSupport>
+				<limitTopDeflection>FALSE</limitTopDeflection>
+				<maxDeflectionRatio>0.0050</maxDeflectionRatio>
+				<!-- Wind Vortex Values -->
+				<vortexCalcOperating>FALSE</vortexCalcOperating>
+				<vortexCalcEmpty>FALSE</vortexCalcEmpty>
+				<vortexCalcVacuum>FALSE</vortexCalcVacuum>
+				<userDampingCoefficients>FALSE</userDampingCoefficients>
+				<!-- Wind Tornado Values -->
+				<tornadoCalcConsidered>FALSE</tornadoCalcConsidered>
+				<tornadoCalcPerformed>FALSE</tornadoCalcPerformed>
+				<tornadoSpeed units="mph">100.0000</tornadoSpeed>
+				<tornadoDirectionalityFactor>1.0000</tornadoDirectionalityFactor>
+				<!-- Wind Results -->
+				<fundamentalFrequencyOperating>9.2248</fundamentalFrequencyOperating>
+				<fundamentalFrequencyEmpty>21.8467</fundamentalFrequencyEmpty>
+				<dampingCoefficientOperating>0.0255</dampingCoefficientOperating>
+				<dampingCoefficientEmpty>0.0205</dampingCoefficientEmpty>
+				<forceCoefCf>0.5026</forceCoefCf>
+				<gustFactorGOperating>0.9058</gustFactorGOperating>
+				<gustFactorGEmpty>0.9058</gustFactorGEmpty>
+				<windPressures>
+					<elevation units="ft">15.0000</elevation>
+					<pressureqz units="psf">24.95</pressureqz>
+					<pressureWP units="psf">9.6000</pressureWP>
+				</windPressures>
+			</ASCE>
+		</windCode>
+		<seismicCode>
+			<ASCE>
+				<edition>7-22</edition>
+				<buildingMounted>FALSE</buildingMounted>
+				<siteClass>C</siteClass>
+				<importanceFactor-I>1.0000</importanceFactor-I>
+				<spectralResponseAccelerationShort>19.0000</spectralResponseAccelerationShort>
+				<spectralResponseAccelerationOneSecond>8.1000</spectralResponseAccelerationOneSecond>
+				<responseModificationCoefficient-R>2.0000</responseModificationCoefficient-R>
+				<redundancyFactor-rho>1.0000</redundancyFactor-rho>
+				<adjustedSpectralResponseAccelerationShort-Sms>22.8000</adjustedSpectralResponseAccelerationShort-Sms>
+				<adjustedSpectralResponseAccelerationOneSecond-Sm1>13.7700</adjustedSpectralResponseAccelerationOneSecond-Sm1>
+				<long-periodTransitionPeriod-TL>12.0000</long-periodTransitionPeriod-TL>
+				<zOverhRatio>0.0</zOverhRatio>
+				<includeVerticalAcceleration>FALSE</includeVerticalAcceleration>
+				<forceMultiplier>0.3333</forceMultiplier>
+				<minimumWeightMultiplier>0.2000</minimumWeightMultiplier>
+				<!-- Seismic Results -->
+				<fundamentalPeriodOperating>0.1084</fundamentalPeriodOperating>
+				<fundamentalPeriodEmpty>0.0458</fundamentalPeriodEmpty>
+				<seismicBaseShearValues>
+					<seismicFactoredBaseShearOperatingCorroded units="lbf">308.3170</seismicFactoredBaseShearOperatingCorroded>
+					<seismicFactoredBaseShearOperatingNew units="lbf">308.3170</seismicFactoredBaseShearOperatingNew>
+					<seismicFactoredBaseShearEmptyCorroded units="lbf">34.1051</seismicFactoredBaseShearEmptyCorroded>
+					<seismicFactoredBaseShearEmptyNew units="lbf">34.1051</seismicFactoredBaseShearEmptyNew>
+					<seismicFactoredBaseShearVacuumCorroded units="lbf">308.3170</seismicFactoredBaseShearVacuumCorroded>
+				</seismicBaseShearValues>
+				<seismicVAccelTerm>
+					<seismicVAccelOperatingCorroded>0.0213</seismicVAccelOperatingCorroded>
+					<seismicVAccelOperatingNew>0.0213</seismicVAccelOperatingNew>
+					<seismicVAccelEmptyCorroded>0.0213</seismicVAccelEmptyCorroded>
+					<seismicVAccelEmptyNew>0.0213</seismicVAccelEmptyNew>
+					<seismicVAccelVacuumCorroded>0.0213</seismicVAccelVacuumCorroded>
+				</seismicVAccelTerm>
+			</ASCE>
+		</seismicCode>
+		<liquidLevel>
+			<identifier>Liquid Level bounded by BOTTOM DISH</identifier>
+			<elevation units="in">128.2406</elevation>
+			<specificGravityOperating>1.0000</specificGravityOperating>
+			<specificGravityTest>1.0000</specificGravityTest>
+		</liquidLevel>
+		<dataForm>
+			<formData>
+%FormType%=Generic
+%BF_HEAD_BOLT_MATL_1_1%=N/A
+%BF_HEAD_BOLT_MATL_1_2%=N/A
+%BF_HEAD_BOLT_MATL_2_1%=N/A
+%BF_HEAD_BOLT_MATL_2_2%=N/A
+%BF_HEAD_DIAMID_DIN_1_1%=
+%BF_HEAD_DIAMID_DIN_1_2%=
+%BF_HEAD_DIAMID_DIN_2_1%=
+%BF_HEAD_DIAMID_DIN_2_2%=
+%BF_HEAD_DIAMID_IN_1_1%=
+%BF_HEAD_DIAMID_IN_1_2%=
+%BF_HEAD_DIAMID_IN_2_1%=
+%BF_HEAD_DIAMID_IN_2_2%=
+%BF_HEAD_DIAMOD_DIN_1_1%=
+%BF_HEAD_DIAMOD_DIN_1_2%=
+%BF_HEAD_DIAMOD_DIN_2_1%=
+%BF_HEAD_DIAMOD_DIN_2_2%=
+%BF_HEAD_DIAMOD_IN_1_1%=
+%BF_HEAD_DIAMOD_IN_1_2%=
+%BF_HEAD_DIAMOD_IN_2_1%=
+%BF_HEAD_DIAMOD_IN_2_2%=
+%BF_HEAD_FLG_THK_1_1%=N/A
+%BF_HEAD_FLG_THK_1_2%=N/A
+%BF_HEAD_FLG_THK_2_1%=N/A
+%BF_HEAD_FLG_THK_2_2%=N/A
+%BF_HEAD_HOW_ATTACHED_1_1%=N/A
+%BF_HEAD_HOW_ATTACHED_1_2%=N/A
+%BF_HEAD_HOW_ATTACHED_2_1%=N/A
+%BF_HEAD_HOW_ATTACHED_2_2%=N/A
+%BF_HEAD_ID_1_1%=N/A
+%BF_HEAD_ID_1_2%=N/A
+%BF_HEAD_ID_2_1%=N/A
+%BF_HEAD_ID_2_2%=N/A
+%BF_HEAD_LOC_1_1%=N/A
+%BF_HEAD_LOC_1_2%=N/A
+%BF_HEAD_LOC_2_1%=N/A
+%BF_HEAD_LOC_2_2%=N/A
+%BF_HEAD_MATL_1_1%=N/A
+%BF_HEAD_MATL_1_2%=N/A
+%BF_HEAD_MATL_2_1%=N/A
+%BF_HEAD_MATL_2_2%=N/A
+%BF_HEAD_MIN_HUB_THK_1_1%=N/A
+%BF_HEAD_MIN_HUB_THK_1_2%=N/A
+%BF_HEAD_MIN_HUB_THK_2_1%=N/A
+%BF_HEAD_MIN_HUB_THK_2_2%=N/A
+%BF_HEAD_NO_1_1%=N/A
+%BF_HEAD_NO_1_2%=N/A
+%BF_HEAD_NO_2_1%=N/A
+%BF_HEAD_NO_2_2%=N/A
+%BF_HEAD_NUM_1_1%=
+%BF_HEAD_NUM_1_2%=
+%BF_HEAD_NUM_2_1%=
+%BF_HEAD_NUM_2_2%=
+%BF_HEAD_NUM_SIZE_1_1%=N/A
+%BF_HEAD_NUM_SIZE_1_2%=N/A
+%BF_HEAD_NUM_SIZE_2_1%=N/A
+%BF_HEAD_NUM_SIZE_2_2%=N/A
+%BF_HEAD_OD_1_1%=N/A
+%BF_HEAD_OD_1_2%=N/A
+%BF_HEAD_OD_2_1%=N/A
+%BF_HEAD_OD_2_2%=N/A
+%BF_HEAD_SIZE_1_1%=N/A
+%BF_HEAD_SIZE_1_2%=N/A
+%BF_HEAD_SIZE_2_1%=N/A
+%BF_HEAD_SIZE_2_2%=N/A
+%BF_HEAD_TYPE_1_1%=N/A
+%BF_HEAD_TYPE_1_2%=N/A
+%BF_HEAD_TYPE_2_1%=N/A
+%BF_HEAD_TYPE_2_2%=N/A
+%BF_HEAD_WASHER_ID_OD_THK_1_1%=N/A
+%BF_HEAD_WASHER_ID_OD_THK_1_2%=N/A
+%BF_HEAD_WASHER_ID_OD_THK_2_1%=N/A
+%BF_HEAD_WASHER_ID_OD_THK_2_2%=N/A
+%BF_HEAD_WASHER_MATL_1_1%=N/A
+%BF_HEAD_WASHER_MATL_1_2%=N/A
+%BF_HEAD_WASHER_MATL_2_1%=N/A
+%BF_HEAD_WASHER_MATL_2_2%=N/A
+%BF_SHELL_BOLT_MATL_1_1%=N/A
+%BF_SHELL_BOLT_MATL_1_2%=N/A
+%BF_SHELL_BOLT_MATL_1_3%=N/A
+%BF_SHELL_BOLT_MATL_1_4%=N/A
+%BF_SHELL_BOLT_MATL_2_1%=N/A
+%BF_SHELL_BOLT_MATL_2_2%=N/A
+%BF_SHELL_BOLT_MATL_2_3%=N/A
+%BF_SHELL_BOLT_MATL_2_4%=N/A
+%BF_SHELL_DIAMID_DIN_1_1%=
+%BF_SHELL_DIAMID_DIN_1_2%=
+%BF_SHELL_DIAMID_DIN_1_3%=
+%BF_SHELL_DIAMID_DIN_1_4%=
+%BF_SHELL_DIAMID_DIN_2_1%=
+%BF_SHELL_DIAMID_DIN_2_2%=
+%BF_SHELL_DIAMID_DIN_2_3%=
+%BF_SHELL_DIAMID_DIN_2_4%=
+%BF_SHELL_DIAMID_IN_1_1%=
+%BF_SHELL_DIAMID_IN_1_2%=
+%BF_SHELL_DIAMID_IN_1_3%=
+%BF_SHELL_DIAMID_IN_1_4%=
+%BF_SHELL_DIAMID_IN_2_1%=
+%BF_SHELL_DIAMID_IN_2_2%=
+%BF_SHELL_DIAMID_IN_2_3%=
+%BF_SHELL_DIAMID_IN_2_4%=
+%BF_SHELL_DIAMOD_DIN_1_1%=
+%BF_SHELL_DIAMOD_DIN_1_2%=
+%BF_SHELL_DIAMOD_DIN_1_3%=
+%BF_SHELL_DIAMOD_DIN_1_4%=
+%BF_SHELL_DIAMOD_DIN_2_1%=
+%BF_SHELL_DIAMOD_DIN_2_2%=
+%BF_SHELL_DIAMOD_DIN_2_3%=
+%BF_SHELL_DIAMOD_DIN_2_4%=
+%BF_SHELL_DIAMOD_IN_1_1%=
+%BF_SHELL_DIAMOD_IN_1_2%=
+%BF_SHELL_DIAMOD_IN_1_3%=
+%BF_SHELL_DIAMOD_IN_1_4%=
+%BF_SHELL_DIAMOD_IN_2_1%=
+%BF_SHELL_DIAMOD_IN_2_2%=
+%BF_SHELL_DIAMOD_IN_2_3%=
+%BF_SHELL_DIAMOD_IN_2_4%=
+%BF_SHELL_FLG_THK_1_1%=N/A
+%BF_SHELL_FLG_THK_1_2%=N/A
+%BF_SHELL_FLG_THK_1_3%=N/A
+%BF_SHELL_FLG_THK_1_4%=N/A
+%BF_SHELL_FLG_THK_2_1%=N/A
+%BF_SHELL_FLG_THK_2_2%=N/A
+%BF_SHELL_FLG_THK_2_3%=N/A
+%BF_SHELL_FLG_THK_2_4%=N/A
+%BF_SHELL_HOW_ATTACHED_1_1%=N/A
+%BF_SHELL_HOW_ATTACHED_1_2%=N/A
+%BF_SHELL_HOW_ATTACHED_1_3%=N/A
+%BF_SHELL_HOW_ATTACHED_1_4%=N/A
+%BF_SHELL_HOW_ATTACHED_2_1%=N/A
+%BF_SHELL_HOW_ATTACHED_2_2%=N/A
+%BF_SHELL_HOW_ATTACHED_2_3%=N/A
+%BF_SHELL_HOW_ATTACHED_2_4%=N/A
+%BF_SHELL_ID_1_1%=N/A
+%BF_SHELL_ID_1_2%=N/A
+%BF_SHELL_ID_1_3%=N/A
+%BF_SHELL_ID_1_4%=N/A
+%BF_SHELL_ID_2_1%=N/A
+%BF_SHELL_ID_2_2%=N/A
+%BF_SHELL_ID_2_3%=N/A
+%BF_SHELL_ID_2_4%=N/A
+%BF_SHELL_LOC_1_1%=N/A
+%BF_SHELL_LOC_1_2%=N/A
+%BF_SHELL_LOC_1_3%=N/A
+%BF_SHELL_LOC_1_4%=N/A
+%BF_SHELL_LOC_2_1%=N/A
+%BF_SHELL_LOC_2_2%=N/A
+%BF_SHELL_LOC_2_3%=N/A
+%BF_SHELL_LOC_2_4%=N/A
+%BF_SHELL_MATL_1_1%=N/A
+%BF_SHELL_MATL_1_2%=N/A
+%BF_SHELL_MATL_1_3%=N/A
+%BF_SHELL_MATL_1_4%=N/A
+%BF_SHELL_MATL_2_1%=N/A
+%BF_SHELL_MATL_2_2%=N/A
+%BF_SHELL_MATL_2_3%=N/A
+%BF_SHELL_MATL_2_4%=N/A
+%BF_SHELL_MIN_HUB_THK_1_1%=N/A
+%BF_SHELL_MIN_HUB_THK_1_2%=N/A
+%BF_SHELL_MIN_HUB_THK_1_3%=N/A
+%BF_SHELL_MIN_HUB_THK_1_4%=N/A
+%BF_SHELL_MIN_HUB_THK_2_1%=N/A
+%BF_SHELL_MIN_HUB_THK_2_2%=N/A
+%BF_SHELL_MIN_HUB_THK_2_3%=N/A
+%BF_SHELL_MIN_HUB_THK_2_4%=N/A
+%BF_SHELL_NO_1_1%=N/A
+%BF_SHELL_NO_1_2%=N/A
+%BF_SHELL_NO_1_3%=N/A
+%BF_SHELL_NO_1_4%=N/A
+%BF_SHELL_NO_2_1%=N/A
+%BF_SHELL_NO_2_2%=N/A
+%BF_SHELL_NO_2_3%=N/A
+%BF_SHELL_NO_2_4%=N/A
+%BF_SHELL_NUM_1_1%=
+%BF_SHELL_NUM_1_2%=
+%BF_SHELL_NUM_1_3%=
+%BF_SHELL_NUM_1_4%=
+%BF_SHELL_NUM_2_1%=
+%BF_SHELL_NUM_2_2%=
+%BF_SHELL_NUM_2_3%=
+%BF_SHELL_NUM_2_4%=
+%BF_SHELL_NUM_SIZE_1_1%=N/A
+%BF_SHELL_NUM_SIZE_1_2%=N/A
+%BF_SHELL_NUM_SIZE_1_3%=N/A
+%BF_SHELL_NUM_SIZE_1_4%=N/A
+%BF_SHELL_NUM_SIZE_2_1%=N/A
+%BF_SHELL_NUM_SIZE_2_2%=N/A
+%BF_SHELL_NUM_SIZE_2_3%=N/A
+%BF_SHELL_NUM_SIZE_2_4%=N/A
+%BF_SHELL_OD_1_1%=N/A
+%BF_SHELL_OD_1_2%=N/A
+%BF_SHELL_OD_1_3%=N/A
+%BF_SHELL_OD_1_4%=N/A
+%BF_SHELL_OD_2_1%=N/A
+%BF_SHELL_OD_2_2%=N/A
+%BF_SHELL_OD_2_3%=N/A
+%BF_SHELL_OD_2_4%=N/A
+%BF_SHELL_SIZE_1_1%=N/A
+%BF_SHELL_SIZE_1_2%=N/A
+%BF_SHELL_SIZE_1_3%=N/A
+%BF_SHELL_SIZE_1_4%=N/A
+%BF_SHELL_SIZE_2_1%=N/A
+%BF_SHELL_SIZE_2_2%=N/A
+%BF_SHELL_SIZE_2_3%=N/A
+%BF_SHELL_SIZE_2_4%=N/A
+%BF_SHELL_TYPE_1_1%=N/A
+%BF_SHELL_TYPE_1_2%=N/A
+%BF_SHELL_TYPE_1_3%=N/A
+%BF_SHELL_TYPE_1_4%=N/A
+%BF_SHELL_TYPE_2_1%=N/A
+%BF_SHELL_TYPE_2_2%=N/A
+%BF_SHELL_TYPE_2_3%=N/A
+%BF_SHELL_TYPE_2_4%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_1_1%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_1_2%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_1_3%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_1_4%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_2_1%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_2_2%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_2_3%=N/A
+%BF_SHELL_WASHER_ID_OD_THK_2_4%=N/A
+%BF_SHELL_WASHER_MATL_1_1%=N/A
+%BF_SHELL_WASHER_MATL_1_2%=N/A
+%BF_SHELL_WASHER_MATL_1_3%=N/A
+%BF_SHELL_WASHER_MATL_1_4%=N/A
+%BF_SHELL_WASHER_MATL_2_1%=N/A
+%BF_SHELL_WASHER_MATL_2_2%=N/A
+%BF_SHELL_WASHER_MATL_2_3%=N/A
+%BF_SHELL_WASHER_MATL_2_4%=N/A
+%COMMISSIONSSTATEPROVANDNO01%=
+%COMMISSIONSSTATEPROVANDNO02%=
+%CSFI_CONSTRUCTED_AT%=
+%CSFI_CONSTRUCTED_BY%=
+%DATAITEMSNOTINCLUDEDINSHOPINSPECTION%=
+%DATE01%=
+%DATE02%=
+%DATE03%=
+%DATE04%=
+%DATEOFINSPECTION%=
+%DRA_CRN1%=
+%DRA_CRN2%=
+%DRA_CRN3%=
+%DRA_DRAWNUM1%=
+%DRA_DRAWNUM2%=
+%DRA_DRAWNUM3%=
+%DRA_IDNO1%=
+%DRA_IDNO2%=
+%DRA_IDNO3%=
+%DRA_LINENO1%=
+%DRA_LINENO2%=
+%DRA_LINENO3%=
+%DRA_PARTMFG1%=
+%DRA_PARTMFG2%=
+%DRA_PARTMFG3%=
+%DRA_PARTNAME1%=
+%DRA_PARTNAME2%=
+%DRA_PARTNAME3%=
+%DRA_QUANTITY1%=
+%DRA_QUANTITY2%=
+%DRA_QUANTITY3%=
+%DRA_YEARBUILT1%=
+%DRA_YEARBUILT2%=
+%DRA_YEARBUILT3%=
+%FOR_ADDR_1%=
+%FOR_ADDR_2%=
+%FOR_ALL%=
+%FOR_CITY%=
+%FOR_COMPANY%=
+%FOR_COUNTRY%=
+%FOR_STATE%=
+%FOR_ZIP%=
+%HE_CAA1_1%=N/A
+%HE_CAA1_2%=N/A
+%HE_CAA2_1%=N/A
+%HE_CAA2_2%=N/A
+%HE_CATEGORYAEFF1_1%=
+%HE_CATEGORYAEFF1_2%=
+%HE_CATEGORYAEFF2_1%=N/A
+%HE_CATEGORYAEFF2_2%=N/A
+%HE_CATEGORYATYPE1_1%=
+%HE_CATEGORYATYPE1_2%=
+%HE_CATEGORYATYPE2_1%=N/A
+%HE_CATEGORYATYPE2_2%=N/A
+%HE_CATEGORYAWELD1_1%=
+%HE_CATEGORYAWELD1_2%=
+%HE_CATEGORYAWELD2_1%=N/A
+%HE_CATEGORYAWELD2_2%=N/A
+%HE_CONCAVE_1_1%=X
+%HE_CONCAVE_1_2%=X
+%HE_CONCAVE_2_1%=N/A
+%HE_CONCAVE_2_2%=N/A
+%HE_CONVEX_1_1%=
+%HE_CONVEX_1_2%=
+%HE_CONVEX_2_1%=N/A
+%HE_CONVEX_2_2%=N/A
+%HE_CORRALLOW1_1%=0&amp;#34;
+%HE_CORRALLOW1_2%=0&amp;#34;
+%HE_CORRALLOW2_1%=N/A
+%HE_CORRALLOW2_2%=N/A
+%HE_CRDIN1_1%=38&apos;34&quot;
+%HE_CRDIN1_2%=38&apos;34&quot;
+%HE_CRDIN2_1%=
+%HE_CRDIN2_2%=
+%HE_CRIN1_1%=420
+%HE_CRIN1_2%=420
+%HE_CRIN2_1%=
+%HE_CRIN2_2%=
+%HE_CRIN_ALL1_1%=35.38&amp;#34; IR
+%HE_CRIN_ALL1_2%=35.38&amp;#34; IR
+%HE_CRIN_ALL2_1%=N/A
+%HE_CRIN_ALL2_2%=N/A
+%HE_ER1_1%=N/A
+%HE_ER1_2%=N/A
+%HE_ER2_1%=N/A
+%HE_ER2_2%=N/A
+%HE_FD1_1%=N/A
+%HE_FD1_2%=N/A
+%HE_FD2_1%=N/A
+%HE_FD2_2%=N/A
+%HE_HRDIN1_1%=
+%HE_HRDIN1_2%=
+%HE_HRDIN2_1%=
+%HE_HRDIN2_2%=
+%HE_HRIN1_1%=
+%HE_HRIN1_2%=
+%HE_HRIN2_1%=
+%HE_HRIN2_2%=
+%HE_HRIN_ALL1_1%=N/A
+%HE_HRIN_ALL1_2%=N/A
+%HE_HRIN_ALL2_1%=N/A
+%HE_HRIN_ALL2_2%=N/A
+%HE_KR1_1%=2.16&amp;#34; IR
+%HE_KR1_2%=2.16&amp;#34; IR
+%HE_KR2_1%=N/A
+%HE_KR2_2%=N/A
+%HE_LOC1_1%=TOP
+%HE_LOC1_2%=BOTTOM
+%HE_LOC2_1%=N/A
+%HE_LOC2_2%=N/A
+%HE_MATL1_1%=SA-240 304
+%HE_MATL1_2%=SA-240 304
+%HE_MATL2_1%=
+%HE_MATL2_2%=
+%HE_MINTHK1_1%=0.235&amp;#34;
+%HE_MINTHK1_2%=0.2438&amp;#34;
+%HE_MINTHK2_1%=N/A
+%HE_MINTHK2_2%=N/A
+%HE_SHELLCOURSENO1_1%=
+%HE_SHELLCOURSENO1_2%=
+%HE_SHELLCOURSENO2_1%=N/A
+%HE_SHELLCOURSENO2_2%=N/A
+%HE_SP1_1%=Concave
+%HE_SP1_2%=Concave
+%HE_SP2_1%=N/A
+%HE_SP2_2%=N/A
+%HYDROSTATICTESTPRESS%=162 psi
+%INSPECTOR_SIGN01%=
+%INSPECTOR_SIGN02%=
+%INSPECTORCOMMISSIONSTATEPROVINCE01%=
+%INSPECTORCOMMISSIONSTATEPROVINCE02%=
+%INSPECTOREMPLOYER01%=
+%INSPECTOREMPLOYER02%=
+%INSPECTOREMPLOYERALL1%=
+%INSPECTOREMPLOYERLOCALE01%=
+%INSPECTOREMPLOYERLOCALE02%=
+%JI_BAR%=N/A
+%JI_CLOSURE%=N/A
+%JI_TYPE%=N/A
+%LOC_ADDR_1%=
+%LOC_ADDR_2%=
+%LOC_ALL%=
+%LOC_CITY%=
+%LOC_COMPANY%=
+%LOC_COUNTRY%=
+%LOC_STATE%=
+%LOC_ZIP%=
+%MANUFACTURER02%=
+%MANUFACTURER03%=
+%MAWP_EXTMAXF1%=N/A
+%MAWP_EXTMAXF2%=N/A
+%MAWP_EXTPSI1%=N/A
+%MAWP_EXTPSI2%=N/A
+%MAWP_INTMAXF1%=200 &amp;#176;F
+%MAWP_INTMAXF2%=N/A
+%MAWP_INTPSI1%=125 psi
+%MAWP_INTPSI2%=N/A
+%MAWP_MINMETALF1%=-20 &amp;#176;F
+%MAWP_MINMETALF2%=N/A
+%MAWP_MINMETALPSI1%=125 psi
+%MAWP_MINMETALPSI2%=N/A
+%MC_ADDR_1%=
+%MC_ADDR_2%=
+%MC_ALL%=
+%MC_CITY%=
+%MC_COMPANY%=
+%MC_COMPANY_HEADER%=
+%MC_COUNTRY%=
+%MC_CTY_ST%=
+%MC_STATE%=
+%MC_ZIP%=
+%NATL_BOARD_CERTIFICATE_NUMBER%=
+%NZ_CORRTHK1%=0&amp;#34;
+%NZ_CORRTHK10%=N/A
+%NZ_CORRTHK11%=N/A
+%NZ_CORRTHK12%=N/A
+%NZ_CORRTHK13%=N/A
+%NZ_CORRTHK14%=N/A
+%NZ_CORRTHK15%=N/A
+%NZ_CORRTHK16%=N/A
+%NZ_CORRTHK17%=N/A
+%NZ_CORRTHK18%=N/A
+%NZ_CORRTHK19%=N/A
+%NZ_CORRTHK2%=0&amp;#34;
+%NZ_CORRTHK20%=N/A
+%NZ_CORRTHK21%=N/A
+%NZ_CORRTHK22%=N/A
+%NZ_CORRTHK23%=N/A
+%NZ_CORRTHK24%=N/A
+%NZ_CORRTHK25%=N/A
+%NZ_CORRTHK26%=N/A
+%NZ_CORRTHK27%=N/A
+%NZ_CORRTHK28%=N/A
+%NZ_CORRTHK29%=N/A
+%NZ_CORRTHK3%=0&amp;#34;
+%NZ_CORRTHK30%=N/A
+%NZ_CORRTHK4%=0&amp;#34;
+%NZ_CORRTHK5%=0&amp;#34;
+%NZ_CORRTHK6%=0&amp;#34;
+%NZ_CORRTHK7%=0&amp;#34;
+%NZ_CORRTHK8%=N/A
+%NZ_CORRTHK9%=N/A
+%NZ_DIAM1%=NPS 2 
+%NZ_DIAM10%=N/A
+%NZ_DIAM11%=N/A
+%NZ_DIAM12%=N/A
+%NZ_DIAM13%=N/A
+%NZ_DIAM14%=N/A
+%NZ_DIAM15%=N/A
+%NZ_DIAM16%=N/A
+%NZ_DIAM17%=N/A
+%NZ_DIAM18%=N/A
+%NZ_DIAM19%=N/A
+%NZ_DIAM2%=NPS 2 
+%NZ_DIAM20%=N/A
+%NZ_DIAM21%=N/A
+%NZ_DIAM22%=N/A
+%NZ_DIAM23%=N/A
+%NZ_DIAM24%=N/A
+%NZ_DIAM25%=N/A
+%NZ_DIAM26%=N/A
+%NZ_DIAM27%=N/A
+%NZ_DIAM28%=N/A
+%NZ_DIAM29%=N/A
+%NZ_DIAM3%=NPS 0.375 
+%NZ_DIAM30%=N/A
+%NZ_DIAM4%=NPS 2 
+%NZ_DIAM5%=NPS 0.5 
+%NZ_DIAM6%=NPS 3 
+%NZ_DIAM7%=NPS 2 
+%NZ_DIAM8%=N/A
+%NZ_DIAM9%=N/A
+%NZ_HAF1%=N/A
+%NZ_HAF10%=N/A
+%NZ_HAF11%=N/A
+%NZ_HAF12%=N/A
+%NZ_HAF13%=N/A
+%NZ_HAF14%=N/A
+%NZ_HAF15%=N/A
+%NZ_HAF16%=N/A
+%NZ_HAF17%=N/A
+%NZ_HAF18%=N/A
+%NZ_HAF19%=N/A
+%NZ_HAF2%=N/A
+%NZ_HAF20%=N/A
+%NZ_HAF21%=N/A
+%NZ_HAF22%=N/A
+%NZ_HAF23%=N/A
+%NZ_HAF24%=N/A
+%NZ_HAF25%=N/A
+%NZ_HAF26%=N/A
+%NZ_HAF27%=N/A
+%NZ_HAF28%=N/A
+%NZ_HAF29%=N/A
+%NZ_HAF3%=N/A
+%NZ_HAF30%=N/A
+%NZ_HAF4%=N/A
+%NZ_HAF5%=N/A
+%NZ_HAF6%=N/A
+%NZ_HAF7%=N/A
+%NZ_HAF8%=N/A
+%NZ_HAF9%=N/A
+%NZ_HAN1%=
+%NZ_HAN10%=N/A
+%NZ_HAN11%=N/A
+%NZ_HAN12%=N/A
+%NZ_HAN13%=N/A
+%NZ_HAN14%=N/A
+%NZ_HAN15%=N/A
+%NZ_HAN16%=N/A
+%NZ_HAN17%=N/A
+%NZ_HAN18%=N/A
+%NZ_HAN19%=N/A
+%NZ_HAN2%=
+%NZ_HAN20%=N/A
+%NZ_HAN21%=N/A
+%NZ_HAN22%=N/A
+%NZ_HAN23%=N/A
+%NZ_HAN24%=N/A
+%NZ_HAN25%=N/A
+%NZ_HAN26%=N/A
+%NZ_HAN27%=N/A
+%NZ_HAN28%=N/A
+%NZ_HAN29%=N/A
+%NZ_HAN3%=
+%NZ_HAN30%=N/A
+%NZ_HAN4%=
+%NZ_HAN5%=
+%NZ_HAN6%=
+%NZ_HAN7%=
+%NZ_HAN8%=N/A
+%NZ_HAN9%=N/A
+%NZ_LOC1%=TOP DISH
+%NZ_LOC10%=N/A
+%NZ_LOC11%=N/A
+%NZ_LOC12%=N/A
+%NZ_LOC13%=N/A
+%NZ_LOC14%=N/A
+%NZ_LOC15%=N/A
+%NZ_LOC16%=N/A
+%NZ_LOC17%=N/A
+%NZ_LOC18%=N/A
+%NZ_LOC19%=N/A
+%NZ_LOC2%=SHELL 2
+%NZ_LOC20%=N/A
+%NZ_LOC21%=N/A
+%NZ_LOC22%=N/A
+%NZ_LOC23%=N/A
+%NZ_LOC24%=N/A
+%NZ_LOC25%=N/A
+%NZ_LOC26%=N/A
+%NZ_LOC27%=N/A
+%NZ_LOC28%=N/A
+%NZ_LOC29%=N/A
+%NZ_LOC3%=SHELL 2
+%NZ_LOC30%=N/A
+%NZ_LOC4%=SHELL 1
+%NZ_LOC5%=SHELL 1
+%NZ_LOC6%=SHELL 1
+%NZ_LOC7%=BOTTOM DISH
+%NZ_LOC8%=N/A
+%NZ_LOC9%=N/A
+%NZ_MATLF1%=N/A
+%NZ_MATLF10%=N/A
+%NZ_MATLF11%=N/A
+%NZ_MATLF12%=N/A
+%NZ_MATLF13%=N/A
+%NZ_MATLF14%=N/A
+%NZ_MATLF15%=N/A
+%NZ_MATLF16%=N/A
+%NZ_MATLF17%=N/A
+%NZ_MATLF18%=N/A
+%NZ_MATLF19%=N/A
+%NZ_MATLF2%=N/A
+%NZ_MATLF20%=N/A
+%NZ_MATLF21%=N/A
+%NZ_MATLF22%=N/A
+%NZ_MATLF23%=N/A
+%NZ_MATLF24%=N/A
+%NZ_MATLF25%=N/A
+%NZ_MATLF26%=N/A
+%NZ_MATLF27%=N/A
+%NZ_MATLF28%=N/A
+%NZ_MATLF29%=N/A
+%NZ_MATLF3%=N/A
+%NZ_MATLF30%=N/A
+%NZ_MATLF4%=N/A
+%NZ_MATLF5%=N/A
+%NZ_MATLF6%=N/A
+%NZ_MATLF7%=N/A
+%NZ_MATLF8%=N/A
+%NZ_MATLF9%=N/A
+%NZ_MATLN1%=SA-182 F304
+%NZ_MATLN10%=N/A
+%NZ_MATLN11%=N/A
+%NZ_MATLN12%=N/A
+%NZ_MATLN13%=N/A
+%NZ_MATLN14%=N/A
+%NZ_MATLN15%=N/A
+%NZ_MATLN16%=N/A
+%NZ_MATLN17%=N/A
+%NZ_MATLN18%=N/A
+%NZ_MATLN19%=N/A
+%NZ_MATLN2%=SA-182 F304
+%NZ_MATLN20%=N/A
+%NZ_MATLN21%=N/A
+%NZ_MATLN22%=N/A
+%NZ_MATLN23%=N/A
+%NZ_MATLN24%=N/A
+%NZ_MATLN25%=N/A
+%NZ_MATLN26%=N/A
+%NZ_MATLN27%=N/A
+%NZ_MATLN28%=N/A
+%NZ_MATLN29%=N/A
+%NZ_MATLN3%=SA-182 F304
+%NZ_MATLN30%=N/A
+%NZ_MATLN4%=SA-182 F304
+%NZ_MATLN5%=SA-182 F304
+%NZ_MATLN6%=SA-182 F304
+%NZ_MATLN7%=SA-182 F304
+%NZ_MATLN8%=N/A
+%NZ_MATLN9%=N/A
+%NZ_NOMTHK1%=0.313&amp;#34;
+%NZ_NOMTHK10%=N/A
+%NZ_NOMTHK11%=N/A
+%NZ_NOMTHK12%=N/A
+%NZ_NOMTHK13%=N/A
+%NZ_NOMTHK14%=N/A
+%NZ_NOMTHK15%=N/A
+%NZ_NOMTHK16%=N/A
+%NZ_NOMTHK17%=N/A
+%NZ_NOMTHK18%=N/A
+%NZ_NOMTHK19%=N/A
+%NZ_NOMTHK2%=0.313&amp;#34;
+%NZ_NOMTHK20%=N/A
+%NZ_NOMTHK21%=N/A
+%NZ_NOMTHK22%=N/A
+%NZ_NOMTHK23%=N/A
+%NZ_NOMTHK24%=N/A
+%NZ_NOMTHK25%=N/A
+%NZ_NOMTHK26%=N/A
+%NZ_NOMTHK27%=N/A
+%NZ_NOMTHK28%=N/A
+%NZ_NOMTHK29%=N/A
+%NZ_NOMTHK3%=0.103&amp;#34;
+%NZ_NOMTHK30%=N/A
+%NZ_NOMTHK4%=0.313&amp;#34;
+%NZ_NOMTHK5%=0.14&amp;#34;
+%NZ_NOMTHK6%=0.375&amp;#34;
+%NZ_NOMTHK7%=0.313&amp;#34;
+%NZ_NOMTHK8%=N/A
+%NZ_NOMTHK9%=N/A
+%NZ_NUM1%=1
+%NZ_NUM10%=N/A
+%NZ_NUM11%=N/A
+%NZ_NUM12%=N/A
+%NZ_NUM13%=N/A
+%NZ_NUM14%=N/A
+%NZ_NUM15%=N/A
+%NZ_NUM16%=N/A
+%NZ_NUM17%=N/A
+%NZ_NUM18%=N/A
+%NZ_NUM19%=N/A
+%NZ_NUM2%=1
+%NZ_NUM20%=N/A
+%NZ_NUM21%=N/A
+%NZ_NUM22%=N/A
+%NZ_NUM23%=N/A
+%NZ_NUM24%=N/A
+%NZ_NUM25%=N/A
+%NZ_NUM26%=N/A
+%NZ_NUM27%=N/A
+%NZ_NUM28%=N/A
+%NZ_NUM29%=N/A
+%NZ_NUM3%=1
+%NZ_NUM30%=N/A
+%NZ_NUM4%=2
+%NZ_NUM5%=2
+%NZ_NUM6%=1
+%NZ_NUM7%=1
+%NZ_NUM8%=N/A
+%NZ_NUM9%=N/A
+%NZ_PURPOSE1%=Nozzle #1 (A)
+%NZ_PURPOSE10%=N/A
+%NZ_PURPOSE11%=N/A
+%NZ_PURPOSE12%=N/A
+%NZ_PURPOSE13%=N/A
+%NZ_PURPOSE14%=N/A
+%NZ_PURPOSE15%=N/A
+%NZ_PURPOSE16%=N/A
+%NZ_PURPOSE17%=N/A
+%NZ_PURPOSE18%=N/A
+%NZ_PURPOSE19%=N/A
+%NZ_PURPOSE2%=Nozzle #2 (B)
+%NZ_PURPOSE20%=N/A
+%NZ_PURPOSE21%=N/A
+%NZ_PURPOSE22%=N/A
+%NZ_PURPOSE23%=N/A
+%NZ_PURPOSE24%=N/A
+%NZ_PURPOSE25%=N/A
+%NZ_PURPOSE26%=N/A
+%NZ_PURPOSE27%=N/A
+%NZ_PURPOSE28%=N/A
+%NZ_PURPOSE29%=N/A
+%NZ_PURPOSE3%=Nozzle #3 (C)
+%NZ_PURPOSE30%=N/A
+%NZ_PURPOSE4%=nozzle 
+%NZ_PURPOSE5%=nozzle 
+%NZ_PURPOSE6%=Nozzle #9 (I)
+%NZ_PURPOSE7%=Nozzle #5 (E)
+%NZ_PURPOSE8%=N/A
+%NZ_PURPOSE9%=N/A
+%NZ_RMATL1%=N/A
+%NZ_RMATL10%=N/A
+%NZ_RMATL11%=N/A
+%NZ_RMATL12%=N/A
+%NZ_RMATL13%=N/A
+%NZ_RMATL14%=N/A
+%NZ_RMATL15%=N/A
+%NZ_RMATL16%=N/A
+%NZ_RMATL17%=N/A
+%NZ_RMATL18%=N/A
+%NZ_RMATL19%=N/A
+%NZ_RMATL2%=N/A
+%NZ_RMATL20%=N/A
+%NZ_RMATL21%=N/A
+%NZ_RMATL22%=N/A
+%NZ_RMATL23%=N/A
+%NZ_RMATL24%=N/A
+%NZ_RMATL25%=N/A
+%NZ_RMATL26%=N/A
+%NZ_RMATL27%=N/A
+%NZ_RMATL28%=N/A
+%NZ_RMATL29%=N/A
+%NZ_RMATL3%=N/A
+%NZ_RMATL30%=N/A
+%NZ_RMATL4%=N/A
+%NZ_RMATL5%=N/A
+%NZ_RMATL6%=N/A
+%NZ_RMATL7%=N/A
+%NZ_RMATL8%=N/A
+%NZ_RMATL9%=N/A
+%NZ_TYPE1%=N/A
+%NZ_TYPE10%=N/A
+%NZ_TYPE11%=N/A
+%NZ_TYPE12%=N/A
+%NZ_TYPE13%=N/A
+%NZ_TYPE14%=N/A
+%NZ_TYPE15%=N/A
+%NZ_TYPE16%=N/A
+%NZ_TYPE17%=N/A
+%NZ_TYPE18%=N/A
+%NZ_TYPE19%=N/A
+%NZ_TYPE2%=N/A
+%NZ_TYPE20%=N/A
+%NZ_TYPE21%=N/A
+%NZ_TYPE22%=N/A
+%NZ_TYPE23%=N/A
+%NZ_TYPE24%=N/A
+%NZ_TYPE25%=N/A
+%NZ_TYPE26%=N/A
+%NZ_TYPE27%=N/A
+%NZ_TYPE28%=N/A
+%NZ_TYPE29%=N/A
+%NZ_TYPE3%=N/A
+%NZ_TYPE30%=N/A
+%NZ_TYPE4%=N/A
+%NZ_TYPE5%=N/A
+%NZ_TYPE6%=N/A
+%NZ_TYPE7%=N/A
+%NZ_TYPE8%=N/A
+%NZ_TYPE9%=N/A
+%PAGE_1_NO%=1
+%PAGE_1_OF%=2
+%PAGE_2_NO%=2
+%PAGE_2_OF%=2
+%PAGE_3_NO%=3
+%PAGE_3_OF%=2
+%PDR_PDF_1%=
+%PDR_PDF_2%=
+%REM_1%=
+%REM_2%=Shop test performed in the vertical position.
+%REM_PDF_1%=Shop&amp;nbsp;test&amp;nbsp;performed&amp;nbsp;in&amp;nbsp;the&amp;nbsp;vertical&amp;nbsp;position.
+%REM_PDF_10%=
+%REM_PDF_11%=
+%REM_PDF_2%=
+%REM_PDF_3%=
+%REM_PDF_4%=
+%REM_PDF_5%=
+%REM_PDF_6%=
+%REM_PDF_7%=
+%REM_PDF_8%=
+%REM_PDF_9%=
+%REMOVABLEBOLTS1_1%=
+%REMOVABLEBOLTS2_1%=
+%REP_SIGN01%=
+%REP_SIGN02%=
+%SH_DIAMID_ALL1%=2&apos;-11.625&amp;#34;
+%SH_DIAMID_ALL2%=
+%SH_DIAMID_DIN1%=625&quot;
+%SH_DIAMID_DIN2%=
+%SH_DIAMID_FT1%=2
+%SH_DIAMID_FT2%=
+%SH_DIAMID_FT_FM1%=2&apos;
+%SH_DIAMID_FT_FM2%=
+%SH_DIAMID_IN1%=&apos;11
+%SH_DIAMID_IN2%=
+%SH_DIAMID_IN_FM1%=11.625&amp;#34;
+%SH_DIAMID_IN_FM2%=
+%SH_LENGTH_ALL1%=10&apos;-0&amp;#34;
+%SH_LENGTH_ALL2%=
+%SH_LENGTH_DIN1%=0
+%SH_LENGTH_DIN2%=
+%SH_LENGTH_FT1%=10
+%SH_LENGTH_FT2%=
+%SH_LENGTH_FT_FM1%=10&apos;
+%SH_LENGTH_FT_FM2%=
+%SH_LENGTH_IN1%=&apos;0
+%SH_LENGTH_IN2%=
+%SH_LENGTH_IN_FM1%=0&amp;#34;
+%SH_LENGTH_IN_FM2%=
+%SH_NO1%=2
+%SH_NO2%=
+%SH_TUBEDIM_ALL%=
+%SH_TUBEDIM_DIN1%=
+%SH_TUBEDIM_DIN2%=
+%SH_TUBEDIM_IN1%=
+%SH_TUBEDIM_IN2%=
+%SHO_CORRALLOW1_1%=0&amp;#34;
+%SHO_CORRALLOW1_2%=N/A
+%SHO_CORRALLOW1_3%=N/A
+%SHO_CORRALLOW2_1%=N/A
+%SHO_CORRALLOW2_2%=N/A
+%SHO_CORRALLOW2_3%=N/A
+%SHO_COURSENO1_1%=2
+%SHO_COURSENO1_2%=N/A
+%SHO_COURSENO1_3%=N/A
+%SHO_COURSENO2_1%=N/A
+%SHO_COURSENO2_2%=N/A
+%SHO_COURSENO2_3%=N/A
+%SHO_DIAM_VAL_ALL1_1%=36&amp;#34; OD
+%SHO_DIAM_VAL_ALL1_2%=N/A
+%SHO_DIAM_VAL_ALL1_3%=N/A
+%SHO_DIAM_VAL_ALL2_1%=N/A
+%SHO_DIAM_VAL_ALL2_2%=N/A
+%SHO_DIAM_VAL_ALL2_3%=N/A
+%SHO_DIAMID_ALL1_1%=36&amp;#34; OD
+%SHO_DIAMID_ALL1_2%=N/A
+%SHO_DIAMID_ALL1_3%=N/A
+%SHO_DIAMID_ALL2_1%=N/A
+%SHO_DIAMID_ALL2_2%=N/A
+%SHO_DIAMID_ALL2_3%=N/A
+%SHO_DIAMID_DIN1_1%=0
+%SHO_DIAMID_DIN1_2%=
+%SHO_DIAMID_DIN1_3%=
+%SHO_DIAMID_DIN2_1%=
+%SHO_DIAMID_DIN2_2%=
+%SHO_DIAMID_DIN2_3%=
+%SHO_DIAMID_IN1_1%=466
+%SHO_DIAMID_IN1_2%=
+%SHO_DIAMID_IN1_3%=
+%SHO_DIAMID_IN2_1%=
+%SHO_DIAMID_IN2_2%=
+%SHO_DIAMID_IN2_3%=
+%SHO_DIAMID_ODID1_1%=OD
+%SHO_DIAMID_ODID1_2%=
+%SHO_DIAMID_ODID1_3%=
+%SHO_DIAMID_ODID2_1%=
+%SHO_DIAMID_ODID2_2%=
+%SHO_DIAMID_ODID2_3%=
+%SHO_GIRTHEFF1_1%=70%
+%SHO_GIRTHEFF1_2%=N/A
+%SHO_GIRTHEFF1_3%=N/A
+%SHO_GIRTHEFF2_1%=N/A
+%SHO_GIRTHEFF2_2%=N/A
+%SHO_GIRTHEFF2_3%=N/A
+%SHO_GIRTHRT1_1%=None
+%SHO_GIRTHRT1_2%=N/A
+%SHO_GIRTHRT1_3%=N/A
+%SHO_GIRTHRT2_1%=N/A
+%SHO_GIRTHRT2_2%=N/A
+%SHO_GIRTHRT2_3%=N/A
+%SHO_GIRTHTYPE1_1%=1
+%SHO_GIRTHTYPE1_2%=N/A
+%SHO_GIRTHTYPE1_3%=N/A
+%SHO_GIRTHTYPE2_1%=N/A
+%SHO_GIRTHTYPE2_2%=N/A
+%SHO_GIRTHTYPE2_3%=N/A
+%SHO_HTTEMP1_1%=
+%SHO_HTTEMP1_2%=N/A
+%SHO_HTTEMP1_3%=N/A
+%SHO_HTTEMP2_1%=N/A
+%SHO_HTTEMP2_2%=N/A
+%SHO_HTTEMP2_3%=N/A
+%SHO_HTTIME1_1%=
+%SHO_HTTIME1_2%=N/A
+%SHO_HTTIME1_3%=N/A
+%SHO_HTTIME2_1%=N/A
+%SHO_HTTIME2_2%=N/A
+%SHO_HTTIME2_3%=N/A
+%SHO_LEN_FULL_ALL1%=10&apos;-0&amp;#34;
+%SHO_LEN_FULL_ALL2%=
+%SHO_LENGTH_ALL1_1%=5&apos;-0&amp;#34;
+%SHO_LENGTH_ALL1_2%=N/A
+%SHO_LENGTH_ALL1_3%=N/A
+%SHO_LENGTH_ALL2_1%=N/A
+%SHO_LENGTH_ALL2_2%=N/A
+%SHO_LENGTH_ALL2_3%=N/A
+%SHO_LENGTH_DIN1_1%=0
+%SHO_LENGTH_DIN1_2%=
+%SHO_LENGTH_DIN1_3%=
+%SHO_LENGTH_DIN2_1%=
+%SHO_LENGTH_DIN2_2%=
+%SHO_LENGTH_DIN2_3%=
+%SHO_LENGTH_FT1_1%=5
+%SHO_LENGTH_FT1_2%=
+%SHO_LENGTH_FT1_3%=
+%SHO_LENGTH_FT2_1%=
+%SHO_LENGTH_FT2_2%=
+%SHO_LENGTH_FT2_3%=
+%SHO_LENGTH_IN1_1%=&apos;0
+%SHO_LENGTH_IN1_2%=
+%SHO_LENGTH_IN1_3%=
+%SHO_LENGTH_IN2_1%=
+%SHO_LENGTH_IN2_2%=
+%SHO_LENGTH_IN2_3%=
+%SHO_LONGEFF1_1%=70%
+%SHO_LONGEFF1_2%=N/A
+%SHO_LONGEFF1_3%=N/A
+%SHO_LONGEFF2_1%=N/A
+%SHO_LONGEFF2_2%=N/A
+%SHO_LONGEFF2_3%=N/A
+%SHO_LONGRT1_1%=None
+%SHO_LONGRT1_2%=N/A
+%SHO_LONGRT1_3%=N/A
+%SHO_LONGRT2_1%=N/A
+%SHO_LONGRT2_2%=N/A
+%SHO_LONGRT2_3%=N/A
+%SHO_LONGTYPE1_1%=1
+%SHO_LONGTYPE1_2%=N/A
+%SHO_LONGTYPE1_3%=N/A
+%SHO_LONGTYPE2_1%=N/A
+%SHO_LONGTYPE2_2%=N/A
+%SHO_LONGTYPE2_3%=N/A
+%SHO_MATL1_1%=SA-240 304
+%SHO_MATL1_2%=N/A
+%SHO_MATL1_3%=N/A
+%SHO_MATL2_1%=N/A
+%SHO_MATL2_2%=N/A
+%SHO_MATL2_3%=N/A
+%SHO_NOMTHK1_1%=0.1875&amp;#34;
+%SHO_NOMTHK1_2%=N/A
+%SHO_NOMTHK1_3%=N/A
+%SHO_NOMTHK2_1%=N/A
+%SHO_NOMTHK2_2%=N/A
+%SHO_NOMTHK2_3%=N/A
+%SUP_ATTACHED%=SHELL 1 - Welded
+%SUP_CERT_AUTH_TYPE%=
+%SUP_COMMISSIONSSTATEPROVANDNO01%=
+%SUP_DATE01%=
+%SUP_DATE02%=
+%SUP_FOR_ALL%=
+%SUP_INSPECTOR_SIGN01%=
+%SUP_ITEM_NUM1%=
+%SUP_ITEM_NUM10%=
+%SUP_ITEM_NUM11%=
+%SUP_ITEM_NUM12%=
+%SUP_ITEM_NUM13%=
+%SUP_ITEM_NUM14%=
+%SUP_ITEM_NUM15%=
+%SUP_ITEM_NUM16%=
+%SUP_ITEM_NUM17%=
+%SUP_ITEM_NUM18%=
+%SUP_ITEM_NUM19%=
+%SUP_ITEM_NUM2%=
+%SUP_ITEM_NUM20%=
+%SUP_ITEM_NUM21%=
+%SUP_ITEM_NUM22%=
+%SUP_ITEM_NUM23%=
+%SUP_ITEM_NUM24%=
+%SUP_ITEM_NUM25%=
+%SUP_ITEM_NUM26%=
+%SUP_ITEM_NUM27%=
+%SUP_ITEM_NUM28%=
+%SUP_ITEM_NUM29%=
+%SUP_ITEM_NUM3%=
+%SUP_ITEM_NUM30%=
+%SUP_ITEM_NUM31%=
+%SUP_ITEM_NUM32%=
+%SUP_ITEM_NUM33%=
+%SUP_ITEM_NUM34%=
+%SUP_ITEM_NUM35%=
+%SUP_ITEM_NUM36%=
+%SUP_ITEM_NUM37%=
+%SUP_ITEM_NUM38%=
+%SUP_ITEM_NUM39%=
+%SUP_ITEM_NUM4%=
+%SUP_ITEM_NUM40%=
+%SUP_ITEM_NUM41%=
+%SUP_ITEM_NUM42%=
+%SUP_ITEM_NUM43%=
+%SUP_ITEM_NUM44%=
+%SUP_ITEM_NUM45%=
+%SUP_ITEM_NUM46%=
+%SUP_ITEM_NUM47%=
+%SUP_ITEM_NUM48%=
+%SUP_ITEM_NUM49%=
+%SUP_ITEM_NUM5%=
+%SUP_ITEM_NUM50%=
+%SUP_ITEM_NUM6%=
+%SUP_ITEM_NUM7%=
+%SUP_ITEM_NUM8%=
+%SUP_ITEM_NUM9%=
+%SUP_ITEM_NUM_TITLE%=Data Report Item Number
+%SUP_ITEM_REM1%=
+%SUP_ITEM_REM10%=
+%SUP_ITEM_REM11%=
+%SUP_ITEM_REM12%=
+%SUP_ITEM_REM13%=
+%SUP_ITEM_REM14%=
+%SUP_ITEM_REM15%=
+%SUP_ITEM_REM16%=
+%SUP_ITEM_REM17%=
+%SUP_ITEM_REM18%=
+%SUP_ITEM_REM19%=
+%SUP_ITEM_REM2%=
+%SUP_ITEM_REM20%=
+%SUP_ITEM_REM21%=
+%SUP_ITEM_REM22%=
+%SUP_ITEM_REM23%=
+%SUP_ITEM_REM24%=
+%SUP_ITEM_REM25%=
+%SUP_ITEM_REM26%=
+%SUP_ITEM_REM27%=
+%SUP_ITEM_REM28%=
+%SUP_ITEM_REM29%=
+%SUP_ITEM_REM3%=
+%SUP_ITEM_REM30%=
+%SUP_ITEM_REM31%=
+%SUP_ITEM_REM32%=
+%SUP_ITEM_REM33%=
+%SUP_ITEM_REM34%=
+%SUP_ITEM_REM35%=
+%SUP_ITEM_REM36%=
+%SUP_ITEM_REM37%=
+%SUP_ITEM_REM38%=
+%SUP_ITEM_REM39%=
+%SUP_ITEM_REM4%=
+%SUP_ITEM_REM40%=
+%SUP_ITEM_REM41%=
+%SUP_ITEM_REM42%=
+%SUP_ITEM_REM43%=
+%SUP_ITEM_REM44%=
+%SUP_ITEM_REM45%=
+%SUP_ITEM_REM46%=
+%SUP_ITEM_REM47%=
+%SUP_ITEM_REM48%=
+%SUP_ITEM_REM49%=
+%SUP_ITEM_REM5%=
+%SUP_ITEM_REM50%=
+%SUP_ITEM_REM6%=
+%SUP_ITEM_REM7%=
+%SUP_ITEM_REM8%=
+%SUP_ITEM_REM9%=
+%SUP_ITEM_REM_TITLE%=Remarks
+%SUP_LEGS%=3
+%SUP_LOC_ALL%=
+%SUP_LUGS%=
+%SUP_MANUFACTURER02%=
+%SUP_MC_ALL%=
+%SUP_NOZZLES_TITLE%=Additional Nozzles:
+%SUP_NZ_CORRTHK1%=N/A
+%SUP_NZ_CORRTHK10%=N/A
+%SUP_NZ_CORRTHK11%=N/A
+%SUP_NZ_CORRTHK12%=N/A
+%SUP_NZ_CORRTHK13%=N/A
+%SUP_NZ_CORRTHK14%=N/A
+%SUP_NZ_CORRTHK15%=N/A
+%SUP_NZ_CORRTHK16%=N/A
+%SUP_NZ_CORRTHK17%=N/A
+%SUP_NZ_CORRTHK18%=N/A
+%SUP_NZ_CORRTHK19%=N/A
+%SUP_NZ_CORRTHK2%=N/A
+%SUP_NZ_CORRTHK20%=N/A
+%SUP_NZ_CORRTHK21%=N/A
+%SUP_NZ_CORRTHK22%=N/A
+%SUP_NZ_CORRTHK23%=N/A
+%SUP_NZ_CORRTHK24%=N/A
+%SUP_NZ_CORRTHK25%=N/A
+%SUP_NZ_CORRTHK26%=N/A
+%SUP_NZ_CORRTHK27%=N/A
+%SUP_NZ_CORRTHK28%=N/A
+%SUP_NZ_CORRTHK29%=N/A
+%SUP_NZ_CORRTHK3%=N/A
+%SUP_NZ_CORRTHK30%=N/A
+%SUP_NZ_CORRTHK31%=
+%SUP_NZ_CORRTHK32%=
+%SUP_NZ_CORRTHK33%=
+%SUP_NZ_CORRTHK34%=
+%SUP_NZ_CORRTHK35%=
+%SUP_NZ_CORRTHK36%=
+%SUP_NZ_CORRTHK37%=
+%SUP_NZ_CORRTHK38%=
+%SUP_NZ_CORRTHK39%=
+%SUP_NZ_CORRTHK4%=N/A
+%SUP_NZ_CORRTHK40%=
+%SUP_NZ_CORRTHK41%=
+%SUP_NZ_CORRTHK42%=
+%SUP_NZ_CORRTHK43%=
+%SUP_NZ_CORRTHK44%=
+%SUP_NZ_CORRTHK45%=
+%SUP_NZ_CORRTHK46%=
+%SUP_NZ_CORRTHK47%=
+%SUP_NZ_CORRTHK48%=
+%SUP_NZ_CORRTHK49%=
+%SUP_NZ_CORRTHK5%=N/A
+%SUP_NZ_CORRTHK50%=
+%SUP_NZ_CORRTHK6%=N/A
+%SUP_NZ_CORRTHK7%=N/A
+%SUP_NZ_CORRTHK8%=N/A
+%SUP_NZ_CORRTHK9%=N/A
+%SUP_NZ_DIAM1%=N/A
+%SUP_NZ_DIAM10%=N/A
+%SUP_NZ_DIAM11%=N/A
+%SUP_NZ_DIAM12%=N/A
+%SUP_NZ_DIAM13%=N/A
+%SUP_NZ_DIAM14%=N/A
+%SUP_NZ_DIAM15%=N/A
+%SUP_NZ_DIAM16%=N/A
+%SUP_NZ_DIAM17%=N/A
+%SUP_NZ_DIAM18%=N/A
+%SUP_NZ_DIAM19%=N/A
+%SUP_NZ_DIAM2%=N/A
+%SUP_NZ_DIAM20%=N/A
+%SUP_NZ_DIAM21%=N/A
+%SUP_NZ_DIAM22%=N/A
+%SUP_NZ_DIAM23%=N/A
+%SUP_NZ_DIAM24%=N/A
+%SUP_NZ_DIAM25%=N/A
+%SUP_NZ_DIAM26%=N/A
+%SUP_NZ_DIAM27%=N/A
+%SUP_NZ_DIAM28%=N/A
+%SUP_NZ_DIAM29%=N/A
+%SUP_NZ_DIAM3%=N/A
+%SUP_NZ_DIAM30%=N/A
+%SUP_NZ_DIAM31%=
+%SUP_NZ_DIAM32%=
+%SUP_NZ_DIAM33%=
+%SUP_NZ_DIAM34%=
+%SUP_NZ_DIAM35%=
+%SUP_NZ_DIAM36%=
+%SUP_NZ_DIAM37%=
+%SUP_NZ_DIAM38%=
+%SUP_NZ_DIAM39%=
+%SUP_NZ_DIAM4%=N/A
+%SUP_NZ_DIAM40%=
+%SUP_NZ_DIAM41%=
+%SUP_NZ_DIAM42%=
+%SUP_NZ_DIAM43%=
+%SUP_NZ_DIAM44%=
+%SUP_NZ_DIAM45%=
+%SUP_NZ_DIAM46%=
+%SUP_NZ_DIAM47%=
+%SUP_NZ_DIAM48%=
+%SUP_NZ_DIAM49%=
+%SUP_NZ_DIAM5%=N/A
+%SUP_NZ_DIAM50%=
+%SUP_NZ_DIAM6%=N/A
+%SUP_NZ_DIAM7%=N/A
+%SUP_NZ_DIAM8%=N/A
+%SUP_NZ_DIAM9%=N/A
+%SUP_NZ_HAF1%=N/A
+%SUP_NZ_HAF10%=N/A
+%SUP_NZ_HAF11%=N/A
+%SUP_NZ_HAF12%=N/A
+%SUP_NZ_HAF13%=N/A
+%SUP_NZ_HAF14%=N/A
+%SUP_NZ_HAF15%=N/A
+%SUP_NZ_HAF16%=N/A
+%SUP_NZ_HAF17%=N/A
+%SUP_NZ_HAF18%=N/A
+%SUP_NZ_HAF19%=N/A
+%SUP_NZ_HAF2%=N/A
+%SUP_NZ_HAF20%=N/A
+%SUP_NZ_HAF21%=N/A
+%SUP_NZ_HAF22%=N/A
+%SUP_NZ_HAF23%=N/A
+%SUP_NZ_HAF24%=N/A
+%SUP_NZ_HAF25%=N/A
+%SUP_NZ_HAF26%=N/A
+%SUP_NZ_HAF27%=N/A
+%SUP_NZ_HAF28%=N/A
+%SUP_NZ_HAF29%=N/A
+%SUP_NZ_HAF3%=N/A
+%SUP_NZ_HAF30%=N/A
+%SUP_NZ_HAF31%=
+%SUP_NZ_HAF32%=
+%SUP_NZ_HAF33%=
+%SUP_NZ_HAF34%=
+%SUP_NZ_HAF35%=
+%SUP_NZ_HAF36%=
+%SUP_NZ_HAF37%=
+%SUP_NZ_HAF38%=
+%SUP_NZ_HAF39%=
+%SUP_NZ_HAF4%=N/A
+%SUP_NZ_HAF40%=
+%SUP_NZ_HAF41%=
+%SUP_NZ_HAF42%=
+%SUP_NZ_HAF43%=
+%SUP_NZ_HAF44%=
+%SUP_NZ_HAF45%=
+%SUP_NZ_HAF46%=
+%SUP_NZ_HAF47%=
+%SUP_NZ_HAF48%=
+%SUP_NZ_HAF49%=
+%SUP_NZ_HAF5%=N/A
+%SUP_NZ_HAF50%=
+%SUP_NZ_HAF6%=N/A
+%SUP_NZ_HAF7%=N/A
+%SUP_NZ_HAF8%=N/A
+%SUP_NZ_HAF9%=N/A
+%SUP_NZ_HAN1%=N/A
+%SUP_NZ_HAN10%=N/A
+%SUP_NZ_HAN11%=N/A
+%SUP_NZ_HAN12%=N/A
+%SUP_NZ_HAN13%=N/A
+%SUP_NZ_HAN14%=N/A
+%SUP_NZ_HAN15%=N/A
+%SUP_NZ_HAN16%=N/A
+%SUP_NZ_HAN17%=N/A
+%SUP_NZ_HAN18%=N/A
+%SUP_NZ_HAN19%=N/A
+%SUP_NZ_HAN2%=N/A
+%SUP_NZ_HAN20%=N/A
+%SUP_NZ_HAN21%=N/A
+%SUP_NZ_HAN22%=N/A
+%SUP_NZ_HAN23%=N/A
+%SUP_NZ_HAN24%=N/A
+%SUP_NZ_HAN25%=N/A
+%SUP_NZ_HAN26%=N/A
+%SUP_NZ_HAN27%=N/A
+%SUP_NZ_HAN28%=N/A
+%SUP_NZ_HAN29%=N/A
+%SUP_NZ_HAN3%=N/A
+%SUP_NZ_HAN30%=N/A
+%SUP_NZ_HAN31%=
+%SUP_NZ_HAN32%=
+%SUP_NZ_HAN33%=
+%SUP_NZ_HAN34%=
+%SUP_NZ_HAN35%=
+%SUP_NZ_HAN36%=
+%SUP_NZ_HAN37%=
+%SUP_NZ_HAN38%=
+%SUP_NZ_HAN39%=
+%SUP_NZ_HAN4%=N/A
+%SUP_NZ_HAN40%=
+%SUP_NZ_HAN41%=
+%SUP_NZ_HAN42%=
+%SUP_NZ_HAN43%=
+%SUP_NZ_HAN44%=
+%SUP_NZ_HAN45%=
+%SUP_NZ_HAN46%=
+%SUP_NZ_HAN47%=
+%SUP_NZ_HAN48%=
+%SUP_NZ_HAN49%=
+%SUP_NZ_HAN5%=N/A
+%SUP_NZ_HAN50%=
+%SUP_NZ_HAN6%=N/A
+%SUP_NZ_HAN7%=N/A
+%SUP_NZ_HAN8%=N/A
+%SUP_NZ_HAN9%=N/A
+%SUP_NZ_LOC1%=N/A
+%SUP_NZ_LOC10%=N/A
+%SUP_NZ_LOC11%=N/A
+%SUP_NZ_LOC12%=N/A
+%SUP_NZ_LOC13%=N/A
+%SUP_NZ_LOC14%=N/A
+%SUP_NZ_LOC15%=N/A
+%SUP_NZ_LOC16%=N/A
+%SUP_NZ_LOC17%=N/A
+%SUP_NZ_LOC18%=N/A
+%SUP_NZ_LOC19%=N/A
+%SUP_NZ_LOC2%=N/A
+%SUP_NZ_LOC20%=N/A
+%SUP_NZ_LOC21%=N/A
+%SUP_NZ_LOC22%=N/A
+%SUP_NZ_LOC23%=N/A
+%SUP_NZ_LOC24%=N/A
+%SUP_NZ_LOC25%=N/A
+%SUP_NZ_LOC26%=N/A
+%SUP_NZ_LOC27%=N/A
+%SUP_NZ_LOC28%=N/A
+%SUP_NZ_LOC29%=N/A
+%SUP_NZ_LOC3%=N/A
+%SUP_NZ_LOC30%=N/A
+%SUP_NZ_LOC31%=
+%SUP_NZ_LOC32%=
+%SUP_NZ_LOC33%=
+%SUP_NZ_LOC34%=
+%SUP_NZ_LOC35%=
+%SUP_NZ_LOC36%=
+%SUP_NZ_LOC37%=
+%SUP_NZ_LOC38%=
+%SUP_NZ_LOC39%=
+%SUP_NZ_LOC4%=N/A
+%SUP_NZ_LOC40%=
+%SUP_NZ_LOC41%=
+%SUP_NZ_LOC42%=
+%SUP_NZ_LOC43%=
+%SUP_NZ_LOC44%=
+%SUP_NZ_LOC45%=
+%SUP_NZ_LOC46%=
+%SUP_NZ_LOC47%=
+%SUP_NZ_LOC48%=
+%SUP_NZ_LOC49%=
+%SUP_NZ_LOC5%=N/A
+%SUP_NZ_LOC50%=
+%SUP_NZ_LOC6%=N/A
+%SUP_NZ_LOC7%=N/A
+%SUP_NZ_LOC8%=N/A
+%SUP_NZ_LOC9%=N/A
+%SUP_NZ_MATLF1%=N/A
+%SUP_NZ_MATLF10%=N/A
+%SUP_NZ_MATLF11%=N/A
+%SUP_NZ_MATLF12%=N/A
+%SUP_NZ_MATLF13%=N/A
+%SUP_NZ_MATLF14%=N/A
+%SUP_NZ_MATLF15%=N/A
+%SUP_NZ_MATLF16%=N/A
+%SUP_NZ_MATLF17%=N/A
+%SUP_NZ_MATLF18%=N/A
+%SUP_NZ_MATLF19%=N/A
+%SUP_NZ_MATLF2%=N/A
+%SUP_NZ_MATLF20%=N/A
+%SUP_NZ_MATLF21%=N/A
+%SUP_NZ_MATLF22%=N/A
+%SUP_NZ_MATLF23%=N/A
+%SUP_NZ_MATLF24%=N/A
+%SUP_NZ_MATLF25%=N/A
+%SUP_NZ_MATLF26%=N/A
+%SUP_NZ_MATLF27%=N/A
+%SUP_NZ_MATLF28%=N/A
+%SUP_NZ_MATLF29%=N/A
+%SUP_NZ_MATLF3%=N/A
+%SUP_NZ_MATLF30%=N/A
+%SUP_NZ_MATLF31%=
+%SUP_NZ_MATLF32%=
+%SUP_NZ_MATLF33%=
+%SUP_NZ_MATLF34%=
+%SUP_NZ_MATLF35%=
+%SUP_NZ_MATLF36%=
+%SUP_NZ_MATLF37%=
+%SUP_NZ_MATLF38%=
+%SUP_NZ_MATLF39%=
+%SUP_NZ_MATLF4%=N/A
+%SUP_NZ_MATLF40%=
+%SUP_NZ_MATLF41%=
+%SUP_NZ_MATLF42%=
+%SUP_NZ_MATLF43%=
+%SUP_NZ_MATLF44%=
+%SUP_NZ_MATLF45%=
+%SUP_NZ_MATLF46%=
+%SUP_NZ_MATLF47%=
+%SUP_NZ_MATLF48%=
+%SUP_NZ_MATLF49%=
+%SUP_NZ_MATLF5%=N/A
+%SUP_NZ_MATLF50%=
+%SUP_NZ_MATLF6%=N/A
+%SUP_NZ_MATLF7%=N/A
+%SUP_NZ_MATLF8%=N/A
+%SUP_NZ_MATLF9%=N/A
+%SUP_NZ_MATLN1%=N/A
+%SUP_NZ_MATLN10%=N/A
+%SUP_NZ_MATLN11%=N/A
+%SUP_NZ_MATLN12%=N/A
+%SUP_NZ_MATLN13%=N/A
+%SUP_NZ_MATLN14%=N/A
+%SUP_NZ_MATLN15%=N/A
+%SUP_NZ_MATLN16%=N/A
+%SUP_NZ_MATLN17%=N/A
+%SUP_NZ_MATLN18%=N/A
+%SUP_NZ_MATLN19%=N/A
+%SUP_NZ_MATLN2%=N/A
+%SUP_NZ_MATLN20%=N/A
+%SUP_NZ_MATLN21%=N/A
+%SUP_NZ_MATLN22%=N/A
+%SUP_NZ_MATLN23%=N/A
+%SUP_NZ_MATLN24%=N/A
+%SUP_NZ_MATLN25%=N/A
+%SUP_NZ_MATLN26%=N/A
+%SUP_NZ_MATLN27%=N/A
+%SUP_NZ_MATLN28%=N/A
+%SUP_NZ_MATLN29%=N/A
+%SUP_NZ_MATLN3%=N/A
+%SUP_NZ_MATLN30%=N/A
+%SUP_NZ_MATLN31%=
+%SUP_NZ_MATLN32%=
+%SUP_NZ_MATLN33%=
+%SUP_NZ_MATLN34%=
+%SUP_NZ_MATLN35%=
+%SUP_NZ_MATLN36%=
+%SUP_NZ_MATLN37%=
+%SUP_NZ_MATLN38%=
+%SUP_NZ_MATLN39%=
+%SUP_NZ_MATLN4%=N/A
+%SUP_NZ_MATLN40%=
+%SUP_NZ_MATLN41%=
+%SUP_NZ_MATLN42%=
+%SUP_NZ_MATLN43%=
+%SUP_NZ_MATLN44%=
+%SUP_NZ_MATLN45%=
+%SUP_NZ_MATLN46%=
+%SUP_NZ_MATLN47%=
+%SUP_NZ_MATLN48%=
+%SUP_NZ_MATLN49%=
+%SUP_NZ_MATLN5%=N/A
+%SUP_NZ_MATLN50%=
+%SUP_NZ_MATLN6%=N/A
+%SUP_NZ_MATLN7%=N/A
+%SUP_NZ_MATLN8%=N/A
+%SUP_NZ_MATLN9%=N/A
+%SUP_NZ_NOMTHK1%=N/A
+%SUP_NZ_NOMTHK10%=N/A
+%SUP_NZ_NOMTHK11%=N/A
+%SUP_NZ_NOMTHK12%=N/A
+%SUP_NZ_NOMTHK13%=N/A
+%SUP_NZ_NOMTHK14%=N/A
+%SUP_NZ_NOMTHK15%=N/A
+%SUP_NZ_NOMTHK16%=N/A
+%SUP_NZ_NOMTHK17%=N/A
+%SUP_NZ_NOMTHK18%=N/A
+%SUP_NZ_NOMTHK19%=N/A
+%SUP_NZ_NOMTHK2%=N/A
+%SUP_NZ_NOMTHK20%=N/A
+%SUP_NZ_NOMTHK21%=N/A
+%SUP_NZ_NOMTHK22%=N/A
+%SUP_NZ_NOMTHK23%=N/A
+%SUP_NZ_NOMTHK24%=N/A
+%SUP_NZ_NOMTHK25%=N/A
+%SUP_NZ_NOMTHK26%=N/A
+%SUP_NZ_NOMTHK27%=N/A
+%SUP_NZ_NOMTHK28%=N/A
+%SUP_NZ_NOMTHK29%=N/A
+%SUP_NZ_NOMTHK3%=N/A
+%SUP_NZ_NOMTHK30%=N/A
+%SUP_NZ_NOMTHK31%=
+%SUP_NZ_NOMTHK32%=
+%SUP_NZ_NOMTHK33%=
+%SUP_NZ_NOMTHK34%=
+%SUP_NZ_NOMTHK35%=
+%SUP_NZ_NOMTHK36%=
+%SUP_NZ_NOMTHK37%=
+%SUP_NZ_NOMTHK38%=
+%SUP_NZ_NOMTHK39%=
+%SUP_NZ_NOMTHK4%=N/A
+%SUP_NZ_NOMTHK40%=
+%SUP_NZ_NOMTHK41%=
+%SUP_NZ_NOMTHK42%=
+%SUP_NZ_NOMTHK43%=
+%SUP_NZ_NOMTHK44%=
+%SUP_NZ_NOMTHK45%=
+%SUP_NZ_NOMTHK46%=
+%SUP_NZ_NOMTHK47%=
+%SUP_NZ_NOMTHK48%=
+%SUP_NZ_NOMTHK49%=
+%SUP_NZ_NOMTHK5%=N/A
+%SUP_NZ_NOMTHK50%=
+%SUP_NZ_NOMTHK6%=N/A
+%SUP_NZ_NOMTHK7%=N/A
+%SUP_NZ_NOMTHK8%=N/A
+%SUP_NZ_NOMTHK9%=N/A
+%SUP_NZ_NUM1%=N/A
+%SUP_NZ_NUM10%=N/A
+%SUP_NZ_NUM11%=N/A
+%SUP_NZ_NUM12%=N/A
+%SUP_NZ_NUM13%=N/A
+%SUP_NZ_NUM14%=N/A
+%SUP_NZ_NUM15%=N/A
+%SUP_NZ_NUM16%=N/A
+%SUP_NZ_NUM17%=N/A
+%SUP_NZ_NUM18%=N/A
+%SUP_NZ_NUM19%=N/A
+%SUP_NZ_NUM2%=N/A
+%SUP_NZ_NUM20%=N/A
+%SUP_NZ_NUM21%=N/A
+%SUP_NZ_NUM22%=N/A
+%SUP_NZ_NUM23%=N/A
+%SUP_NZ_NUM24%=N/A
+%SUP_NZ_NUM25%=N/A
+%SUP_NZ_NUM26%=N/A
+%SUP_NZ_NUM27%=N/A
+%SUP_NZ_NUM28%=N/A
+%SUP_NZ_NUM29%=N/A
+%SUP_NZ_NUM3%=N/A
+%SUP_NZ_NUM30%=N/A
+%SUP_NZ_NUM31%=
+%SUP_NZ_NUM32%=
+%SUP_NZ_NUM33%=
+%SUP_NZ_NUM34%=
+%SUP_NZ_NUM35%=
+%SUP_NZ_NUM36%=
+%SUP_NZ_NUM37%=
+%SUP_NZ_NUM38%=
+%SUP_NZ_NUM39%=
+%SUP_NZ_NUM4%=N/A
+%SUP_NZ_NUM40%=
+%SUP_NZ_NUM41%=
+%SUP_NZ_NUM42%=
+%SUP_NZ_NUM43%=
+%SUP_NZ_NUM44%=
+%SUP_NZ_NUM45%=
+%SUP_NZ_NUM46%=
+%SUP_NZ_NUM47%=
+%SUP_NZ_NUM48%=
+%SUP_NZ_NUM49%=
+%SUP_NZ_NUM5%=N/A
+%SUP_NZ_NUM50%=
+%SUP_NZ_NUM6%=N/A
+%SUP_NZ_NUM7%=N/A
+%SUP_NZ_NUM8%=N/A
+%SUP_NZ_NUM9%=N/A
+%SUP_NZ_PURPOSE1%=N/A
+%SUP_NZ_PURPOSE10%=N/A
+%SUP_NZ_PURPOSE11%=N/A
+%SUP_NZ_PURPOSE12%=N/A
+%SUP_NZ_PURPOSE13%=N/A
+%SUP_NZ_PURPOSE14%=N/A
+%SUP_NZ_PURPOSE15%=N/A
+%SUP_NZ_PURPOSE16%=N/A
+%SUP_NZ_PURPOSE17%=N/A
+%SUP_NZ_PURPOSE18%=N/A
+%SUP_NZ_PURPOSE19%=N/A
+%SUP_NZ_PURPOSE2%=N/A
+%SUP_NZ_PURPOSE20%=N/A
+%SUP_NZ_PURPOSE21%=N/A
+%SUP_NZ_PURPOSE22%=N/A
+%SUP_NZ_PURPOSE23%=N/A
+%SUP_NZ_PURPOSE24%=N/A
+%SUP_NZ_PURPOSE25%=N/A
+%SUP_NZ_PURPOSE26%=N/A
+%SUP_NZ_PURPOSE27%=N/A
+%SUP_NZ_PURPOSE28%=N/A
+%SUP_NZ_PURPOSE29%=N/A
+%SUP_NZ_PURPOSE3%=N/A
+%SUP_NZ_PURPOSE30%=N/A
+%SUP_NZ_PURPOSE31%=
+%SUP_NZ_PURPOSE32%=
+%SUP_NZ_PURPOSE33%=
+%SUP_NZ_PURPOSE34%=
+%SUP_NZ_PURPOSE35%=
+%SUP_NZ_PURPOSE36%=
+%SUP_NZ_PURPOSE37%=
+%SUP_NZ_PURPOSE38%=
+%SUP_NZ_PURPOSE39%=
+%SUP_NZ_PURPOSE4%=N/A
+%SUP_NZ_PURPOSE40%=
+%SUP_NZ_PURPOSE41%=
+%SUP_NZ_PURPOSE42%=
+%SUP_NZ_PURPOSE43%=
+%SUP_NZ_PURPOSE44%=
+%SUP_NZ_PURPOSE45%=
+%SUP_NZ_PURPOSE46%=
+%SUP_NZ_PURPOSE47%=
+%SUP_NZ_PURPOSE48%=
+%SUP_NZ_PURPOSE49%=
+%SUP_NZ_PURPOSE5%=N/A
+%SUP_NZ_PURPOSE50%=
+%SUP_NZ_PURPOSE6%=N/A
+%SUP_NZ_PURPOSE7%=N/A
+%SUP_NZ_PURPOSE8%=N/A
+%SUP_NZ_PURPOSE9%=N/A
+%SUP_NZ_RMATL1%=N/A
+%SUP_NZ_RMATL10%=N/A
+%SUP_NZ_RMATL11%=N/A
+%SUP_NZ_RMATL12%=N/A
+%SUP_NZ_RMATL13%=N/A
+%SUP_NZ_RMATL14%=N/A
+%SUP_NZ_RMATL15%=N/A
+%SUP_NZ_RMATL16%=N/A
+%SUP_NZ_RMATL17%=N/A
+%SUP_NZ_RMATL18%=N/A
+%SUP_NZ_RMATL19%=N/A
+%SUP_NZ_RMATL2%=N/A
+%SUP_NZ_RMATL20%=N/A
+%SUP_NZ_RMATL21%=N/A
+%SUP_NZ_RMATL22%=N/A
+%SUP_NZ_RMATL23%=N/A
+%SUP_NZ_RMATL24%=N/A
+%SUP_NZ_RMATL25%=N/A
+%SUP_NZ_RMATL26%=N/A
+%SUP_NZ_RMATL27%=N/A
+%SUP_NZ_RMATL28%=N/A
+%SUP_NZ_RMATL29%=N/A
+%SUP_NZ_RMATL3%=N/A
+%SUP_NZ_RMATL30%=N/A
+%SUP_NZ_RMATL31%=
+%SUP_NZ_RMATL32%=
+%SUP_NZ_RMATL33%=
+%SUP_NZ_RMATL34%=
+%SUP_NZ_RMATL35%=
+%SUP_NZ_RMATL36%=
+%SUP_NZ_RMATL37%=
+%SUP_NZ_RMATL38%=
+%SUP_NZ_RMATL39%=
+%SUP_NZ_RMATL4%=N/A
+%SUP_NZ_RMATL40%=
+%SUP_NZ_RMATL41%=
+%SUP_NZ_RMATL42%=
+%SUP_NZ_RMATL43%=
+%SUP_NZ_RMATL44%=
+%SUP_NZ_RMATL45%=
+%SUP_NZ_RMATL46%=
+%SUP_NZ_RMATL47%=
+%SUP_NZ_RMATL48%=
+%SUP_NZ_RMATL49%=
+%SUP_NZ_RMATL5%=N/A
+%SUP_NZ_RMATL50%=
+%SUP_NZ_RMATL6%=N/A
+%SUP_NZ_RMATL7%=N/A
+%SUP_NZ_RMATL8%=N/A
+%SUP_NZ_RMATL9%=N/A
+%SUP_NZ_TYPE1%=N/A
+%SUP_NZ_TYPE10%=N/A
+%SUP_NZ_TYPE11%=N/A
+%SUP_NZ_TYPE12%=N/A
+%SUP_NZ_TYPE13%=N/A
+%SUP_NZ_TYPE14%=N/A
+%SUP_NZ_TYPE15%=N/A
+%SUP_NZ_TYPE16%=N/A
+%SUP_NZ_TYPE17%=N/A
+%SUP_NZ_TYPE18%=N/A
+%SUP_NZ_TYPE19%=N/A
+%SUP_NZ_TYPE2%=N/A
+%SUP_NZ_TYPE20%=N/A
+%SUP_NZ_TYPE21%=N/A
+%SUP_NZ_TYPE22%=N/A
+%SUP_NZ_TYPE23%=N/A
+%SUP_NZ_TYPE24%=N/A
+%SUP_NZ_TYPE25%=N/A
+%SUP_NZ_TYPE26%=N/A
+%SUP_NZ_TYPE27%=N/A
+%SUP_NZ_TYPE28%=N/A
+%SUP_NZ_TYPE29%=N/A
+%SUP_NZ_TYPE3%=N/A
+%SUP_NZ_TYPE30%=N/A
+%SUP_NZ_TYPE31%=
+%SUP_NZ_TYPE32%=
+%SUP_NZ_TYPE33%=
+%SUP_NZ_TYPE34%=
+%SUP_NZ_TYPE35%=
+%SUP_NZ_TYPE36%=
+%SUP_NZ_TYPE37%=
+%SUP_NZ_TYPE38%=
+%SUP_NZ_TYPE39%=
+%SUP_NZ_TYPE4%=N/A
+%SUP_NZ_TYPE40%=
+%SUP_NZ_TYPE41%=
+%SUP_NZ_TYPE42%=
+%SUP_NZ_TYPE43%=
+%SUP_NZ_TYPE44%=
+%SUP_NZ_TYPE45%=
+%SUP_NZ_TYPE46%=
+%SUP_NZ_TYPE47%=
+%SUP_NZ_TYPE48%=
+%SUP_NZ_TYPE49%=
+%SUP_NZ_TYPE5%=N/A
+%SUP_NZ_TYPE50%=
+%SUP_NZ_TYPE6%=N/A
+%SUP_NZ_TYPE7%=N/A
+%SUP_NZ_TYPE8%=N/A
+%SUP_NZ_TYPE9%=N/A
+%SUP_OTHER%=
+%SUP_REM_1%=
+%SUP_REM_2%=
+%SUP_REM_P2_1%=
+%SUP_REM_P2_2%=
+%SUP_REMARKS_P2_TITLE%=Additional Remarks:
+%SUP_REMARKS_TITLE%=Additional Remarks:
+%SUP_REP_SIGN01%=
+%SUP_REPLACE_PARTS_P2_TITLE%=Additional Replacement Parts:
+%SUP_REPLACE_PARTS_TITLE%=Additional Replacement Parts:
+%SUP_SHELL_IN_TITLE%=Additional shell courses for inner chambers of jacketed vessels or channels of heat exchangers:
+%SUP_SHELL_OUT_TITLE%=Additional shell courses for single wall vessels, jackets of jacketed vessels, or shells of heat exchangers:
+%SUP_SHO_CORRALLOW1_1%=N/A
+%SUP_SHO_CORRALLOW1_10%=N/A
+%SUP_SHO_CORRALLOW1_11%=N/A
+%SUP_SHO_CORRALLOW1_12%=N/A
+%SUP_SHO_CORRALLOW1_13%=N/A
+%SUP_SHO_CORRALLOW1_14%=N/A
+%SUP_SHO_CORRALLOW1_2%=N/A
+%SUP_SHO_CORRALLOW1_3%=N/A
+%SUP_SHO_CORRALLOW1_4%=N/A
+%SUP_SHO_CORRALLOW1_5%=N/A
+%SUP_SHO_CORRALLOW1_6%=N/A
+%SUP_SHO_CORRALLOW1_7%=N/A
+%SUP_SHO_CORRALLOW1_8%=N/A
+%SUP_SHO_CORRALLOW1_9%=N/A
+%SUP_SHO_CORRALLOW2_1%=N/A
+%SUP_SHO_CORRALLOW2_10%=N/A
+%SUP_SHO_CORRALLOW2_11%=N/A
+%SUP_SHO_CORRALLOW2_12%=N/A
+%SUP_SHO_CORRALLOW2_13%=N/A
+%SUP_SHO_CORRALLOW2_14%=N/A
+%SUP_SHO_CORRALLOW2_2%=N/A
+%SUP_SHO_CORRALLOW2_3%=N/A
+%SUP_SHO_CORRALLOW2_4%=N/A
+%SUP_SHO_CORRALLOW2_5%=N/A
+%SUP_SHO_CORRALLOW2_6%=N/A
+%SUP_SHO_CORRALLOW2_7%=N/A
+%SUP_SHO_CORRALLOW2_8%=N/A
+%SUP_SHO_CORRALLOW2_9%=N/A
+%SUP_SHO_COURSENO1_1%=N/A
+%SUP_SHO_COURSENO1_10%=N/A
+%SUP_SHO_COURSENO1_11%=N/A
+%SUP_SHO_COURSENO1_12%=N/A
+%SUP_SHO_COURSENO1_13%=N/A
+%SUP_SHO_COURSENO1_14%=N/A
+%SUP_SHO_COURSENO1_2%=N/A
+%SUP_SHO_COURSENO1_3%=N/A
+%SUP_SHO_COURSENO1_4%=N/A
+%SUP_SHO_COURSENO1_5%=N/A
+%SUP_SHO_COURSENO1_6%=N/A
+%SUP_SHO_COURSENO1_7%=N/A
+%SUP_SHO_COURSENO1_8%=N/A
+%SUP_SHO_COURSENO1_9%=N/A
+%SUP_SHO_COURSENO2_1%=N/A
+%SUP_SHO_COURSENO2_10%=N/A
+%SUP_SHO_COURSENO2_11%=N/A
+%SUP_SHO_COURSENO2_12%=N/A
+%SUP_SHO_COURSENO2_13%=N/A
+%SUP_SHO_COURSENO2_14%=N/A
+%SUP_SHO_COURSENO2_2%=N/A
+%SUP_SHO_COURSENO2_3%=N/A
+%SUP_SHO_COURSENO2_4%=N/A
+%SUP_SHO_COURSENO2_5%=N/A
+%SUP_SHO_COURSENO2_6%=N/A
+%SUP_SHO_COURSENO2_7%=N/A
+%SUP_SHO_COURSENO2_8%=N/A
+%SUP_SHO_COURSENO2_9%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_1%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_10%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_11%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_12%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_13%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_14%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_2%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_3%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_4%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_5%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_6%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_7%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_8%=N/A
+%SUP_SHO_DIAM_VAL_ALL1_9%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_1%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_10%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_11%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_12%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_13%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_14%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_2%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_3%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_4%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_5%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_6%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_7%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_8%=N/A
+%SUP_SHO_DIAM_VAL_ALL2_9%=N/A
+%SUP_SHO_DIAMID_ALL1_1%=N/A
+%SUP_SHO_DIAMID_ALL1_10%=N/A
+%SUP_SHO_DIAMID_ALL1_11%=N/A
+%SUP_SHO_DIAMID_ALL1_12%=N/A
+%SUP_SHO_DIAMID_ALL1_13%=N/A
+%SUP_SHO_DIAMID_ALL1_14%=N/A
+%SUP_SHO_DIAMID_ALL1_2%=N/A
+%SUP_SHO_DIAMID_ALL1_3%=N/A
+%SUP_SHO_DIAMID_ALL1_4%=N/A
+%SUP_SHO_DIAMID_ALL1_5%=N/A
+%SUP_SHO_DIAMID_ALL1_6%=N/A
+%SUP_SHO_DIAMID_ALL1_7%=N/A
+%SUP_SHO_DIAMID_ALL1_8%=N/A
+%SUP_SHO_DIAMID_ALL1_9%=N/A
+%SUP_SHO_DIAMID_ALL2_1%=N/A
+%SUP_SHO_DIAMID_ALL2_10%=N/A
+%SUP_SHO_DIAMID_ALL2_11%=N/A
+%SUP_SHO_DIAMID_ALL2_12%=N/A
+%SUP_SHO_DIAMID_ALL2_13%=N/A
+%SUP_SHO_DIAMID_ALL2_14%=N/A
+%SUP_SHO_DIAMID_ALL2_2%=N/A
+%SUP_SHO_DIAMID_ALL2_3%=N/A
+%SUP_SHO_DIAMID_ALL2_4%=N/A
+%SUP_SHO_DIAMID_ALL2_5%=N/A
+%SUP_SHO_DIAMID_ALL2_6%=N/A
+%SUP_SHO_DIAMID_ALL2_7%=N/A
+%SUP_SHO_DIAMID_ALL2_8%=N/A
+%SUP_SHO_DIAMID_ALL2_9%=N/A
+%SUP_SHO_DIAMID_DIN1_1%=
+%SUP_SHO_DIAMID_DIN1_10%=N/A
+%SUP_SHO_DIAMID_DIN1_11%=N/A
+%SUP_SHO_DIAMID_DIN1_12%=N/A
+%SUP_SHO_DIAMID_DIN1_13%=N/A
+%SUP_SHO_DIAMID_DIN1_14%=N/A
+%SUP_SHO_DIAMID_DIN1_2%=
+%SUP_SHO_DIAMID_DIN1_3%=
+%SUP_SHO_DIAMID_DIN1_4%=
+%SUP_SHO_DIAMID_DIN1_5%=N/A
+%SUP_SHO_DIAMID_DIN1_6%=N/A
+%SUP_SHO_DIAMID_DIN1_7%=N/A
+%SUP_SHO_DIAMID_DIN1_8%=N/A
+%SUP_SHO_DIAMID_DIN1_9%=N/A
+%SUP_SHO_DIAMID_DIN2_1%=
+%SUP_SHO_DIAMID_DIN2_10%=N/A
+%SUP_SHO_DIAMID_DIN2_11%=N/A
+%SUP_SHO_DIAMID_DIN2_12%=N/A
+%SUP_SHO_DIAMID_DIN2_13%=N/A
+%SUP_SHO_DIAMID_DIN2_14%=N/A
+%SUP_SHO_DIAMID_DIN2_2%=
+%SUP_SHO_DIAMID_DIN2_3%=
+%SUP_SHO_DIAMID_DIN2_4%=
+%SUP_SHO_DIAMID_DIN2_5%=N/A
+%SUP_SHO_DIAMID_DIN2_6%=N/A
+%SUP_SHO_DIAMID_DIN2_7%=N/A
+%SUP_SHO_DIAMID_DIN2_8%=N/A
+%SUP_SHO_DIAMID_DIN2_9%=N/A
+%SUP_SHO_DIAMID_IN1_1%=
+%SUP_SHO_DIAMID_IN1_10%=N/A
+%SUP_SHO_DIAMID_IN1_11%=N/A
+%SUP_SHO_DIAMID_IN1_12%=N/A
+%SUP_SHO_DIAMID_IN1_13%=N/A
+%SUP_SHO_DIAMID_IN1_14%=N/A
+%SUP_SHO_DIAMID_IN1_2%=
+%SUP_SHO_DIAMID_IN1_3%=
+%SUP_SHO_DIAMID_IN1_4%=
+%SUP_SHO_DIAMID_IN1_5%=N/A
+%SUP_SHO_DIAMID_IN1_6%=N/A
+%SUP_SHO_DIAMID_IN1_7%=N/A
+%SUP_SHO_DIAMID_IN1_8%=N/A
+%SUP_SHO_DIAMID_IN1_9%=N/A
+%SUP_SHO_DIAMID_IN2_1%=
+%SUP_SHO_DIAMID_IN2_10%=N/A
+%SUP_SHO_DIAMID_IN2_11%=N/A
+%SUP_SHO_DIAMID_IN2_12%=N/A
+%SUP_SHO_DIAMID_IN2_13%=N/A
+%SUP_SHO_DIAMID_IN2_14%=N/A
+%SUP_SHO_DIAMID_IN2_2%=
+%SUP_SHO_DIAMID_IN2_3%=
+%SUP_SHO_DIAMID_IN2_4%=
+%SUP_SHO_DIAMID_IN2_5%=N/A
+%SUP_SHO_DIAMID_IN2_6%=N/A
+%SUP_SHO_DIAMID_IN2_7%=N/A
+%SUP_SHO_DIAMID_IN2_8%=N/A
+%SUP_SHO_DIAMID_IN2_9%=N/A
+%SUP_SHO_DIAMID_ODID1_1%=
+%SUP_SHO_DIAMID_ODID1_10%=N/A
+%SUP_SHO_DIAMID_ODID1_11%=N/A
+%SUP_SHO_DIAMID_ODID1_12%=N/A
+%SUP_SHO_DIAMID_ODID1_13%=N/A
+%SUP_SHO_DIAMID_ODID1_14%=N/A
+%SUP_SHO_DIAMID_ODID1_2%=
+%SUP_SHO_DIAMID_ODID1_3%=
+%SUP_SHO_DIAMID_ODID1_4%=
+%SUP_SHO_DIAMID_ODID1_5%=N/A
+%SUP_SHO_DIAMID_ODID1_6%=N/A
+%SUP_SHO_DIAMID_ODID1_7%=N/A
+%SUP_SHO_DIAMID_ODID1_8%=N/A
+%SUP_SHO_DIAMID_ODID1_9%=N/A
+%SUP_SHO_DIAMID_ODID2_1%=
+%SUP_SHO_DIAMID_ODID2_10%=N/A
+%SUP_SHO_DIAMID_ODID2_11%=N/A
+%SUP_SHO_DIAMID_ODID2_12%=N/A
+%SUP_SHO_DIAMID_ODID2_13%=N/A
+%SUP_SHO_DIAMID_ODID2_14%=N/A
+%SUP_SHO_DIAMID_ODID2_2%=
+%SUP_SHO_DIAMID_ODID2_3%=
+%SUP_SHO_DIAMID_ODID2_4%=
+%SUP_SHO_DIAMID_ODID2_5%=N/A
+%SUP_SHO_DIAMID_ODID2_6%=N/A
+%SUP_SHO_DIAMID_ODID2_7%=N/A
+%SUP_SHO_DIAMID_ODID2_8%=N/A
+%SUP_SHO_DIAMID_ODID2_9%=N/A
+%SUP_SHO_GIRTHEFF1_1%=N/A
+%SUP_SHO_GIRTHEFF1_10%=N/A
+%SUP_SHO_GIRTHEFF1_11%=N/A
+%SUP_SHO_GIRTHEFF1_12%=N/A
+%SUP_SHO_GIRTHEFF1_13%=N/A
+%SUP_SHO_GIRTHEFF1_14%=N/A
+%SUP_SHO_GIRTHEFF1_2%=N/A
+%SUP_SHO_GIRTHEFF1_3%=N/A
+%SUP_SHO_GIRTHEFF1_4%=N/A
+%SUP_SHO_GIRTHEFF1_5%=N/A
+%SUP_SHO_GIRTHEFF1_6%=N/A
+%SUP_SHO_GIRTHEFF1_7%=N/A
+%SUP_SHO_GIRTHEFF1_8%=N/A
+%SUP_SHO_GIRTHEFF1_9%=N/A
+%SUP_SHO_GIRTHEFF2_1%=N/A
+%SUP_SHO_GIRTHEFF2_10%=N/A
+%SUP_SHO_GIRTHEFF2_11%=N/A
+%SUP_SHO_GIRTHEFF2_12%=N/A
+%SUP_SHO_GIRTHEFF2_13%=N/A
+%SUP_SHO_GIRTHEFF2_14%=N/A
+%SUP_SHO_GIRTHEFF2_2%=N/A
+%SUP_SHO_GIRTHEFF2_3%=N/A
+%SUP_SHO_GIRTHEFF2_4%=N/A
+%SUP_SHO_GIRTHEFF2_5%=N/A
+%SUP_SHO_GIRTHEFF2_6%=N/A
+%SUP_SHO_GIRTHEFF2_7%=N/A
+%SUP_SHO_GIRTHEFF2_8%=N/A
+%SUP_SHO_GIRTHEFF2_9%=N/A
+%SUP_SHO_GIRTHRT1_1%=N/A
+%SUP_SHO_GIRTHRT1_10%=N/A
+%SUP_SHO_GIRTHRT1_11%=N/A
+%SUP_SHO_GIRTHRT1_12%=N/A
+%SUP_SHO_GIRTHRT1_13%=N/A
+%SUP_SHO_GIRTHRT1_14%=N/A
+%SUP_SHO_GIRTHRT1_2%=N/A
+%SUP_SHO_GIRTHRT1_3%=N/A
+%SUP_SHO_GIRTHRT1_4%=N/A
+%SUP_SHO_GIRTHRT1_5%=N/A
+%SUP_SHO_GIRTHRT1_6%=N/A
+%SUP_SHO_GIRTHRT1_7%=N/A
+%SUP_SHO_GIRTHRT1_8%=N/A
+%SUP_SHO_GIRTHRT1_9%=N/A
+%SUP_SHO_GIRTHRT2_1%=N/A
+%SUP_SHO_GIRTHRT2_10%=N/A
+%SUP_SHO_GIRTHRT2_11%=N/A
+%SUP_SHO_GIRTHRT2_12%=N/A
+%SUP_SHO_GIRTHRT2_13%=N/A
+%SUP_SHO_GIRTHRT2_14%=N/A
+%SUP_SHO_GIRTHRT2_2%=N/A
+%SUP_SHO_GIRTHRT2_3%=N/A
+%SUP_SHO_GIRTHRT2_4%=N/A
+%SUP_SHO_GIRTHRT2_5%=N/A
+%SUP_SHO_GIRTHRT2_6%=N/A
+%SUP_SHO_GIRTHRT2_7%=N/A
+%SUP_SHO_GIRTHRT2_8%=N/A
+%SUP_SHO_GIRTHRT2_9%=N/A
+%SUP_SHO_GIRTHTYPE1_1%=N/A
+%SUP_SHO_GIRTHTYPE1_10%=N/A
+%SUP_SHO_GIRTHTYPE1_11%=N/A
+%SUP_SHO_GIRTHTYPE1_12%=N/A
+%SUP_SHO_GIRTHTYPE1_13%=N/A
+%SUP_SHO_GIRTHTYPE1_14%=N/A
+%SUP_SHO_GIRTHTYPE1_2%=N/A
+%SUP_SHO_GIRTHTYPE1_3%=N/A
+%SUP_SHO_GIRTHTYPE1_4%=N/A
+%SUP_SHO_GIRTHTYPE1_5%=N/A
+%SUP_SHO_GIRTHTYPE1_6%=N/A
+%SUP_SHO_GIRTHTYPE1_7%=N/A
+%SUP_SHO_GIRTHTYPE1_8%=N/A
+%SUP_SHO_GIRTHTYPE1_9%=N/A
+%SUP_SHO_GIRTHTYPE2_1%=N/A
+%SUP_SHO_GIRTHTYPE2_10%=N/A
+%SUP_SHO_GIRTHTYPE2_11%=N/A
+%SUP_SHO_GIRTHTYPE2_12%=N/A
+%SUP_SHO_GIRTHTYPE2_13%=N/A
+%SUP_SHO_GIRTHTYPE2_14%=N/A
+%SUP_SHO_GIRTHTYPE2_2%=N/A
+%SUP_SHO_GIRTHTYPE2_3%=N/A
+%SUP_SHO_GIRTHTYPE2_4%=N/A
+%SUP_SHO_GIRTHTYPE2_5%=N/A
+%SUP_SHO_GIRTHTYPE2_6%=N/A
+%SUP_SHO_GIRTHTYPE2_7%=N/A
+%SUP_SHO_GIRTHTYPE2_8%=N/A
+%SUP_SHO_GIRTHTYPE2_9%=N/A
+%SUP_SHO_HTTEMP1_1%=N/A
+%SUP_SHO_HTTEMP1_10%=N/A
+%SUP_SHO_HTTEMP1_11%=N/A
+%SUP_SHO_HTTEMP1_12%=N/A
+%SUP_SHO_HTTEMP1_13%=N/A
+%SUP_SHO_HTTEMP1_14%=N/A
+%SUP_SHO_HTTEMP1_2%=N/A
+%SUP_SHO_HTTEMP1_3%=N/A
+%SUP_SHO_HTTEMP1_4%=N/A
+%SUP_SHO_HTTEMP1_5%=N/A
+%SUP_SHO_HTTEMP1_6%=N/A
+%SUP_SHO_HTTEMP1_7%=N/A
+%SUP_SHO_HTTEMP1_8%=N/A
+%SUP_SHO_HTTEMP1_9%=N/A
+%SUP_SHO_HTTEMP2_1%=N/A
+%SUP_SHO_HTTEMP2_10%=N/A
+%SUP_SHO_HTTEMP2_11%=N/A
+%SUP_SHO_HTTEMP2_12%=N/A
+%SUP_SHO_HTTEMP2_13%=N/A
+%SUP_SHO_HTTEMP2_14%=N/A
+%SUP_SHO_HTTEMP2_2%=N/A
+%SUP_SHO_HTTEMP2_3%=N/A
+%SUP_SHO_HTTEMP2_4%=N/A
+%SUP_SHO_HTTEMP2_5%=N/A
+%SUP_SHO_HTTEMP2_6%=N/A
+%SUP_SHO_HTTEMP2_7%=N/A
+%SUP_SHO_HTTEMP2_8%=N/A
+%SUP_SHO_HTTEMP2_9%=N/A
+%SUP_SHO_HTTIME1_1%=N/A
+%SUP_SHO_HTTIME1_10%=N/A
+%SUP_SHO_HTTIME1_11%=N/A
+%SUP_SHO_HTTIME1_12%=N/A
+%SUP_SHO_HTTIME1_13%=N/A
+%SUP_SHO_HTTIME1_14%=N/A
+%SUP_SHO_HTTIME1_2%=N/A
+%SUP_SHO_HTTIME1_3%=N/A
+%SUP_SHO_HTTIME1_4%=N/A
+%SUP_SHO_HTTIME1_5%=N/A
+%SUP_SHO_HTTIME1_6%=N/A
+%SUP_SHO_HTTIME1_7%=N/A
+%SUP_SHO_HTTIME1_8%=N/A
+%SUP_SHO_HTTIME1_9%=N/A
+%SUP_SHO_HTTIME2_1%=N/A
+%SUP_SHO_HTTIME2_10%=N/A
+%SUP_SHO_HTTIME2_11%=N/A
+%SUP_SHO_HTTIME2_12%=N/A
+%SUP_SHO_HTTIME2_13%=N/A
+%SUP_SHO_HTTIME2_14%=N/A
+%SUP_SHO_HTTIME2_2%=N/A
+%SUP_SHO_HTTIME2_3%=N/A
+%SUP_SHO_HTTIME2_4%=N/A
+%SUP_SHO_HTTIME2_5%=N/A
+%SUP_SHO_HTTIME2_6%=N/A
+%SUP_SHO_HTTIME2_7%=N/A
+%SUP_SHO_HTTIME2_8%=N/A
+%SUP_SHO_HTTIME2_9%=N/A
+%SUP_SHO_LENGTH_ALL1_1%=N/A
+%SUP_SHO_LENGTH_ALL1_10%=N/A
+%SUP_SHO_LENGTH_ALL1_11%=N/A
+%SUP_SHO_LENGTH_ALL1_12%=N/A
+%SUP_SHO_LENGTH_ALL1_13%=N/A
+%SUP_SHO_LENGTH_ALL1_14%=N/A
+%SUP_SHO_LENGTH_ALL1_2%=N/A
+%SUP_SHO_LENGTH_ALL1_3%=N/A
+%SUP_SHO_LENGTH_ALL1_4%=N/A
+%SUP_SHO_LENGTH_ALL1_5%=N/A
+%SUP_SHO_LENGTH_ALL1_6%=N/A
+%SUP_SHO_LENGTH_ALL1_7%=N/A
+%SUP_SHO_LENGTH_ALL1_8%=N/A
+%SUP_SHO_LENGTH_ALL1_9%=N/A
+%SUP_SHO_LENGTH_ALL2_1%=N/A
+%SUP_SHO_LENGTH_ALL2_10%=N/A
+%SUP_SHO_LENGTH_ALL2_11%=N/A
+%SUP_SHO_LENGTH_ALL2_12%=N/A
+%SUP_SHO_LENGTH_ALL2_13%=N/A
+%SUP_SHO_LENGTH_ALL2_14%=N/A
+%SUP_SHO_LENGTH_ALL2_2%=N/A
+%SUP_SHO_LENGTH_ALL2_3%=N/A
+%SUP_SHO_LENGTH_ALL2_4%=N/A
+%SUP_SHO_LENGTH_ALL2_5%=N/A
+%SUP_SHO_LENGTH_ALL2_6%=N/A
+%SUP_SHO_LENGTH_ALL2_7%=N/A
+%SUP_SHO_LENGTH_ALL2_8%=N/A
+%SUP_SHO_LENGTH_ALL2_9%=N/A
+%SUP_SHO_LENGTH_DIN1_1%=
+%SUP_SHO_LENGTH_DIN1_10%=N/A
+%SUP_SHO_LENGTH_DIN1_11%=N/A
+%SUP_SHO_LENGTH_DIN1_12%=N/A
+%SUP_SHO_LENGTH_DIN1_13%=N/A
+%SUP_SHO_LENGTH_DIN1_14%=N/A
+%SUP_SHO_LENGTH_DIN1_2%=
+%SUP_SHO_LENGTH_DIN1_3%=
+%SUP_SHO_LENGTH_DIN1_4%=
+%SUP_SHO_LENGTH_DIN1_5%=N/A
+%SUP_SHO_LENGTH_DIN1_6%=N/A
+%SUP_SHO_LENGTH_DIN1_7%=N/A
+%SUP_SHO_LENGTH_DIN1_8%=N/A
+%SUP_SHO_LENGTH_DIN1_9%=N/A
+%SUP_SHO_LENGTH_DIN2_1%=
+%SUP_SHO_LENGTH_DIN2_10%=N/A
+%SUP_SHO_LENGTH_DIN2_11%=N/A
+%SUP_SHO_LENGTH_DIN2_12%=N/A
+%SUP_SHO_LENGTH_DIN2_13%=N/A
+%SUP_SHO_LENGTH_DIN2_14%=N/A
+%SUP_SHO_LENGTH_DIN2_2%=
+%SUP_SHO_LENGTH_DIN2_3%=
+%SUP_SHO_LENGTH_DIN2_4%=
+%SUP_SHO_LENGTH_DIN2_5%=N/A
+%SUP_SHO_LENGTH_DIN2_6%=N/A
+%SUP_SHO_LENGTH_DIN2_7%=N/A
+%SUP_SHO_LENGTH_DIN2_8%=N/A
+%SUP_SHO_LENGTH_DIN2_9%=N/A
+%SUP_SHO_LENGTH_FT1_1%=
+%SUP_SHO_LENGTH_FT1_10%=N/A
+%SUP_SHO_LENGTH_FT1_11%=N/A
+%SUP_SHO_LENGTH_FT1_12%=N/A
+%SUP_SHO_LENGTH_FT1_13%=N/A
+%SUP_SHO_LENGTH_FT1_14%=N/A
+%SUP_SHO_LENGTH_FT1_2%=
+%SUP_SHO_LENGTH_FT1_3%=
+%SUP_SHO_LENGTH_FT1_4%=
+%SUP_SHO_LENGTH_FT1_5%=N/A
+%SUP_SHO_LENGTH_FT1_6%=N/A
+%SUP_SHO_LENGTH_FT1_7%=N/A
+%SUP_SHO_LENGTH_FT1_8%=N/A
+%SUP_SHO_LENGTH_FT1_9%=N/A
+%SUP_SHO_LENGTH_FT2_1%=
+%SUP_SHO_LENGTH_FT2_10%=N/A
+%SUP_SHO_LENGTH_FT2_11%=N/A
+%SUP_SHO_LENGTH_FT2_12%=N/A
+%SUP_SHO_LENGTH_FT2_13%=N/A
+%SUP_SHO_LENGTH_FT2_14%=N/A
+%SUP_SHO_LENGTH_FT2_2%=
+%SUP_SHO_LENGTH_FT2_3%=
+%SUP_SHO_LENGTH_FT2_4%=
+%SUP_SHO_LENGTH_FT2_5%=N/A
+%SUP_SHO_LENGTH_FT2_6%=N/A
+%SUP_SHO_LENGTH_FT2_7%=N/A
+%SUP_SHO_LENGTH_FT2_8%=N/A
+%SUP_SHO_LENGTH_FT2_9%=N/A
+%SUP_SHO_LENGTH_IN1_1%=
+%SUP_SHO_LENGTH_IN1_10%=N/A
+%SUP_SHO_LENGTH_IN1_11%=N/A
+%SUP_SHO_LENGTH_IN1_12%=N/A
+%SUP_SHO_LENGTH_IN1_13%=N/A
+%SUP_SHO_LENGTH_IN1_14%=N/A
+%SUP_SHO_LENGTH_IN1_2%=
+%SUP_SHO_LENGTH_IN1_3%=
+%SUP_SHO_LENGTH_IN1_4%=
+%SUP_SHO_LENGTH_IN1_5%=N/A
+%SUP_SHO_LENGTH_IN1_6%=N/A
+%SUP_SHO_LENGTH_IN1_7%=N/A
+%SUP_SHO_LENGTH_IN1_8%=N/A
+%SUP_SHO_LENGTH_IN1_9%=N/A
+%SUP_SHO_LENGTH_IN2_1%=
+%SUP_SHO_LENGTH_IN2_10%=N/A
+%SUP_SHO_LENGTH_IN2_11%=N/A
+%SUP_SHO_LENGTH_IN2_12%=N/A
+%SUP_SHO_LENGTH_IN2_13%=N/A
+%SUP_SHO_LENGTH_IN2_14%=N/A
+%SUP_SHO_LENGTH_IN2_2%=
+%SUP_SHO_LENGTH_IN2_3%=
+%SUP_SHO_LENGTH_IN2_4%=
+%SUP_SHO_LENGTH_IN2_5%=N/A
+%SUP_SHO_LENGTH_IN2_6%=N/A
+%SUP_SHO_LENGTH_IN2_7%=N/A
+%SUP_SHO_LENGTH_IN2_8%=N/A
+%SUP_SHO_LENGTH_IN2_9%=N/A
+%SUP_SHO_LONGEFF1_1%=N/A
+%SUP_SHO_LONGEFF1_10%=N/A
+%SUP_SHO_LONGEFF1_11%=N/A
+%SUP_SHO_LONGEFF1_12%=N/A
+%SUP_SHO_LONGEFF1_13%=N/A
+%SUP_SHO_LONGEFF1_14%=N/A
+%SUP_SHO_LONGEFF1_2%=N/A
+%SUP_SHO_LONGEFF1_3%=N/A
+%SUP_SHO_LONGEFF1_4%=N/A
+%SUP_SHO_LONGEFF1_5%=N/A
+%SUP_SHO_LONGEFF1_6%=N/A
+%SUP_SHO_LONGEFF1_7%=N/A
+%SUP_SHO_LONGEFF1_8%=N/A
+%SUP_SHO_LONGEFF1_9%=N/A
+%SUP_SHO_LONGEFF2_1%=N/A
+%SUP_SHO_LONGEFF2_10%=N/A
+%SUP_SHO_LONGEFF2_11%=N/A
+%SUP_SHO_LONGEFF2_12%=N/A
+%SUP_SHO_LONGEFF2_13%=N/A
+%SUP_SHO_LONGEFF2_14%=N/A
+%SUP_SHO_LONGEFF2_2%=N/A
+%SUP_SHO_LONGEFF2_3%=N/A
+%SUP_SHO_LONGEFF2_4%=N/A
+%SUP_SHO_LONGEFF2_5%=N/A
+%SUP_SHO_LONGEFF2_6%=N/A
+%SUP_SHO_LONGEFF2_7%=N/A
+%SUP_SHO_LONGEFF2_8%=N/A
+%SUP_SHO_LONGEFF2_9%=N/A
+%SUP_SHO_LONGRT1_1%=N/A
+%SUP_SHO_LONGRT1_10%=N/A
+%SUP_SHO_LONGRT1_11%=N/A
+%SUP_SHO_LONGRT1_12%=N/A
+%SUP_SHO_LONGRT1_13%=N/A
+%SUP_SHO_LONGRT1_14%=N/A
+%SUP_SHO_LONGRT1_2%=N/A
+%SUP_SHO_LONGRT1_3%=N/A
+%SUP_SHO_LONGRT1_4%=N/A
+%SUP_SHO_LONGRT1_5%=N/A
+%SUP_SHO_LONGRT1_6%=N/A
+%SUP_SHO_LONGRT1_7%=N/A
+%SUP_SHO_LONGRT1_8%=N/A
+%SUP_SHO_LONGRT1_9%=N/A
+%SUP_SHO_LONGRT2_1%=N/A
+%SUP_SHO_LONGRT2_10%=N/A
+%SUP_SHO_LONGRT2_11%=N/A
+%SUP_SHO_LONGRT2_12%=N/A
+%SUP_SHO_LONGRT2_13%=N/A
+%SUP_SHO_LONGRT2_14%=N/A
+%SUP_SHO_LONGRT2_2%=N/A
+%SUP_SHO_LONGRT2_3%=N/A
+%SUP_SHO_LONGRT2_4%=N/A
+%SUP_SHO_LONGRT2_5%=N/A
+%SUP_SHO_LONGRT2_6%=N/A
+%SUP_SHO_LONGRT2_7%=N/A
+%SUP_SHO_LONGRT2_8%=N/A
+%SUP_SHO_LONGRT2_9%=N/A
+%SUP_SHO_LONGTYPE1_1%=N/A
+%SUP_SHO_LONGTYPE1_10%=N/A
+%SUP_SHO_LONGTYPE1_11%=N/A
+%SUP_SHO_LONGTYPE1_12%=N/A
+%SUP_SHO_LONGTYPE1_13%=N/A
+%SUP_SHO_LONGTYPE1_14%=N/A
+%SUP_SHO_LONGTYPE1_2%=N/A
+%SUP_SHO_LONGTYPE1_3%=N/A
+%SUP_SHO_LONGTYPE1_4%=N/A
+%SUP_SHO_LONGTYPE1_5%=N/A
+%SUP_SHO_LONGTYPE1_6%=N/A
+%SUP_SHO_LONGTYPE1_7%=N/A
+%SUP_SHO_LONGTYPE1_8%=N/A
+%SUP_SHO_LONGTYPE1_9%=N/A
+%SUP_SHO_LONGTYPE2_1%=N/A
+%SUP_SHO_LONGTYPE2_10%=N/A
+%SUP_SHO_LONGTYPE2_11%=N/A
+%SUP_SHO_LONGTYPE2_12%=N/A
+%SUP_SHO_LONGTYPE2_13%=N/A
+%SUP_SHO_LONGTYPE2_14%=N/A
+%SUP_SHO_LONGTYPE2_2%=N/A
+%SUP_SHO_LONGTYPE2_3%=N/A
+%SUP_SHO_LONGTYPE2_4%=N/A
+%SUP_SHO_LONGTYPE2_5%=N/A
+%SUP_SHO_LONGTYPE2_6%=N/A
+%SUP_SHO_LONGTYPE2_7%=N/A
+%SUP_SHO_LONGTYPE2_8%=N/A
+%SUP_SHO_LONGTYPE2_9%=N/A
+%SUP_SHO_MATL1_1%=N/A
+%SUP_SHO_MATL1_10%=N/A
+%SUP_SHO_MATL1_11%=N/A
+%SUP_SHO_MATL1_12%=N/A
+%SUP_SHO_MATL1_13%=N/A
+%SUP_SHO_MATL1_14%=N/A
+%SUP_SHO_MATL1_2%=N/A
+%SUP_SHO_MATL1_3%=N/A
+%SUP_SHO_MATL1_4%=N/A
+%SUP_SHO_MATL1_5%=N/A
+%SUP_SHO_MATL1_6%=N/A
+%SUP_SHO_MATL1_7%=N/A
+%SUP_SHO_MATL1_8%=N/A
+%SUP_SHO_MATL1_9%=N/A
+%SUP_SHO_MATL2_1%=N/A
+%SUP_SHO_MATL2_10%=N/A
+%SUP_SHO_MATL2_11%=N/A
+%SUP_SHO_MATL2_12%=N/A
+%SUP_SHO_MATL2_13%=N/A
+%SUP_SHO_MATL2_14%=N/A
+%SUP_SHO_MATL2_2%=N/A
+%SUP_SHO_MATL2_3%=N/A
+%SUP_SHO_MATL2_4%=N/A
+%SUP_SHO_MATL2_5%=N/A
+%SUP_SHO_MATL2_6%=N/A
+%SUP_SHO_MATL2_7%=N/A
+%SUP_SHO_MATL2_8%=N/A
+%SUP_SHO_MATL2_9%=N/A
+%SUP_SHO_NOMTHK1_1%=N/A
+%SUP_SHO_NOMTHK1_10%=N/A
+%SUP_SHO_NOMTHK1_11%=N/A
+%SUP_SHO_NOMTHK1_12%=N/A
+%SUP_SHO_NOMTHK1_13%=N/A
+%SUP_SHO_NOMTHK1_14%=N/A
+%SUP_SHO_NOMTHK1_2%=N/A
+%SUP_SHO_NOMTHK1_3%=N/A
+%SUP_SHO_NOMTHK1_4%=N/A
+%SUP_SHO_NOMTHK1_5%=N/A
+%SUP_SHO_NOMTHK1_6%=N/A
+%SUP_SHO_NOMTHK1_7%=N/A
+%SUP_SHO_NOMTHK1_8%=N/A
+%SUP_SHO_NOMTHK1_9%=N/A
+%SUP_SHO_NOMTHK2_1%=N/A
+%SUP_SHO_NOMTHK2_10%=N/A
+%SUP_SHO_NOMTHK2_11%=N/A
+%SUP_SHO_NOMTHK2_12%=N/A
+%SUP_SHO_NOMTHK2_13%=N/A
+%SUP_SHO_NOMTHK2_14%=N/A
+%SUP_SHO_NOMTHK2_2%=N/A
+%SUP_SHO_NOMTHK2_3%=N/A
+%SUP_SHO_NOMTHK2_4%=N/A
+%SUP_SHO_NOMTHK2_5%=N/A
+%SUP_SHO_NOMTHK2_6%=N/A
+%SUP_SHO_NOMTHK2_7%=N/A
+%SUP_SHO_NOMTHK2_8%=N/A
+%SUP_SHO_NOMTHK2_9%=N/A
+%SUP_SKIRT%=No
+%SUP_SVC_DESCWORK%=
+%SUP_SVC_P2_DESCWORK%=
+%SUP_SVC_SCOPE%=
+%SUP_SVC_SCOPE_TITLE%=Additional Design Scope Description:
+%SUP_TYPE_CRN%=
+%SUP_TYPE_CRN5%=
+%SUP_TYPE_DRAWNUM%=
+%SUP_TYPE_DRAWNUM5%=
+%SUP_TYPE_HORZVERT%=
+%SUP_TYPE_HORZVERT5%=
+%SUP_TYPE_MFGSERIAL%=
+%SUP_TYPE_MFGSERIAL5%=
+%SUP_TYPE_NBNO%=
+%SUP_TYPE_NBNO5%=
+%SUP_TYPE_SEPARATOR%=
+%SUP_TYPE_YEARBUILT%=
+%SUP_TYPE_YEARBUILT5%=
+%SUP_UCERTAUTHORIZATIONNO01%=
+%SUP_UCERTEXPIRATION01%=
+%SUP_WORK_DES_P2_TITLE%=Additional Work Description:
+%SUP_WORK_DES_TITLE%=Additional Work Description:
+%TESTING_IMPACTTEMPF1%=
+%TESTING_IMPACTTEMPF2%=N/A
+%TESTING_IMPACTTEST1%=No
+%TESTING_IMPACTTEST2%=N/A
+%TESTING_TESTPROOFTEST1%=
+%TESTING_TESTPROOFTEST2%=
+%TESTING_TESTPSI1%=162 psi
+%TESTING_TESTPSI2%=N/A
+%TESTING_TESTTYPE1%=Hydro.
+%TESTING_TESTTYPE2%=N/A
+%TESTING_TYPE_AT_PSI1%=Hydro. at 162 psi
+%TESTING_TYPE_AT_PSI2%=N/A
+%TU_LENGTH_DIN1%=0
+%TU_LENGTH_FT1%=
+%TU_LENGTH_FT1_FM1%=
+%TU_LENGTH_IN1%=0
+%TU_LENGTH_IN1_FM1%=
+%TU_MATL1%=
+%TU_NO1%=
+%TU_NOMTHK1%=
+%TU_TYPE1%=
+%TUS_ATTACHEDF%=
+%TUS_ATTACHEDS%=
+%TUS_CORRALLOWF%=
+%TUS_CORRALLOWS%=
+%TUS_FLOATDIAM2_ALL%=
+%TUS_FLOATDIAM2_DIN%=
+%TUS_FLOATDIAM2_IN%=
+%TUS_FLOATDIAM_ALL%=
+%TUS_FLOATDIAM_DIN%=
+%TUS_FLOATDIAM_IN%=
+%TUS_MATLF%=
+%TUS_MATLS%=
+%TUS_NOMTHKF%=
+%TUS_NOMTHKS%=
+%TUS_STATDIAM2_ALL%=
+%TUS_STATDIAM2_DIN%=
+%TUS_STATDIAM2_IN%=
+%TUS_STATDIAM_ALL%=
+%TUS_STATDIAM_DIN%=
+%TUS_STATDIAM_IN%=
+%TYPE_CAPACITYDESC%=
+%TYPE_CRN%=
+%TYPE_CRN_HEADER%=
+%TYPE_DRAWNUM%=Q9434 POTABLE WATER TANK REVISED
+%TYPE_DRAWPREP%=
+%TYPE_HORZVERT%=Vertical
+%TYPE_MFGSERIAL%=Q9434 POTABLE WATER TANK REVISED
+%TYPE_MFGSERIAL_HEADER%=Q9434 POTABLE WATER TANK REVISED
+%TYPE_MFGSERIALEND%=Q9434 POTABLE WATER TANK REVISED
+%TYPE_MFGSERIALSTART%=Q9434 POTABLE WATER TANK REVISED
+%TYPE_NBNO%=
+%TYPE_NBNO_HEADER%=
+%TYPE_SEPARATOR%=Vessel
+%TYPE_YEARBUILT%=2026
+%UCERTAUTHORIZATIONNO01%=
+%UCERTAUTHORIZATIONNO02%=
+%UCERTEXPIRATION01%=
+%UCERTEXPIRATION02%=
+%UMCERTAUTHORIZATIONNO01%=
+%UMCERTEXPIRATION01%=
+%VC_ADDENDA%=2023
+%VC_ADDENDA_ALL%=2023 Edition
+%VC_CODECASE%=
+%VC_SPECIALSERVICE%=
+%VC_YEAR%=2023
+</formData>
+		</dataForm>
+	</pressureVessel>
+	<!-- Codeware Data Section -->
+	<codewareData>
+		<compressBuildNumber>8600</compressBuildNumber>
+		<!-- Codeware Calculation Options -->
+		<calculationOptions>
+			<vesselDesignMode>Design</vesselDesignMode>
+			<coneShellStressCalcs>Cones with half apex angle greater than 30 degrees</coneShellStressCalcs>
+			<coneJuncturesAreLinesOfSupport>TRUE</coneJuncturesAreLinesOfSupport>
+			<calculateMAP>TRUE</calculateMAP>
+			<calculateMAWP>TRUE</calculateMAWP>
+			<calculateMAEP>TRUE</calculateMAEP>
+			<limitMAWP>FALSE</limitMAWP>
+			<limitMAWPValue units="psi">0.0000</limitMAWPValue>
+			<limitShellSideMAWP>FALSE</limitShellSideMAWP>
+			<limitShellSideMAWPValue units="psi">0.0000</limitShellSideMAWPValue>
+			<limitTubeSideMAWP>FALSE</limitTubeSideMAWP>
+			<limitTubeSideMAWPValue units="psi">0.0000</limitTubeSideMAWPValue>
+			<skirtLegStressIncreaseFactor>1.0000</skirtLegStressIncreaseFactor>
+			<coldShutDownOnly>FALSE</coldShutDownOnly>
+			<doNotConsiderASCELoadCombos7and8>FALSE</doNotConsiderASCELoadCombos7and8>
+			<doNotPerformASCESkirtBucklingCheck>FALSE</doNotPerformASCESkirtBucklingCheck>
+			<numericalIntegration>Best</numericalIntegration>
+			<rigidityCalcsForMAP>TRUE</rigidityCalcsForMAP>
+			<noRigidityCalcsForSeismic>FALSE</noRigidityCalcsForSeismic>
+			<enforceMaximumBoltSpacing>FALSE</enforceMaximumBoltSpacing>
+			<limitChamberRatedMDMTToDesignMDMT>TRUE</limitChamberRatedMDMTToDesignMDMT>
+		</calculationOptions>
+		<!-- Codeware Testing Options -->
+		<testingOptions>
+			<shopTestNew>TRUE</shopTestNew>
+			<shopTestVertical>TRUE</shopTestVertical>
+			<shopHydrotestBasis>2</shopHydrotestBasis>
+			<userDefinedTestPressureShop units="psi">0.0000</userDefinedTestPressureShop>
+			<userDefinedTestPressureShop2 units="psi">0.0000</userDefinedTestPressureShop2>
+			<userDefinedTestPressureShop3 units="psi">0.0000</userDefinedTestPressureShop3>
+			<fieldTestNew>FALSE</fieldTestNew>
+			<fieldHydrotestBasis>0</fieldHydrotestBasis>
+			<userDefinedTestPressureField units="psi">0.0000</userDefinedTestPressureField>
+			<userDefinedTestPressureField2 units="psi">0.0000</userDefinedTestPressureField2>
+			<userDefinedTestPressureField3 units="psi">0.0000</userDefinedTestPressureField3>
+			<calcHydroStress>FALSE</calcHydroStress>
+			<testTemperature units="degF">70.0000</testTemperature>
+			<testLiquidSpecGravity>1.0000</testLiquidSpecGravity>
+			<windLoadAtTestPercent>33</windLoadAtTestPercent>
+			<yieldStressAtTestPercent>90</yieldStressAtTestPercent>
+			<impactTestTemperature units="degF">-50.0000</impactTestTemperature>
+		</testingOptions>
+		<!-- Codeware Nozzle 1 Options -->
+		<nozzle1Options>
+			<designNozzlesFor>3</designNozzlesFor>
+			<autoIncrNozASMEFlgToMeetChamberMapMawp>FALSE</autoIncrNozASMEFlgToMeetChamberMapMawp>
+			<rateNozzleForMawp>TRUE</rateNozzleForMawp>
+			<rateNozzleForMap>FALSE</rateNozzleForMap>
+			<wallInputsAreMin>FALSE</wallInputsAreMin>
+			<nozDlgDisplaysAsOD>TRUE</nozDlgDisplaysAsOD>
+			<fullNozzleAreaReplacement>FALSE</fullNozzleAreaReplacement>
+			<showBoxInReportSketches>TRUE</showBoxInReportSketches>
+			<weldFromOutside>FALSE</weldFromOutside>
+			<grooveWeldsAreFullPen>FALSE</grooveWeldsAreFullPen>
+			<minProjection units="in">6.0000</minProjection>
+			<defaultNozzleID units="in">6.0650</defaultNozzleID>
+			<defaultNozzleThickness units="in">0.2800</defaultNozzleThickness>
+			<trCalculatonIncludesLongitudinalStress>FALSE</trCalculatonIncludesLongitudinalStress>
+			<removeTrailingZerosFromSketch>TRUE</removeTrailingZerosFromSketch>
+			<useAppendix1_9InLieuOfUG37>FALSE</useAppendix1_9InLieuOfUG37>
+			<useAppendix1_10InLieuOfUG37>FALSE</useAppendix1_10InLieuOfUG37>
+		</nozzle1Options>
+		<!-- Codeware Nozzle 2 Options -->
+		<nozzle2Options>
+			<defaultNozzleMaterial>SA-312 TP304 Wld &amp; smls pipe</defaultNozzleMaterial>
+			<defaultNozzleMatlID>2459</defaultNozzleMatlID>
+			<defaultPadMaterial>SA-240 304</defaultPadMaterial>
+			<defaultPadMatlID>589</defaultPadMatlID>
+			<defaultForgingMaterial>A182 F304</defaultForgingMaterial>
+			<nozzleCorrosion units="in">0.0000</nozzleCorrosion>
+			<gasketDescription></gasketDescription>
+			<!-- Quick Nozzle Design Preferences -->
+			<nozzleShortcutShowTrail>FALSE</nozzleShortcutShowTrail>
+			<nozzleCorrosionSameAsParent>FALSE</nozzleCorrosionSameAsParent>
+			<nozzleShortcutPenetrationAllowed>TRUE</nozzleShortcutPenetrationAllowed>
+			<nozzleShortcutDesignAccess>FALSE</nozzleShortcutDesignAccess>
+			<defaultNozzleMinPadWidth units="in">0.0000</defaultNozzleMinPadWidth>
+			<nozzleShortcutIncludeBlind>TRUE</nozzleShortcutIncludeBlind>
+			<nozzleShortcutIntegralForging>FALSE</nozzleShortcutIntegralForging>
+			<nozzleShortcutSchABBitmap>-456</nozzleShortcutSchABBitmap>
+			<nozzleShortcutSchCBitmap>-2</nozzleShortcutSchCBitmap>
+			<nozzleShortcutASMEFlgType>1</nozzleShortcutASMEFlgType>
+			<nozzleShortcutFlangeMinClass>0</nozzleShortcutFlangeMinClass>
+			<nozzleShortcutFlangeMaxClass>6</nozzleShortcutFlangeMaxClass>
+			<nozzleShortcutIntForgMinType>0</nozzleShortcutIntForgMinType>
+			<nozzleShortcutIntForgMaxType>5</nozzleShortcutIntForgMaxType>
+			<nozzlePadIsSplit>FALSE</nozzlePadIsSplit>
+			<nozzlePadUG37H1FullPen>FALSE</nozzlePadUG37H1FullPen>
+			<nozzlePadUG37H245Deg>FALSE</nozzlePadUG37H245Deg>
+			<nozzlePadJointEfficiency>0.7500</nozzlePadJointEfficiency>
+		</nozzle2Options>
+		<!-- Codeware Environment Options -->
+		<environmentOptions>
+			<autoCopyLast>FALSE</autoCopyLast>
+			<autoCamOnLeft>TRUE</autoCamOnLeft>
+			<numberOfMouseButtons>8</numberOfMouseButtons>
+			<emptyDocAtStart>TRUE</emptyDocAtStart>
+			<vesselMaximize>TRUE</vesselMaximize>
+			<autoResize>FALSE</autoResize>
+			<autoDetails>TRUE</autoDetails>
+			<suppressWarnings>TRUE</suppressWarnings>
+			<suppressDeficiencyDialog>FALSE</suppressDeficiencyDialog>
+			<exportToXML>FALSE</exportToXML>
+			<exportToCoster>FALSE</exportToCoster>
+			<exportToDrafter>FALSE</exportToDrafter>
+			<exportToXMLonF3>FALSE</exportToXMLonF3>
+			<div2ReportDecimalPlaces>2</div2ReportDecimalPlaces>
+		</environmentOptions>
+		<!-- Codeware Options Options -->
+		<optionOptions>
+			<cylinerFromPipeAreMinimumThickness>FALSE</cylinerFromPipeAreMinimumThickness>
+			<pipecapsAreMinimumThickness>FALSE</pipecapsAreMinimumThickness>
+			<userDefinedThicknessIncrement>FALSE</userDefinedThicknessIncrement>
+			<userThicknessIncrement units="in">0.0625</userThicknessIncrement>
+			<corrosionLossPercent>100</corrosionLossPercent>
+			<useUG32RulesFor2to1Heads>FALSE</useUG32RulesFor2to1Heads>
+			<useUG32RulesForFDHeads>FALSE</useUG32RulesForFDHeads>
+			<useApp1_2RulesForCylinders>FALSE</useApp1_2RulesForCylinders>
+			<useApp1_3RulesForHemiHeads>FALSE</useApp1_3RulesForHemiHeads>
+			<usePVP399>FALSE</usePVP399>
+			<useVacuumChartLimit>TRUE</useVacuumChartLimit>
+			<localStressCalculationMethod>WRC 537</localStressCalculationMethod>
+			<useB30_20ForLiftLugStress>FALSE</useB30_20ForLiftLugStress>
+			<useLiftLugBaseringStrut>FALSE</useLiftLugBaseringStrut>
+			<useLiftLugBracePlateWeld>FALSE</useLiftLugBracePlateWeld>
+		</optionOptions>
+		<!-- Codeware Long Seams Options -->
+		<longSeamsOptions>
+			<LongSeamsActive>TRUE</LongSeamsActive>
+			<ReferenceNorth>TRUE</ReferenceNorth>
+			<LongSeamsPerShell>1</LongSeamsPerShell>
+			<LongSeamEditType>0</LongSeamEditType>
+			<NorthRefAng units="deg">0.0000</NorthRefAng>
+			<LongSeamStartingAngle units="deg">0.0000</LongSeamStartingAngle>
+			<LongSeamStaggerAngle units="deg">30.0000</LongSeamStaggerAngle>
+			<LongSeamPlateWidth units="in">240.0000</LongSeamPlateWidth>
+		</longSeamsOptions>
+		<!-- Codeware Welding Options -->
+		<weldingOptions>
+			<weldsBeveled>TRUE</weldsBeveled>
+			<noWeldPreheat>TRUE</noWeldPreheat>
+			<defaultWeldConfiguration>1</defaultWeldConfiguration>
+			<defaultWeldSize units="in">0.3750</defaultWeldSize>
+			<defaultWeldLength units="in">3.0000</defaultWeldLength>
+			<defaultWeldSpacing units="in">3.0000</defaultWeldSpacing>
+		</weldingOptions>
+		<!-- Codeware Defaults Options -->
+		<defaultsOptions>
+			<defaultInternalPressure units="psi">125.0000</defaultInternalPressure>
+			<defaultInternalTemperature units="degF">200.0000</defaultInternalTemperature>
+			<defaultExternalPressure units="psi">0.0000</defaultExternalPressure>
+			<defaultExternalTemperature units="degF">200.0000</defaultExternalTemperature>
+			<defaultCorrosionInner units="in">0.0000</defaultCorrosionInner>
+			<defaultCorrosionOuter units="in">0.0000</defaultCorrosionOuter>
+			<defaultVesselMatlID>81</defaultVesselMatlID>
+			<defaultMDMT units="degF">-20.0000</defaultMDMT>
+			<defaultDiameter units="in">60.0000</defaultDiameter>
+			<defaultODDesign>FALSE</defaultODDesign>
+			<defaultOrientationHorizontal>TRUE</defaultOrientationHorizontal>
+			<defaultOperatingLiquidSpecGravity>1.0000</defaultOperatingLiquidSpecGravity>
+			<defaultCylinderLength units="in">96.0000</defaultCylinderLength>
+			<defaultSFLength units="in">2.0000</defaultSFLength>
+			<defaultD1LongSeamXray>8</defaultD1LongSeamXray>
+			<defaultD1CircSeamXray>8</defaultD1CircSeamXray>
+			<defaultD1LongSeamXrayHeads>4</defaultD1LongSeamXrayHeads>
+			<defaultD1CircSeamXrayHeads>8</defaultD1CircSeamXrayHeads>
+			<defaultD2LongSeamXray>4096</defaultD2LongSeamXray>
+			<defaultD2CircSeamXray>4096</defaultD2CircSeamXray>
+			<defaultD2LongSeamXrayHeads>4096</defaultD2LongSeamXrayHeads>
+			<defaultD2CircSeamXrayHeads>4096</defaultD2CircSeamXrayHeads>
+		</defaultsOptions>
+		<!-- Codeware Platform and Ladder Options -->
+		<platformOptions>
+			<defaultPlatformWidth units="in">36.0000</defaultPlatformWidth>
+			<defaultShellClearance units="in">6.0000</defaultShellClearance>
+			<defaultRailingHeight units="in">42.0000</defaultRailingHeight>
+			<defaultRailingWeight>12.0000</defaultRailingWeight>
+			<defaultGratingWeight>10.0000</defaultGratingWeight>
+			<defaultLadderWeight>18.0000</defaultLadderWeight>
+			<defaultRailingEffHeight units="in">9.6000</defaultRailingEffHeight>
+			<defaultBaseDepth units="in">6.0000</defaultBaseDepth>
+			<defaultWindForceCoeff>2.0000</defaultWindForceCoeff>
+			<defaultPresentWhenEmpty>TRUE</defaultPresentWhenEmpty>
+			<defaultPresentDuringTest>TRUE</defaultPresentDuringTest>
+			<defaultIncludeInLiftWeight>FALSE</defaultIncludeInLiftWeight>
+			<defaultApplyWind>TRUE</defaultApplyWind>
+		</platformOptions>
+		<!-- Codeware ASME Code Options -->
+		<ASMECodeOptions>
+			<div1CodeOptions>
+				<minimumAllowableThickness units="in">0.0625</minimumAllowableThickness>
+				<applyInterp_VIII_1_83_66>TRUE</applyInterp_VIII_1_83_66>
+				<noUG20fExemptions>FALSE</noUG20fExemptions>
+				<applyInterp_VIII_1_86_175>TRUE</applyInterp_VIII_1_86_175>
+				<useCodeCase2236>FALSE</useCodeCase2236>
+				<applyInterp_1_83_115>TRUE</applyInterp_1_83_115>
+				<useCodeCase2290>FALSE</useCodeCase2290>
+				<lethalService>FALSE</lethalService>
+				<noAppendix_1_5or1_8Calc>FALSE</noAppendix_1_5or1_8Calc>
+				<stressIncreaseUG23>1.2000</stressIncreaseUG23>
+			</div1CodeOptions>
+		</ASMECodeOptions>
+	</codewareData>
+	<!-- Format and Settings Options -->
+	<formatSettings>
+		<locale>
+			<LC_NUMERIC>English</LC_NUMERIC>
+			<LCID>1033</LCID>
+		</locale>
+	</formatSettings>
+</cw:vessel>
