@@ -1,0 +1,167 @@
+import xml.etree.ElementTree as ET
+import pandas as pd
+
+# ==========================================
+# 1. SET YOUR FILE PATHS HERE
+# ==========================================
+xml_input = "E:/SAVTANK US/SAVTANK/2026/JN024-26/JN024-26.xml3d" 
+excel_output = "E:/SAVTANK US/SAVTANK/2026/JN024-26/DESIGN DATA.xlsx"
+
+# ==========================================
+# 2. HELPER FUNCTIONS
+# ==========================================
+def safe_text(element, default=""):
+    """Returns text if the tag exists, otherwise returns default."""
+    return element.text if element is not None else default
+
+def safe_float(val):
+    """Converts text to float safely, returns 0.0 if blank/invalid."""
+    if val is None or val == "":
+        return 0.0
+    try:
+        return float(val)
+    except (ValueError, TypeError):
+        return 0.0
+
+# ==========================================
+# 3. THE EXTRACTION ENGINE 
+# ==========================================
+def parse_compress_xml(xml_file_path, output_excel_path):
+    try:
+        tree = ET.parse(xml_file_path)
+        root = tree.getroot()
+
+        # Strip hidden namespaces
+        for elem in root.iter():
+            if '}' in elem.tag:
+                elem.tag = elem.tag.split('}', 1)[1]
+
+        vessel_data = []
+
+        # MASTER TARGET LIST
+        target_tags = {
+            'cylinder', 'torispherical', 'elliptical', 'hemispherical', 'conical', 'flat',
+            'nozzle', 'saddle', 'skirt', 'legs', 'leg', 'liftinglug', 'clip', 'taillug', 'support',
+            'bodyflange', 'flange', 'platform', 'ladder'
+        }
+
+        # Iterate through EVERY tag
+        for elem in root.iter():
+            tag_name = elem.tag.lower()
+            
+            if tag_name in target_tags:
+                category = tag_name.upper()
+                
+                # Setup data nodes
+                std_data = elem.find('standardComponentData')
+                data_node = std_data if std_data is not None else elem
+
+                # 1. Identifiers & Mating
+                comp_name = safe_text(data_node.find('identifier'), "Unnamed")
+                if comp_name == "Unnamed": comp_name = safe_text(elem.find('identifier'), category)
+
+                attached_to = safe_text(data_node.find('attachedTo'), "None")
+                if attached_to == "None": attached_to = safe_text(elem.find('attachedTo'), "None")
+
+                material = safe_text(data_node.find('material'), "N/A")
+                if material == "N/A": material = safe_text(elem.find('material'), "N/A")
+
+                # 2. Quantity (Crucial for iLogic Circular Patterns)
+                qty = safe_float(safe_text(elem.find('numberOfLegs')))
+                if qty == 0.0: qty = safe_float(safe_text(elem.find('numberOfSaddles')))
+                if qty == 0.0: qty = safe_float(safe_text(elem.find('quantity')))
+                if qty == 0.0: qty = 1.0 # Default to 1 if not specified
+
+                # 3. Structural Profile & Part Recognition
+                part_desc = safe_text(data_node.find('pipeNPSandSchedule'))
+                if not part_desc: part_desc = safe_text(elem.find('legType'))
+                if not part_desc: part_desc = safe_text(elem.find('nozzleStyleDescription'))
+                if not part_desc: part_desc = "Standard Template"
+
+                # Extract Structural Profile Size (e.g., "3x3x1/4 Equal Angle")
+                profile_size = safe_text(elem.find('size'))
+                if not profile_size:
+                    sec_data = elem.find('sectionData')
+                    if sec_data is not None:
+                        profile_size = safe_text(sec_data.find('description'))
+
+                # 4. Standard Dimensions (Shells/Nozzles)
+                od = safe_float(safe_text(data_node.find('outerDiameter')))
+                thk = safe_float(safe_text(data_node.find('nominalThickness')))
+                if thk == 0.0: thk = safe_float(safe_text(elem.find('thickness')))
+                
+                length_str = safe_text(data_node.find('length'))
+                if not length_str: length_str = safe_text(elem.find('length'))
+                length = safe_float(length_str)
+
+                # 5. Support Specific Dimensions (Base Plates & Saddles)
+                bp_length = safe_float(safe_text(elem.find('basePlateLength')))
+                bp_width = safe_float(safe_text(elem.find('basePlateWidth')))
+                if bp_width == 0.0: bp_width = safe_float(safe_text(elem.find('saddleWidth'))) # Catch saddles
+                
+                bp_thk = safe_float(safe_text(elem.find('basePlateThickness')))
+                if bp_thk == 0.0: bp_thk = safe_float(safe_text(elem.find('wearPlateThickness'))) # Catch saddles/lugs
+
+                bolt_circle = safe_float(safe_text(elem.find('boltCircle')))
+
+                # 6. Z-AXIS ELEVATION
+                elevation = safe_text(data_node.find('startElevation'))
+                if not elevation: elevation = safe_text(elem.find('distanceFromDatum'))
+                if not elevation: elevation = safe_text(elem.find('elevation'))
+                if not elevation: elevation = safe_text(elem.find('location'))
+                elevation_val = safe_float(elevation)
+
+                # 7. RADIAL & ANGULAR LOCATIONS
+                angle = safe_text(elem.find('orientationAngle'))
+                if not angle: angle = safe_text(elem.find('angle'))
+                angle_val = safe_float(angle)
+
+                radial_dist = safe_float(safe_text(elem.find('radialDistance')))
+                offset = safe_float(safe_text(elem.find('offset')))
+
+                # 8. XYZ INTERSECTIONS
+                x = safe_float(safe_text(elem.find('intersectionPointX')))
+                y = safe_float(safe_text(elem.find('intersectionPointY')))
+                z = safe_float(safe_text(elem.find('intersectionPointZ')))
+
+                # Append to Excel
+                vessel_data.append({
+                    "Category": category,
+                    "Component_Name": comp_name,
+                    "Attached_To_Parent": attached_to,
+                    "Quantity": int(qty),
+                    "Part_Style_or_Type": part_desc,
+                    "Structural_Profile_Size": profile_size,
+                    "Material": material,
+                    "Outside_Dia (in)": od,
+                    "Thickness (in)": thk,
+                    "Length (in)": length,
+                    "BasePlate_Length (in)": bp_length,
+                    "BasePlate_Width (in)": bp_width,
+                    "BasePlate_Thk (in)": bp_thk,
+                    "Bolt_Circle (in)": bolt_circle,
+                    "Elevation_from_Datum (in)": elevation_val,
+                    "Radial_Distance (in)": radial_dist,
+                    "Orientation_Angle (deg)": angle_val,
+                    "Offset (in)": offset,
+                    "X_Intersect (in)": x,
+                    "Y_Intersect (in)": y,
+                    "Z_Intersect (in)": z
+                })
+
+        # Convert and Export
+        df = pd.DataFrame(vessel_data)
+        df.to_excel(output_excel_path, index=False, engine='openpyxl')
+        print(f"Success! Extracted {len(vessel_data)} components to:")
+        print(output_excel_path)
+        
+    except FileNotFoundError:
+        print(f"Error: Could not find the XML file at {xml_file_path}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+# ==========================================
+# 4. RUN THE SCRIPT
+# ==========================================
+if __name__ == "__main__":
+    parse_compress_xml(xml_input, excel_output)
