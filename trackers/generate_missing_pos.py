@@ -41,16 +41,15 @@ def main():
 
         rows = []
         for _, line in active_po_detail.iterrows():
-            recv_pct = (line.get('Recv_Quantity', 0) or 0) / max(line.get('Order_Quantity', 1), 1) * 100
             rows.append({
-                'Job #': line['Job'],
+                'Job #': line.get('Job', ''),
                 'PO #': line['PO'],
                 'Line': line.get('Line', ''),
                 'Vendor': line.get('Vendor_Name', line.get('Vendor', '')),
-                'Description': line.get('Description', ''),
+                'Description': line.get('Material_Desc', ''),
                 'Order Qty': line.get('Order_Quantity', ''),
-                'Recv Qty': line.get('Recv_Quantity', ''),
-                'Recv %': f'{recv_pct:.0f}%',
+                'Est Amount': line.get('Est_Ext_Amount', ''),
+                'Certs Required': line.get('Certs_Required', ''),
                 'Status': line.get('Status', ''),
                 'Due Date': line.get('Due_Date', ''),
             })
@@ -89,10 +88,10 @@ def main():
         # Also check for material requirements without POs
         mat_reqs = pd.read_csv(mat_req_path, low_memory=False)
         active_mat = mat_reqs[mat_reqs['Job'].isin(active_jobs['Job'])].copy()
-        # Buy items without a PO
+        # Buy items that are still open (not received/closed)
         missing = active_mat[
             (active_mat['Pick_Buy'] == 'B') &
-            (active_mat['PO'].isna() | (active_mat['PO'] == ''))
+            (active_mat['Status'].isin(['O', 'U', '']))  # Open or Unissued
         ]
         if not missing.empty:
             missing_rows = []
