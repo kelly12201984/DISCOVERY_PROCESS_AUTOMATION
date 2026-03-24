@@ -166,6 +166,28 @@ def main():
         ORDER BY d.Promised_Date DESC
     """, "All deliveries with job info")
 
+    # 12. PO Details (line items tied to jobs)
+    total += export_query(conn, 'po_detail.csv', """
+        SELECT pd.PO, pd.Line, pd.Job, pd.Material, pd.Description,
+               pd.Order_Quantity, pd.Unit_Cost, pd.Recv_Quantity,
+               pd.Status, pd.Due_Date,
+               ph.Vendor, v.Name as Vendor_Name
+        FROM PO_Detail pd
+        JOIN PO_Header ph ON ph.PO = pd.PO
+        LEFT JOIN Vendor v ON v.Vendor = ph.Vendor
+        ORDER BY pd.PO DESC, pd.Line
+    """, "PO line items with job links and vendor names")
+
+    # 13. Material Requirements (BOM per job)
+    total += export_query(conn, 'material_reqs.csv', """
+        SELECT mr.Job, mr.Material, mr.Description,
+               mr.Est_Qty, mr.Act_Qty, mr.Est_Unit_Cost,
+               mr.Pick_Buy, mr.Status, mr.Due_Date,
+               mr.PO, mr.Vendor
+        FROM Material_Req mr
+        ORDER BY mr.Job, mr.Material
+    """, "Material requirements (BOM) per job")
+
     print(f"\nTotal: {total:,} rows exported across all files")
     conn.close()
 
