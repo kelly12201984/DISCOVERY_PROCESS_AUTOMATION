@@ -329,11 +329,29 @@
 
 ---
 
+## Schema Analysis Update (2026-03-24)
+
+Full schema extracted via `JOBBOSS_SCHEMA_EDA.csv` — 142 tables profiled from SQL Server.
+
+**Key findings from schema analysis:**
+
+- **We have 11 of 142 tables** — and most of our exports are column-limited (e.g., Job has 96 columns, we extracted 35; Job_Operation has 108, we extracted 26)
+- **materials.csv is a derived summary, not the raw table** — the real Material table has 7,508 rows and 53 columns. Job-level material data lives in `Material_Req` (39,650 rows) and `Material_Trans` (218,168 rows)
+- **Revenue data exists but was not extracted** — `Invoice_Header` (2,100 rows) and `Invoice_Detail` (5,494 rows) contain billing/revenue data needed for profitability analysis
+- **Bill_Of_Jobs (198 rows) likely resolves the orphaned sub-assembly jobs** — this table maps parent-child job relationships
+- **Shift table (2 rows) resolves the employee GUID issue** — maps shift UUIDs to readable names
+- **Sales Orders module is unused** — SO_Header and SO_Detail are both empty (0 rows), confirming direct job-entry workflow
+- **43 tables are completely empty** — significant portions of JobBOSS functionality are not in use
+
+> See `JobBOSS/SCHEMA_ANALYSIS_AND_EXTRACTION_PLAN.md` for the full extraction priority plan with SQL queries.
+
+---
+
 ## Notes
 
 - **The data is well-linked overall** -- all primary foreign key relationships (time_entries -> jobs, employees, work_centers; jobs -> customers; POs -> vendors; deliveries -> jobs) are clean with zero orphans.
-- **The one broken link** is job_operations -> jobs, where 110 sub-assembly style jobs exist only in operations.
+- **The one broken link** is job_operations -> jobs, where 110 sub-assembly style jobs exist only in operations. The `Bill_Of_Jobs` table (198 rows) likely contains the parent-child mappings that explain these.
 - **Setup tracking is not used** -- confirmed across time_entries, job_operations, operations, and work_centers. All setup columns are dead weight.
 - **Machine Burden and GA Burden are not used** -- confirmed across all tables. These cost allocation methods are not implemented.
 - **The operations.csv file is purely a template catalog** -- no transactional data, all run/setup values are zero. It defines the standard workflow steps.
-- **materials.csv is aggregate-only** -- it shows totals per material code, not per-job breakdowns. Job-level material data would need to come from a different source or join.
+- **materials.csv is aggregate-only** -- it shows totals per material code, not per-job breakdowns. Job-level material data lives in `Material_Req` (39,650 rows) and `Material_Trans` (218,168 rows).
