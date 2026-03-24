@@ -338,8 +338,9 @@ Full schema extracted via `JOBBOSS_SCHEMA_EDA.csv` — 142 tables profiled from 
 - **We have 11 of 142 tables** — and most of our exports are column-limited (e.g., Job has 96 columns, we extracted 35; Job_Operation has 108, we extracted 26)
 - **materials.csv is a derived summary, not the raw table** — the real Material table has 7,508 rows and 53 columns. Job-level material data lives in `Material_Req` (39,650 rows) and `Material_Trans` (218,168 rows)
 - **Revenue data exists but was not extracted** — `Invoice_Header` (2,100 rows) and `Invoice_Detail` (5,494 rows) contain billing/revenue data needed for profitability analysis
-- **Bill_Of_Jobs (198 rows) likely resolves the orphaned sub-assembly jobs** — this table maps parent-child job relationships
-- **Shift table (2 rows) resolves the employee GUID issue** — maps shift UUIDs to readable names
+- **Bill_Of_Jobs (198 rows) CONFIRMED resolves the orphaned sub-assembly jobs** — 111 parent jobs break into 198 component jobs using suffixes: `_BTM` (bottom), `_TOP` (top), `_MAN` (manway/shell), `_PRE` (pre-assembly), `_ADM` (admin). This is the tank fabrication assembly hierarchy.
+- **Shift table (2 rows) CONFIRMED resolves the employee GUID issue** — `B168CA62...` = "1ST" (first shift), `FFBD432F...` = "DESIGN SCH" (design schedule). Both have 40-hour weekly OT threshold.
+- **Invoice data now extracted** — 2,100 invoices, $90.6M total revenue (2014-2026). $2.96M open AR across 38 unpaid invoices. Top customers: ONEACONS ($4.48M), SOLVSPEC ($4.45M), FLOQENGI ($3.40M)
 - **Sales Orders module is unused** — SO_Header and SO_Detail are both empty (0 rows), confirming direct job-entry workflow
 - **43 tables are completely empty** — significant portions of JobBOSS functionality are not in use
 
