@@ -30,23 +30,20 @@ def main():
     active_jobs = jobs[jobs['Status'].isin(['Active', 'Released', 'Hold'])]
 
     if has_detail:
-        # Best case: we have PO line items linked to jobs
+        # PO line items — note: PO_Detail has no Job column, so we filter by status only
         po_detail = pd.read_csv(po_detail_path, low_memory=False)
 
-        # Find PO details for active jobs where status is not closed/received
+        # Open/unissued PO lines (can't filter by job since PO_Detail lacks Job linkage)
         active_po_detail = po_detail[
-            (po_detail['Job'].isin(active_jobs['Job'])) &
-            (po_detail['Status'].isin(['Open', 'Unissued', 'Partial']))
+            po_detail['Status'].isin(['Open', 'Unissued', 'Partial'])
         ].copy()
 
         rows = []
         for _, line in active_po_detail.iterrows():
             rows.append({
-                'Job #': line.get('Job', ''),
                 'PO #': line['PO'],
                 'Line': line.get('Line', ''),
                 'Vendor': line.get('Vendor_Name', line.get('Vendor', '')),
-                'Description': line.get('Material_Desc', ''),
                 'Order Qty': line.get('Order_Quantity', ''),
                 'Est Amount': line.get('Est_Ext_Amount', ''),
                 'Certs Required': line.get('Certs_Required', ''),
@@ -56,7 +53,7 @@ def main():
 
         df = pd.DataFrame(rows)
         if not df.empty:
-            df = df.sort_values(['Job #', 'PO #'])
+            df = df.sort_values(['PO #'])
         print(f"Using PO detail data: {len(df)} open PO lines on active jobs")
 
     else:

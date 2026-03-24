@@ -50,8 +50,9 @@ def main():
     # Week bucket (Monday start)
     time_entries['Week_Of'] = time_entries['Work_Date'].dt.to_period('W-SUN').apply(lambda p: p.start_time)
 
-    # Filter to recent years
-    time_entries = time_entries[time_entries['Work_Date'] >= '2025-01-01']
+    # Filter to recent data (current year and prior year)
+    cutoff = f'{datetime.now().year - 1}-01-01'
+    time_entries = time_entries[time_entries['Work_Date'] >= cutoff]
 
     # Aggregate by week + department
     weekly = time_entries.groupby(['Week_Of', 'Department']).agg(
