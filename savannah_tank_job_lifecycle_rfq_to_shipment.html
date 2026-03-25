@@ -1,0 +1,222 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .stepper { font-family: var(--font-sans); max-width: 680px; }
+  .phase-nav { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
+  .phase-btn { padding: 6px 12px; border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-tertiary); background: var(--color-background-secondary); color: var(--color-text-secondary); font-size: 12px; font-family: var(--font-sans); cursor: pointer; transition: all .2s; font-weight: 400; }
+  .phase-btn.active { background: #534AB7; color: #fff; border-color: #534AB7; font-weight: 500; }
+  .phase-btn:hover:not(.active) { border-color: var(--color-border-secondary); }
+  .phase-card { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 20px; background: var(--color-background-secondary); }
+  .phase-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+  .phase-num { font-size: 11px; font-weight: 500; color: #534AB7; background: #EEEDFE; padding: 2px 8px; border-radius: 10px; }
+  @media (prefers-color-scheme: dark) { .phase-num { background: #3C3489; color: #CECBF6; } }
+  .phase-title { font-size: 16px; font-weight: 500; color: var(--color-text-primary); }
+  .row { display: flex; gap: 16px; margin-bottom: 14px; }
+  .col { flex: 1; min-width: 0; }
+  .label { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .val { font-size: 13px; color: var(--color-text-primary); line-height: 1.5; }
+  .val li { margin-left: 14px; margin-bottom: 2px; list-style: disc; }
+  .tables { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+  .tbl { font-family: var(--font-mono); font-size: 11px; padding: 2px 7px; border-radius: 4px; background: #E6F1FB; color: #0C447C; }
+  @media (prefers-color-scheme: dark) { .tbl { background: #0C447C; color: #B5D4F4; } }
+  .pain { margin-top: 12px; padding: 10px 14px; border-radius: 8px; border-left: 3px solid #D85A30; background: #FAECE7; }
+  @media (prefers-color-scheme: dark) { .pain { background: #4A1B0C; border-color: #F0997B; } }
+  .pain-label { font-size: 11px; font-weight: 500; color: #993C1D; margin-bottom: 3px; }
+  @media (prefers-color-scheme: dark) { .pain-label { color: #F5C4B3; } }
+  .pain-text { font-size: 12px; color: #712B13; line-height: 1.5; }
+  @media (prefers-color-scheme: dark) { .pain-text { color: #F0997B; } }
+  .opp { margin-top: 8px; padding: 10px 14px; border-radius: 8px; border-left: 3px solid #1D9E75; background: #E1F5EE; }
+  @media (prefers-color-scheme: dark) { .opp { background: #04342C; border-color: #5DCAA5; } }
+  .opp-label { font-size: 11px; font-weight: 500; color: #0F6E56; margin-bottom: 3px; }
+  @media (prefers-color-scheme: dark) { .opp-label { color: #9FE1CB; } }
+  .opp-text { font-size: 12px; color: #085041; line-height: 1.5; }
+  @media (prefers-color-scheme: dark) { .opp-text { color: #5DCAA5; } }
+  .arrow-down { text-align: center; color: var(--color-text-tertiary); margin: 8px 0; font-size: 18px; }
+  .handoff { font-size: 11px; text-align: center; color: var(--color-text-tertiary); font-style: italic; margin-bottom: 8px; }
+</style>
+<div class="stepper">
+  <div class="phase-nav" id="nav"></div>
+  <div id="content"></div>
+</div>
+<script>
+const phases = [
+  {
+    num: 1, short: "RFQ intake",
+    title: "Customer RFQ arrives",
+    who: "Chris (Sales Manager)",
+    systems: "Email → OTTO RFQ Assistant → Outlook",
+    flow: [
+      "Customer sends RFQ via email to dedicated Gmail account",
+      "OTTO polls Gmail, classifies email via Claude API, extracts 9 required fields",
+      "Complete RFQs route to Chris with send-to-calc workflow",
+      "Incomplete RFQs get draft follow-up emails routed to Outlook \"OTTO Drafts\" folder",
+      "Chris reviews, decides whether to quote"
+    ],
+    tables: ["RFQ"],
+    tableNote: "Only 11 rows in 12 years — RFQ table is barely used. Chris works from email/OTTO, not from JobBOSS RFQ module.",
+    pain: "The JB RFQ module exists but nobody uses it. The RFQ → Quote link in JobBOSS is essentially dead. All quoting intelligence lives in OTTO and Chris's head.",
+    opp: "OTTO's RFQ intake is already built and working. The gap is that nothing flows from here into JobBOSS until much later."
+  },
+  {
+    num: 2, short: "Quoting",
+    title: "Quote development",
+    who: "Chris (Sales), OTTO estimator",
+    systems: "OTTO (AMETank/COMPRESS XML → structured estimate → proposal)",
+    flow: [
+      "Chris feeds tank specs into OTTO's estimation engine",
+      "OTTO parses XML files, calculates materials, labor hours, pricing",
+      "OTTO generates formatted proposal document for customer",
+      "Chris reviews, adjusts markup/pricing, sends to customer",
+      "Back-and-forth negotiation happens outside JobBOSS entirely"
+    ],
+    tables: ["Quote", "Quote_Qty", "Quote_Operation", "Quote_Operation_Qty", "Quote_Req", "Quote_Req_Qty", "Quote_Addl_Charge"],
+    tableNote: "29 quotes in JobBOSS across 12 years. 7 related tables with full routing/BOM/pricing schema — completely unused. All quoting lives in OTTO.",
+    pain: "JobBOSS has a complete quoting module with 7 tables designed for exactly this workflow, but Savannah Tank never adopted it. Zero institutional quote history in the system of record.",
+    opp: "The Quote → Job link (Job.Quote FK) exists in the schema. If OTTO wrote quotes to JB, the Won → Job creation path could be partially automated."
+  },
+  {
+    num: 3, short: "Quote won",
+    title: "Quote won → job creation",
+    who: "Chris (initiates), Sherri (executes in JB)",
+    systems: "Email/verbal handoff → JobBOSS UI",
+    flow: [
+      "Chris wins the quote — notifies office verbally or via email",
+      "Sherri manually creates job in JobBOSS: job number, customer, PO, part, dates",
+      "Job number assigned (Auto_Number table controls sequence)",
+      "Sherri enters 30-40 routing operations line by line into Job_Operation",
+      "Sherri enters material requirements into Material_Req",
+      "Folder structure created on P: drive for job documents"
+    ],
+    tables: ["Job", "Job_Operation", "Material_Req", "Auto_Number", "Customer", "Address", "User_Values"],
+    tableNote: "1,770 jobs total. Job table has 96 columns, Job_Operation has 108 columns. Each job creation touches 4-7 tables minimum.",
+    pain: "Sherri manually types 30-40 operations per job. Only 12 routing templates exist for 208 distinct operations. This is the single biggest manual bottleneck between a won quote and production starting.",
+    opp: "Build plan → JB routing automation would eliminate Sherri's manual entry. OTTO → JB job creation (Category 3 write) would close the quote-to-job gap entirely. Both are high-value but high-risk writes."
+  },
+  {
+    num: 4, short: "Planning & BOM",
+    title: "Job planning, engineering, BOM",
+    who: "April (PM), Nick (Engineering/Procurement), Rutang (Lead Engineer)",
+    systems: "JobBOSS + Excel trackers + P: drive",
+    flow: [
+      "April adds job to her PM Tracker spreadsheet (manual re-entry from JB)",
+      "Nick reviews material requirements, builds BOM",
+      "Engineering team (India + Rutang) produces drawings, stores on P: drive",
+      "Nick identifies what to buy vs. what's in stock",
+      "Attachments (drawings, specs) linked in JB Attachment table"
+    ],
+    tables: ["Material_Req", "Material", "Material_Location", "Attachment", "Bill_Of_Jobs"],
+    tableNote: "Material table has 7,508 items. Material_Location tracks on-hand qty. Bill_Of_Jobs (198 rows) handles parent/child job relationships for multi-vessel orders.",
+    pain: "April, Dustin, and John each manually re-enter job data into their own department trackers. The same job info gets typed 3-4 times into separate spreadsheets. Nick's BOM-to-PO process is line-by-line manual.",
+    opp: "Auto-populate department trackers from Job table data. This is pure READ from JB → WRITE to external trackers. Zero risk to JobBOSS."
+  },
+  {
+    num: 5, short: "Procurement",
+    title: "Purchase orders & material ordering",
+    who: "Nick (primary), Sherri (AP side)",
+    systems: "JobBOSS PO module → vendor email",
+    flow: [
+      "Nick creates POs in JobBOSS for each material requirement",
+      "PO_Header created per vendor, PO_Detail lines per item",
+      "Source table links PO lines back to Material_Req and Job_Operation",
+      "Nick emails or faxes POs to vendors",
+      "Receiving: when material arrives, Material_Trans records created",
+      "Nick runs open requirements report every ~15 days to check status"
+    ],
+    tables: ["PO_Header", "PO_Detail", "Source", "Material_Trans", "Material_Req", "RFQ_Vendor", "Vendor"],
+    tableNote: "12,049 POs, 46,509 PO lines, 218,168 material transactions. PO_Detail has NO foreign keys — linked to PO_Header by PO varchar convention. Source table (60,749 rows) is the critical junction between POs, material reqs, and job operations.",
+    pain: "Nick enters POs line-by-line: class/filter/scroll/select per item. The 15-day manual check cycle for open POs means late deliveries aren't caught for weeks. PO_Detail's lack of FKs makes the join path fragile.",
+    opp: "Smart BOM → auto-PO (Category 3 write, high risk). Open PO dashboard (pure read, zero risk). Auto PO follow-up emails (pure read + external email). Vendor performance scoring from historical data (pure read)."
+  },
+  {
+    num: 6, short: "Production",
+    title: "Shop floor production & time tracking",
+    who: "Dustin (Production Mgr), Scott/Sammy (Shop Leads), shop employees",
+    systems: "JobBOSS (time entry) + paper travelers + Dustin's spreadsheets",
+    flow: [
+      "Paper travelers printed from JobBOSS routing accompany each job",
+      "Shop employees work operations per the routing sequence",
+      "Scott manually enters time for all employees — ~2 hrs/day",
+      "Time entries create Job_Operation_Time records",
+      "Job_Operation actuals (Act_Setup_Hrs, Act_Run_Hrs, etc.) update",
+      "Dustin compiles Monday reports manually from JB + spreadsheets"
+    ],
+    tables: ["Job_Operation_Time", "Job_Operation", "Employee", "Work_Center", "Change_History"],
+    tableNote: "149,541 time entries — the most transaction-heavy area. Job_Operation_Time has 38 columns including labor rates, burden rates, overtime, rework codes. Change_History (231,972 rows) is the largest table in the DB.",
+    pain: "Scott spending 2 hrs/day on manual time entry is the #1 operational waste. Data quality suffers — times are estimated/batched, not real-time. Dustin's Monday reports require manual compilation. This cascades: bad time data → bad job costing → bad estimates → bad quotes.",
+    opp: "Traveler scanning via Data Collection module (already licensed!) eliminates Scott's 2hr/day, enables real-time status, auto-generates Dustin's reports. This is the single highest-ROI automation — and it's Category 4 (use the module, don't write SQL)."
+  },
+  {
+    num: 7, short: "QC & inspection",
+    title: "Quality control & ASME compliance",
+    who: "John (QC Manager)",
+    systems: "JobBOSS (routing ops) + QC spreadsheet + ASME documentation",
+    flow: [
+      "QC steps exist as operations in Job_Operation routing",
+      "John manually tracks QC schedule in his own spreadsheet (re-entry from JB)",
+      "Inspections performed per ASME code requirements",
+      "John is currently preparing for ASME audit",
+      "QC results/certs tracked outside JobBOSS (paper + files)"
+    ],
+    tables: ["Job_Operation", "Attachment", "Job"],
+    tableNote: "QC operations are just Job_Operation rows with QC-related work centers. No dedicated QC tables in JB 18.2. Job.Certs_Required flag exists but cert tracking is external.",
+    pain: "John re-enters job data into his QC tracker manually — same data April and Dustin also re-entered into theirs. ASME documentation lives outside the system entirely. No traceability chain in JB from inspection to cert to shipment.",
+    opp: "Auto-populate John's QC tracker (same pattern as April/Dustin — pure read from JB). Longer-term: OTTO could manage QC documentation workflow with JB as the job backbone."
+  },
+  {
+    num: 8, short: "Shipping",
+    title: "Delivery, packing, invoicing",
+    who: "Sherri (invoicing), shipping crew, Chris (delivery coordination)",
+    systems: "JobBOSS shipping/invoicing modules",
+    flow: [
+      "Delivery records created when job is ready to ship",
+      "Packlist generated: Packlist_Header + Packlist_Detail",
+      "Physical shipment coordinated (often oversized/overweight vessels)",
+      "Invoice generated: Invoice_Header + Invoice_Detail",
+      "Job status updated to Shipped/Closed",
+      "AR entries created, receipt tracking begins"
+    ],
+    tables: ["Delivery", "Packlist_Header", "Packlist_Detail", "Invoice_Header", "Invoice_Detail", "Additional_Charge", "Receipt", "Invoice_Receipt"],
+    tableNote: "1,344 deliveries, 1,106 packlists, 2,100 invoices. The vw_shipments view provides on-time metrics, late ship counts, and dollar amounts. This is the most \"by the book\" part of the JB workflow.",
+    pain: "Stale jobs (2021-2022) clutter the active job list and Nick's dropdown menus. Job closing/cleanup is manual and nobody prioritizes it. 1,770 jobs but only 1,344 deliveries — gap suggests jobs stuck in limbo.",
+    opp: "Stale job cleanup (Category 2 write — UPDATE status, relatively safe). Shipment dashboard from vw_shipments (pure read, already built by ECI). Job costing dashboard connecting PO costs → invoice revenue → OTTO estimates (pure read, high value for David)."
+  }
+];
+
+const nav = document.getElementById('nav');
+const content = document.getElementById('content');
+let current = 0;
+
+function render(idx) {
+  current = idx;
+  nav.querySelectorAll('.phase-btn').forEach((b,i) => b.classList.toggle('active', i===idx));
+  const p = phases[idx];
+  content.innerHTML = `
+    <div class="phase-card">
+      <div class="phase-header"><span class="phase-num">Phase ${p.num} of 8</span><span class="phase-title">${p.title}</span></div>
+      <div class="row">
+        <div class="col"><div class="label">Who</div><div class="val">${p.who}</div></div>
+        <div class="col"><div class="label">Systems</div><div class="val">${p.systems}</div></div>
+      </div>
+      <div class="label">What happens</div>
+      <div class="val" style="margin-bottom:12px"><ul>${p.flow.map(f=>'<li>'+f+'</li>').join('')}</ul></div>
+      <div class="label">JobBOSS tables touched</div>
+      <div class="tables">${p.tables.map(t=>'<span class="tbl">'+t+'</span>').join('')}</div>
+      <div class="val" style="margin-top:6px;font-size:12px;color:var(--color-text-secondary)">${p.tableNote}</div>
+      <div class="pain"><div class="pain-label">Pain point</div><div class="pain-text">${p.pain}</div></div>
+      <div class="opp"><div class="opp-label">Automation opportunity</div><div class="opp-text">${p.opp}</div></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:12px">
+      <button onclick="render(${Math.max(0,idx-1)})" class="phase-btn" style="visibility:${idx===0?'hidden':'visible'}">Previous</button>
+      <button onclick="render(${Math.min(phases.length-1,idx+1)})" class="phase-btn" style="visibility:${idx===phases.length-1?'hidden':'visible'}">Next</button>
+    </div>`;
+}
+
+phases.forEach((p,i) => {
+  const btn = document.createElement('button');
+  btn.className = 'phase-btn';
+  btn.textContent = `${p.num}. ${p.short}`;
+  btn.onclick = () => render(i);
+  nav.appendChild(btn);
+});
+render(0);
+</script>
