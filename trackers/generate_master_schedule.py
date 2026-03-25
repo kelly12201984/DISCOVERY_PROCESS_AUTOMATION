@@ -4,9 +4,10 @@ Produces a week-by-week Gantt-style view of all active jobs,
 showing which phase each job is in during each week.
 
 Built from ACTUAL operation progress data — not Sched_Start/Sched_End
-(which are empty in JobBOSS).  Projects future weeks by estimating
-remaining hours per phase and converting to calendar weeks using a
-shop-hours-per-week constant.
+(which are empty in JobBOSS).  Projects future weeks using a
+capacity-constrained simulation: each phase has a fixed weekly hour
+budget shared across ALL jobs, so work naturally staggers through
+the shop like it does in real life.
 """
 import pandas as pd
 import os
@@ -15,7 +16,16 @@ from datetime import datetime, timedelta
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'JOBBOSS_DATA')
 OUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'generated_trackers')
 
-SHOP_HOURS_PER_WEEK = 200  # approximate shop capacity per job (adjustable)
+# Total shop hours available PER PHASE PER WEEK (shared across all jobs).
+# Tune these to match actual crew sizes / bay availability.
+PHASE_CAPACITY_PER_WEEK = {
+    'PRE-FAB':      400,   # ~8-10 people cutting/rolling/building parts
+    'FABRICATION':  500,   # ~10-12 welders/fitters — biggest crew
+    'TESTING':      160,   # ~2-3 people, inspectors + QC
+    'CLEANING':     160,   # ~2-3 people, sandblast crew
+    'PAINT':        160,   # ~2-3 people, paint crew
+    'SHIPPING':     120,   # ~2 people, load-out crew
+}
 
 # Phases in production order, with keywords that map operations to phases
 PHASES = [
@@ -129,47 +139,94 @@ def analyze_job(job_ops):
     }
 
 
-def project_phase_weeks(analysis, today):
-    """Given phase remaining hours, project which weeks each phase occupies.
+def schedule_all_jobs(job_analyses, today, num_weeks=24):
+    """Capacity-constrained scheduler: simulates week-by-week flow through the shop.
 
-    Returns a dict: {phase_name: (start_week_date, end_week_date)}
-    Current/past phases are anchored to today; future phases follow sequentially.
+    Instead of projecting each job independently (which piles all similar jobs
+    into the same phase at the same time), this allocates a shared weekly hour
+    budget per phase across all competing jobs.  Jobs are prioritized by
+    promised date, then by how far along they already are.
+
+    Returns: {job_key: {week_date: phase_name}} for every job/week with work.
     """
-    if analysis is None:
-        return {}
-
     snap_to_monday = lambda d: d - timedelta(days=d.weekday())
-    current_week = snap_to_monday(today)
+    start_week = snap_to_monday(today)
+    week_dates = [start_week + timedelta(weeks=i) for i in range(num_weeks)]
 
-    phase_weeks = {}
-    cursor = current_week  # start projecting from this week
-
-    current_phase = analysis['current_phase']
-    hit_current = False
-
-    for phase in PHASE_NAMES:
-        remaining = analysis['phase_remaining'][phase]
-        est = analysis['phase_est'][phase]
-
-        if est == 0 and remaining == 0:
+    # Build the work queue: for each job, remaining hours per future phase
+    job_queue = []
+    for job_key, analysis in job_analyses.items():
+        if analysis is None:
             continue
+        current_phase = analysis['current_phase']
+        hit_current = False
+        remaining_phases = []
+        for phase in PHASE_NAMES:
+            remaining = analysis['phase_remaining'][phase]
+            if phase == current_phase:
+                hit_current = True
+            if hit_current and remaining > 0:
+                remaining_phases.append({'phase': phase, 'remaining': remaining})
+        if remaining_phases:
+            job_queue.append({
+                'job': job_key,
+                'phases': remaining_phases,
+                'phase_idx': 0,  # index into remaining_phases
+                'promised': analysis.get('promised_date'),
+                'pct_complete': analysis.get('pct_complete', 0),
+            })
 
-        # Phase is fully done — it was in the past
-        if remaining == 0:
-            # Don't assign week columns for completed phases
-            continue
+    # Sort by priority: earliest promised date first, then most-complete first
+    def sort_key(j):
+        promised = j['promised']
+        if promised is None or (isinstance(promised, float)):
+            date_key = datetime(2099, 12, 31)
+        elif isinstance(promised, str):
+            try:
+                date_key = datetime.strptime(promised, '%Y-%m-%d')
+            except ValueError:
+                date_key = datetime(2099, 12, 31)
+        else:
+            date_key = promised
+        return (date_key, -j['pct_complete'])
 
-        if phase == current_phase:
-            hit_current = True
+    job_queue.sort(key=sort_key)
 
-        if hit_current:
-            weeks_needed = max(1, round(remaining / SHOP_HOURS_PER_WEEK))
-            start = cursor
-            end = cursor + timedelta(weeks=weeks_needed - 1)
-            phase_weeks[phase] = (start, end)
-            cursor = end + timedelta(weeks=1)
+    # Result: job -> week -> phase
+    schedule = {j['job']: {} for j in job_queue}
 
-    return phase_weeks
+    # Simulate week by week
+    for week in week_dates:
+        # Budget available this week per phase
+        budget = {p: PHASE_CAPACITY_PER_WEEK[p] for p in PHASE_NAMES}
+
+        # Allocate capacity to jobs in priority order
+        for j in job_queue:
+            if j['phase_idx'] >= len(j['phases']):
+                continue  # job is done
+
+            current = j['phases'][j['phase_idx']]
+            phase = current['phase']
+            remaining = current['remaining']
+
+            if budget[phase] <= 0:
+                # No capacity left in this phase this week — job waits
+                # Still mark it as waiting in this phase so the Gantt shows it queued
+                schedule[j['job']][week] = phase + ' *'
+                continue
+
+            # Allocate hours (up to what's available)
+            hours_this_week = min(remaining, budget[phase])
+            budget[phase] -= hours_this_week
+            current['remaining'] -= hours_this_week
+
+            schedule[j['job']][week] = phase
+
+            # If this phase is done, advance to next phase
+            if current['remaining'] <= 0:
+                j['phase_idx'] += 1
+
+    return schedule
 
 
 def generate_week_columns(start_date, num_weeks=24):
@@ -197,9 +254,10 @@ def main():
     active = active[active['Job'].isin(jobs_with_ops.index)]
 
     today = datetime.now()
-    weeks = generate_week_columns(today - timedelta(weeks=2), num_weeks=24)
+    weeks = generate_week_columns(today, num_weeks=24)
 
-    rows = []
+    # ---- Phase 1: Analyze every job and collect promised dates ----
+    job_data = {}   # job_num -> {analysis, promised, job_row}
     for _, job in active.iterrows():
         job_num = job['Job']
         job_ops = ops[ops['Job'] == job_num].copy()
@@ -207,11 +265,30 @@ def main():
         if analysis is None:
             continue
 
-        # Get delivery info if available
         job_del = deliveries[deliveries['Job'] == job_num]
-        promised = ''
+        promised = None
         if not job_del.empty and job_del['Promised_Date'].notna().any():
-            promised = job_del['Promised_Date'].dropna().iloc[0].strftime('%Y-%m-%d')
+            promised = job_del['Promised_Date'].dropna().iloc[0]
+
+        # Attach promised date to analysis so the scheduler can prioritize
+        analysis['promised_date'] = promised
+        job_data[job_num] = {'analysis': analysis, 'promised': promised, 'job_row': job}
+
+    # ---- Phase 2: Run the capacity-constrained scheduler across ALL jobs ----
+    all_analyses = {jn: jd['analysis'] for jn, jd in job_data.items()}
+    global_schedule = schedule_all_jobs(all_analyses, today, num_weeks=24)
+
+    # ---- Phase 3: Build output rows using the global schedule ----
+    rows = []
+    for job_num, jd in job_data.items():
+        analysis = jd['analysis']
+        promised = jd['promised']
+        job = jd['job_row']
+        job_sched = global_schedule.get(job_num, {})
+
+        promised_str = ''
+        if promised is not None and pd.notna(promised):
+            promised_str = promised.strftime('%Y-%m-%d') if hasattr(promised, 'strftime') else str(promised)
 
         row = {
             'Customer': cust_map.get(job['Customer'], job['Customer']),
@@ -219,23 +296,17 @@ def main():
             'Description': job.get('Description', ''),
             'Total $': job.get('Total_Price', 0),
             'PO Recvd': job['Order_Date'].strftime('%Y-%m-%d') if pd.notna(job['Order_Date']) else '',
-            'Promised Date': promised,
+            'Promised Date': promised_str,
             'Current Phase': analysis['current_phase'],
             '% Complete': round(analysis['pct_complete'], 1),
             'Est Hrs': round(analysis['total_est_hrs'], 0),
             'Remaining Hrs': round(analysis['total_remaining_hrs'], 0),
         }
 
-        # Project phases onto week columns
-        phase_schedule = project_phase_weeks(analysis, today)
-
         for week_start in weeks:
             col_name = week_start.strftime('%m/%d')
-            row[col_name] = ''
-            for phase_name, (ps, pe) in phase_schedule.items():
-                if ps <= week_start <= pe:
-                    row[col_name] = phase_name
-                    break
+            phase_val = job_sched.get(week_start, '')
+            row[col_name] = phase_val
 
         rows.append(row)
 
@@ -275,6 +346,16 @@ def main():
                 week_col_start = i + 1  # 1-indexed
                 break
 
+        # Lighter colors for queued (waiting) weeks
+        queue_colors = {
+            'PRE-FAB':      'FFF9E6',
+            'FABRICATION':  'EDF2FB',
+            'TESTING':      'F2F9EE',
+            'CLEANING':     'FEF3EC',
+            'PAINT':        'F3F0F8',
+            'SHIPPING':     'ECEEF2',
+        }
+
         if week_col_start:
             for row_cells in ws.iter_rows(min_row=2, min_col=week_col_start,
                                           max_col=ws.max_column):
@@ -284,11 +365,19 @@ def main():
                         cell.fill = PatternFill(start_color=phase_colors[val],
                                                 end_color=phase_colors[val],
                                                 fill_type='solid')
+                    elif val.endswith(' *'):
+                        base_phase = val.replace(' *', '')
+                        if base_phase in queue_colors:
+                            cell.fill = PatternFill(start_color=queue_colors[base_phase],
+                                                    end_color=queue_colors[base_phase],
+                                                    fill_type='solid')
 
     print(f"Generated: {outfile}")
     print(f"  {len(df)} active jobs across {len(weeks)} weeks")
     print(f"  Week range: {weeks[0].strftime('%m/%d/%Y')} to {weeks[-1].strftime('%m/%d/%Y')}")
-    print(f"  Shop capacity assumption: {SHOP_HOURS_PER_WEEK} hrs/week per job")
+    print(f"  Phase capacity (hrs/week shared across all jobs):")
+    for phase, cap in PHASE_CAPACITY_PER_WEEK.items():
+        print(f"    {phase:14s} {cap:>4} hrs/week")
     print()
 
     # Summary stats
