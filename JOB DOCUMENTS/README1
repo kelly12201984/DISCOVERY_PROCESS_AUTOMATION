@@ -1,0 +1,161 @@
+# JobBOSS 18.2 (Legacy) – XML SDK Integration Cheatsheet
+
+## Context
+
+- JobBOSS 18.2 is the legacy, on‑prem JobBOSS product (not JobBOSS²).
+- Integration is primarily via the **XML SDK** + COM object `JBRequestProcessor`.
+- Goal: automate business processes (e.g., PO‑driven purchasing) without direct DB writes.
+
+---
+
+## 1. XML SDK Capabilities
+
+**Supported data domains (high level):**
+
+- Customer: `CustomerAddRq`, `CustomerModRq`, `CustomerDelRq`, `CustomerQueryRq`, `CustomerListQueryRq`
+- Vendor: same pattern as Customer.
+- Material (stock/discrete): `MaterialAddRq`, `MaterialModRq`, `MaterialDelRq`, `MaterialQueryRq`, `MaterialListQueryRq`
+- Job: `JobAddRq`, `JobModRq`, `JobDelRq`, `JobQueryRq`, `JobListQueryRq`
+- Sales Order: `SalesOrderAddRq`, `SalesOrderModRq`, `SalesOrderDelRq`, `SalesOrderQueryRq`, `SalesOrderListQueryRq`
+- Quote, Work Center, Service Operation, Time Entry, plus reference data (customer type, tax code, etc.).
+
+> There is no clearly documented `PurchaseOrderAddRq` in the XML SDK; purchasing is driven indirectly through jobs, materials, and requirement‑satisfier links.
+
+---
+
+## 2. Runtime Model
+
+**COM interface:**
+
+- Component: `JBRequestProcessor` (from `Jbinterface.exe`).
+- Typical call flow:
+  1. `CreateSession(userName, password, errorMsg) -> SessionID`
+  2. `ProcessRequest(xmlRequestString) -> xmlResponseString`
+  3. `CloseSession(SessionID)`
+
+**XML envelope:**
+
+- Root: `<JBXML>`
+- Request document: `<JBXMLRequest> … functional requests … </JBXMLRequest>`
+- Response document: `<JBXMLRespond> … functional responses … </JBXMLRespond>`
+
+**Important constraints:**
+
+- Element order is **strict** and defined by `JBXML.xsd`.
+- Data types: `string`, `boolean`, `int`, `double`, `float`, `date` (`YYYY‑MM‑DD`), `dateTime` (`YYYY‑MM‑DDThh:mm:ss`).
+- Many fields reference user codes (e.g., `TermsCodeRef`, `TaxCodeRef`, `ShipViaRef`).
+
+**Error handling:**
+
+- Per functional request:
+  - `Code 0` → success
+  - `Code 1` → business logic error (missing vendor, over credit limit, record exists, etc.)
+  - `Code 2` → COM error
+- Batch behavior: failing requests do not roll back other successful requests in the same XML.
+
+**Concurrency (ModRq):**
+
+- `ModRq` requires both `ID` and `LastUpdated` from a preceding `QueryRq` to prevent conflicting updates.
+
+---
+
+## 3. Pattern for PO‑Like Automation in Legacy JobBOSS
+
+### 3.1. What a real PO looks like (example PO 39754)
+
+A typical PO includes:
+
+- **Header**
+  - PO Number (e.g., `39754`)
+  - PO Date
+  - Vendor (name, address, contact)
+  - Ship‑To (company address, phone/fax)
+  - Terms (e.g., `1/2 10 Net 30`)
+  - Ship Via (e.g., `Best Way`)
+  - FOB (e.g., `Destination`)
+  - Issued By (buyer name/initials)
+
+- **Line 001**
+  - Quantity and UOM (e.g., `9 ea`)
+  - Short description (e.g., `SPECIAL PAD SS304L as per sketch`)
+  - Unit price (e.g., `560.00`)
+  - Line amount (e.g., `5040.00`)
+  - Long technical description (machining instructions, material spec, QC note, certifications text)
+  - Distribution of the 9 pieces across jobs (job IDs + due dates)
+
+- **Footer / terms**
+  - Material origin restrictions
+  - Test report requirements
+  - Warranty and defect language
+  - Delivery windows and ASME code references
+  - Instructions about invoices and RFQ alignment
+
+### 3.2. How to drive this via XML SDK
+
+Since there is no direct `PurchaseOrderAddRq`, use this pattern:
+
+1. **Pre‑setup data**
+   - Ensure **Vendor** exists (`VendorAddRq`/`VendorModRq`).
+   - Ensure **Material/Item** exists (`MaterialAddRq` with:
+     - `VendorPartAdd` for vendor‑specific part,
+     - `PurchaseUnitConvMod` and `PriceBreakAdd` as needed).
+   - Ensure **User codes** are defined (terms, ship via, ship from/to, FOB, etc.).
+
+2. **Create/maintain demand**
+   - Create **Jobs** (`JobAddRq`) that will consume the purchased item.
+   - Use `MaterialRequirementAdd` inside `JobAddRq` or `JobModRq` to represent required quantities per job.
+   - Alternatively, create **Sales Orders** (`SalesOrderAddRq` with `AddSOLine`) if purchasing is driven from SO demand.
+
+3. **Tie requirements to POs**
+   - Use `ReqSatisfierAssign` with:
+     - `SatisfierType` = `"PO"`
+     - Reference to the requirement
+   - This indicates that the requirement should be satisfied via purchasing rather than manufacturing.
+
+4. **Rely on JobBOSS purchasing module**
+   - JobBOSS uses its own logic (MRP/purchasing screens) to:
+     - Consolidate requirements,
+     - Create PO headers and lines,
+     - Link PO lines back to jobs/requirements.
+
+5. **Inject notes/terms**
+   - Use note/description fields on:
+     - Materials (technical description),
+     - Jobs (job‑specific instructions),
+     - Standard texts / user values for boilerplate PO footer conditions.
+   - Purchasing configuration determines which notes flow onto PO printouts.
+
+---
+
+## 4. Common Integration Approaches (Legacy 18.2)
+
+| Approach                               | Mechanism                                      | Pros                                          | Cons                                                 |
+|----------------------------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------------------|
+| XML SDK (recommended)                  | COM + JBXML requests via `JBRequestProcessor` | Uses JobBOSS logic, supported, upgrade‑safer  | COM‑only, strict XML schema, no direct PO AddRq      |
+| Direct SQL (read‑only)                 | Query SQL Server tables                       | Great for triggers/reporting                  | Cannot safely create POs                             |
+| Direct SQL (write – not recommended)   | Insert into PO tables                         | Max control                                   | Unsupported, fragile, easy to break rules/upgrades   |
+| File‑based imports (if available)      | CSV → JobBOSS import utilities                | Simple, tool‑agnostic                         | Batch‑oriented, limited error feedback               |
+| Third‑party/middleware (e.g., quoting) | External app talks to JobBOSS via SDK/other   | Offloads complexity                           | Less granular control, extra licensing/dependency    |
+
+---
+
+## 5. Minimal C# Integration Outline (Conceptual)
+
+```csharp
+// 1. Create COM object
+var jb = new JBRequestProcessor();
+
+// 2. Session
+string errorMsg = "";
+string sessionId = jb.CreateSession("UserName", "Password", ref errorMsg);
+
+// 3. Build XML request (JBXMLRequest with one or more *AddRq/*ModRq functions)
+// string xmlRequest = BuildJobBossXml();
+
+// 4. Process
+string xmlResponse = jb.ProcessRequest(xmlRequest);
+
+// 5. Parse xmlResponse for IDs, errors, LastUpdated, etc.
+
+// 6. Close session
+jb.CloseSession(sessionId);
