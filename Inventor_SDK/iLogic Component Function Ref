@@ -1,0 +1,201 @@
+Component Functions Reference (iLogic)
+iLogic provides rule functions for setting or reading component suppression states, model states, and colors, as well as a function for replacing one component with another.
+
+These functions are useful for driving different configurations of parts or assemblies.
+
+You can create a model (part or assembly) that includes the components necessary to represent all possible valid configurations of a product. This method is known as "super modeling." When the parts or assembly components are too complex or numerous, and super modeling becomes impractical, use the Component.Replace function.
+
+To access the component functions, expand the Components (classic) node on the System tab in the Snippets area of the iLogic Edit Rule dialog.
+
+Component naming
+Customize all component names before referencing the names in a rule. When you change the component name from the default name assigned by Autodesk Inventor, you ensure that it does not change when the referenced .ipt or .iam filename changes.
+
+For a Content Center component, a name change is required for the Component.IsActive function as well as the Component.Replace function.
+
+Component.IsActive
+Sets or reads the suppression state and BOM structure of an assembly component. Use this function to include or exclude a component from an assembly configuration.
+
+The function works on a single component or on component patterns. For patterns, use the pattern name. The pattern must be in the same level of the assembly as the rule and not in a subassembly.
+
+Do not suppress subcomponents. A better alternative is to perform the suppression from a rule inside the component.
+
+For example, an assembly named TopAssembly contains SubAssembly:1, and this subassembly contains SamplePart:1.
+
+Use a rule inside SubAssembly to suppress SamplePart:1. This rule can have a parameter that drives the suppression state, and you can drive the parameter with a rule in TopAssembly.
+
+When you use Component.IsActive to suppress a component, the BOM Structure of the component is set to Reference. This action prevents it from appearing in the Bill of Material. It appears in the Model Data view, but not in the Structured or Parts Only views. If the component is unsuppressed (usingComponent.IsActive), iLogic returns the component to its state before suppression (Normal, Inseparable, Purchased, or Phantom).
+
+Syntax
+
+Component.IsActive("ComponentName")
+
+Examples
+
+You can use 1 instead of true and 0 instead of false.
+
+To set suppression state and BOM structure:
+
+Component.IsActive("PartA:1") = false
+Component.IsActive("PartB:1") = 0
+Component.IsActive("PartC:1") = false
+Component.IsActive("PartD:1") = 0
+To read suppression state:
+
+MyBooleanParam = Component.IsActive("ComponentName:1)
+If Component.IsActive("PartE") Then
+' do something
+End If
+Component.iComponentIsActive
+A variation of Component.IsActive, this function sets or reads the suppression state of an iPart or iAssembly component. If you do not manually change the component name, then iParts and iAssemblies require the use of this dedicated syntax.
+
+It is recommended that you change the component name. If you do, you can then use Component.IsActive instead of this function.
+
+Syntax
+
+Component.iComponentIsActive(“iPartParentName:1”)
+
+iPartParentName
+
+The name of the factory part without the .ipt filename extension.
+
+Component.Color
+Sets or reads the color of a component.
+
+Syntax
+
+Component.Color(“iPartA:1”)
+
+Examples
+
+Set the color:
+
+Component.Color("iPartA:1") = "Green"
+Component.Color("iPartA:2") = "Aluminum (Cast)"
+Component.Color("iPartA:3") = "As Material"
+Read the color:
+
+MyStringParameter = Component.Color("iPartA:1")
+Component.Visible
+Sets or reads the visibility of a component. This function does not change the BOM Structure of the component.
+
+Syntax
+
+Component.Visible("componentName")
+
+Examples
+
+Set visibility:
+
+Component.Visible("Plate") = true
+Component.Visible("Bearing") = false
+Read visibility:
+
+parameter = Component.Visible("Plate")
+parameter = Component.Visible("Bearing")
+If Component.Visible("PartE") Then
+do something
+End If
+Component.SkipDocumentSave
+Specifies whether a component document is saved if it changes and is then suppressed by a rule.
+
+Syntax
+
+Component.SkipDocumentSave = True
+
+When set to True, the component document is not saved.
+
+The default value is False (Component.SkipDocumentSave = False); the component document is saved.
+
+Component.ActiveModelState
+Sets or reads the active model state of a component.
+
+Syntax
+
+Component.ActiveModelState(“ComponentName”)
+
+Examples
+
+Component.ActiveModelState(“PartA:1”) = “Model State2”
+Dim partB1_state = Component.ActiveModelState(“PartB:1”)
+Component.Replace
+Replaces one part or subassembly with another. This function can also be used to replace component patterns.
+
+Use iMates in components being swapped to keep the assembly constraints intact. You can swap a part for a part, a part for an assembly, or an assembly for a part.
+
+The function searches in several folders for the file to be used as a replacement:
+
+The folder of the document of the component being replaced
+The folder of the assembly document
+The Workspace folder of the current project
+The filename can be a relative path (relative to any of these search locations).
+
+Important: Before using this function, stabilize the name of the component to prevent it from changing when the swap occurs. To stabilize the component name, change it to something else. The new name should not match either the current file name or any of the possible alternative replacement files. Instead, it should be a general name that describes the component in general. If you fail to stabilize the name, the replace operation changes the component to match the different file name. The rule is then unable to find the component when it runs again.
+Syntax
+
+Component.Replace(“ComponentToReplaceName”, “OtherPartfilename.ipt”, <replaceAll>)
+
+ComponentToReplaceName
+
+The name of the part or subassembly being replaced.
+
+OtherPartfilename
+
+The part or assembly to be used as the replacement.
+
+<replaceAll>
+
+Set this Boolean value to True to replace all instances of this component. Set the value to False to replace only the single named instance.
+
+Example
+
+If PartType = "Type A" Then
+Component.Replace("Widget","PartA.ipt", True)
+ElseIf PartType = "Type B" Then
+Component.Replace("Widget","PartB.ipt", True)
+End If
+Component.Replace (with specified model state)
+This variation of the Component.Replace function replaces a component in an assembly with another component at a specific model state.
+
+Syntax
+
+Component.Replace("SubAssem:1", "OtherAssemFilename.iam<Model State>", <replaceAll>)
+
+In this function, the <replaceAll> argument is the same as described for the more generic Component.Replace function.
+
+You can use also use this function to replace a part or subassembly with the same part or subassembly in a different model state However, it's more efficient to use the Component.ActiveModelState function.
+
+Component.ReplaceiPart
+Required for iParts with custom parameters, this function is also recommended for standard iParts. Use instead of Component.Replace when the component is an iPart. You can use iPart.ChangeRow or iPart.FindRow after replacement to change the specific iPart configuration.
+
+For an iPart with custom parameters, list values for the custom parameters after the rowNumber. The values must be listed in the order they are found in the table.
+
+Syntax
+
+Component.ReplaceiPart("iPart1:1", "OtherPartfilename.ipt", True, rowNumber)
+
+Use rowNumber to replace the component and choose an iPart row at the same time.
+
+Examples
+
+To set the custom parameters, repeat the custom values in Component.ReplaceiPart and again in iPart.ChangeRow or iPart.FindRow later in the rule.
+
+For ChangeRow:
+
+Component.ReplaceiPart("iPart1:1", "OtherPartfilename.ipt", True, rowNumber, customParam1, customParam2)
+iPart.ChangeRow("iPart1:1", rowNumber, customParam1, customParam2)
+For FindRow:
+
+Component.ReplaceiPart("iPart1:1", "OtherPartfilename.ipt", True, rowNumber, customParam1, customParam2)
+i = iPart.FindRow("iPart1:1", "Dia", ">=", 3.0, "r;|", customParam1, customParam2)
+MakePath
+Defines the path to a component name in a subassembly. To specify the path, list all subassembly levels in the order they appear in the tree. This function is required if you want to specify a component name when the same name also exists elsewhere in the assembly.
+
+Syntax
+
+MakePath(“SubassemblyComponentName”,“PartComponentName”)
+
+Examples
+
+Component.Color(MakePath("SubAssem1:1", "Part2:1")) = “Green”
+Component.IsActive(MakePath("SubAssem1:1", "SubSubAssem2:1", "Part2:1")) = “Yellow”
+Parent topic: About Functions for Rules in iLogic
