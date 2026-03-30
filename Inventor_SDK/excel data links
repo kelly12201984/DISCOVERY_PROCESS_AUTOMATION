@@ -1,0 +1,398 @@
+Excel Data Links Functions Reference (iLogic)
+
+iLogic provides rule functions for reading and writing to Microsoft® Excel spreadsheet documents. To access the Excel data links functions, expand the Excel Data Links node on the System tab in the Snippets area of the iLogic Edit Rule dialog.
+
+Two types of Excel Data Links functions are available:
+
+Functions to read data from tables
+Functions to read and write data from a specific cell
+To read and write to other file formats, add custom VB.NET code to your rules.
+
+Use the dedicated function ThisBOM.Export to export an assembly Bill of Material to Microsoft® Excel and other formats.
+
+Specify Excel file
+You can embed Microsoft® Excel data or link it into an Inventor document, or keep it as an external file. The functions require either a filename or a specification of a linked or embedded Excel file.
+
+For a filename, you can specify a relative or absolute path. However, using absolute paths can make it difficult to send the model to another user on a different computer. If a path is not specified, iLogic assumes that the Excel document is in the same folder as the current Inventor document. A relative path is interpreted as relative to the folder containing the Inventor document.
+
+iLogic also searches for the file under the project Workspace path. You can use a relative path under the project Workspace path.
+
+Supported filename extensions include .xls, .xlsx, .xlsm, and .xlsb.
+
+You can also specify a linked or embedded spreadsheet instead of a filename. Use the syntax 3rd Party:Embedding# for embedded spreadsheets.
+
+Use the syntax 3rd Party:LinkedName.xls for linked spreadsheets. Specify the name that displays in the Inventor Model tree, under 3rd Party.
+
+If you use an embedded table, embed it using Link on the Parameters dialog box. Do not change the Embedded table name from the default name given to it by Inventor (for example, Embedding 1). GoExcel requires the original name.
+
+Note: Do not include a space after the : character in the syntax 3rd Party:Name.
+To link a file, click Manage tab  Insert panel  Insert Object , or use Link on the Parameters dialog box.
+
+GoExcel.FindRow
+Searches for a row based on one or more column value criteria.
+
+Syntax
+
+GoExcel.FindRow("filename", "sheetname", "first column title", "operator", value to look for, "second column title", "operator", value to look for, "third column title",...)
+
+”filename”
+
+Specifies the data file.
+
+”sheetname”
+
+The sheet in the Excel document containing the table to be searched. The sheet can be any existing sheet.
+
+”first column title”
+
+The title of first column in the table to be searched. Column titles usually are placed in row 1, starting in column A.
+
+”operator”
+
+Possible values include:
+
+<= Find a row with a value in the column that is less than or equal to the specified value.
+>= Find a row with a column value greater than or equal to the specified value.
+= Find a row with a text or numeric column value equal to the specified value.
+value to look for
+
+A text or numeric value that can be specified with an explicit value, a parameter, or a local variable.
+
+”second column title”
+
+The title of the second column in the table to be searched.
+
+”operator”
+
+<= , >= , or =
+
+value to look for
+
+”third column title”
+
+Find a row based on multiple criteria.
+
+Returns
+
+The row number (an integer) that matches the search criteria. The value is -1 if a matching row is not found.
+
+Possible errors
+
+File not found
+Sheet name not found
+Column name not found
+Input value is wrong type (does not match column value type)
+Excel table requirements
+
+Table configurations must be horizontal (configurations defined by rows, not columns).
+Columns must have titles in the first cell of the column.
+Lookup values can be numeric or text.
+Examples
+
+These examples set the value of the parameter variable i to the number of the row in the table. Dia is equal to 0.2 and Len is greater than or equal to 4.1. The first example references an external spreadsheet, and the second example references an embedded spreadsheet.
+
+i = GoExcel.FindRow("mytable.xls", "Sheet1", "Dia", "=", 0.2, "len", ">=",4.1)
+i = GoExcel.FindRow("3rd Party:Embedding 1", "Sheet1", "Dia", "=", 0.2, "len",">=", 4.1)
+
+In these examples, rows 5, 6, and 7 meet the first condition that Dia=.2. However, only row 7 meets both criteria that Dia=.2 and len>=4.1.
+
+GoExcel.CurrentRowValue
+Reads a value from the row found using the GoExcel.FindRow function.
+
+Syntax
+
+GoExcel.CurrentRowValue("column name")
+
+”column name”
+
+Column title name for the cell value to retrieve from the current row.
+
+Returns
+
+Cell value from the column of the current row, previously found with the GoExcel.FindRow function.
+
+Errors
+
+Returns an error message if the column is not found.
+
+Example
+
+i = GoExcel.FindRow("iLogic_SCHS.xls", "Sheet1", "thread_diameter", "=", Screw_Size, "screw-length", ">=",
+screw_length_required)
+thread_diameter = GoExcel.CurrentRowValue("thread_diameter")
+screw_length =  GoExcel.CurrentRowValue("screw_length")
+head_diameter = GoExcel.CurrentRowValue("head_diameter")
+head_thickness = GoExcel.CurrentRowValue("head_thickness")
+socket_size =  GoExcel.CurrentRowValue("socket_size")
+thread_pitch =  GoExcel.CurrentRowValue("thread_pitch")
+GoExcel.CellValue
+Reads or writes values to spreadsheet cells.
+
+Syntax
+
+GoExcel.CellValue("filename", "sheetname", "cellnumber")
+
+”filename”
+
+See Specify the Excel file.
+
+”sheetname”
+
+Name of the sheet in the Excel document that contains the target cell. The sheet can be any existing sheet.
+
+”cell number”
+
+Cell address to read or write to (such as “A7”). You can also specify a named range in the worksheet scope.
+
+Returns
+
+Value of cell
+No assignment when error occurs
+Errors
+
+File not found
+Sheet name not found
+Excel table format requirements
+
+Cell values can be numeric or text.
+
+Examples
+
+Read an embedded spreadsheet:
+
+head_rad = GoExcel.CellValue("3rd Party:Embedding 4", "Sheet1","A1")
+Write to an embedded spreadsheet:
+
+GoExcel.CellValue("3rd Party:Embedding 4", "Sheet1", "A1")= head_rad
+Read an external spreadsheet:
+
+head_rad = GoExcel.CellValue("Spreadsheet.xlsx", "Sheet1", "A5")
+message =GoExcel.CellValue("Spreadsheet.xlsx", "Sheet1", "B5")
+Write to an external spreadsheet:
+
+GoExcel.CellValue("Spreadsheet.xls", "Sheet1", "A6") = "Hello World"
+GoExcel.Save
+Note: Requires GoExcel.Save to save changes to the spreadsheet:
+GoExcel.CurrentCellValue, GoExcel.CellValue
+Reads from or writes to a specific cell address in a spreadsheet subsequent to using the GoExcel.CellValue or GoExcel.Open function. This function uses the file and sheet opened previously.
+
+Syntax
+
+GoExcel.CurrentCellValue("cellnumber")
+
+GoExcel.CellValue("cellnumber") (without specifying a filename and sheet name)
+
+”cellnumber”
+
+Cell address or named range of the cell value to read from or write to the current spreadsheet.
+
+Returns
+
+The cell value from the specified cell number.
+
+Errors
+
+No assignment on error
+Error message displays
+Examples
+
+Read a series of cells from a single spreadsheet:
+
+head_rad = GoExcel.CellValue("Spreadsheet.xlsx","Sheet1","A1")
+head_thick = GoExcel.CellValue("B1")
+pin_length = GoExcel.CellValue("C1")
+shaft_rad = GoExcel.CellValue("D1")
+Write to a series of cells in a spreadsheet document:
+
+GoExcel.CellValue("Spreadsheet.xlsx","Sheet1","A1") = head_rad
+GoExcel.CellValue("B1") = head_thick
+GoExcel.CellValue("C1") = pin_length
+GoExcel.CellValue("D1") = shaft_rad
+GoExcel.Save
+GoExcel.NameRangeValue
+Works like the CellValue function. Instead of a cell address, specify a named range defined in the Excel workbook. The name must be a name within the workbook, and the range must be confined to a single cell. You can access worksheet-scope named ranges using the standard CellValue syntax, using the name instead of a cell address.
+
+Use GoExcel.CellValue or GoExcel.Open to open the Excel file before using NamedRangeValue in a rule.
+
+Syntax
+
+GoExcel.NamedRangeValue("PinLength")
+
+GoExcel.Open
+Opens the specified Excel spreadsheet, and optionally activates a named worksheet. You can then use functions such as GoExcel.FindRow and GoExcel.CellValue to extract information from or modify the worksheet.
+
+Syntax
+
+GoExcel.Open("filename", “sheetname”)
+
+”filename”
+
+See Specify the Excel file.
+
+”sheetname”
+
+Name of the sheet in the Excel document to activate. The sheet can be any existing sheet.
+
+Returns
+
+N/A
+
+Errors
+
+Excel file not found.
+
+Examples
+
+When no sheet name is specified, "Sheet1" is assumed.
+
+GoExcel.Open("Spreadsheet.xls")
+A different worksheet can also be specified.
+
+GoExcel.Open("Spreadsheet.xls", "MyOtherSheet")
+GoExcel.Save
+Saves the current Excel document. Use this function if you have modified cells with the GoExcel.CellValue or GoExcel.CurrentCellValue functions.
+
+Returns
+
+N/A
+
+Errors
+
+N/A
+
+Example
+
+GoExcel.CellValue("Spreadsheet.xls", "Sheet1", "A1") = "Hello, World!"
+GoExcel.CellValue("A2") = 5.42
+GoExcel.Save
+GoExcel.CellValues
+This function serves two purposes:
+
+Reads values from a specified range of cells in an Excel spreadsheet, and assigns them to a multi-value list.
+Takes the values from a multi-value list, and writes them to a specified range of cells in an Excel spreadsheet.
+Read from Excel spreadsheet
+
+You can read from a vertically oriented range of cells. The function reads values starting in the first cell and continues downward until the second cell specified in the function is reached:
+
+Multivalue.List("parameter") =  GoExcel.CellValues("filename.xls", "Sheet1", "A1", "A10")
+If an empty string ("") replaces the second cell address, start reading at the first cell address and continue downward until an empty cell is encountered:
+
+Multivalue.List("parameter") =  GoExcel.CellValues("filename.xls", "Sheet1", "A1", "")
+You can read from a horizontally oriented range of cells:
+
+Multivalue.List("parameter") =  GoExcel.CellValues("filename.xls", "Sheet1", "A1", "J1")
+If the spreadsheet has been previously referenced in the rule, you can also omit the filename and sheet name:
+
+Multivalue.List("parameter") =  GoExcel.CellValues("B2", "G2")
+Write to Excel spreadsheet
+
+You can write values to a vertically oriented range of cells. The function writes values starting in the first cell and continues downward, writing values until the second cell specified in the function is reached:
+
+GoExcel.CellValues("filename.xls", "Sheet1", "A2", "A10") = Multivalue.List("parameter")
+You can write values to a vertically oriented range of cells. If an empty string ("") replaces the second cell address, iLogic uses as many cells as required to contain all members of the multivalue list:
+
+GoExcel.CellValues("filename.xls", "Sheet1", "A2", "") = Multivalue.List("parameter")
+You can write values to a horizontally oriented range of cells:
+
+GoExcel.CellValues("filename.xls", "Sheet1", "A1", "J1") = Multivalue.List("parameter")
+If the spreadsheet has been previously referenced in the rule, you can also omit the filename and sheet name:
+
+GoExcel.CellValues("B2", "G2") = Multivalue.List("parameter")
+GoExcel.Close
+Closes the current Excel spreadsheet.
+
+GoExcel.TitleRow
+Used before GoExcel.FindRow to specify the number of the row in the spreadsheet that contains the column names. The default row number is 1. Change this value if you have extra rows above your column name row.
+
+Example
+
+GoExcel.TitleRow = 2
+GoExcel.FindRowStart
+Used before the GoExcel.FindRow function to specify the number of the first row in the spreadsheet that contains data. The default row number is 2.
+
+Syntax
+
+GoExcel.FindRowStart = <row>
+
+<row>
+
+The row at which the data starts.
+
+Examples
+
+The default value of 2 indicates that the data starts on row 2 and follows one title row:
+
+GoExcel.FindRowStart = 2
+If you have two title rows, add the following statement to the rule before the statement containing GoExcel.FindRow:
+
+GoExcel.FindRowStart = 3
+GoExcel.ChangeSourceOfLinked
+Provides access from iLogic rules to the Change Source operation.
+
+This function replaces an Excel spreadsheet that is currently driving the model with another spreadsheet. The values contained in the new spreadsheet then drive the dimensions of the model.
+
+Note: This function is also available as a manual operation from the context menu on linked Excel spreadsheets.
+Syntax
+
+changeOK = GoExcel.ChangeSourceOfLinked(partialOldName, newName)
+
+partialOldName
+
+Portion of the spreadsheet name to replace.
+
+partialOldName can be an empty string "" to match the first linked Excel file. Often, a part or assembly has only one Excel file.
+
+newName
+
+The entire new spreadsheet name, which can be an absolute or relative filename.
+
+Example
+
+If size = "small" Then
+changeOK = GoExcel.ChangeSourceOfLinked("pipe"," smallpipe.xlsx")
+ElseIf size = "medium" Then
+changeOK = GoExcel.ChangeSourceOfLinked("pipe", "mediumpipe.xlsx")
+ElseIf size = "large" Then
+changeOK = GoExcel.ChangeSourceOfLinked("pipe", "largepipe.xlsx")
+End If
+GoExcel.Tolerance
+Used with the GoExcel.FindRow function to search for a value within a range rather than an exact value. The default tolerance is 0.0000001 and is not dependent on document units.
+
+Syntax
+
+GoExcel.Tolerance = <tolerance>
+
+Set a higher tolerance to expand the range of acceptable values.
+
+Example
+
+You use the statement to search in the following manner:
+
+GoExcel.Tolerance = 0.001
+i = GoExcel.FindRow("Table1.xlsx", "Sheet1", "length", "=", 2.3)
+The statement becomes equivalent to the following search with no tolerance:
+
+i = GoExcel.FindRow("Table1.xlsx", "Sheet1", "length", ">=", 2.299, "length","<=", 2.301)
+GoExcel.DisplayAlerts
+Prevents the display of Excel prompt dialog boxes.
+
+Syntax
+
+GoExcel.DisplayAlerts = True
+
+GoExcel.DisplayAlerts = False
+
+True
+
+Display the Microsoft® Excel prompts (default).
+
+False
+
+Do not display the Excel prompts.
+
+GoExcel.Application
+Accesses the Excel Application object. Use this function only if you have experience with the Excel COM interface. Before using this function in a rule, call another GoExcel function to initialize the application.
+
+Syntax
+
+excelApp = GoExcel.Application
