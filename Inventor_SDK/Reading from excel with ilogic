@@ -1,0 +1,104 @@
+Reading information from excel spreadsheets with iLogic
+Marketing
+Marketing
+Updated 1 year ago
+Not yet followed by anyone
+By Chris Smith
+
+Introduction
+
+When we design our products there are sometime ways we can improve our time to market or improve workflows in general using the tools available in the software. iLogic allow users to automate certain processes to improve meta data, reduce modelling time and effort and keep information up to date with little or no user input.
+
+In this example I will show how you can keep the estimated cost up to date in the iProperties by reading the latest information from a costing spreadsheet. The same methods can be used to pull any information from excel. I will also assume for this example that the reader has some knowledge of the iLogic system.
+
+You can download the files I will use in this example from my Autodesk Drive, here -https://autode.sk/3s6Ec9r
+
+The image below shows the contents of the downloadable file.
+
+Reading_information_from_excel_spreadsheets_with_iLogic_-_1.JPG
+
+Note – If you cannot download the files, you can copy the body of the rule below. You will need to create your own files to match the folder above. (Parts and excel spreadsheet – values below)
+
+Preparing the files
+
+Download the files from the link above and extract them to your local drive. There is a project file in the folder that we can use to make accessing this data easier and ensure we are working outside of our standard project environment.
+Open Autodesk Inventor and open the Projects window. Select the Browse option at the bottom of the window and open the iLogic_Costing.ipj project file in the exercise folder. Double click the new project in the top box in the window to make it the active project.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_2.JPG
+There are 2 different rule types that we can add into Inventor iLogic. Standard Rules and External Rules. Standard rules are associated to the file that they are created in. External rules can be run from any applicable file. As this exercise will be creating a rule that effects all the part files I will create, the better option here is to create an External rule.
+
+Having external rules also allows different users to share the same set of rules. By adding a folder path into the iLogic options in Inventor we can point all users to this folder to share our rules.
+
+If you do not already have a shared iLogic rules folder, we can create one. Create a standard folder in the location you would like to use to share the rules. A secure, shared network location is best. Create a folder called iLogic Shared Rules in the location of your choosing.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_3.JPG
+Now we have a shared folder we can link in Inventor. Open Autodesk Inventor and (without any files open) open the Tools Ribbon. Expanding the Options tab will give access to iLogic Configuration.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_4.JPG
+We can now add the file path to our new shared folder into the top box in the new window. Click the + symbol to add the folder path.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_5.JPG
+We can now use this folder to store our shared rules. Copy the Cost_Checker.iLogicVb rule from the exercise folder to your Shared Rules Folder.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_6.JPG
+Understanding the rule
+
+Before we can start to use the rule, we need to understand what it is doing. In this section we will open a file and check the body of the rule to get an idea of what is happening in the background. There is also a word document that contain the body of the rule with the same name.
+
+Open 101-10001.ipt. You will need to have the iLogic tab available for this next part. If you do not have the iLogic tab available, you can add it into the environment using:
+a. View > User Interface > iLogic
+Reading_information_from_excel_spreadsheets_with_iLogic_-_7.JPG
+b. Click the + at the top of the model browser
+Reading_information_from_excel_spreadsheets_with_iLogic_-_8.JPG
+With the iLogic browser open select the External Rules tab. Here we should see a link to Standard Directories. This shows all the available folders in the iLogic Configuration options. If you have added the folder link correctly and copied the Cost-Checker rule into the new folder, you should see the rule available in the browser.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_9.JPG
+Right click the Cost_Checker rule and select Edit Rule to open the rule editor.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_10.JPG
+From the image above we can see that there are some comments that help the user understand what is happening in the rule. You will be able to see the rule in Inventor, but for this example I will add the rule body below to break the rule down further.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_10.1.JPG
+The first block of code in the rule sets some variable values. These values will make coding easier later in the rule
+Reading_information_from_excel_spreadsheets_with_iLogic_-_10.2.JPG
+Next, we open a link to the excel file we will be reading from, and set the search values for iLogic
+Reading_information_from_excel_spreadsheets_with_iLogic_-_11.JPG
+Reading_information_from_excel_spreadsheets_with_iLogic_-_12.JPG
+Reading_information_from_excel_spreadsheets_with_iLogic_-_12.1.JPG
+This rule will only work if the oPartNumber variable has a matching value in the excel spreadsheet. We can include an If statement to check whether a value has been returned. This next section will break down how our rule will check this.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_18.JPG
+To help with debugging issues with the rule I have also added some additional checkers, which have been commented out. Commenting is done by adding an apostrophe ( ‘ ) to the beginning of the code line. This tells iLogic not to read this line and is a great way of adding information for other users, as well as blocking certain lines from triggering. Below we see 2 additional checkers I have included but stopped iLogic running them each time by turning the code into a comment.
+The first checker, below, Will display the variable value for the search criteria. In this case the part number. This is useful for checking the search criteria as the rule runs, instead of opening the iProperties to check the Part Number value.
+
+'Remove the apostrophe in the line below to check the part number
+
+'MessageBox.Show(iProperties.Value("Project", "Part Number"), "Title")
+Reading_information_from_excel_spreadsheets_with_iLogic_-_15.JPG
+
+Testing the rule
+
+Now we have set up the rule, we need to test it. As we are using part 101-10001.ipt we should see a returned value of £5.63, as we can see in the image of the data, above.
+
+Right click the rule in the iLogic browser, making sure you are in the External Rules tab, and select Run Rule.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_17.JPG
+If the rule has run correctly, you should see the notification below.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_18.JPG
+Verify the correct value has been returned by opening the iProperties, and checking the Estimated Cost value in the Projects tab.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_19.JPG
+
+
+You can verify the code further by changing the Part Number Value in iProperties to a different part number. A part number listed in the spreadsheet should return the corresponding Cost value. A part number that is not in the spreadsheet will return the warning message.
+
+Running the rule
+
+To run the rule automatically we can set up a trigger. There are several different triggers we can use in iLogic to run our rules automatically.
+
+In the Manage tab, select Event Triggers from the iLogic panel.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_20.JPG
+We made this rule an external rule, which in turn means it can be used in any file. This means we can set the trigger to happen on all part files. Our rule will update the cost price of the parts (as long as they are in the spreadsheet), so it would make sense to check the value whenever a part file is opened.
+In the event Triggers window, select the Parts tab at the top.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_21.JPG
+Here we will get a list of all our External rules on the Left and all the available triggers on the right.
+
+To set the Cost_Checker rule to run whenever we open a part file drag the rule from the left column to under the After Open Document branch on the right.
+Reading_information_from_excel_spreadsheets_with_iLogic_-_22.JPG
+Click OK to close the Event Triggers window. Save the file and close it.
+Open part 101-10003.ipt. Do you get a confirmation?
+Open part 101-10006.ipt. Do you get a failure warning?
+Summary
+
+You should now be able to modify the rule to retrieve data from the spreadsheet of your choice. It does not need to be cost values and this rule can be adapted to add values to any of the iProperties.
+
+In the next blog we will look at using this information to create a simple quote document from the values added here.
