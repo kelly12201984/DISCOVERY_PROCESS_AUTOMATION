@@ -1,0 +1,933 @@
+About iLogic Functionality
+
+
+What's New: 2023
+
+iLogic enables rules-driven design, providing a simple way to capture and reuse your work. Use iLogic to standardize and automate design processes and configure your virtual products.
+
+iLogic functions
+iLogic embeds rules as objects directly into part, assembly, and drawing documents. The rules determine and drive parameter and attribute values for your design. By controlling these values, you can define behavior of the attributes, features, and components of a model. Knowledge is saved and stored directly in the documents, like how geometric design elements are stored.
+
+iLogic rules can utilize custom parameter types now available in Inventor, such as text, true/false, and multi-value lists. You can use these parameter types to write rules that involve more than numeric input values.
+
+The Inventor Parameters dialog box supports these specialized parameters, with advanced filtering functions to assist in parameter input definition, management, and editing.
+
+Automation functions in iLogic
+Designers and engineers can implement iLogic automation functions with little or no programming experience. Use automation functions to:
+
+Search for and change iPart or iAssembly configurations automatically based on conditional statements defined in rules at the assembly level.
+Activate parts and assembly features, or assembly components and constraints, from rules using conditional arguments.
+Update and drive thread specifications automatically when a change occurs in a hole or rod size.
+Read, write, and react to the material or appearance aspects of design documents, mass or volume of parts, and design parameters.
+Update Bill of Material information when model changes result in a new configuration.
+Restrict or auto-correct user input values to ensure that resulting configurations are valid and comply with design specifications and standards.
+Read and write to Excel spreadsheet documents.
+Functions for message and input boxes provide feedback, options, and information as rules are running.
+
+
+Introduction to Using Inventor's Programming Interface
+There are several resources provided to help you use Inventor's Application Programming Interface (API). These resources are all part of Inventor's Software Development Kit (SDK). The various elements of the SDK and some additional external resources are described below.
+
+Currently Inventor API help is provided in English language only.
+
+API Help
+The API Help is installed with Inventor and is accessed from the Help menu as shown below.
+
+
+The help content consists of several parts:
+
+Introduction to the API, which is what you're reading now.
+What's new in this release of Inventor. This lists the changes that have been made in Inventor that may require some changes to any existing programs and lists the new objects, method, properties, and events that have been added for this release.
+User's manual which provides overview topics of much of the API.
+Reference manual. The reference manual provides detailed information about every object, method, property, and event. If that topic is demonstrated in a sample, there is a link to the sample in that topic.
+Sample programs. This is a categorized list of the sample programs. These are the same samples that are also accessed through links in the reference manual topics. They are primarily VBA programs, with a few C# programs. The API is the same regardless of what language is used. It's the syntax that changes, so a program in any language can serve as an example of how to use the API.
+SDK Folder
+By default, when installing Inventor, you'll get an SDK folder. On Win 10/11 it's created at:
+
+C:\Users\Public\Documents\Autodesk\Inventor <version>\SDK
+
+When installed the SDK folder contains three files; DeveloperTools.msi, UserTools.msi, and SDK_Readme.htm. To access the SDK information you need to install one or both of the .msi files, which can be installed by double-clicking the .msi file in Explorer.
+
+DeveloperTools.msi
+The DeveloperTools.msi installs additional sample programs and some tools intended to help developers write applications using the Inventor API. When this component is installed, it creates the directories that contain the DeveloperTools sub folder which contains the following subfolders.
+
+Docs
+This contains an object model diagram chart that can be useful in understanding the relationships between various objects. This folder also contains some guidelines to use when creating the user-interface for your Inventor programs.
+
+Include
+This folder contains several header (.h) files that are primarily intended to be used by programmers using VC++. Occasionally information in these files is also useful in other circumstances.
+
+References
+This folder contains a utility that is currently only used internally and is now obsolete with registry-free add-ins.
+
+Samples
+This folder contains many larger programs written in several different language that demonstrate various ways to access and use Inventor's API.
+
+Tools
+This folder contains two programs that are useful utilities when working with Inventor's API.
+
+The first, called EventWatcher, allows you to specify and watch certain events as they occur within Inventor. This tool is very useful when you're writing a program that will be using events within Inventor. You can use this tool to better understand the event behavior so you can know how to take advantage of it within your programs.
+
+The second, called ThumbnailView, is a small component that lets you extract thumbnail images from Inventor documents without having to go through Inventor. There's a readme and some samples that describe and show its use.
+
+Wizards
+This directory no longer contains the wizards installer but now only contains a readme describing the use of the wizards. For those familiar with the previous additional step to install the add-in wizards, the seperate wizards installer is no longer needed because the wizards are installed as part of the SDK installer.
+
+The wizards are used from within Visual Studio to create skeleton Inventor add-in projects.
+
+UserTools.msi
+The UserTools.msi file contains several add-ins and standalone executables that help automate certain tasks for Inventor users that are not available in the Inventor product itself. When this component is installed, it creates the directories for the tools that include AddIns and standalone executables. The dll and exe files are installed so you can immiediately use the tools without having to compile any source code. The source code for the tools is also installed which you can use as a sample and also can modify to change and extend the behavior of these tools.
+
+The user tools installer includes the following add-ins: AttributeHelper, DrawingTools, GeneralTools, DerivedPart_SP and AutoCustomize. It also includes the following standalone executables: CopyDesign, PartNumberModifier. A UserTools subdirectory is created in the SDK folder and the programs areinstalled there. For more details regarding these tools, please refer to the individual "ReadMe.txt" file associated with each tool.
+
+Additional Resources
+Some other resources are available on the web that contain additional information about Inventor's API.
+
+Develop Inventor Site - A general introduction to the API including presentations describing the API features added in recent releases.
+
+Mod the Machine Blog - A blog dedicated to the Autodesk Inventor API
+
+Autodesk Discussion Groups - Autodesk discussion groups where there are open discussions about all of Autodesk's products. The Autodesk Inventor Customization group is specifically for Inventor API questions.
+
+
+
+Conditional Statements Format Reference
+
+If-Then-Else Format
+If <conditional expression> Then
+<one or more statements to be executed if condition is true>
+Else
+<one or more statements to be executed if condition is false>
+End If
+If-Then Format
+If <conditional expression> Then
+<one or more statements to be executed if condition is true>
+End If
+Null Format
+If <conditional expression> Then ‘do nothing
+Else <one or more statements to be executed if condition is false>
+End If
+If Statement as Single Line
+If <conditional expression> Then <true statement> [Else <false statement>]
+Extended Block If (If-Then-ElseIf) Format
+If <conditional expression 1> Then
+<one or more statements to be executed if condition 1 is true>
+ElseIf <conditional expression 2> Then
+<one or more statements to be executed if condition 2 is true>
+...
+ElseIf <conditional expression n> Then
+<one or more statements to be executed if condition n is true>
+Else
+<one or more statements to be executed if none of the above conditions is true>
+End If
+Select Case Format
+Select Case <test expression>
+Case <expression list 1>
+<statement list 1>
+Case <expression list 2>
+<statement list 2>
+Case Else
+<statement list n>
+End Select
+
+
+
+Custom interface created using iLogic rules
+Use iLogic rules to connect custom forms directly to part or assembly design parameters. This capability provides a user interface for a rules-driven design template.
+
+Note: To download Visual Basic 2008 Express Edition, visit the Microsoft® web site.
+Integrated VB.NET in iLogic rules
+By using VB.NET directly in your iLogic rules, you can:
+
+Read and write to HTML files, text files, Word documents, and files of other formats.
+Communicate with other Windows applications.
+Automate publishing in DWF or other file formats.
+Launch external applications and existing VBA macros.
+Connect to external database applications such as Microsoft® Access or SQL Server.
+Use Inventor API functions directly.
+Parameters in iLogic
+In addition to standard parameters, you can create and edit text and true/false parameters in an Inventor model. Text parameters are strings that consist of text characters, and true/false parameters consist of a Boolean value of either True or False. Both types of parameters can be used in rules to drive Inventor parameters or anything else that a rule can drive. In a rule, these parameters represent the standard VB.NET types String and Boolean.
+
+In VB.NET, you surround string values in double quotes. For example:
+
+string1 = "Left Side"
+Many iLogic functions contain string arguments, which are also put in quotes. Examples include names of components and features in the Autodesk Inventor model.
+
+As mentioned previously, Boolean parameters can be True or False. For example:
+
+boolean1 = True
+boolean2 = False
+The Boolean values of True and False do not use surrounding quotes.
+
+String (text) parameters can be assigned to Inventor iProperties of type Text. Boolean (true/false) parameters can be assigned to Inventor iProperties of type Yes or No.
+
+The following is an example of the rule syntax:
+
+iProperties.Value("Project","Description") = string1
+iProperties.Value("Custom","Passed") = boolean1
+Conversely, you can also set iProperty values from text and true/false parameters:
+
+string1 = iProperties.Value("Project","Description")
+boolean1 = iProperties.Value("Custom","Passed")
+Multi-value parameters in iLogic
+A multi-value parameter is an Autodesk Inventor parameter with a stored list of possible values. However, like other parameters, a multi-value parameter has a single value at any one time. It is not automatically locked to one of the values in the multi-value list, although you can accomplish that with a rule.
+
+You create and edit multi-value parameters in the Parameters dialog box. Right-click on a parameter in any column, and select Make Multi-value to specify that the parameter can have multiple values. Use the dialog box that displays to enter a list of values. You can also paste a list of values from a text editor or another application such as Microsoft® Excel.
+
+To sort the order of the values in of the multi values parameters numerically, in the Parameters dialog, right-click on a parameter in any column, select Edit Multi-Value List and check the Custom order box.
+
+For a numeric parameter, the value list can include fractions or equations. Examples include:
+
+3/8
+12.5 mm
+d0 * 0.8
+For multi-value or true/false parameters, the Equation cell features a drop-down list from which you can pick the current value (or equation for a numeric parameter).
+
+In a rule, you can read and write the list of values for a parameter using the multi-value functions.
+
+Assembly Constraint Functions Reference (iLogic)
+iLogic provides rule functions for driving the suppression state of assembly constraints; they are useful when defining assembly level configurations with iLogic rules.
+
+
+For example, suppose you are defining alternate positions for a component in an assembly. You can define all mates necessary to constrain the component in each location. Then, you can use a rule to suppress and unsuppress the mates as necessary to move the component in each configuration.
+
+Inventor does not allow constraints that conflict. Create the constraints for one position of a component, and then manually suppress them before creating additional sets of constraints for alternate component positions. Once you have created all constraints necessary to position the component for each configuration, you can write the rules that choose between the constraints.
+
+To access the assembly constraint functions, expand the Constraints node on the System tab in the Snippets area of the iLogic Edit Rule dialog.
+
+Constraint.IsActive
+Sets or reads the suppression state of a top-level assembly constraint.
+
+Assign each constraint referenced in a rule a unique custom name:
+
+The rules are more easily understood.
+Renaming a mate "stabilizes" the name to help prevent automatic changes to a name which can result in the rule being unable to find the constraint.
+If you manually change the suppression state of a constraint, it does not cause rules that reference it to fire automatically.
+
+Syntax
+
+Constraint.IsActive(“Mate:1”)
+
+Constraint.IsActive(“SubAssem.iam”, “Mate:1”)
+
+Examples
+
+Set the suppression state:
+
+If ConfigStyle = “A” Then
+Constraint.IsActive("MateLeftSide:1") = true
+Constraint.IsActive("MateRightSide:2") = false
+ElseIf ConfigStyle = “B” Then
+Constraint.IsActive("MateLeftSide:1") = false
+Constraint.IsActive("MateRightSide:2") = true
+End If
+Read the suppression state:
+
+If Constraint.IsActive("MateLeftSide:1")  Then (Do something)
+Set or read the suppression state of a constraint in a subassembly (specify the subassembly file name and name of the constraint):
+
+Constraint.IsActiveInDoc("SubAssem.iam", "Mate:1")
+To copy and rename all the files in an assembly while keeping all the rules intact, use Constraint.IsActiveInComponent and specify a subassembly name instead of the filename.
+
+Set using subassembly name:
+
+If ConfigStyle = “A” Then
+Constraint.IsActiveInDoc("SubAssem.iam", “LeftMate”) = true
+Constraint.IsActiveInDoc("SubAssem.iam", “RightMate”) = false
+ElseIf ConfigStyle = “B” Then
+Constraint.IsActiveInDoc("SubAssem.iam", “LeftMate”) = false
+Constraint.IsActiveInDoc("SubAssem.iam", “RightMate”) = true
+End If
+Read using subassembly name:
+
+Constraint.IsActiveInDoc("SubAssem.iam",”LeftMate”) = true then (Do something)
+Constraint.iMateDefIsActive
+Suppresses or unsuppresses an iMate definition.
+
+Constraint.iMateDefIsActive(“iMate:1”) = False
+
+Suppresses the iMate definition with the name iMate:1 in the current rule document. The result is the same as suppressing it with the context menu in the user interface. While suppressed, the iMate definition is not available for mating purposes.
+
+Constraint.iMateDefIsActive(“SubAssem:1”,“iMate:1) = False
+
+Suppresses the iMate definition with the name iMate:1, in the component SubAssem:1.
+
+Constraint.iMateDefIsActive(PartA:1”,“iMate:1”) = True
+
+Unsuppresses the iMate definition with the name iMate:1, in the component part PartA:1.
+
+Assembly Constraint Functions Reference (iLogic)
+iLogic provides rule functions for driving the suppression state of assembly constraints; they are useful when defining assembly level configurations with iLogic rules.
+
+
+For example, suppose you are defining alternate positions for a component in an assembly. You can define all mates necessary to constrain the component in each location. Then, you can use a rule to suppress and unsuppress the mates as necessary to move the component in each configuration.
+
+Inventor does not allow constraints that conflict. Create the constraints for one position of a component, and then manually suppress them before creating additional sets of constraints for alternate component positions. Once you have created all constraints necessary to position the component for each configuration, you can write the rules that choose between the constraints.
+
+To access the assembly constraint functions, expand the Constraints node on the System tab in the Snippets area of the iLogic Edit Rule dialog.
+
+Constraint.IsActive
+Sets or reads the suppression state of a top-level assembly constraint.
+
+Assign each constraint referenced in a rule a unique custom name:
+
+The rules are more easily understood.
+Renaming a mate "stabilizes" the name to help prevent automatic changes to a name which can result in the rule being unable to find the constraint.
+If you manually change the suppression state of a constraint, it does not cause rules that reference it to fire automatically.
+
+Syntax
+
+Constraint.IsActive(“Mate:1”)
+
+Constraint.IsActive(“SubAssem.iam”, “Mate:1”)
+
+Examples
+
+Set the suppression state:
+
+If ConfigStyle = “A” Then
+Constraint.IsActive("MateLeftSide:1") = true
+Constraint.IsActive("MateRightSide:2") = false
+ElseIf ConfigStyle = “B” Then
+Constraint.IsActive("MateLeftSide:1") = false
+Constraint.IsActive("MateRightSide:2") = true
+End If
+Read the suppression state:
+
+If Constraint.IsActive("MateLeftSide:1")  Then (Do something)
+Set or read the suppression state of a constraint in a subassembly (specify the subassembly file name and name of the constraint):
+
+Constraint.IsActiveInDoc("SubAssem.iam", "Mate:1")
+To copy and rename all the files in an assembly while keeping all the rules intact, use Constraint.IsActiveInComponent and specify a subassembly name instead of the filename.
+
+Set using subassembly name:
+
+If ConfigStyle = “A” Then
+Constraint.IsActiveInDoc("SubAssem.iam", “LeftMate”) = true
+Constraint.IsActiveInDoc("SubAssem.iam", “RightMate”) = false
+ElseIf ConfigStyle = “B” Then
+Constraint.IsActiveInDoc("SubAssem.iam", “LeftMate”) = false
+Constraint.IsActiveInDoc("SubAssem.iam", “RightMate”) = true
+End If
+Read using subassembly name:
+
+Constraint.IsActiveInDoc("SubAssem.iam",”LeftMate”) = true then (Do something)
+Constraint.iMateDefIsActive
+Suppresses or unsuppresses an iMate definition.
+
+Constraint.iMateDefIsActive(“iMate:1”) = False
+
+Suppresses the iMate definition with the name iMate:1 in the current rule document. The result is the same as suppressing it with the context menu in the user interface. While suppressed, the iMate definition is not available for mating purposes.
+
+Constraint.iMateDefIsActive(“SubAssem:1”,“iMate:1) = False
+
+Suppresses the iMate definition with the name iMate:1, in the component SubAssem:1.
+
+Constraint.iMateDefIsActive(PartA:1”,“iMate:1”) = True
+
+Unsuppresses the iMate definition with the name iMate:1, in the component part PartA:1.
+
+Math Functions Reference (iLogic)
+iLogic provides a set of Math functions that can be added to rules.
+
+In the iLogic Edit Rule dialog box, use one of the following methods to access the Math functions:
+
+Expand the Math node under the System tab in the Snippets area of the iLogic Edit Rule dialog.
+Right-click in the rule text area, and select Math Functions.
+Standard Math functions
+The standard VB.NET Math library provides most of the Math functions used in iLogic:
+
+IsNumeric	PI
+MinOfMany	Sqrt
+MaxOfMany	Abs
+Round	Sign
+Round decimal precision	Int
+Round Closest to Increment	Fix
+Round Up to Increment	Log10
+Round Down to Increment	Ln
+Ceil	Pow
+Floor	Min
+Sin	Max
+Cos	CDbl
+Tan	EqualWithinTolerance
+iLogic Math functions
+iLogic provides some Math functions. The following functions emulate the functions available in standard Inventor parameter equations:
+
+Ceil (same as Math.Ceiling)
+Sign0(a) = 1 if a > 0.0, = 0 otherwise
+Ln (same as Math.Log)
+Because certain Inventor functions differ from the VB.NET standard Math functions of the same name, they are converted when captured for use in an iLogic rule:
+
+The function sign becomes sign0 in the rule.
+The function log becomes log10 in the rule.
+Trigonometric functions
+Sin(0) = 0	Cos(PI) = -1
+Sin(PI) = 0	Tan(0) = 0
+Sin(PI/2) = 1	Tan(PI/4) = 1
+Cos(0) = 1	PI = 3.1415926......
+Cos(PI/2) = 0	 
+Sin(), Cos(), and Tan() are standard trigonometric functions with arguments expressed in radians (not degrees):
+
+If you use the Capture Current State option on a trigonometric formula in the Edit Rule dialog box, it is not be converted to VB.NET code. Instead, the formula is left as an Inventor formula. You can edit the formula manually to change it into a VB.NET formula (with angles in radian units).
+
+To convert from degrees to radians, use the following formula:
+
+radians = degrees *(PI/180)
+
+Other Math functions
+Function	Purpose	Examples
+Abs()	Return the absolute value of the argument.	
+Abs(10) = 10
+
+Abs(-9.87) = 9.87
+
+Sqrt()	Return the square root of the argument.	
+Sqrt(25) = 5
+
+Sqrt(100) = 10
+
+Sqrt(3) = 1.732051
+
+Sign()	Return a number indicating the sign of the argument.	
+If the value is positive, Sign(value) = 1
+
+If the value is negative, Sign(value) = -1
+
+If the value is zero, Sign(value) = 0
+
+Round()	Round the argument to a whole number (integer), or to a specified number of decimal places.	
+Syntax: Round(argument, optional # of decimal places desired)
+
+Round(2.55689) = 3
+
+Round(2.55689, 1) = 2.6
+
+Round(2.55689, 3) = 2.557
+
+Round(PI, 4) = 3.1416
+
+Ceil()	Round the argument to the next higher integer.	
+Ceil(2.56) = 3
+
+Ceil(Sqrt(3))= 2
+
+Floor()	Round the argument to the next lower integer.	
+Floor(1.789) = 1
+
+Floor(PI) = 3
+
+Log10()	Return the base 10 logarithm of the argument.	
+Log10(10) = 1
+
+Log10(100) = 2
+
+Log10(15) = 1.176091
+
+Ln()	Return the natural logarithm of the argument. (base e logarithm).	
+Ln(5) = 1.609438
+
+Ln(37) = 3.610918
+
+Pow(argument1, argument2)	Return the result of raising argument1 to the exponent of argument2.	
+Pow(2, 2) = 2 2 = 4
+
+Pow(2, 3) = 2 3 = 8
+
+Pow(3, 2) = 3 2 = 9
+
+Comparison functions
+Function	Purpose	Examples
+Min(argument1, argument2)	Return the lesser of the two arguments.	
+Min(2, 4) = 2
+
+Min(9, 4) = 4
+
+Min(Sqrt(2), Sqrt(3)) = 1.4142.....
+
+Max(argument1,argument2)	Return the greater of the two arguments.	
+Max(2, 4) = 4
+
+Max(9, 4) = 9
+
+Sqrt(3)) = 1.73205.....
+
+MinOfMany( ,,, )	Return the lesser of many arguments.	
+MinOfMany(2,4,3,6,7,8) = 2
+
+MinOfMany(9,4,5,67,3,5) = 3
+
+MinOfMany(Sqrt(2), Sqrt(3), Sin(PI/2)) = 1
+
+MaxOfMany( ,,, )	Return the largest of many arguments.	
+MaxOfMany(2,4,3,6,7,8) = 8
+
+MaxOfMany(9,4,5,67,3,5) = 67
+
+MaxOfMany(Sqrt(2), Sqrt(3), Sin(PI/ignored>/2)) = 1.73205.....
+
+EqualWithinTolerance(a, b, 0.001)	Compares the values of two parameters (represented by a and b) and compares the difference to the tolerance value (specified here as 0.001). If the difference is less than the tolerance, the function returns the Boolean value True. If the difference is greater than the tolerance, the function returns the Boolean value False.	
+If a = 10.00 and b=10.01
+
+EqualWithinTolerance(a, b, 0.015) = True [Abs(a-b) is less than the tolerance value of 0.015 in]
+
+EqualWithinTolerance(a, b, 0.001) = False [Abs(a-b) is greater than the tolerance value of 0.001]
+
+EqualWithinTolerance(a,b)	Use a default tolerance of 0.0000001
+
+Standard and String Functions Reference (iLogic)
+iLogic provides a set of String functions for text parameters that can be included in your iLogic rules.
+
+To access the String functions, expand the Strings node under the System tab in the Snippets area of the iLogic Edit Rule dialog
+
+Standard String functions
+Most of the String functions used in iLogic are provided as part of the standard VB.NET String Library. They include:
+
+Left()	CStr()
+Compare	Now()
+Len()	DateString
+Right()	TimeString
+Mid()	Val(string)
+LCase()	Read All Text
+UCase()	 
+Documentation for these functions is available at http://msdn.microsoft.com/en-us/library/system.string_methods(VS.80).aspx
+
+iLogic String functions
+Several String functions are specific to iLogic:
+
+Function	Purpose	Examples
+CDblAny(string)	Convert a text string into a Double value. Like the standard VB.NET function CDbl. It converts a text string using either a comma or a period as a decimal separator, independent of your Windows language settings. It can fail if the text string does not represent a valid number.	
+x = CDblAny(“3.14159”) returns 3.14159
+
+x = CDblAny(“3,14159”) returns 3.14159
+
+RoundToFraction(value, fractionFactor, RoundingMethod.Round)	
+Format a numeric value as a text string, in fraction form to represent inch measurements.
+
+Returns a fraction (for example, "1/2"), or a number and fraction (for example, "3 5/8"). Rounds the value to a multiple of the fraction factor.
+
+fractionFactor must be 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, or 1/128.
+
+RoundingMethod.Round rounds to the closest multiple of fractionFactor.
+
+RoundToFraction(0.7502, 1/4, RoundingMethod.Round)' returns "1/4"
+
+RoundToFraction(value, fractionFactor, RoundingMethod.RoundUp)	
+Format a numeric value as a text string, in fraction form to represent inch measurements.
+
+Returns a fraction (for example, "1/2") or a number and fraction (for example, "3 5/8"). Rounds the value to a multiple of the fraction factor.
+
+fractionFactor must be 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, or 1/128.
+
+RoundingMethod.RoundUp rounds to the nearest multiple of fractionFactor, greater than or equal to the value.
+
+RoundToFraction(0.7502, 1/4, RoundingMethod.RoundUp)' returns "3/4"
+
+RoundToFraction(0.749, 1/4, RoundingMethod.RoundUp) ' returns "3/4"
+
+RoundToFraction(0.749, 1/8, RoundingMethod.RoundUp)' returns "3/4"
+
+RoundToFraction(0.7, 1/8, RoundingMethod.RoundUp) ' returns "3/4"
+
+RoundToFraction(0.6, 1/4, RoundingMethod.RoundUp)' returns "3/4"
+
+RoundToFraction(0.6, 1/8, RoundingMethod.RoundUp) ' returns "5/8"
+
+RoundToFraction(value, fractionFactor, RoundingMethod.RoundDown)	
+Format a numeric value as a text string, in fraction form to represent inch measurements.
+
+Returns a fraction (for example, "1/2") or a number and fraction (for example, "3 5/8"). Rounds the value to a multiple of the fraction factor.
+
+fractionFactor must be 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, or 1/128.
+
+RoundingMethod.RoundDown rounds to the nearest multiple of fractionFactor, less than or equal to the value.
+
+RoundToFraction(0.7502, 1/4, RoundingMethod.RoundDown) ' returns "3/4"
+
+RoundToFraction(0.749, 1/4, RoundingMethod.RoundDown) ' returns "1/2"
+
+FormatAsFraction(value, [numberOfDecimals])	
+Format a numeric value as a text string, in fraction form to represent inch measurements.
+
+Returns a fraction (for example, "1/2"), or number and fraction (for example, "3 5/8"). Only if the value can be expressed as a whole-number fraction with a power-of-2 denominator (up to a maximum of 128, within 0.0000001). Otherwise it returns a decimal number.
+
+If decimals are returned, the numberofDecimals argument affects the rounding of the resulting text string. This argument is optional, and defaults to 3 if it is not provided.	
+FormatAsFraction(0.75) ' returns "3/4"
+
+FormatAsFraction(2.375)' returns "2 3/8"
+
+FormatAsFraction(2.4) ' returns "2.4"
+
+FormatAsFraction(2.00001) ' returns "2"
+
+Note: You can use the CDblAny function to convert values of iLogic text parameters to numbers.
+
+
+To Work with Code Snippets in iLogic
+You can edit, delete, replace, or merge custom snippets.
+
+What's New: R2022
+
+Display the Edit Rule Dialog
+On the ribbon, click Manage tab iLogic panel iLogic Browser if the browser is not currently displayed.
+In the iLogic Browser, do one of the following:
+Right-click an empty area and select Add Rule.
+Click the Rules tab or the External Rules tab, right-click a rule, and select Edit Rule.
+Work with Favorite Snippets
+
+Do one of the following:
+To define snippets as favorites, click Edit Favorite Snippets at the top of the System tab. Select a category, or expand a category and select individual snippets.
+To display only your favorite snippets, click the Favorites toggle at the top of the System tab.
+Copy system snippets to custom snippets
+Right-click on a snippet in the System tab. Select Copy to Custom from the context menu.
+A copy of the snippet is placed on the Custom tab, in the same category as it appears on the System tab. If the category does not exist, it is created.
+
+Create Custom Snippet
+Highlight the snippet text in the editing window, then right-click and select Capture Snippet.
+The Edit Snippet dialog box displays, with a copy of the snippet text in the Code text box.
+
+Enter the Title of the snippet, to be displayed in the snippets list.
+Select the Category in which the snippet is listed, or enter the name of a new category.
+Optionally, enter a text string to display as a tooltip when you hover the mouse pointer over the snippet in the list. Click Use Code as Tooltip to place a copy of the snippet text into the tooltip text box, and then edit the text as necessary.
+Edit the snippet in the Code text box as necessary. For complicated or long snippets, click the right arrow above the vertical scroll bar on the right to enable automatic outlining.
+Click Save or press Ctrl-S to save your snippet.
+Snippets are also saved when you click OK in the Edit Rule dialog box. The first time you save custom snippets, you are prompted to choose the save location.
+
+Manage Custom Snippet Categories and Collections
+To arrange custom snippets in categories, do any of the following:
+To create a category, right-click and select Insert Category from the context-menu.
+To place a snippet into a category, drag it into its proper location within the tree.
+To rename a code snippet category, select the snippet or category, then right-click and select Rename from the context menu.
+Use Save As on the toolbar to create different collections of code snippets for specific projects.
+To create a custom snippet collection for a specific project, click  at the top of the System tab. Specify a filename and location, and click Save to save a copy of all the custom snippets in the list as an external .xml file.
+If necessary, open the saved file using an XML editor and edit the saved snippets.
+
+Edit, Delete, Replace, or Merge Custom Snippets
+To edit a custom snippet, right-click a snippet and select Edit. Make the necessary changes in the Edit Snippets dialog.
+To delete a custom snippet, right-click the snippet and select Delete.
+To replace custom snippets from an external file, click  at the top of the System tab. Select the file to replace the snippets in the Custom tab, and click Open.
+To merge custom snippets from an external file, click  at the top of the System tab. Select the file to merge with the snippets in the Custom tab, and click Open.
+Move or hide snippets area
+ Use the Pin symbol at the top of the Snippets area to customize its behavior.
+Click the pin to change between show/hide mode and docking/undocking mode.
+When the pin symbol points down, click in the title bar to the left of the pin symbol to undock the area. Then, drag the Snippets area and pin it to another location on the screen. Use the docking icons that display in the Autodesk Inventor work area if you want to dock the Snippets area to either side of the Inventor window. Click the Snippets area, then drag it over a docking icon, and release the mouse button.
+When the pin symbol points left, a Snippets tab replaces the Snippets area when it is not in use. Click the Snippets tab to show the Snippets area.
+
+Parent topic: About Code Snippets in iLogic
+
+Event Trigger Reference
+Lists events that can trigger rules that you select.
+
+This list appears when you select Manage tab  iLogic panel  Event Triggers .
+New Document fires when a document is created from a template. For example, you can use it to prompt for iProperties values.
+After Open Document fires immediately after the document is opened, but before it displays.
+Before Save Document fires immediately before the document is saved. If you have a rule for this event, it can change the document and the changes are saved.
+After Save Document fires after the document is saved. Your rule can perform actions such as exporting the model to DWG or DWF, or other formats.
+Close Document fires immediately before the document closes. Do not change the document in a rule that is assigned to this event.
+Any Model Parameter Change fires when any model parameter changes. You can check the mass properties using a rule in this manner.
+iProperty Change fires when any iProperty (other than a Physical iProperty)value changes. This event does not trigger the rule if the iProperty is changed outside of Inventor (from Windows Explorer, Design Assistant, Vault, and so on). The rule does not trigger the next time you open the model in Inventor.
+Feature Suppression Change fires when any part feature is suppressed or unsuppressed. This event works only in parts.
+Part Geometry Change fires when the part solid or surface body changes for any reason. It is useful for performing actions that depend on measure functions or physical properties. This event only works in parts.
+Material Change is available only in part documents. If you have a rule for this option, it likely checks the material with statements such as If iProperties.Material = "Steel" Then ...
+Component Suppression Change fires when an assembly component is suppressed or unsuppressed.
+iPart or iAssembly Change Component fires when a Change Component operation (choosing a different row in the table) is performed for an iPart or iAssembly instance.
+Drawing View Change fires when a drawing updates due to changes in the model that is shown in a view. Typically, this update occurs when you activate a drawing (switch to the drawing window) after you have changed the model. The event is triggered once for the active sheet, no matter how many views are on the sheet.
+Parent topic: About Event Triggers and iTriggers
+
+To Run Rules with iTriggers
+You can use an iTrigger parameter to fire rules manually.
+
+For example, you can use an iTrigger to launch a dialog that provides a custom interface for defining design parameters.
+
+The iTrigger command creates an Inventor user parameter named iTrigger0 in the document being edited. If the parameter exists in the document, the command increases the value of this parameter by 1 and fires any rules containing the iTrigger0 parameter.
+
+Create iTrigger Parameter
+Close the Edit Rule dialog box if it is currently open.
+On the ribbon, click Manage tab  iLogic panel  iTrigger .
+Enable Rule to be Triggered
+Open the rule in the Edit Rule dialog box.
+Add the following line:
+trigger = iTrigger0
+Important: iTrigger0 is a parameter and is case sensitive.
+Save the rule and close the Edit Rule dialog box.
+Trigger Rule Manually
+To run a rule that references the iTrigger0 parameter, on the ribbon, click Manage tab  iLogic panel  iTrigger .
+Note: It is possible for multiple rules to run when the iTrigger button is clicked. Any rules that reference the iTrigger0 parameter are run.
+
+
+To Configure iLogic Options
+You can configure the location for external rules and DLL files, disable DoubleForEquals, and specify the default Microsoft Excel Engine to be used by iLogic.
+
+What's New: R2021
+
+Configure location for external rules and DLL files
+On the ribbon, click Tools tab  Options panel  iLogic Configuration.
+Click  next to External Rule Directories to add a folder to the list, and use the up and down arrows to define the search order.
+Choose a file extension in the Default Extension for External Rule Files field.
+.vb files can be edited in Visual Studio.
+.txt files can be edited using a text editor such as Microsoft Notepad.
+.iLogicVb indicates that the file contains standard iLogic rule code to be preprocessed by iLogic.
+Select the folder containing code from other .NET assemblies in the iLogic Addin DLLs Directory field.
+To export an iLogic configuration: Export  Enter the file name or select an existing file to replace  Save.
+To Import an iLogic configuration: Import  Locate file to import  Open.
+Click OK.
+Log Level
+Use the Log Level setting to set the log level to use for iLogic Logging and rule tracing in the Rules Editor.
+
+
+
+Excel Options
+Use the Excel Options setting to specify the default Microsoft Excel Engine to be used by iLogic. This is an application-level option.
+
+
+
+The default Microsoft Excel Engine is Internal. Internal is a library that provides fast access to Excel data, although there are limitations. Excel COM is the Microsoft Office Excel API. It can be used only when Excel is installed on the computer. This is an application-level option. Select Excel COM if you have Excel rules that use the iLogic GoExcel object to do any of the following:
+
+Write to an embedded spreadsheet.
+Use the GoExcel.Automation object.
+Read (from Excel) a cell value that must be recalculated.
+iLogic can detect the first two cases automatically, and it will switch the option over to COM automatically. However, iLogic can't detect the third case. Here are some examples of workflows that will not work with the Internal option and only work with the COM option. If you have these types of rules, select COM as the engine.
+
+Example 1: If you have a spreadsheet in which cell B1 has a formula that refers to cell A1 and:
+The rule writes to cell A1.
+The spreadsheet recalculates, and the value in cell B1 is modified.
+The rule reads from cell B1.
+Example 2: If you have a spreadsheet in which cell B1 has a formula that refers to cell B5 and cell B1 holds the value of a linked parameter (the link was created by using the Link button in the Parameters dialog).
+A rule writes to cell B5.
+The spreadsheet recalculates, and the value in cell B1 is modified.
+The spreadsheet is saved (using the GoExcel.Save statement in the rule).
+Inventor reads the new parameter value from cell B1. With the Internal option selected, the spreadsheet will not be recalculated. Therefore the parameter value will not be updated.
+Note: You can set the default Excel engine in three different ways:
+iLogic Configuration dialog box.
+API.
+Environment variables. Environment variables have priority. If one of the following environment variables is set, then setting the default through the dialog box or API can't be used.
+set UseLibXL=false
+set iLogicUseLibXL=false
+The UseLibXL variable affects other Excel operations in Inventor. iLogicUseLibXL affects only iLogic.
+
+The option can be set through the iLogic API. Use code similar to the following to set the option through the iLogic API:
+Dim auto = iLogicVb.Automation
+auto.ExcelEngine = ExcelEngine.COM
+
+' or
+
+auto.ExcelEngine = ExcelEngine.Internal
+
+Important: When iLogic switches over to COM automatically due to an unsupported operation in a rule, it will show an error message. You must run the rule again to run the rule in COM mode.
+Security
+Click the Security Options button to access the iLogic Security dialog box. Use these settings to enable security checks for identifying unsafe rules .
+
+Disable DoubleForEquals
+DoubleForEquals is the default type for all numeric Inventor parameters used in rules.
+
+Use the following statement at the beginning of a rule to disable this setting:
+
+iLogicOption DoubleForEquals Off
+This statement is like the standard Visual Basic Option statement.
+
+Advanced iLogic Techniques Reference
+You can write iLogic rules using only Inventor parameter assignment statements, predefined iLogic functions, and simple VB.NET code. You can also use the Inventor API directly.
+
+
+However, you are not limited to these techniques. iLogic is based on VB.NET. You can use more advanced features of VB.NET and the .NET framework in a rule.
+
+Important: At this time, only Visual Basic 2012 (VB 11.0) syntax is supported within rule code. Additions that were made in later versions of Visual Basic do not work.
+Note: You can also use Visual Studio to create external DLL files that you can call from rules. These can be written in VB.NET, C#, or other languages.
+Headers
+Headers are statements that are required to be entered before the rule code in the Edit Rule dialog box. You can enter header statements directly in the header editor, or enter them in the main editor and iLogic will move them to the header editor.
+
+Note: Most rules do not require a header.
+To access the header editor, do one of the following:
+
+Click Header.
+
+
+Type a valid header statement (such as Imports) in the rule editor window: The header editor automatically opens as the active editor.
+The following statements are supported in the header editor:
+
+Option Explicit On
+
+Option Strict On
+
+Option Infer Off
+
+AddReference "filename.dll"
+
+Imports ...
+
+AddVbRule "Other Rule"
+
+AddVbFile "filename.vb"
+
+AddResources "filename.resources"
+
+Option and Imports are standard VB.NET statements.
+
+Option Explicit Off is the default. It allows you to use local variables without declaring them.
+
+Option Strict Off is the default. Option Strict On also works for most rules.
+
+Option Infer On is the default.
+
+The main rule code is an "implicit" subroutine. To add more subroutines, functions, properties, or Classes, declare a Sub Main() as follows:
+
+Sub Main()
+' your main rule code here
+End Sub
+Sub Main() can be used in any rule, regardless of whether the rule has additional code. For more detailed information about explicitly declaring your rule class, see “How is a rule processed?”
+
+AddReference
+Uses special iLogic syntax. Adding a DLL name to an AddReference statement is like using the AddReference command and browsing for a DLL in Visual Studio or Visual Basic Express.
+
+Only .NET assemblies are supported. The DLL can be a standard Microsoft assembly, as in the Microsoft.NET\Framework folder.
+
+For example, consider the following statement:
+
+AddReference "System.Drawing.dll"
+In this statement, the .dll extension is optional.
+
+You can also specify a user-created or third-party class library as a reference. User-created or third-party DLLs must all be in one folder. By default, these DLLs are located under the Inventor installation folder, in an iLogicAdd subfolder, such as:
+
+C:\Program Files\Autodesk\Inventor [Version]\Bin\iLogicAdd
+
+You can change this location using the iLogic Configuration command. You can also add references to DLLs in the main Inventor Bin folder (for example, C:\Program Files\Autodesk\Inventor [Version]\Bin).
+
+The AddReference statement does not support a full path specification. You can only specify a filename. Add references to assemblies in the Global Assembly Cache (GAC), using a qualified name such as:
+
+AddReference "VsWebSite.Interop, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+You can also create or access registered COM objects in a rule using CreateObject or GetActiveObject. It is not necessary to use AddReference for a COM DLL.
+
+AddVbRule
+Includes the code from the specified rule as VB code, compiled with the main rule. The specified rule cannot be a standard rule. It must have the Straight VB code option enabled in the Options panel of the Edit Rule dialog box. iLogic does not pre-process the code in such a rule. The rule contains Classes or Modules that can be called from other rules. Use this statement to share code between rules, or to keep code modular.
+
+Example
+
+AddVbRule "Other Rule"
+AddVbFile
+Operates similarly to AddVbRule, except that the VB code is stored in an external file instead of a rule. As with AddVbRule, the code must have the Straight VB code option enabled. This statement is useful for sharing common code between models. The file specification must be a relative path name. iLogic searches the folder of the current Inventor document, and in other folders, using the same search order employed for external rules.
+
+Example
+
+AddVbFile "fileName.vb"
+AddResources
+Adds resources such as strings or bitmaps. The resources must be compiled with Visual Studio.
+
+Example
+
+AddResources "fileName.resources"
+Imports
+Duplicate Imports statements are not allowed. The following default Imports statements are implicitly used in all rules:
+
+Imports System
+Imports System.Math
+Imports System.Collections
+Imports Microsoft.VisualBasic
+Imports Autodesk.iLogic.Interfaces
+Imports Autodesk.iLogic.Runtime
+If you use MessageBox in a rule, then iLogic automatically adds the following statement:
+
+Imports System.Windows.Forms
+If you use ThisApplication or other Inventor objects, then iLogic automatically adds the following:
+
+Imports Inventor
+Rule Arguments
+iLogic provides advanced functionality that allows you to pass context information as rule arguments into the rules you run. This information can be used to modify the behavior of a rule without having to create a duplicate rule.
+
+You pass rule arguments using functions available in the IiLogicAutomation interface (for external clients), and in iLogicVB (for other rule code and internal clients). These arguments are made available within a rule via the RuleArguments property.
+
+For IiLogicAutomation, the functions available include:
+
+Function RunRuleWithArguments(ByVal doc As Inventor.Document, ByVal ruleName As String, ByVal ruleArguments As Inventor.NameValueMap) As Integer
+
+Function RunExternalRuleWithArguments(ByVal doc As Inventor.Document, ByVal ruleName As String, ByVal ruleArguments As Inventor.NameValueMap) As Integer
+
+Function RunRuleDirectWithArguments(ByVal rule As iLogicRule, ByVal ruleArguments As Inventor.NameValueMap) As Integer
+
+For iLogicVB, the functions available include:
+
+Function RunRule(ByVal ruleName As String, ByVal ruleArguments As Inventor.NameValueMap) As Integer
+
+Function RunRule(ByVal compoOrDocName As Object, ByVal ruleName As String, ByVal ruleArguments As Inventor.NameValueMap) As Integer
+
+Function RunExternalRule(ByVal ruleName As String, ByVal ruleArguments As Inventor.NameValueMap) As Integer
+
+Create rule arguments
+
+To create rule arguments, use the Inventor API to create a new NameValueMap object. It is then passed to one of the functions when running the rule.
+
+Access an argument passed to the rule
+
+x = RuleArguments(“myArg”)
+Determine if an argument has been passed to the rule
+
+If RuleArguments.Exists(“myArg”) Then...
+Pass the set of arguments to another rule using RunRule
+
+iLogicVB.RunRule(“someOtherRule”, RuleArguments.Arguments)
+Additional Statements
+If you use Sub Main(), the rule follows standard VB.NET format for a class, except that the Class... and End Class statements are not visible, and the statements before Sub Main() are outside the class. Therefore, place all assignment statements inside a Sub, Function, or Property. You can include declaration statements for class member variables such as Private temp As Double = 4.5 outside of a subroutine or function.
+
+You can add Sub, Function, Property, and Class definitions after Sub Main()... End Sub. Any Class you add is nested in the main rule Class for that rule and cannot be used from another rule. To add an independent Class or Module, explicitly declare the rule Class using the following:
+
+Class ThisRule ' ...
+Sub Main
+End Sub
+' ...
+End Class
+You can then add another Class or Module (or more than one) outside of this code. Class ThisRule becomes your main rule Class, and iLogic calls Sub Main (within it) to run your rule.
+
+To include a Moduleor Class that is visible to multiple rules, put it in an external assembly (DLL). You can put more than one in the same DLL. You can also use AddVbRule to put them in a rule identified as "Straight VB code" within the Inventor document (). Or, use AddVbFile to put them in an external VB file.
+
+When you develop advanced VB.NET code, use Visual Studio or Visual Basic Express rather than coding directly in a rule. You can then cut and paste relatively small snippets of code from Visual Studio into a rule. You can even paste in an entire dialog box Class (although resources are not easily supported). For larger units of code, or where required, create an assembly and use it as an external DLL from a rule.
+
+You can store objects that are instances of a user-defined Class using the iLogic rule Shared Variable functions. To store these objects, serialize the Class, or it must be derived from MarshalByRefObject.
+
+External DLLs
+You can write your own external DLLs in .NET and call them from a rule. To debug a DLL, set the build output path under Project Properties  Compile to iLogicAdd (under the Inventor Bin folder). Then, choose Inventor.exe for Start external program in your project properties in Visual Studio. This method allows you all the benefits of the debugging environment, including Edit and Continue.
+
+External DLLs are useful when using a rule to display a dialog box for user input.
+
+Inventor API
+To access the Inventor API from a rule, use the ThisApplication property to access the Inventor application. Use ThisDoc.Document to access the document that contains the current rule.. You can create and modify features. Use Parameter.Param to get direct access to an Inventor.Parameter.
+
+To use the Inventor API from your own DLL, add a reference to Autodesk.Inventor.Interop.dll in your Visual Basic project. It displays in the Add Reference dialog box on the .NET tab. For Inventor 2011, the version is 15.0.0.0.
+
+Use iLogic Interfaces in External DLLs
+All iLogic functions are grouped under interface objects such as Parameter, iProperties, iPart, and so on. You can pass iLogic interface objects as arguments to functions in external DLLs. To use these objects in your project, add a reference to Autodesk.iLogic.Interfaces.dll. Select the Browse tab in the Add Reference dialog box, and browse to the iLogicBin folder, under the Inventor bin folder (usually in C:\Program Files\Autodesk\Inventor [Version]\Bin\iLogicBin).
+
+Documentation for the iLogic interfaces is provided in Autodesk.iLogic.Interfaces.xml. You can use the Object Browser in Visual Studio to read the interface descriptions. These descriptions include the names of the objects which implement the interfaces in rules. For example, the Feature object in a rule implements the ICadFeature interface.
+
+To Copy Designs Containing iLogic Rules
+
+
+What's New: 2023.2
+
+With no documents open, select iLogic Design Copy (Tools tab  iLogic panel  iLogic Design Copy ).
+Select a source project.
+The project must contain a workspace definition. Only files contained within the project workspace can be copied.
+
+Linked documents located outside the workspace are reused in the destination project/document copy.
+
+Under Files to Copy, select the root assembly documents.
+Select any nonlinked documents (Inventor or non-Inventor files) to include in the copy set.
+Be sure to select any nonlinked, non-Inventor documents required by the rules involved in the design template so that rules fire successfully in the copied documents.
+Linked documents residing outside the project workspace are reused (document copies retain links to them) rather than copied. There is no way to preview linked documents outside the workspace of the project being copied.
+Click Next.
+Specify a target folder for the copy and indicate the project.
+Select Create New Project to create a duplicate project file with a new name.
+Select Use Source Project if you don’t want to create a project file; this copies files and folders to the specified target folder. As a best practice, do not locate iFactory (iParts, iAssemblies, iFeatures), library, and Content Center files in the workspace of the source project; the project workspace folder should include only files that require copying (because they belong to the iLogic design template).
+The directory structure of the copy set is preserved in the destination copy.
+
+If you want to replace text within the filenames, first specify the text to be searched for in the Search field. Specify the replace text in the Replace field. You can search and replace only one string at a time.
+If you want to rename files, begin by specifying a prefix or suffix for the new filename. Use characters valid for Windows-supported filenames.
+The rename check boxes are visible after you enter a file prefix or suffix.
+
+Rename files, if you wish. Use the Rename Non-Inventor Files option and/or the Rename option for individual files.
+iFactory document members (located in the workspace or its subfolders) are not set to be renamed by default. iFactory automatically generates these document names.
+
+To delete all rules in the document copies, select Delete Rules.
+Use this option to remove iLogic rules from shared documents, or when the copied set of rules is incomplete.
+
+
+Select Update Part Number to make the part number (iProperty) of the destination file the same as the source filename.
+
+Click Start.
