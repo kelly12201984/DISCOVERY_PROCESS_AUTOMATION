@@ -1,0 +1,147 @@
+Parameter Functions Reference (iLogic)
+
+To access the parameter functions, expand the Parameters node on the System tab in the Snippets area of the iLogic Edit Rule dialog.
+
+Parameter
+Parameter("parameterName")
+
+This function changes parameter values directly.
+
+In assemblies, you can access parameters in suppressed components. However, if a component is suppressed, you cannot access its parameter directly with an assignment statement such as the following:
+
+PartA.ipt.d12 = 6.3
+Instead, you can use:
+
+Parameter("PartA:1", "d12") = 6.3
+Notice that a component name is specified instead of a file name. Although you give the function a specific component number, the parameter change affects all instances of the component. The component name is merely a way for the function to identify the file.
+
+Rename the component manually to preserve its name if the component is replaced.
+
+You can also use the MakePath function for the component name:
+
+Parameter(MakePath("SubAssem1:1", "Part1:1"), "d12") = 6.3
+Note: Use Parameter.ValueForEquals (instead of Parameter by itself) to find out if the value of a numeric parameter is equal to another value within 6 decimal places.
+For additional background information refer to the DoubleForEquals data type section in About iLogic Expansion and Customization.
+
+You can read the current value of a parameter using the syntax of one of the following statements:
+
+param_val = Parameter("d0")
+
+param_val = Parameter("PartA:1", "d0")
+
+As shown in these examples, the parameter can be in the current document. You can use the name of any parameter that can be accessed from the rule.
+
+In a component that is not suppressed, you can specify the filename instead of the component name: You can use this method to change a parameter in a base part that does not appear as a component in an assembly:
+
+Parameter("PartA.ipt", "d12") = 6.3
+If a parameter is not found, the Parameter function generates an error message. You can suppress the error message using the following:
+
+Parameter.Quiet = True
+Use this technique if you know the parameter is missing and you are prepared for that condition.
+
+Access parameters in base parts
+You can access parameters in a base part from a derived part or assembly. You can also access them from an assembly that contains a part derived from the base part.
+
+Sometimes, it is useful to drive parameters in the base part from rules in the assembly. This technique is referred to as top-down modeling. When you change a base parameter, the linked parameters in all derived parts also change.
+
+The part and its parameters are not always visible in the Model tree within the Edit Rule dialog box. You can access them using the Parameter function. For example, to change a parameter in a base part, use:
+
+Parameter("BaseShaft.ipt”, ”Diameter") = 0.125 in
+Usually, you do not have to read parameter values from the base part. The parameters are already linked into the part or assembly in which you are working.
+
+Advanced Parameter functions
+Use the Parameter.Param function to get direct access to an Inventor parameter. The object returned is of the type Parameter, from the Autodesk Inventor API:
+
+param = Parameter.Param("parameterName")
+If (param IsNot Nothing) Then
+param.Expression = "5.0 in"
+param.Tolerance.SetToDeviation(0.002 * 2.54, -0.004 * 2.54)
+param.Comment = "Equation and Tolerance set by a rule"
+End If
+Alternatively, you can use a single line:
+
+Parameter.Param("foo").Comment = "Comment set by a rule"
+
+You can access more properties of an Autodesk Inventor parameter using the following:
+
+param = Parameter.Param("parameterName")
+param = Parameter.Param("componentName", "parameterName")
+These functions give you an object of the class Inventor.Parameter. See the Inventor Programming Help for more information on this class.
+
+MultiValue functions
+Use MultiValue functions to access and change the list of values stored with a multi-value parameter. The following examples demonstrate their use:
+
+MultiValue.SetList(“d0”, 0.5, 0.75, 1.0, 1.25)
+
+Sets the list of available values for the parameter d0.
+
+MultiValue.SetList(“d0”, “3/8”, “d1 * 2”, “d1 * 3”)
+
+Sets equations instead of values. You can mix equations and values in the list.
+
+MultiValue.SetList(“filename.ipt.str0”, “Value1”, “Value2”)
+
+Sets a list of values for a text parameter in a part.
+
+MultiValue.SetList(“Part1:1”, “d0”, 0.5, 0.75, 1.0, 1.25)
+
+Sets the list of values of a parameter in a component.
+
+values = MultiValue.List(“d0”)
+
+Gets the current list of values, where the variable values is an object of the VB.NET type ArrayList.
+
+MultiValue.SetValueOptions(True, DefaultIndex := 0)
+
+Forces the parameter to have a value which is in its multi-value list. If you then change the multi-value list, it also sets the current value of the parameter to one of the values in the list. This function does not change the value if it is found in the new list.
+
+DefaultIndex := 0
+This applies only to Text parameters. If the current parameter value is not in the new list, the parameter is set to the first value (Index 0) in the list. You can choose a value other than 0. This has no effect on numeric parameters. For numeric parameters, the value chosen from the list will be the one that is closest to the current value.
+
+MultiValue.SetValueOptions(False)
+
+When you change the multi-value list of the parameter, the actual value of the parameter does not change. This behavior is the default behavior of MultiValue.
+
+MultiValue.List(“MyStringParam”) = iProperties.Materials
+
+Sets a text parameter to a list of values equivalent to the list of materials available in the current active standard.
+
+MultiValue.List(“d0”) = New Double() {0.5, 0.75, 1.0, 1.25}
+
+Uses an alternative method of setting the list of values.
+
+Examples that use values from Microsoft® Excel can be found in the section describing GoExcel.CellValues.
+
+MultiValue.UpdateAfterChange = True
+
+Like setting Parameter.UpdateAfterChange to True, this statement causes the Inventor model to update after a change is made to a parameter value by the MultiValue.List or MultiValue.SetList function.
+
+True will cause the model (document) to Update after the parameter is changed. This only takes effect when you change parameters using the Parameter function:
+
+Parameter.UpdateAfterChange = True
+
+True will cause the model (document) to Update after a parameter value is changed by the Parameter function. This only takes effect when you change parameters using the Parameter function. For example:
+
+Parameter.UpdateAfterChange = True
+Parameter("d0") = 2.5
+This will update the model.
+
+Note: ("d0") = 2.5 will NOT update the model.
+To update the model in the middle of the rule (after changing some parameters) use these two statements together:
+RuleParametersOutput()
+Note: - This will assign the current values of the parameter local variables to the model.
+InventorVb.DocumentUpdate()
+If you do not need to update the model in the middle of the rule, you can tell the system to update when it has finished running the rule. Use this statement: iLogicVb.UpdateWhenDone = True.
+
+MultiValue.Quiet = True
+
+Suppresses the error message displayed when a parameter is not found. Use this function if you know the parameter is missing and you are prepared for that condition. For example, it is possible that the parameter does not exist in every part to which the rule applies.
+
+foundVal = MultiValue.FindValue(aList, "<=", 4.0)
+
+Finds the value in a list that most closely matches a condition. aList can be an ArrayList or Array. The argument for comparison can be "<=", "=", or ">=".
+
+The following example finds the value which is less than or equal to 4.0. If more than one value exists, the value closest to 4.0 is returned. If a matching value does not exist, this example returns the VB constant "Nothing".
+
+foundVal = MultiValue.FindValue(MultiValue.List("d0"), "<=", 4.0)
+You can test for this condition.
