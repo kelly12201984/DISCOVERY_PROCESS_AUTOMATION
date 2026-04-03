@@ -32,6 +32,7 @@ SELECT
     pd.Order_Quantity                                    AS [PO Qty Ordered],
     pd.Unit_Cost                                         AS [PO Unit Cost],
     pd.Due_Date                                          AS [PO Due Date],
+    src.Act_Qty                                          AS [Source Recv Qty],
     src.Last_Recv_Date                                   AS [Last Receipt Date],
 
     CASE
