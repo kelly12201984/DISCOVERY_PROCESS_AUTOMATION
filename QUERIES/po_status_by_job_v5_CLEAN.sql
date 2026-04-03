@@ -1,7 +1,6 @@
 -- ============================================================
--- PO STATUS BY JOB — CLEAN VERSION (V5)
--- Dates formatted as MM/DD/YYYY (no time — all times are midnight)
--- Column headers included via aliases
+-- PO STATUS BY JOB — CLEAN VERSION (V5b)
+-- Dates as MM/DD/YYYY | Column headers | Source recv fields
 --
 -- Run in SSMS against PRODUCTION on DC2
 -- To export with headers: Tools > Options > Query Results >
@@ -20,20 +19,25 @@ SELECT
     mr.Est_Qty                                           AS [Qty Needed],
     mr.Act_Qty                                           AS [Qty Received],
     mr.Est_Qty - ISNULL(mr.Act_Qty, 0)                  AS [Qty Outstanding],
-    mr.Est_Unit_Cost                                     AS [Unit Cost],
-    mr.Est_Total_Cost                                    AS [Total Cost],
+    mr.Est_Unit_Cost                                     AS [Est Unit Cost],
+    mr.Est_Total_Cost                                    AS [Est Total Cost],
     mr.Vendor                                            AS [BOM Vendor],
-    CONVERT(VARCHAR(10), mr.Due_Date, 101)               AS [Material Due Date],
+    CONVERT(VARCHAR(10), mr.Due_Date, 101)               AS [Material Need Date],
     mr.Status                                            AS [Material Status],
 
     ph.PO                                                AS [PO Number],
     v.Name                                               AS [Vendor Name],
-    CONVERT(VARCHAR(10), ph.Order_Date, 101)             AS [PO Order Date],
+    CONVERT(VARCHAR(10), ph.Order_Date, 101)             AS [PO Ordered Date],
     pd.Order_Quantity                                    AS [PO Qty Ordered],
     pd.Unit_Cost                                         AS [PO Unit Cost],
     CONVERT(VARCHAR(10), pd.Due_Date, 101)               AS [PO Due Date],
+
+    src.Ordered_Qty                                      AS [Source Ordered Qty],
     src.Act_Qty                                          AS [Source Recv Qty],
-    CONVERT(VARCHAR(10), src.Last_Recv_Date, 101)        AS [Last Receipt Date],
+    src.Act_Unit_Cost                                    AS [Actual Unit Cost],
+    CONVERT(VARCHAR(10), src.Due_Date, 101)              AS [Source Due Date],
+    CONVERT(VARCHAR(10), src.Last_Recv_Date, 101)        AS [Date Received],
+    CONVERT(VARCHAR(10), src.Last_Updated, 101)          AS [Last Updated],
 
     CASE
         WHEN ph.PO IS NOT NULL AND ISNULL(mr.Act_Qty, 0) >= mr.Est_Qty
