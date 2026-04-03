@@ -1,0 +1,187 @@
+C:\Users\kelly>dir "P:\JOBS\2025" /s /b | findstr /i "MASTER BUILD PLAN"
+P:\JOBS\2025\001-25 US Sugar - 144 flat Bottom\001-25 Build Plan.xlsx
+P:\JOBS\2025\001-25 US Sugar - 144 flat Bottom\25-001 MASTER BULD PLAN.xlsx
+P:\JOBS\2025\002-25 - Thiele Kaolin - Surge Tank\002-25 Build Plan.xlsx
+P:\JOBS\2025\002-25 - Thiele Kaolin - Surge Tank\025-25 Build Plan (New).xlsx
+P:\JOBS\2025\002-25 - Thiele Kaolin - Surge Tank\25-002 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\003-25 - Thiele Kaolin - Blunger Tank #3\003-25 Build Plan.xlsx
+P:\JOBS\2025\003-25 - Thiele Kaolin - Blunger Tank #3\25-003 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\004-25 - Thiele Kaolin - Blunger Tank #4\004-25 Build Plan.xlsx
+P:\JOBS\2025\004-25 - Thiele Kaolin - Blunger Tank #4\25-004 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\005-25 - Syensqo - P-50 Replacement\005-25 Build Plan.xlsx
+P:\JOBS\2025\005-25 - Syensqo - P-50 Replacement\25-005 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\007-25 - Kimberly Clark - 160-TK-16001\007-25 Build Plan.xlsx
+P:\JOBS\2025\007-25 - Kimberly Clark - 160-TK-16001\25-007 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\007-25 - Kimberly Clark - 160-TK-16001\TR\Master list for drawing.xlsx
+P:\JOBS\2025\008-25- Kimberly Clark - 160-TK-22006\008-25 Build Plan.xlsx
+P:\JOBS\2025\008-25- Kimberly Clark - 160-TK-22006\25-008 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\009-25- Kimberly Clark - 220-TK-22001\009-25 Build Plan.xlsx
+P:\JOBS\2025\009-25- Kimberly Clark - 220-TK-22001\25-009 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\010-25 - Kimberly Clark - 220-TK-22112\010-25 Build Plan.xlsx
+P:\JOBS\2025\010-25 - Kimberly Clark - 220-TK-22112\25-010 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\011-25 - Kimberly Clark - 230-TK-23001\011-25 Build Plan.xlsx
+P:\JOBS\2025\011-25 - Kimberly Clark - 230-TK-23001\25-011 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\012-25 - Kimberly Clark - 330-TK-33001\012-25 Build Plan.xlsx
+P:\JOBS\2025\012-25 - Kimberly Clark - 330-TK-33001\25-012 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\013-25 - Kimberly Clark - 340-TK-34001\013-25 Build Plan.xlsx
+P:\JOBS\2025\013-25 - Kimberly Clark - 340-TK-34001\25-013 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\014-25 - Kimberly Clark - 360-TK-36006\014-25 Build Plan.xlsx
+P:\JOBS\2025\014-25 - Kimberly Clark - 360-TK-36006\25-014 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\015-25 - Kimberly Clark - 360-TK-36101\015-25 Build Plan.xlsx
+P:\JOBS\2025\015-25 - Kimberly Clark - 360-TK-36101\25-015 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\016-25 - Kimberly Clark - 370-TK-37001\016-25 Build Plan.xlsx
+P:\JOBS\2025\016-25 - Kimberly Clark - 370-TK-37001\25-016 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\017-25 - Kimberly Clark - 370-TK-37005\017-25 Build Plan.xlsx
+P:\JOBS\2025\017-25 - Kimberly Clark - 370-TK-37005\25-017 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\018-25 - Kimberly Clark - 420-BT-42001\018-25 Build Plan.xlsx
+P:\JOBS\2025\018-25 - Kimberly Clark - 420-BT-42001\25-018 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\019-25 - Kimberly Clark - 520 -TK-52001\019-25 Build Plan.xlsx
+P:\JOBS\2025\019-25 - Kimberly Clark - 520 -TK-52001\25-019 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\020-25 - Kimberly Clark - 360-TK-36102\020-25 Build Plan.xlsx
+P:\JOBS\2025\020-25 - Kimberly Clark - 360-TK-36102\020-25 SHIPPING PLAN VIEW.pdf
+P:\JOBS\2025\020-25 - Kimberly Clark - 360-TK-36102\25-020 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\021-25 - Kimberly Clark - 861-TK-86101\021-25 Build Plan.xlsx
+P:\JOBS\2025\021-25 - Kimberly Clark - 861-TK-86101\25-021 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\023-25 - Andritz - Product Liquor Flash Tank\023-25 Build Plan.xlsx
+P:\JOBS\2025\023-25 - Andritz - Product Liquor Flash Tank\25-023 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\024-25 - Andritz - Clean Condensate Surge Tank\024-25 Build Plan.xlsx
+P:\JOBS\2025\024-25 - Andritz - Clean Condensate Surge Tank\25-024 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\025-25 - Irving Tissue - TAD Fabric Release Bulk Tank\025-25 Build Plan.xlsx
+P:\JOBS\2025\025-25 - Irving Tissue - TAD Fabric Release Bulk Tank\25-025 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\026-25 - Irving Tissue - Creping Adhesive Bulk Tank\026-25 Build Plan.xlsx
+P:\JOBS\2025\026-25 - Irving Tissue - Creping Adhesive Bulk Tank\25-026 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\027-25 - Irving Tissue - Yankee Machine Chest\027-25 Build Plan.xlsx
+P:\JOBS\2025\027-25 - Irving Tissue - Yankee Machine Chest\25-027 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\028-25 - Irving TIssue - Core Machine Chest\028-25 Build Plan.xlsx
+P:\JOBS\2025\028-25 - Irving TIssue - Core Machine Chest\25-028 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\029-25 - Irving Tissue - TAD Machine Chest\029-25 Build Plan.xlsx
+P:\JOBS\2025\029-25 - Irving Tissue - TAD Machine Chest\25-029 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\030-25 - Irving Tissue - DAF Recovered Fiber Tank\030-25 Build Plan.xlsx
+P:\JOBS\2025\030-25 - Irving Tissue - DAF Recovered Fiber Tank\25-030 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\031-25 - Irving Tissue - Wet Strength Resin Bulk Storage Tank #1\031-25 Build Plan.xlsx
+P:\JOBS\2025\031-25 - Irving Tissue - Wet Strength Resin Bulk Storage Tank #1\25-031 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\032-25 - Irving Tissue - Wet Strength Resin Bulk Storage Tank #2\032-25 Build Plan.xlsx
+P:\JOBS\2025\032-25 - Irving Tissue - Wet Strength Resin Bulk Storage Tank #2\25-032 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\033-25 - Irving Tissue - Bow Screen Recovered Fiber Tank\033-25 Build Plan.xlsx
+P:\JOBS\2025\033-25 - Irving Tissue - Bow Screen Recovered Fiber Tank\25-033 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\034-25 - Irving Tissue - TAD Seal Pot\034-25 Build Plan.xlsx
+P:\JOBS\2025\034-25 - Irving Tissue - TAD Seal Pot\25-034 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\035-25 - Irving Tissue - Forming Seal Pot\035-25 Build Plan.xlsx
+P:\JOBS\2025\035-25 - Irving Tissue - Forming Seal Pot\25-035 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\036-25 - Irving Tissue - DB TAD Seal Pot\036-25 Build Plan.xlsx
+P:\JOBS\2025\036-25 - Irving Tissue - DB TAD Seal Pot\25-036 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\037-25 - Irving Tissue - Dry Strength Bulk Tank\037-25 Build Plan.xlsx
+P:\JOBS\2025\037-25 - Irving Tissue - Dry Strength Bulk Tank\25-037 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\039-25 - Zachary - Filter Tank\039-25 Build Plan.xlsx
+P:\JOBS\2025\039-25 - Zachary - Filter Tank\25-039 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\039-25 - Zachary - Filter Tank\Quote & Estimate\FW_ Budgetary quote for Frontier Power Plant.msg
+P:\JOBS\2025\040-25 - Nak Kiln Services - HR 120 Shell\040-25 Build Plan.xlsx
+P:\JOBS\2025\040-25 - Nak Kiln Services - HR 120 Shell\25-040 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\042-25 - Andritz - Foul Condensate Tank\042-25 Build Plan.xlsx
+P:\JOBS\2025\042-25 - Andritz - Foul Condensate Tank\25-042 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\044-25 - Noah Industrial - Clear Chest\044-25 Build Plan.xlsx
+P:\JOBS\2025\044-25 - Noah Industrial - Clear Chest\25-044 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\045-25 - PRO PIPE - NOZZLE & AGITATOR SUPPORTS, NOZZLE FOR FS DAY TANK\045-25 Build Plan.xlsx
+P:\JOBS\2025\045-25 - PRO PIPE - NOZZLE & AGITATOR SUPPORTS, NOZZLE FOR FS DAY TANK\25-045 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\052-25 - KRATON- SKIM OIL TANK\052-25 Build Plan.xlsx
+P:\JOBS\2025\052-25 - KRATON- SKIM OIL TANK\25-052 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\052-25 - KRATON- SKIM OIL TANK\PO\PO 40079 McMASTER.pdf
+P:\JOBS\2025\052-25 - KRATON- SKIM OIL TANK\QUOTE & ESTIMATE\19LS102 Belpre Plant Paint Systems.pdf
+P:\JOBS\2025\053-25 - ANDRITZ - RAYONIER, VAPOR DUCTING\053-25 Build Plan.xlsx
+P:\JOBS\2025\053-25 - ANDRITZ - RAYONIER, VAPOR DUCTING\25-053 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\054-25 - CHROMASCAPE -CHLOROSULFONIC ACID BULK STORAGE\054-25 Build Plan.xlsx
+P:\JOBS\2025\054-25 - CHROMASCAPE -CHLOROSULFONIC ACID BULK STORAGE\25-054 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\055-25 - AirGas - SS N20 Reactor\055-25 Build Plan.xlsx
+P:\JOBS\2025\055-25 - AirGas - SS N20 Reactor\25-055 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\056-25 - Reco - Buffer Tank #1\056-25 Build Plan.xlsx
+P:\JOBS\2025\056-25 - Reco - Buffer Tank #1\25-056 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\057-25 - Reco - Buffer Tank #2\25-057 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\058-25 - Reco - Buffer Tank #3\25-058 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\059-25 - Reco - Buffer Tank #4\25-059 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\060-25 - Reco - Buffer Tank #5\25-060 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\061-25 - Reco - Buffer Tank #6\25-061 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\062-25 - Reco - Buffer Tank #7\25-062 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\063-25 - Reco - Buffer Tank #8\25-063 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\064-25 - Reco - Buffer Tank #9\25-064 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\065-25 - Reco - Buffer Tank #10\25-065 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\066-25 - Reco - Buffer Tank #11\25-066 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\067-25 - Reco - Buffer Tank #12\25-067 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\068-25 - Reco - Buffer Tank #13\25-068 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\069-25 - Reco - Buffer Tank #14\25-069 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\070-25 - Reco - Buffer Tank #15\25-070 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\071-25 - Reco - Buffer Tank #16\25-071 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\072-25 - Burke Industrial - SS Storage Tank #1\072-25 Build Plan.xlsx
+P:\JOBS\2025\072-25 - Burke Industrial - SS Storage Tank #1\25-072 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\073-25 - Burke Industrial - SS Storage Tank #2\073-25 Build Plan.xlsx
+P:\JOBS\2025\073-25 - Burke Industrial - SS Storage Tank #2\25-073 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\074-25 -Kemira - T306 Ferric Sulfate Tank (Bartow)\074-25 Build Plan.xlsx
+P:\JOBS\2025\074-25 -Kemira - T306 Ferric Sulfate Tank (Bartow)\25-074 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\075-25 - Kemira - Sulfuric Acid Tank (Spokane)\075-25 Build Plan.xlsx
+P:\JOBS\2025\075-25 - Kemira - Sulfuric Acid Tank (Spokane)\25-075 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\076-25 - Irving Tissue - Glue Containment Droplet Seal Pot\076-25 Build Plan.xlsx
+P:\JOBS\2025\076-25 - Irving Tissue - Glue Containment Droplet Seal Pot\25-076 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\077-25 - Epic Systems - R-301 DMN CSTR\077-25 Build Plan.xlsx
+P:\JOBS\2025\077-25 - Epic Systems - R-301 DMN CSTR\25-077 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\077-25 - Epic Systems - R-301 DMN CSTR\PO\PO 40284 MCMASTER.pdf
+P:\JOBS\2025\078-25 - Epic Systems - R-310 Packed Bed Reactor\078-25 Build Plan.xlsx
+P:\JOBS\2025\078-25 - Epic Systems - R-310 Packed Bed Reactor\25-078 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\078-25 - Epic Systems - R-310 Packed Bed Reactor\PO\PO 40288 MCMASTER.pdf
+P:\JOBS\2025\079-25 - Epic Systems - R-311 Packed Bed Reactor\25-079 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\080-25 - Domtar DAF Filtrate Tank\080-25 Build Plan.xlsx
+P:\JOBS\2025\080-25 - Domtar DAF Filtrate Tank\25-080 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\083-25 - Synthomer - Reactor 12\083-25 Build Plan.xlsx
+P:\JOBS\2025\083-25 - Synthomer - Reactor 12\25-083 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\084-25 - Atlas Minerals - Sulfur Holding Tank\084-25 Build Plan.xlsx
+P:\JOBS\2025\084-25 - Atlas Minerals - Sulfur Holding Tank\25-084 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\084-25 - Atlas Minerals - Sulfur Holding Tank\PO\PO 40354 MCMASTER.pdf
+P:\JOBS\2025\085-25 - Noah Industrial - High FBCR\085-25 Build Plan.xlsx
+P:\JOBS\2025\085-25 - Noah Industrial - High FBCR\25-085 MASTR BUILD PLAN.xlsx
+P:\JOBS\2025\086-25 - Tellus - Wall Ring\086-25 Build Plan.xlsx
+P:\JOBS\2025\086-25 - Tellus - Wall Ring\25-086 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\087-25 Solvay - Waste Water Tank\087-25 Build Plan.xlsx
+P:\JOBS\2025\087-25 Solvay - Waste Water Tank\25-087 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\087-25 Solvay - Waste Water Tank\25-087MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\088-25 - CIL Isotope Separations - Ballast Tank\088-25 Build Plan.xlsx
+P:\JOBS\2025\088-25 - CIL Isotope Separations - Ballast Tank\25-088 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\088-25 - CIL Isotope Separations - Ballast Tank\PO\PO 40097 MCMASTER- CARR.pdf
+P:\JOBS\2025\089-25 - Valmet - CRU4 Smelt Dissolving Tank\089-25 Build Plan.xlsx
+P:\JOBS\2025\089-25 - Valmet - CRU4 Smelt Dissolving Tank\25-089 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\089-25 - Valmet - CRU4 Smelt Dissolving Tank\PO\PO 40307 MCMASTER.pdf
+P:\JOBS\2025\089-25 - Valmet - CRU4 Smelt Dissolving Tank\PO\PO 40326 MCMASTER CARR.pdf
+P:\JOBS\2025\091-25 US Sugar - API MAnway\091-25 Build Plan.xlsx
+P:\JOBS\2025\091-25 US Sugar - API MAnway\25-091 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\092-25 - Symrise - Carbon Unit #1\092-25 Build Plan.xlsx
+P:\JOBS\2025\092-25 - Symrise - Carbon Unit #1\25-092 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\093-25 - Symrise - Carbon Unit #2\25-093 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\094-25 - Kimberly Clark - Bleach Tower Standpipe\094-25 Build Plan.xlsx
+P:\JOBS\2025\094-25 - Kimberly Clark - Bleach Tower Standpipe\25-094 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\096-25 - Milliken - T-3405\096-25 Build Plan.xlsx
+P:\JOBS\2025\096-25 - Milliken - T-3405\25-096 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\097-25 - Milliken - T-3505\25-097 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\098-25 - Coastal Technologies - Mist Eliminator\098-25 Build Plan.xlsx
+P:\JOBS\2025\098-25 - Coastal Technologies - Mist Eliminator\25-098 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\099-25 - Burke Industrial - Cone Bottom with Internal Coil\099-25 Build Plan.xlsx
+P:\JOBS\2025\099-25 - Burke Industrial - Cone Bottom with Internal Coil\25-099 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\101-25 Harper Love - T-1615 Rupture Disk Catch Tank\101-25 Build Plan.xlsx
+P:\JOBS\2025\101-25 Harper Love - T-1615 Rupture Disk Catch Tank\25-101 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\109-25 - Epic - V-117\25-109 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\110-25 - Epic - T-117\110-25 Build Plan.xlsx
+P:\JOBS\2025\110-25 - Epic - T-117\25-110 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\111-25 - Epic - T-118A\109-25 Build Plan.xlsx
+P:\JOBS\2025\111-25 - Epic - T-118A\111-25 Build Plan.xlsx
+P:\JOBS\2025\111-25 - Epic - T-118A\25-111 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\113-25 - Epic - T-120\113-25 Build Plan.xlsx
+P:\JOBS\2025\113-25 - Epic - T-120\25-113 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\117-25 Merrick - MH-5301-HP-02000-CASING\117-25 Build Plan.xlsx
+P:\JOBS\2025\117-25 Merrick - MH-5301-HP-02000-CASING\25-117 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\117-25 Merrick - MH-5301-HP-02000-CASING\PO\PO 40474 MCMASTER-CARR.pdf
+P:\JOBS\2025\118-25 Merrick - MH-5301-HP-05000-CASING\118-25 Build Plan.xlsx
+P:\JOBS\2025\118-25 Merrick - MH-5301-HP-05000-CASING\25-118 MASTER BUILD PLAN.xlsx
+P:\JOBS\2025\124-25 thru 347-25 Vertiv Jobs\Shipping Plan.xlsx
+P:\JOBS\2025\124-25 thru 347-25 Vertiv Jobs\124-25 - Vertiv - Buffer Tank - 1 of 224\124-25 Build Plan.xlsx
+P:\JOBS\2025\124-25 thru 347-25 Vertiv Jobs\124-25 - Vertiv - Buffer Tank - 1 of 224\25-124 MASTER BUILD PLAN.xlsx
+
+C:\Users\kelly>dir "P:\JOBS\2026" /s /b | findstr /i "MASTER BUILD PLAN"
+P:\JOBS\2026\005-26 - US Sugar - Polishing Filter Blowdown Tank\PO\PO 40608 MCMASTER-CARR.pdf
+P:\JOBS\2026\023-26 - Savannah Tank\023-26 Build Plan.xlsx
+P:\JOBS\2026\023-26 - Savannah Tank\26-023 MASTER BUILD PLAN.xlsx
