@@ -186,6 +186,60 @@ The vessel specs that drive the build plan are all on Sheet 1:
 
 ---
 
+## The Invisible Schedule Killer: End-of-Job Wait Time
+
+**This is the single most important finding in this report.**
+
+The build plan tracks labor hours. But the finishing phase is dominated by *wait time* — waiting for inspections, waiting for paint/sandblast queues, waiting for shipping coordination. That wait time is completely invisible in the current system.
+
+### The Numbers
+
+**End-of-job phases (FINISHING + INSPECTION + MOVE + SHIPPING) consume 57% of total calendar time but only 15% of labor hours.**
+
+That's a 3.8x disproportion. The average job spends 42 calendar days in finishing — roughly half the total fabrication span — doing work that only accounts for 15% of the labor budget. The other 85% of the calendar time in that phase is *waiting.*
+
+### Where the Calendar Time Goes
+
+| Gap | Avg Calendar Days | Max | What's Happening |
+|-----|------------------|-----|-----------------|
+| Move to Paint Area → Prepare for Shipment | **20.8 days** | 69 days | Paint queue, application, cure time, sandblast |
+| Prepare for Shipment → Load on Truck | **14.3 days** | 70 days | Shipping coordination, customer pickup scheduling |
+| QC Inspection - Paint | **17.8 days** | 69 days | Waiting for inspector + rework if needed |
+| QC Inspection - Sandblast | **17.5 days** | 69 days | Same pattern |
+| QC Inspection - Test | **9.2 days** | 42 days | Hydro/pneumatic test + inspector |
+| QC Inspection - Fab | **7.2 days** | 42 days | Structural inspection before moving on |
+
+### The Worst Examples
+
+| Job | Total Calendar Days | End-Phase Calendar Days | % in End-Phase | Labor % in End-Phase |
+|-----|-------------------|----------------------|----------------|---------------------|
+| 24-069 | ~100+ | 88% | 88% | 10% |
+| 24-011 | ~100+ | 83% | 83% | 13% |
+| 24-045 | ~80+ | 84% | 84% | 19% |
+
+These tanks were essentially built and waiting. The fabrication was done, but they sat through weeks of finishing, testing, inspection, and shipping delays.
+
+### QC Inspections Are Completely Untracked
+
+**Zero of the 447 inspection operations across all 2024 jobs have an Actual_Start date in JobBOSS.** Nobody is logging when inspections happen. This means:
+- You can't tell if a QC gate blocked progress for 1 day or 3 weeks
+- You can't identify which inspectors or inspection types are bottlenecks
+- You can't predict how long the finishing phase will take
+- When a tank ships late, you can't trace *which* inspection or finishing step caused the delay
+
+### What This Means for the Build Plan
+
+The build plan needs **two types of estimates** for every operation:
+
+1. **Labor hours** (what it has now) — how many man-hours of work
+2. **Calendar duration** (what it's missing) — how many days this step takes, including wait time
+
+For PRE FAB and FIT operations, labor hours and calendar time are closely related — if you have the crew, the hours translate to days directly. But for FINISHING, INSPECTION, and MOVE operations, calendar time is 3-4x what labor hours suggest because of queuing, inspector availability, cure times, and coordination delays.
+
+**If OTTO's build plan included estimated calendar days for the finishing phase — even rough ones — you could project realistic ship dates instead of discovering delays after they've already happened.**
+
+---
+
 ## What OTTO Can Do With This
 
 ### Phase 1: Auto-populate the Build Plan Template
@@ -236,6 +290,12 @@ Using the PM Tracker dates + actual operation dates:
 5. **How much of the inline notes are "always true for this tank type" vs. "one-off engineering judgment"?** For example, is "BUILD TOP IN (2) SECTIONS" always required above a certain diameter, or does it depend on shop floor conditions that day?
 
 6. **Move/Ship operations are estimated at roughly half of actual every time.** Should these estimates be increased across the board, or is there something specific causing the overrun?
+
+7. **The finishing phase averages 42 calendar days but only 15% of labor hours. What's eating the time?** Is it paint queue backlog? Inspector availability? Customer inspection scheduling? Shipping coordination? Where does a tank typically sit the longest after fabrication is done?
+
+8. **Would it help to have estimated calendar days on the build plan alongside labor hours?** For example: "QC Inspection - Test: 0 labor hrs, 5 calendar days" or "Move to Paint Area: 4 labor hrs, 3 calendar days wait for paint bay." This would make the schedule visible in the build plan instead of being a separate mental model.
+
+9. **Why aren't QC inspection dates being logged in JobBOSS?** Is it a process issue (inspectors don't have access), a training issue, or a deliberate choice? Even a simple "inspection completed" date stamp would let us identify bottlenecks.
 
 ---
 
