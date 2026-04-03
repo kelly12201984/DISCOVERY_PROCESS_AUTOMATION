@@ -1,0 +1,480 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Autodesk Inventor SDK</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META name=ProgId content=Word.Document>
+<META name=GENERATOR content="MSHTML 9.00.8112.16440">
+<META name=Originator content="Microsoft Word 12"><LINK rel=File-List 
+href="SDK_Readme_files/filelist.xml"><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Autodesk, Inc.</o:Author>
+  <o:LastAuthor>Autodesk, Inc.</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2011-02-11T02:52:00Z</o:Created>
+  <o:LastSaved>2011-02-11T02:54:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1030</o:Words>
+  <o:Characters>5872</o:Characters>
+  <o:Lines>48</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>6889</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><LINK rel=themeData 
+href="SDK_Readme_files/themedata.thmx"><LINK rel=colorSchemeMapping 
+href="SDK_Readme_files/colorschememapping.xml"><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>130</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<STYLE type="text/css">@font-face {
+	font-family: Cambria Math;
+}
+@page WordSection1 {size: 8.5in 11.0in; margin: 1.0in 1.25in 1.0in 1.25in; mso-header-margin: .5in; mso-footer-margin: .5in; mso-paper-source: 0; }
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman","serif"; FONT-SIZE: 12pt; mso-fareast-font-family: SimSun; mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: widow-orphan; mso-fareast-theme-font: minor-fareast
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman","serif"; FONT-SIZE: 12pt; mso-fareast-font-family: SimSun; mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: widow-orphan; mso-fareast-theme-font: minor-fareast
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman","serif"; FONT-SIZE: 12pt; mso-fareast-font-family: SimSun; mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: widow-orphan; mso-fareast-theme-font: minor-fareast
+}
+SPAN.SpellE {
+	mso-style-name: ""; mso-spl-e: yes
+}
+SPAN.GramE {
+	mso-style-name: ""; mso-gram-e: yes
+}
+.MsoChpDefault {
+	FONT-SIZE: 10pt; mso-style-type: export-only; mso-default-props: yes; mso-ansi-font-size: 10.0pt; mso-bidi-font-size: 10.0pt
+}
+DIV.WordSection1 {
+	page: WordSection1
+}
+</STYLE>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style="tab-interval: .5in" lang=EN-US>
+<DIV class=WordSection1>
+<P class=MsoNormal><STRONG><SPAN 
+style="COLOR: #003300; FONT-SIZE: 16pt; mso-fareast-font-family: 'Times New Roman'">Autodesk 
+Inventor SDK</SPAN></STRONG><B><SPAN 
+style="COLOR: #003300; FONT-SIZE: 16pt; mso-fareast-font-family: 'Times New Roman'"><BR><BR></SPAN></B><SPAN 
+style="COLOR: black; mso-fareast-font-family: 'Times New Roman'">The Inventor 
+SDK includes samples and tools to demonstrate and describe the functionality 
+that is available in the Inventor API.<BR><BR></SPAN><STRONG><SPAN 
+style="COLOR: #ff0066; mso-fareast-font-family: 'Times New Roman'">Location of 
+the SDK<SPAN class=GramE>:</SPAN></SPAN></STRONG><SPAN 
+style="COLOR: #ff0066; mso-fareast-font-family: 'Times New Roman'"><BR></SPAN>
+    <SPAN 
+style="COLOR: black; mso-fareast-font-family: 'Times New Roman'"><BR>Windows 
+    10/11: 
+&nbsp; C:\Users\Public\Documents\Autodesk\Inventor 
+<EM>&lt;version&gt;</EM>\SDK<BR><BR></SPAN><STRONG><SPAN 
+style="COLOR: #ff0066; mso-fareast-font-family: 'Times New Roman'">NOTE</SPAN></STRONG><SPAN 
+style="COLOR: #ff0066; mso-fareast-font-family: 'Times New Roman'">:</SPAN><SPAN 
+style="COLOR: black; mso-fareast-font-family: 'Times New Roman'"> The contents 
+of the SDK have been packaged into two separate (<SPAN class=SpellE>msi</SPAN>) 
+installers. Only the installer files for the two components described below are 
+created when Inventor is installed. The components themselves would have to be 
+extracted by running the corresponding installer files before they can be 
+used.<BR><BR><STRONG>Developer Tools</STRONG><B><BR></B>Samples and tools 
+intended to help developers write applications using the Inventor API. This 
+component can be installed using the DeveloperTools.msi installer file. When 
+this component is installed, it creates the directories that contain the samples 
+and tools. <BR><BR>The <SPAN class=SpellE>DeveloperTools</SPAN>\Samples 
+directory contains the samples. The samples are provided in different languages 
+- VC++, VB.NET(VB6 samples are converted to VB.Net samples since Inventor 2014) and VC#.NET which are categorized under appropriate 
+folder names in the samples directory.&nbsp;<BR><BR>The <SPAN 
+class=SpellE>DeveloperTools</SPAN>\Tools directory contains the tools - <SPAN 
+class=SpellE>EventWatcher</SPAN>, <SPAN class=SpellE>ThumbnailView</SPAN>.<BR><BR>For more information about the samples and tools, please refer 
+to the individual "ReadMe.txt" file associated with each sample or tool. 
+<BR><BR>The Inventor wizards will be installed along with the DeveloperTools.msi. The <SPAN class=GramE>wizards</SPAN> creates code 
+templates that developers can use to quickly create applications that target the 
+Inventor API. The templates are integrated into the Microsoft Visual Studio 
+environment. Therefore, you can use the templates to create projects in VC++ 
+(2017, 2019 and 2022), VB (2017, 2019 and 2022) and VC# (2017, 2019 and 2022). You need to 
+have Microsoft Visual Studio installed firstly in order to be able to install the 
+DeveloperTools.msi which includes wizards. Please note that since Inventor 2025 RTM 
+    the target framework is migrated from .Net Framework to .Net 8, and Visual 
+    Studio 2022 version 17.8 can support .Net 8, the addin wizards for C# and VB.net 
+    in Visual Studio 2022 will target to .Net 8, the addin wizards for C# and VB.net 
+    of Visual Studio 2017 and 2019 still target to .Net Framework. The Visual Studio 
+    2022 version 17.8 and .Net 8 should be installed to make use of the VB.net and 
+    C# addin wizards in Visual Studio 2022.<BR><BR> Please note since Inventor 2026 RTM no Autodesk.Inventor.interop.dll will be installed to GAC, this is because after migrating to the .Net 8 since Inventor 2025 the Inventor.exe won't read info from GAC. The .Net-based addins should either reference to the Autodesk.Inventor.interop.dll installed in the Inventor Bin folder or copy a local one along with their binary. 
+<p>The object model diagram that shows the hierarchy of all 
+objects in the Inventor API is provided in: <SPAN 
+class=SpellE>DeveloperTools</SPAN>\Docs\.</p>
+<STRONG>User 
+Tools</STRONG><BR>Tools to help automate certain tasks for Inventor users that 
+are not available in the Inventor product itself but can be accomplished using 
+an Inventor API application. This component can be installed using the 
+UserTools.msi installer file. When this component is installed, it creates the 
+directories for the tools that include <SPAN class=SpellE>AddIns</SPAN> and 
+standalone executables. The binaries for the tools are installed which users can 
+utilize directly without having to compile any source code. The source <SPAN 
+class=GramE>code for the tools are</SPAN> also installed which users can modify 
+to modify the behavior of these tools.<BR><BR>The user tools include the <SPAN 
+class=SpellE>AddIns</SPAN>: <SPAN class=SpellE>DrawingTools</SPAN>, <SPAN 
+class=SpellE>GeneralTools</SPAN>, <SPAN class=SpellE>DerivedPart_SP, AutoCustomize</SPAN> 
+    and AttributeHelper(since Inventor 2020) and the executables: <SPAN class=SpellE>CopyDesign</SPAN> and 
+<SPAN class=SpellE>PartNumberModifier</SPAN>.<BR> <BR>The ColorSchemeEditor is removed from UserTools because it is integrated into Inventor since Inventor 2019.
+<BR><BR>For more details regarding 
+these tools, please refer to the individual ReadMe file associate with 
+each tool. <BR><BR><STRONG>LICENSE AGREEMENT<SPAN 
+class=GramE>:</SPAN></STRONG><B><BR></B>These terms and conditions amend the end 
+user license agreement included with the Autodesk<span style="color: black; mso-fareast-font-family: &quot;Times New Roman&quot;;">®</span>Inventor<span style="color: black; mso-fareast-font-family: &quot;Times New Roman&quot;;">®</span>Software (the 
+"Software") for which this software developer's kit ("SDK") is intended. By 
+installing this SDK, the user accepts and agrees to the following<SPAN 
+class=GramE>:</SPAN><BR>While Autodesk, Inc. has made reasonable efforts to 
+verify and test the sample files ("Sample Files") and tools, including wizards 
+(collectively "Tools") provided in this SDK, the SDK is provided solely on an 
+"as is" basis, "with all faults". The SDK, the sample files and tools contained 
+are employed at the sole risk of the user. Autodesk disclaims all express or 
+implied conditions, representations, and warranties of any kind, including any 
+implied warranty or condition or merchantability, fitness for a particular 
+purpose, or <SPAN class=SpellE>noninfringement</SPAN>. The user is free to 
+modify or customize the sample files provided, however Autodesk makes no 
+representations, warranties, conditions or guaranties as to the quality, 
+suitability for a particular purpose, or safety of user's other applications or 
+data when used with the sample files or the tools.<BR>User agrees that Autodesk 
+is not liable for any direct, indirect, incidental, special, consequential, 
+punitive, or exemplary damages, including but not limited to, damages for <SPAN 
+class=SpellE>loss</SPAN> profits, revenue, goodwill, use data, electronically 
+transmitted orders, or other economic advantage (even if Autodesk has been 
+advised of the possibility of such damages), however caused and regardless of 
+the theory of liability, whether in contract (including fundamental breach), 
+tort (including negligence)&nbsp; or otherwise, arising out of or related to: 
+(<SPAN class=SpellE>i</SPAN>) the user of or the inability of use the sample 
+files and tools; (ii) the cost of procurement of substitute goods and services 
+resulting from the use or inability to use the sample files and tools' or (iii) 
+any other matter relating to the sample files and tools. User has sole 
+responsibility for adequate protection and backup of data and/or equipment used 
+in connection with the sample files and the tools contained in the SDK and will 
+not make a claim against Autodesk for lost&nbsp; data, re-run time, inaccurate 
+output, work delays, or lost profits resulting from the use of same.<BR>User 
+agrees to hold Autodesk harmless from, and use covenants not to sue or otherwise 
+seek liability from Autodesk for, any claims based on using the SDK or the 
+sample files and tools contained, whether in contract (including fundamental 
+breach), tort (including negligence) or otherwise. Except as provided herein, 
+all other terms and conditions of the end user license agreement accompanying 
+this software apply to the SDK.</SPAN><SPAN 
+style="mso-fareast-font-family: 'Times New Roman'"> 
+</SPAN></P></DIV></BODY></HTML>
