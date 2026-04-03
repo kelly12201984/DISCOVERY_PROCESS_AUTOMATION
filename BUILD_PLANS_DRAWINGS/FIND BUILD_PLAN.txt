@@ -1,0 +1,134 @@
+
+C:\Users\kelly>dir "P:\JOBS\2024" /s /b | findstr /i "MASTER BUILD PLAN"
+P:\JOBS\2024\002-24 - Nutrien\002-24 Build Plan.xlsx
+P:\JOBS\2024\002-24 - Nutrien\24-002 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\003-24 - Bakelite - Aqueous Ammonia Tank\003-24 Build Plan.xlsx
+P:\JOBS\2024\003-24 - Bakelite - Aqueous Ammonia Tank\24-003 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\004-24 - Kemira - Solutizer\004-24 Build Plan.xlsx
+P:\JOBS\2024\004-24 - Kemira - Solutizer\24-004 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\005-24 - Kemira - Oxidizer\005-24 Build Plan.xlsx
+P:\JOBS\2024\005-24 - Kemira - Oxidizer\24-005 MASTER BUILD PLAT.xlsx
+P:\JOBS\2024\006-24 - Solvay - DTBPO Portable Tank\006-24 Build Plan.xlsx
+P:\JOBS\2024\006-24 - Solvay - DTBPO Portable Tank\24-006 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\007-24 - Bosk -Repair of 65\007-24 Build Plan.xlsx
+P:\JOBS\2024\007-24 - Bosk -Repair of 65\24-007 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\007-24 - Bosk -Repair of 65\Blue Oval Vessel 007 repair plan.docx
+P:\JOBS\2024\008-24 - Bosk - Repair of 66\008-24 Build Plan.xlsx
+P:\JOBS\2024\008-24 - Bosk - Repair of 66\24-008 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\008-24 - Bosk - Repair of 66\Blue Oval Vessel 008 repair plan.docx
+P:\JOBS\2024\009-24 - Bernhard TCU Cooling Water Tank (T-2251)\009-24 Build Plan.xlsx
+P:\JOBS\2024\009-24 - Bernhard TCU Cooling Water Tank (T-2251)\24-009 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\010-24 - Bernhard Extrusion Cooling Water Tank (T-2261)\010-24 Build Plan.xlsx
+P:\JOBS\2024\010-24 - Bernhard Extrusion Cooling Water Tank (T-2261)\24-010 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\011-24 - Bernhard Condensate System Tank (T-2741)\011-24 Build Plan.xlsx
+P:\JOBS\2024\011-24 - Bernhard Condensate System Tank (T-2741)\24-011 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\012-24 - Bernhard Trench Return Tank (T-2721)\012-24 Build Plan.xlsx
+P:\JOBS\2024\012-24 - Bernhard Trench Return Tank (T-2721)\24-012 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\013-24 - Bernhard Condensate System Tank (T-3741)\013-24 Build Plan.xlsx
+P:\JOBS\2024\013-24 - Bernhard Condensate System Tank (T-3741)\24-013 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\014-24 - Bernhard Trench Return Tank (T-3721)\014-24 Build Plan.xlsx
+P:\JOBS\2024\014-24 - Bernhard Trench Return Tank (T-3721)\24-014 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\015-24 - Bernhard - Oil Tank (T-2620)\015-24 Build Plan.xlsx
+P:\JOBS\2024\015-24 - Bernhard - Oil Tank (T-2620)\24-015 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\015-24 - Bernhard - Oil Tank (T-2620)\TR\24-08-30R 014-235323-1 Ancillary Buildings - Oil Bulk Storage Tank (T-2620) - ICT Response.pdf
+P:\JOBS\2024\017-24 - Perdue - RBD Oil Tank #1\017-24 Build Plan.xlsx
+P:\JOBS\2024\017-24 - Perdue - RBD Oil Tank #1\24-017 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\018-24 - Perdue - RBD Oil Tank #2\018-24 Build Plan.xlsx
+P:\JOBS\2024\018-24 - Perdue - RBD Oil Tank #2\24-018 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\019-24 - Perdue - RBD Oil Tank #3\019-24 Build Plan.xlsx
+P:\JOBS\2024\019-24 - Perdue - RBD Oil Tank #3\24-019 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\020-24 - Kangwon - Additional Repairs to 007-24\Quote & Estimate\Blue Oval Vessel 007 repair plan.pdf
+P:\JOBS\2024\021-24 - Kangwon - Additional Repairs to 008-24\Quote & Estimate\Blue Oval Vessel 008 repair plan.pdf
+P:\JOBS\2024\022-24 - Cannon - (2) sets of Ladders & Handrails\022-24 Build Plan.xlsx
+P:\JOBS\2024\022-24 - Cannon - (2) sets of Ladders & Handrails\MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\024-24 - Garrett Machine - 310SS Cylinder\24-024 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\027-24 - Garrett Machine - Small dryer plate assemblies\027-24 Build Plan.xlsx
+P:\JOBS\2024\027-24 - Garrett Machine - Small dryer plate assemblies\24-027 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\027-24 - Garrett Machine - Small dryer plate assemblies\PO\PO39489 MCMASTER.pdf
+P:\JOBS\2024\028-24 - Garrett Machine - Small dryer plate assemblies\24-028 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\029-24 - Garrett Machine - Small dryer plate assemblies\24-029 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\030-24 - Garrett Machine - Small dryer plate assemblies\24-030 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\031-24 - Garrett Machine - Small dryer plate assemblies\24-031 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\032-24 - Garrett Machine - Small dryer plate assemblies\24-032 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\033-24 - Garrett Machine - Large dryer plate assemblies\033-24 Build Plan.xlsx
+P:\JOBS\2024\033-24 - Garrett Machine - Large dryer plate assemblies\24-033 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\034-24 - Garrett Machine - Large dryer plate assemblies\24-034 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\035-24 - Garrett Machine - Large dryer plate assemblies\24-035 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\036-24 - Garrett Machine - Large dryer plate assemblies\24-036 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\038-24 - Rosenblad - Form (2) cones\038-24 Build Plan.xlsx
+P:\JOBS\2024\039-24 - Rosenblad - Form Elbows\038-24 Build Plan.xlsx
+P:\JOBS\2024\041-24 - Sherwin Williams - Caulk Hold Tank\041-24 Build Plan.xlsx
+P:\JOBS\2024\041-24 - Sherwin Williams - Caulk Hold Tank\24-041 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\041-24 - Sherwin Williams - Caulk Hold Tank\PO\PO 39451 MCMASTER.pdf
+P:\JOBS\2024\042-24 - Shimizu - 600 Gallon DW storage tank\042-24 Build Plan.xlsx
+P:\JOBS\2024\042-24 - Shimizu - 600 Gallon DW storage tank\24-042 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\045-24 Pistols Industrial - Oil_Water Separation Tank\045-24 Build Plan.xlsx
+P:\JOBS\2024\045-24 Pistols Industrial - Oil_Water Separation Tank\24-045 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\046-24 Build Plan.xlsx
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\24-046 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\Quote & Estimate\20240808_ESMI2-5R-SYMS-MEC-003_SEND - MEC INFO. DWG PCKG\61_Anchor Plan
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\Quote & Estimate\20240808_ESMI2-5R-SYMS-MEC-003_SEND - MEC INFO. DWG PCKG\31_Nozzle-Ori\ESMI2-5R-MSK-TK2-TKF502-001_R0_NZL-ORI_TK-F502 - PLAN.dwg
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\Quote & Estimate\20240808_ESMI2-5R-SYMS-MEC-003_SEND - MEC INFO. DWG PCKG\31_Nozzle-Ori\ESMI2-5R-MSK-TK2-TKF502-001_R0_NZL-ORI_TK-F502 - PLAN.pdf
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\Quote & Estimate\20240808_ESMI2-5R-SYMS-MEC-003_SEND - MEC INFO. DWG PCKG\61_Anchor Plan\ESMI2-CAD-001_R6_ANCHOR PLAN w_LD&WW PLAN -SRP AREA.pdf
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\Quote & Estimate\20240808_ESMI2-5R-SYMS-MEC-003_SEND - MEC INFO. DWG PCKG\61_Anchor Plan\ESMI2-CBD-STK-001_R0_NMP STROAGE TANK ANCHOR BN&TEMP - GA.dwg
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\Quote & Estimate\20240808_ESMI2-5R-SYMS-MEC-003_SEND - MEC INFO. DWG PCKG\61_Anchor Plan\ESMI2-CBD-STK-001_R0_NMP STROAGE TANK ANCHOR BN&TEMP - GA.pdf
+P:\JOBS\2024\046-24 SYMS Engineering - NMP Storage Tank (TK-F502R)\TR\25-05-01R 02_MEC COMTD_ESMI2-5R-TKF501-DWG-046-24-2_R0_PLAN DWG (2_12).pdf
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\047-24 Build Plan.xlsx
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\24-047 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ANCHOR PLAN.pdf
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF102-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F102 - PLAN.dwg
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF102-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F102 - PLAN.pdf
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF103-0001_R4_NOZZLE ORIENTATION DRAWING FOR TK-F103 - PLANüòELEVATION.dwg
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF103-0001_R4_NOZZLE ORIENTATION DRAWING FOR TK-F103 - PLANüòELEVATION.pdf
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF202-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F202 - PLAN.dwg
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF202-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F202 - PLAN.pdf
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF302-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F302 - PLAN.dwg
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF302-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F302 - PLAN.pdf
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF402-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F402 - PLAN.dwg
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF402-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F402 - PLAN.pdf
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF502-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F502 - PLAN.dwg
+P:\JOBS\2024\047-24 SYMS Engineering - NMP Storage Tank (TK-F402)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF502-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F502 - PLAN.pdf
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\24-048 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ANCHOR PLAN.pdf
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF102-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F102 - PLAN.dwg
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF102-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F102 - PLAN.pdf
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF103-0001_R4_NOZZLE ORIENTATION DRAWING FOR TK-F103 - PLANüòELEVATION.dwg
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF103-0001_R4_NOZZLE ORIENTATION DRAWING FOR TK-F103 - PLANüòELEVATION.pdf
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF202-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F202 - PLAN.dwg
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF202-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F202 - PLAN.pdf
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF302-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F302 - PLAN.dwg
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF302-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F302 - PLAN.pdf
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF402-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F402 - PLAN.dwg
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF402-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F402 - PLAN.pdf
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF502-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F502 - PLAN.dwg
+P:\JOBS\2024\048-24 SYMS Engineering - NMP Storage Tank (TK-F502)\Customer Documents\ESST-MSK-TK-0000_NOZZLE ORIENTATION DRAWING_20240419\ESST-MSK-TK-TKF502-0001_R3_NOZZLE ORIENTATION DRAWING FOR TK-F502 - PLAN.pdf
+P:\JOBS\2024\051-24 - Kemira - New Acid Tank\051-24 Build Plan.xlsx
+P:\JOBS\2024\051-24 - Kemira - New Acid Tank\24-051 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\052-24 - Kemira - Acid Overflow Tank\052-24 Build Plan.xlsx
+P:\JOBS\2024\052-24 - Kemira - Acid Overflow Tank\24-052 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\053-24 - Geocycle - 40K gallon tank #3\053-24 Build Plan.xlsx
+P:\JOBS\2024\053-24 - Geocycle - 40K gallon tank #3\24-053 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\054-24 - Geocycle - 40K Gallon Tank #4\054-24 Build Plan.xlsx
+P:\JOBS\2024\054-24 - Geocycle - 40K Gallon Tank #4\24-054 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\055-24 - Geocycle - 40K Gallon Tank #5\055-24 Build Plan.xlsx
+P:\JOBS\2024\055-24 - Geocycle - 40K Gallon Tank #5\24-055 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\062-24 - Consolidated Design & Machine - Chill Water Tank\062-24 Build Plan.xlsx
+P:\JOBS\2024\062-24 - Consolidated Design & Machine - Chill Water Tank\24-062 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\063-24 - River to Tap - Day Tank #1\063-24 Build Plan.xlsx
+P:\JOBS\2024\063-24 - River to Tap - Day Tank #1\24-063 MASTER BUILD PLAN REVISED.xlsx
+P:\JOBS\2024\063-24 - River to Tap - Day Tank #1\24-063 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\064-24 - River to Tap - Day Tank #2\24-064 MASTER BUILD PLAN REV.xlsx
+P:\JOBS\2024\064-24 - River to Tap - Day Tank #2\24-064 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\065-24 - River to Tap - Bulk Storage Tank #1\065-24 Build Plan.xlsx
+P:\JOBS\2024\065-24 - River to Tap - Bulk Storage Tank #1\24-065 MASTER BUILD PLAN REV.xlsx
+P:\JOBS\2024\065-24 - River to Tap - Bulk Storage Tank #1\24-065 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\066-24 - River to Tap - Bulk Storage Tank #2\24-066 MASTER BUILD PLAN REV.xlsx
+P:\JOBS\2024\066-24 - River to Tap - Bulk Storage Tank #2\24-066 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\067-24 - River to Tap - Bulk Storage Tank #3\24-067 MASTER BUILD PLAN REV.xlsx
+P:\JOBS\2024\067-24 - River to Tap - Bulk Storage Tank #3\24-067 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\068-24 - River to Tap - Bulk Storage Tank #4\24-068 MASTER BUILD PLAN REV.xlsx
+P:\JOBS\2024\068-24 - River to Tap - Bulk Storage Tank #4\24-068 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\069-24 - River to Tap - Bulk Storage Tank #5\24-069 MASTER BUILD PLAN REV.xlsx
+P:\JOBS\2024\069-24 - River to Tap - Bulk Storage Tank #5\24-069 MASTER BUILD PLAN.xlsx
+P:\JOBS\2024\070-24 - River to Tap - Bulk Storage Tank #6\24-070 MASTER BUILD PLAN REV.xlsx
+P:\JOBS\2024\070-24 - River to Tap - Bulk Storage Tank #6\24-070 MASTER BUILD PLAN.xlsx
