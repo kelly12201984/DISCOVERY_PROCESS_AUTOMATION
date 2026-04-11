@@ -1,0 +1,574 @@
+Kelly  0:00  
+Okay, so, well, I guess, what were you working on right now?
+
+Nick  0:09  
+Yeah, normally, majority thing I'm making, like my beloved materials, basically,
+
+Kelly  0:15  
+which is vom beyond,
+
+Nick  0:19  
+final certified drawings, and then send the RFQ from the bums, getting the codes, comparing with the RFQ. Sometimes they are offering different sizes, some kind of like, you know, some superior material, if they don't have that. So to go compare line by line, what I'm getting versus what I have asked for.
+
+Kelly  0:41  
+Okay, so do you when you send out for RFQs? Is it normally email, or is it okay? Yeah, okay,
+
+Nick  0:51  
+send it from there, by the from by email, from below, materials, Okay, gotcha.
+
+Kelly  0:57  
+And so you get all those back. And normally it's, you don't just send out for one vendor to get.
+
+Nick  1:06  
+Normally is like, you know, I'm sending two to three vendors.
+
+Kelly  1:09  
+Okay, all right, so then you can compare the price, yeah. So most of the time, like, if
+
+Nick  1:14  
+I'm doing this regular basis, so if I know these guys, you know, offering little bit cheaper than other guy, then repetitively, how to do every day, and I know, like, what these guys offering three or four cheaper than other than I'm not sending everyone right? Okay, feel them like I'm sending the other day and not giving them any POS, right?
+
+Kelly  1:34  
+Okay, all right. Are there any materials that you really can only get from like, one vendor?
+
+Nick  1:40  
+Yeah, most of the material I can get, like, from two or three vendors or four vendors, probably more. We have, like, you know, we are shortlisted at least two to three vendors for each and every line item. So there we like, you know, we can rely on them, okay.
+
+Kelly  1:55  
+Is, do you have a list of that somewhere? Yeah, I do.
+
+Nick  1:59  
+Actually, I have those. That's also saved in the P drive.
+
+Kelly  2:03  
+Oh, is it? Where is that?
+
+Nick  2:09  
+I can give you a printout and
+
+Kelly  2:10  
+then I'll find it on the P drive. I so what I did with everybody is, like, a little pre discovery, where I just went in their folders that they have on the P drive so I can, like, you know, no,
+
+Nick  2:23  
+every updating that periodically, because, like, some sales reps are changing the jobs, yeah, all those kind of thing, yeah, yeah. I got you okay, my document so I can update that. Yeah, okay, okay, yeah.
+
+Kelly  2:36  
+And then if there's any other documents like that that you think of, if you go in the P drive, I have a Kelly discovery folder up at the top, okay, if you want to, yeah, like, just copy it and put it in there, and anything else that pops up. So you take the drawing and you make the the BLM, then you send out for quotes, you get all those back, and then you compare the quotes based on pricing and maybe lead time.
+
+Nick  3:08  
+Sometimes, yeah. Lead times, yeah. Sometimes. I have to ask Chris what he has committed because, like, you know, most of the time is price, basically, because, you know, we are buying very well in advance, but sometimes whatever, like, you know, if we are working on one Job and Job, and then we fall Okay, we are missing these. Or this has been we are not finding these right, gotcha. Or we already received it, but it's not good enough. The customer has changed something, then we will look for their for the delivery,
+
+Kelly  3:40  
+okay, yeah, like something, whichever
+
+Nick  3:44  
+job is an advanced stage or you don't find it sometimes,
+
+Kelly  3:48  
+yeah, right, okay, so then you compare them, and then you send out the POS. Or what do you do? What do you do in job loss?
+
+Nick  3:59  
+I'm preparing POS in jobless. So the job will go to the respective call, the cost will go to respective job. Can you show me something
+
+I bought? For Job 2000 ready, six, job five. So these are the POS I have created in Job boss, oh, okay,
+
+like six inch pipe and everything. So job board has some items in the setup as a like list, so I have to pick up from the list. Okay, and then this length, because this length, some is like, different length for different jobs.
+
+Kelly  4:56  
+Oh, okay, so when you Yeah, if you can, you don't have one you need to do, right?
+
+Nick  5:05  
+I mean, I can, I can open one to you. And then,
+
+Kelly  5:08  
+okay, because I kind of want to see how you so
+
+Nick  5:12  
+this is the article number. So it's taking one more number, the next number,
+
+Kelly  5:20  
+oh, I got you, okay,
+
+Nick  5:22  
+and then I'll go select the vendor, RJ, sales. Okay, this is Robert James, so he has something different than this. Robert James, here's a full name,
+
+Kelly  5:34  
+yeah. Okay, gotcha.
+
+Nick  5:36  
+And then I'm selected. Who is contact person there. Then due date, as per their quotation, they said, like, you know, four weeks or three weeks or 10 days. Okay, then I'm adding, like, you know, seven days here, and then whatever, four more days and 10 days over there. Shipping method based, way, if it is a full plate, I'm going, like, you know, using the vendor truck.
+
+Kelly  6:01  
+Oh, okay, you so you have to pick the ship method, okay, best way just means, hey, vendor, figure it out. Do the right
+
+Nick  6:13  
+full truck load, or, depending upon, like, you know, sometimes they are shipping it through UPS. Sometimes the say, yeah, like, LCL services, like all this, yeah, okay. Then FOB price, sometimes it is original, sometimes, sometimes as origin price, sometimes it's destination, including, and then without Fred,
+
+Kelly  6:37  
+oh, okay, okay.
+
+Nick  6:39  
+So then, like, you know, Dave charges extra for the frame, depending upon the vendor, yeah, and then depending upon the codes, from where are we buying? And then I'm clicking these print details.
+
+Kelly  6:54  
+Okay, and what'd you say about codes? You said, do you say it brings up the codes for what you're buying,
+
+Nick  7:01  
+yep, from next, when I go to detail here, I have to select search, then class, okay, in class, like, there's all different categories. Like, this is the material of the this is the angle for angle, okay, this okay for different material of angle, 304, right? Gotcha different angle. This is so 36 the cognition angle, yeah.
+
+Kelly  7:26  
+So this is so really, like you, you're taking it, you take the input from the John, you put it in the Excel file. That's a BLM, right? And then you're essentially, you're just taking that information again and now putting it in here. Yeah.
+
+Nick  7:41  
+Okay, so for bum, let's say, like, you know, for job 005, what I'm doing now there's a system in the job bus as well where I can send the RFQs. The way I'm creating Po, I can create the RFQ as well from here, request for code, but I'm not
+
+Kelly  7:58  
+doing that. You don't ever use that, no what?
+
+Nick  8:00  
+Because there's like, a kind of extra work how to go do the same thing, right? Exactly. Doing that, this is the easiest way what I'm doing.
+
+Kelly  8:11  
+Basically, it's easier just to copy and paste from your BLM, yep. So like in auto, there's an RFQ thing for Chris for when he does estimations, so it automatically pulls what it knows he needs pricing for, because the pricing is stale, and then it just copies I was used to do is in the email, hit control V and it pastes
+
+Nick  8:38  
+basically what I'm doing. One. While I'm doing this bill of material, I'm putting the things in the group, yeah, okay, like in a pipe together, friends together, bowl centers together, like in a gasket together for each and everything. So I have to just copy paste this.
+
+Kelly  8:59  
+Groups, it by vendor, like, yeah.
+
+Nick  9:02  
+Like, the material type, basically, yeah, yeah. This is the like, all this item is supplied by same vendor, right? Exactly, yeah, yeah, group of the material. So I'm doing the copy, and then paste in the email, yeah.
+
+Emails, 0050, five. This is my folder for this thing, and then I'm sending the RFQs.
+
+Kelly  9:33  
+Yeah, exactly, yep. And so that's exactly what Chris doesn't mean for the sales part or the estimation part. Okay, so you do that, then it comes back and you put in the PO, and you have to do all those clicks,
+
+Nick  9:47  
+quotations from there, and then all the vendors are different format of the code. Of course, I
+
+Yeah. So this is the quotation from Robert James, yep. And then this is different vendor. There's one more vendor in the Pied. I have not printed them because they were higher than this. I gotcha. This is also high so
+
+Kelly  10:24  
+so on the quote right here, it has this barcode right here. Do a lot of them have that? No? Does this ever get used in the whole receiving process? Or do you know that?
+
+Nick  10:40  
+Okay? So they are receiving this line by line, yep, on this PO, and then they are closing each and every line item.
+
+Kelly  10:51  
+And every PO is just for a job, right? Yeah, like, every single job will have its own Po.
+
+Nick  11:00  
+So there's a job number here, yep, okay, so how to do that here as well. To go here, just select a pipe. Okay, apply filter. It will pop up like in all these pipes. So how to go select size like, Okay, six in schedule, four, right? Yep. Go here, down. Scroll these four.
+
+Speaker 1  11:21  
+Six
+
+Nick  11:31  
+in schedule 40 in schedule 40. How to Select welded pipe or a seamless pipe? Okay, right. Okay, so I'll select this, and then this will pop up like this after that. I had to put the length here, because every job has a different length. So if we add length in this list, Master is there, then there will be a lot of right master listing schedule 45 I gotcha.
+
+Kelly  12:00  
+Have 2.5 feet, okay? Is that the only are pipes, the only material like that where you have to go in and change the plate and pipes. Plates, pipes, yeah, gosh, so for every pipe, yeah, every employee.
+
+Nick  12:23  
+And then I have to select job number here, look for the job. And then, like, Okay, I have to pick the job from here. Okay, so it will go particular that job. Okay. And then these are this still, I can see, like, some job here of 2021, because these jobs are not closed in the system. So until we close, right, yeah, what's up with that? I mean, yeah, these are the jobs customers probably put a hole and then, or probably Sherry has to do something.
+
+Kelly  13:00  
+Okay, I was curious about that.
+
+Nick  13:02  
+Like, yeah, a lot of things like 2021 22 Yeah. These jobs were, yeah. And cam, I know end game is basically on hold. Customer put on hold. But the job Milliken, we might have shipped it.
+
+Kelly  13:18  
+Oh, okay, so that's 2020 I forget that the job numbers are backwards. Yeah, backwards. So if they're in this window right now, that's because they're active, yeah, even though they're maybe 90,000 years old. But also they're in here, that means just that somebody created the job in Job, boss, and just, it's just not closed out because
+
+Nick  13:43  
+it's either on, yeah, this is the, I mean, every before I start buying Sherry, Sherry has to put this job number in this job or system, okay, otherwise it will not let me buy against that job, right? Okay, so she's putting that in the job boss, and then she has, like, other milestone of claiming the advance or whatever, so that's her part. But yeah, for buying for that particular job, she has to set up that in the job boss, Okay, gotcha. Okay.
+
+Kelly  14:17  
+So now then you send out all your well, actually, yeah. So after you do all that,
+
+Nick  14:24  
+and then when there's a different material, yeah, to go to the whole thing again. And then, yep, I can see, like, like, you know, all pipes at a time. But if it is flange, then I have to select here one more time. Like, I can see like, four flange at a time. You can, yeah, I can, so I can see, like, like, you know
+
+Kelly  14:46  
+this, okay, so you can add all the I gotcha this, okay,
+
+Nick  14:52  
+and then, but I forgot to buy pipes in the same Po. Then I would change the glass from here, and then change it to the pipe.
+
+Kelly  15:02  
+So you can, you can add everything for the PO all in this window, all at one time, essentially, yeah, right, okay, so it builds it right there. And then once you hit, okay, it'll put it all into that next Yeah, that screen
+
+Nick  15:16  
+behind you, okay, yeah, put the lamp for the pipe.
+
+Kelly  15:20  
+Do you have to put in the unit cost? Or I am
+
+Nick  15:23  
+putting the per piece cost? Basically, there's unit cost, yeah. So you
+
+Kelly  15:33  
+have to take it Yeah, from their quote, right? Yeah.
+
+Nick  15:36  
+Okay, so it's different. So it's a good question. Actually, the customer is giving us a unit cost, which is per fit, okay, okay, but I will change it to the total quantity, because I'm not putting here, I'm putting just one quantity here, right? Put in the one quantity here, and then put in the full cost here, okay, and that's 262 like, you know, for the flanges, I have to go different way. So I had to put two quantity here, and then put the unit cost, okay, right? Per piece. I gotcha, right, yeah, because here I'm putting the length in that particular pipe, right? So this becomes one quantity.
+
+Kelly  16:23  
+So if you needed two pipes that were exactly the same,
+
+Nick  16:28  
+yeah, I'll add this length, which would it be five
+
+Kelly  16:31  
+instead of, yeah, okay, okay,
+
+Nick  16:33  
+because we are cutting it here, right? Okay, okay. And then this pipe is will be used for two jobs. Then I have to add quantity to the line.
+
+Kelly  16:47  
+0.5 0.5 like, yeah, 36.005 job number and 26.000 20. Okay, so you can kind of do a batch of jobs. Well, so to speak, if there's this same so if it's one, let's say one company, and they want three of the exact same tanks, okay, okay,
+
+Nick  17:13  
+same thing. Like, you know, I mean, it's a one company, but not exact job. But I know, like, you know, I need this item for, like, you know, other job as well, right?
+
+Kelly  17:26  
+Like, outside of this project, job 20 and 21
+
+Nick  17:29  
+Okay, right? So I don't want to spend like, $12 every time, because that's in my mind, right? So if I buy only these two quantity, I do give $12 for the shipping. So I saved, so I saved $24 right exactly, by charging only one time, yep, by adding the two more Joe, which is like, which is this same thing with the flanges, like,
+
+Kelly  17:56  
+you know when you get your quotes back. It's like, in your head, you're also, you're like, applying that to to the other job, all of the, yeah, any of the jobs.
+
+Nick  18:09  
+So I bought like this, couplings for three job, bolt centers for three jobs, gasket for three jobs. And then men with flan 30 inch manual flange and cover for three jobs. Okay, I had those jobs in my mind, right? And then I don't want to, like, basically, wait until we got this certified. I know there will not be any change on this particular item, and then we'll need this. So I bought that, right.
+
+Kelly  18:38  
+Okay, so are you saying so even if you don't have the certified drawings back yet, there are some things that you already know aren't going
+
+Nick  18:47  
+to be changing, because we have a couple of rounds with the customer, and then they say, okay, only this particular noise. And they say, Okay, for this particular job, these two jobs, they say, let's put this 24 inch or so. Sorry, 20 inch nozzle on hole for now, everything else is like, you know, good to go, good, okay? Because they check mark this approved, as noted in their comment. When they gave us this drawing back, they were check marked this.
+
+Kelly  19:21  
+Oh, as so approved, except for the one thing that isn't okay. So what is this? This is different job, yeah. But I mean, this actual paper, right? This is your guys's drawing,
+
+Nick  19:32  
+yeah, this is our drawing here. Okay, Okay, gotcha, yeah. So this is the same exact job, 005, yeah. It's a different but, like, when I printed small copy, yeah, right, yeah. Just to remember, like, now to buy this, look at, yeah, I gotcha, because this this, and then this is the same thing. These are the same 30 inch, and we don't stock this 30 inch man ways, yep. So I bought all, like, all 30 inch. Anyways, the gasket for 30 inch, this gasket for all three jobs, this bowl centers for all three job, and then about this couplings, which is going in the on bottom plate to taste for all three job. Like no 61 to two
+
+Kelly  20:21  
+in like so about, about how many jobs do you do this work at one time?
+
+Nick  20:30  
+So, okay, good question. So basically, for multi we have 224, job exact, same size, same type, right, right? I have purchased everything for 24 jobs at
+
+Kelly  20:47  
+a time. For how many? Oh, for all of them. Yeah, okay. You just get it, get it in, okay, yeah. And then see, yeah, see you to go in there and then put, like, duplicate all the lines,
+
+Nick  21:03  
+and then put the job numbers, yeah, yeah, that's yucky.
+
+Kelly  21:09  
+Different question too.
+
+Nick  21:19  
+Yeah, so I know if I were to use these like this is for the five jobs. And now to put point 2.2, point 2.2, and point two quantity for for this particular item, yeah. And then I have to add job number from here, plus quantity. Quantity three sorry,
+
+four, five. And then I had to put like, point 2.2 point 2.2, and one two. So this will become a one quantity altogether.
+
+Kelly  21:59  
+And then you would do, you have to type in the description and everything, or just the job number, so it knows that everything below that line is just the same, yeah.
+
+Nick  22:12  
+So it will add the quantity, but not the
+
+Kelly  22:16  
+other stuff. Okay. So then when it creates the actual purchase order, it'll be just for, obviously, just for that one job, and it'll have whatever, you know, if you said half, then half will be on this one half. Yeah.
+
+Nick  22:27  
+So there's see the three quantity total, or this gasket. This is good for the winder, and then this is good for our internal system. There's one, one cost for these particular three quantity out of three, one cost will go to this job, one quantity cost will go to this job, and one quality won't go to this job.
+
+Kelly  22:50  
+Okay, oh, I see. Oh, yeah, okay, so the purchase order is actually for the it's based on whatever, obviously, whatever you put on there, and then per vendor, yeah, and then, okay, because I was thinking each
+
+Nick  23:08  
+job has its own. No, no. It's like per vendor, but will go three quantity, gotcha, and then it will distribute it between three jobs.
+
+Kelly  23:15  
+I understand, all right, that
+
+Nick  23:18  
+makes sense. Okay, if I mind, like no one pipe, but I would distribute that like one quantity into like five jobs. Then how to put point 2.0 point Yeah, it was three jobs. Then I have to put like three, 3.2 3.3 last job will receive point three, four, yeah, to make the one call, okay, yeah.
+
+Kelly  23:37  
+All right, okay, so then you create the purchase order in there. And does that Autumn then, yeah, what happens after that? Does that automatically send something to the vendors to say,
+
+Nick  23:54  
+no, it will then, if I do this, okay, Save, then purchase order, okay. And then it will create a purchase order. Oh, and then the PDF. And then after this, I'm exporting this to that particular job number, 005, and then saving that. And, okay,
+
+Kelly  24:18  
+Oh, gotcha, okay, 618, I'm
+
+Speaker 2  24:21  
+and then,
+
+Nick  24:30  
+like this, okay, yeah, okay, I'll not say that. And then after that, I'll go to that particular quotation which he gave me, which is okay.
+
+This is quotation, okay, I'll do reply, and then attach this PO, whatever it is, okay. Please find it at the PO with
+
+Kelly  25:07  
+so then do you wait for something to come back from them after you send them a PO?
+
+Nick  25:12  
+Most of the time I'll say 70% vendors are sending as a order acknowledgement, like I send this PO to him. This is his reference, that he has quoted me our blood. I replied that email and then send him. Okay, find a director Po. And then he said, Okay, thank you very much. Okay for the PO, and next day, actually, or later that evening, he sent me this acknowledgement.
+
+Kelly  25:44  
+Oh, an actual which is, yeah, okay, which
+
+Nick  25:47  
+is for them, yeah, maybe
+
+Kelly  25:50  
+it's just an automated thing for them, yeah,
+
+Nick  25:53  
+to create their their system, or they want to enter that our view into their system, so they have Okay, all
+
+Kelly  26:00  
+this okay? And that PO number there is obviously, there's not your guys's.
+
+Unknown Speaker  26:07  
+And then along with that, there's, like, their standard
+
+Nick  26:10  
+I gotcha, which, whenever I developed that,
+
+Kelly  26:12  
+yes, why not? It looks like so much fun to read
+
+Nick  26:15  
+there too much thing, okay, yeah, if I read this, then I have to keep calling for each and every clause and tell them, Okay, why this
+
+Kelly  26:23  
+is this? Yeah, what is this? Yeah, okay. So then they send the acknowledgement, and then what, then what,
+
+Nick  26:34  
+and then how to update that into the beloved material, and then put that here, PO number and deliver date.
+
+Kelly  26:45  
+Oh, so in their acknowledgement, does it say when they're going to deliver it?
+
+Nick  26:50  
+I'm putting as per their write up. Basically, they did say here, but that's not estimated. Ship date is always estimated.
+
+Kelly  27:00  
+So in here, do you put the 320 because that's where you got the acknowledgement.
+
+Nick  27:04  
+Oh, okay, I'm putting as per the quotation. Oh, I got you sometimes.
+
+Kelly  27:11  
+Okay, yeah, that makes sense. Because obviously,
+
+Nick  27:15  
+here it says, like, you know, two to three days shifted, blah, blah, whatever is different every time. Every vendor is a different kind of way.
+
+Kelly  27:25  
+So how do you know what date to put
+
+Nick  27:27  
+from their quotation, from their quotation? So that
+
+Kelly  27:30  
+one said, like three or ship date 320 and then it said, like three days for shipment.
+
+Nick  27:37  
+It says three to four days or one week for shipping, or from there, I'm assuming if this will, okay, this is a two to three businesses, right? Is it like a stock available? I can ship it tomorrow, kind of, oh, but now, until they got the enter into the system, they will not ship it right on 20 if they said two to three days, two to three days, right? So I put
+
+Kelly  28:09  
+330 like, yeah, to make sure,
+
+Nick  28:12  
+yeah, I consider like a four to five working days for the shipping, yeah, yeah, or a transportation time. So yeah, I put another 10 days. Yes, this will be very advanced, so we might not issue this job at the end of the month or middle of the second week. Yeah, okay, so by that time, we'd have everything here.
+
+Kelly  28:35  
+And then when it's long, lead items, well, actually, let's finish so so you get the acknowledgement, or actually get the quote, and then you go into, oh, the bill materials,
+
+Nick  28:49  
+and then the date here, and then put the PO number, and then all item is basically filled.
+
+Kelly  28:56  
+Then I make it fine, and this is Savannah tanks, PO number, correct? Yeah, this
+
+Nick  29:01  
+job was pure number, yeah. Okay, gotcha. These were the the vendor PO number, which actually we are issuing to the vendor.
+
+Kelly  29:10  
+Okay, all right, and then what next?
+
+Nick  29:14  
+Then everything else is basically, when they received it, they'll close this, they'll go to the job boss, and then they'll close or each and every item against this
+
+Kelly  29:25  
+bureau, okay? And then I think they like give it to sherry or something. Yeah, okay, okay, so that's the RFQ process, yeah, and
+
+Nick  29:41  
+RFP and bill of material as well. What'd you say? RFQ and Bill of Material? Yeah. So there's three stages of the B, O, M, okay. One is long lead item, yep. In which, like, you know, you will show only top two or three lines, which is basically just a majority of the cost, which is this head or, like, exotic material, or a plate material, or some big flanges, those are basically, we call it long line item, which is taking, like, you know, more than four to six weeks, okay, to get it here. Okay, as well as, like, majority of the cost of the job. So I'm buying that ahead of time, not ahead of time, immediately, within, like, you know, within the job, boss has created the job number and everything, right? Okay, to make sure that, like, you know, we will be honor, will be available or, sorry, we'll do it good to honor customer the same price, what we have quoted, basically, right, right? I got you because sometimes, like, you know, if I buy those material later on, probably, like, a longer time, long lead will lead. Time will be more or probably price will change. And then, yeah, we cannot go back to the customer and tell them now the price is different. So, yeah,
+
+Kelly  30:55  
+by the way, yeah, we messed up. So you asked another grand. Okay, so there's long lead, there's the regular stuff you said, I think you said there's three parts, yeah,
+
+Nick  31:08  
+there's one more thing, which is, which is, like, kind of intermediate below material before this, I'm putting, like, no, whatever is in stock at that time.
+
+Kelly  31:17  
+Oh, yeah, I was curious about the preliminary,
+
+Nick  31:21  
+preliminary block material, basically without, just like, you know, without the PO numbers, okay, okay, without the PO number. And now to make sure, like, everything is covered in this. And then after checking this, I'll convert this into the final view, right when I'll be released all this.
+
+Kelly  31:37  
+Pos, right. Okay, gotcha. So this is just like, it's like, okay, this is what I gotta order. Yeah, I need to do the purchase orders.
+
+Nick  31:44  
+I'm taking this bill of material and going in the shop, and then, like, looking for this, yeah? What? What I can use, whatever is available in the start, okay.
+
+Kelly  31:53  
+And then so you got there and physically, like, look to see what's Yeah.
+
+Nick  31:57  
+Sometimes, like me, I know Yeah, what we have, because I'm buying this, like, David pipe, right? I'm buying 20 at a time, so I normally have
+
+Kelly  32:06  
+this, right? Okay, gotcha, yeah, that's fun.
+
+Nick  32:10  
+That's why I'm putting this in stock, because I bought this, like, two months back, and then still we have those.
+
+Kelly  32:17  
+Okay, yeah, so not everything on the BLM will end up getting, yeah, okay, all right. So then on the final BLM, it just says stock, right, yeah, yeah. So this
+
+Nick  32:31  
+is same BLM, 0050, yeah, there should be one more, which is, I call it premium, but there's a long read item. Okay, so this is like an upgrade on January 22 okay, then this one is done on March 20, on March 19, yeah, okay,
+
+Kelly  32:56  
+all right. And so when you make the view and all of that information you get from drawing drawings. That's it. Drawings. Okay, so everything is on here that you need right in these tables, right here. No How to calculate everything. You calculate everything, yeah. What do
+
+Nick  33:23  
+you mean? Like, the way Chris is doing estimation diameter multiplied by pi is, like, you know, length, so that's where the length is. And then I don't see the exact length here for this pipe, okay, so I do measure this pipe length because this, they gave it from reference point that they want this one projection from this reference point.
+
+Kelly  33:47  
+Okay, this is what we were talking about the other day. So yeah, and then I was trying to look in AutoCAD to see if there's other kinds of exports which I didn't see, but and I were talking about if a system could look at take all the information from the drawing and the calc but I Think like, calcs don't get redone
+
+Nick  34:21  
+after a PO, right? We Yeah, no, we are doing, yeah. We are doing the calculation after Po.
+
+Kelly  34:28  
+You do, yeah, okay, you update it, you fix it, or whatever. That's right, okay,
+
+Nick  34:33  
+as per the drawing, we are updating it, yeah,
+
+Kelly  34:35  
+because the XML has a lot of these, like measurements and stuff in it, it'll say, like,
+
+Nick  34:47  
+XML doesn't say anything specifically, length of that pipe. It says reference point from, okay, how much you want, like, exactly this thing. This is the projection we want from the remake. So they call it outside projection, which is the XML has, I think,
+
+Kelly  35:05  
+yeah, I did see the word projects projection a lot, but you're so you're saying it doesn't have pipe length. I think, I think her tongue and I just found it on one as he was talking about how the pipe length would be needed for the inventor drawing was actually what I think it was, but because the XML has a bunch more information than
+
+Nick  35:31  
+the, okay, yeah, I don't know how to read there, yeah, but I've not seen any XML, but yeah.
+
+Kelly  35:40  
+So that's like that, because that's what I was thinking, is like it having a system read the XML, versus having it read this, the XML would be a lot simpler, yeah.
+
+Nick  35:54  
+Because if you look at this here, in this novel schedule, it says, okay, see drawing, right? Yep. Okay. This is the remains. Another look.
+
+Kelly  36:03  
+Where does it say it? What is that column where it says drawing, yep.
+
+Nick  36:07  
+F, right. Projection, okay, okay. External projection. It says, like nozzle, F, G and H, which is these three, right? It says it should be seven and seven eighths from top of the rim angle. But the pipe doesn't go all the way up to the top of the rim angle, right, right? So this is stopping here. So this pipe is basically located, or this nozzle is located this much from the center distance for this radius, and this much height from the top of the ring, right? And then that has, like, you know, one is internal position as well. So which is basically, one is from the center of the Northern
+
+Kelly  36:47  
+so we're talking about, right now, you're talking about one pipe on one drawing.
+
+Nick  36:55  
+Look at that, three different locations. Yeah.
+
+Kelly  36:58  
+And then times that by 10 billion, there's
+
+Nick  37:01  
+like an altogether GH at least, yeah,
+
+Kelly  37:09  
+okay, so info from the job calculation and here, which I wonder if this is
+
+Nick  37:22  
+just for the novel. Then there's like, different parts. If you look at that, this lift log, right?
+
+Kelly  37:30  
+There's tons of stuff in there. About this.
+
+Nick  37:32  
+Yeah, there's this size, yeah. Arrow considered half inch thick, six inch wide, and then five quarter inch long plate. Yeah, there's a lip line right, six by five, quarter shape with hole. So this is a different shape with the hole in it. Same thing with this top
+
+Kelly  38:01  
+shape. What does that mean?
+
+Nick  38:03  
+Shape will have a cut to the shape like it's not square or rectangular plate, okay? Because I'm putting the size here six by five quarter, right? Okay. So if you look at this, six by five quarter on major tab is like this, right? Five and quarter by a six inch, but there's a shape, yeah? Like, it's not, you have to cut this, right? So I'm giving this shape here, so at least input for the burn file maker that I have to consider these, you know, and make a burn file or it's not a square tape,
+
+Kelly  38:37  
+Okay, gotcha, because this has not said the vendor doesn't care at all about, yeah,
+
+Nick  38:42  
+this is for the internal thing I got you, okay? Because to prepare a burn file, right? So when you do the burn file, okay, this will remind him that I have to make this burn file because there is a rectangular, square shape, different shape, right? And then there is a hole as well. Yeah, I'm putting, like, with hole, with hole, yeah, so it doesn't forget.
+
+Kelly  39:07  
+Okay, what is a burn file?
+
+Nick  39:10  
+So the burn file is basically like input for the for the burn table we have outside in the shop floor. So they cut the plates.
+
+Kelly  39:20  
+Oh, okay, okay, gotcha, I knew that at one point. All right, okay, yeah, there's so much stuff in the XML about lit floods, and I think I wanna say bolts or something too, like I just kept when I would run into it, because I would be looking for a certain thickness in the XML, trying to figure out what Auto is doing, and always get taken to bolts
+
+Nick  39:44  
+same way, like, yeah, repair here, right, which is only like width and thickness. Yeah, right, so we have to consider that, or and
+
+Kelly  40:00  
+that is definitely in
+
+Nick  40:04  
+the XML too width, but width on both side. So basically, if it is a circle, yeah, then we are to add, like, too much on this side, too much on this side.
+
+Kelly  40:14  
+Yes, there's something else that that is estimations.
+
+Nick  40:22  
+But I then this is a thickness, isn't
+
+Kelly  40:33  
+it great when there's a job that's like, like the vertive one, where it's just
+
+Nick  40:39  
+the same tank, very easy, yeah, and fun to work with, yeah, yeah. It was like, the same job, like, big quantity, or old job, which you have already done,
+
+Kelly  40:50  
+yeah, yep, that's right. Like, I made a little app for Chris because he kept he would come in and be like, Hey, dude, what Job did we have? It was, like, open top or whatever. And it was like, that would be easy. They'll just make a little thing so you could just search all the jobs and, yeah, just
+
+Nick  41:07  
+type of jobs. Yeah, yep.
+
+Kelly  41:10  
+Okay, so I.
+
+Transcribed by https://otter.ai

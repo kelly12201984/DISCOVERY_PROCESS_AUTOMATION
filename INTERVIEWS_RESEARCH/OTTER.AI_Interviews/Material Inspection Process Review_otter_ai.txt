@@ -1,0 +1,195 @@
+Kelly  0:00  
+Yeah, I was just wondering if it's fine. Doesn't matter. Make it look
+
+John_QC  0:04  
+ Make it look fancier is fine too. No, I like it. Excel, Guru, professional. I think
+
+Kelly  0:12  
+it looks great. Sure, I could add our logo
+
+John_QC  0:14  
+and whatever, but I just didn't have the
+
+Kelly  0:16  
+patience to but so creating the hold points and what has to be inspected at each hold point automatically would save you a ton of time, right? Is that what you were saying? Does that make sense? What you do is you look at the drawing. Yes, I
+
+John_QC  0:36  
+create this based off of
+
+Kelly  0:39  
+this, right? So if that could automatically be done, you don't even have to make the sheets, right? Yeah, okay,
+
+John_QC  0:45  
+and not all these are whole points. So, I mean, there's not a whole point for each nozzle. This is so funny. This is one whole rest stuff. It just the goal is 100% of our welds are inspected, right? Okay, so this is just a way for me to track, okay, these nozzles have been done, and Albert, if he looks at something, there would be an AA with a date, okay? And that's why these are out there, so that you just tell me, Hey, I need an internal on this, and I'll stop in their office, grab this folder go out to the tank. Do my, should you guys
+
+Kelly  1:23  
+sign off on both folders too? Like you, you fill this out in this folder, and then you also fill all that out, like the signing and the dating. You do that twice.
+
+John_QC  1:36  
+No, it's just in this okay, this would be out in their office. Oh, I bring it in here. So this one is just it has another copy of the drawings.
+
+So it's got our CO traveler in it, which is a SME stuff, yeah, got another copy of the drawing when I'm done with the mtrs, which I
+
+guess I could have already done, But I print another po out for every material that comes in here for test door checking, and I write the heat number and when I checked it, and then these will go in that folder. So when Justin's here doing our inspection, he can see that all items were received and what the heat numbers are, because he has to track that in
+
+Kelly  2:45  
+his blog. What is he like a vendor?
+
+John_QC  2:49  
+He just, he's a he works for our insurance company more than okay, but he represents ASME.
+
+Kelly  2:57  
+I got you. Okay, so the mtrs I saw, Oh, what I saw was the document that tells the heat. No, not that. Yeah, I've seen that somewhere, but the MTR is comes with the material has the heat rating, or whatever you call it. And then you check all that literal check marks, yes. And then you write stuff on here, yes.
+
+John_QC  3:31  
+Okay, so we got two pieces, two flanges. They happen to have the same heat number, which is not uncommon. And then that's the date that I physically check the RIR, which is the receiving inspection report. That's what I think. And the MTR through the book, receiving inspection report. So that's when material comes in. Albert has a form I
+
+or somewhere
+
+Kelly  4:33  
+they're in the job are they in the job folders? Are IRS or no?
+
+John_QC  4:37  
+Yeah, well, after we scan them, good point. Let's do.
+
+This is an R, I R, you have a plate section, a head section, pipe, elbows, flanges,
+
+Kelly  4:57  
+stub bins, okay, and this one only has, what is that?
+
+John_QC  5:00  
+This was just plate, just done for plate. So we have one for each line item.
+
+Kelly  5:08  
+So you do a separate one for each line item. Yes. Well, then why do they have all the Oh, because
+
+John_QC  5:15  
+you just pick whichever one right goes out and he's looking at a head, yeah, fill out this block. Yeah. He's doing pipe. He'll be here.
+
+Kelly  5:22  
+Okay, so he just picks whichever and he just Yeah.
+
+John_QC  5:26  
+So he measures the length and the width. Takes four thickness readings, okay, these are your thickness readings. That's your width, your length, your heat, number, material, grade, little speck and grade, how many we ordered.
+
+Kelly  5:40  
+So he uses a disease like a device to check the thickness. I'm guessing right
+
+John_QC  5:45  
+thickness meter, okay. It's a straight beam, just a probe, and it reads out, okay. The thickness does the same with heads, but he has more measurements. So you have your straight flange, your overall height, your depth, inside diameter, outside diameter, and thicknesses.
+
+Kelly  6:08  
+What is that? Do you know what the device is called, that he uses? It's a or is there like
+
+John_QC  6:15  
+a brand? It's an MG, two, okay, it's a panamatric, I think maybe Olympus. You have one.
+
+Speaker 1  6:29  
+I need to claim office. You make software that
+
+John_QC  6:40  
+Olympus makes it, but it's a panometric NDT, mg, two. Okay, I'm gonna take a picture of that. This is a piece of crap. I wish we had a different one, but that's what they have, yeah? Because too simple, it's not as accurate as actual indie company juice, yeah?
+
+Kelly  7:02  
+Actual, what? Oh, indeed, companies. Oh, okay, yeah, because that would be cool if that, if there's a one of those, it's maybe more, I don't know more better,
+
+John_QC  7:16  
+that I can handle pretty much anybody and train them how to use it in five minutes. Yeah, the one that's better, you have to know how to read wavelength that you don't just get that in five minutes.
+
+Kelly  7:30  
+But if the, if there's one that where the information gets sent to, you know, like the scanners, right? They're gonna send it's gonna send information to a module. So if there's one like that that reads it and sends the information, well, you can
+
+John_QC  7:46  
+set, well, I don't know about that one, the 38 those are some. All you have to do wavelength, yeah. So this one only reads out your number, okay. But without this, you don't know exactly what you're reading. So if there's a lamination, or there's some coating that you're reading instead of the actual thickness, you'll be able to tell off of this where that you don't know, you just it's, it's out of number.
+
+Kelly  8:13  
+So that the number that's that would come out on this one is the same as what would come out right there. Yes, it's just, so really, they could still use it, but know what the heck they're looking at when it comes to this part of it, right? But I wonder if the information can get sent digitally to a module, whatever, to a, we'll say software. And then it tells you it knows what the wavelengths mean, and it tells you in a human way, you know I'm saying,
+
+John_QC  8:46  
+I think you might be biting off a little more Well,
+
+Kelly  8:49  
+I was yesterday, I was doing, oh, and I'm pretty long rabbit hole, but I Just was researching QC automation opportunities at an API 650 as me manufacturing company, and it came up with a bunch of shit. And it's like, and a lot of it, I was like, I don't, I think I vaguely understand what that means. But it also gave, like, the ROI on it, like how much time it could save and all that stuff. So not it, because there was literally, like 1000 things
+
+John_QC  9:27  
+just digitally sending it these. Can't do that, but we used to use these during shutdowns and boilers, where we have 1000s upon the 1000s of tubes that we have to read. And you can actually load this with a basically Excel spreadsheet, and all you have to do is save, save, save, save, save, go back and you dump it to the computer and it fills it all in doing that for I mean, we don't receive everything typically at the same time. Yeah. So we might get these two flanges and this, and we might get five pieces of plate, and the rest of them coming a month later. So trying to make a program and update and that might get
+
+Kelly  10:14  
+crossed up. You think everything would have its Yeah, I don't know. I think it's possible. Just things just have to talk to each other and speak the same language I interpret.
+
+John_QC  10:30  
+Now, as far as time saving, by the time you log this thing or upload it, go out there, do the inspection, buzz it, save it, come back and dump it. It's probably just as quick as taking a piece of paper and just write down, yeah.
+
+Kelly  10:46  
+The difference is, is the piece of paper lives here, so like, if anybody needed to see it
+
+John_QC  10:57  
+once it comes to me, that's why we got this. Now there used to be a gap where I would check everything, give it back to them, and they would green.it, accepting it, and then somebody would scan it. But now that we have this, as soon as I accept it, I scan the MTR and the R, I R, and go and put it in the job folder. Does the scanner right there? Yes, but it scans. It was cheap, yeah, and you know
+
+Kelly  11:24  
+who I do. I do indeed.
+
+John_QC  11:29  
+Yeah, forward, we can always find all of this in the job, yeah, job holder, and he's got to go out there anyways to pull these measurements, or all of these measurements, so, yeah, buzzing that thing a couple times with that UT meter is not it does not take that long, yeah,
+
+Kelly  11:55  
+but like Having that filled out automatically, because what he's using,
+
+John_QC  12:03  
+yeah, well, we don't have a machine that checks the measurements, unless you can find a tape measure that talks to a computer.
+
+Kelly  12:14  
+Okay, so how do you you personally keep up with or actually, what is your process for this? Because, like you said, it doesn't all come in at the same time.
+
+John_QC  12:38  
+I just fill it out as I go, so if it doesn't say, all received. So this one had some China melt issues. So I wrote on there, that's the heat number, and it was China mill. That way they can't fudge the MTR and send it back to us. Oh, I can go back and say, Wait a minute. I already looked at that number.
+
+Kelly  13:04  
+What do you mean by that? Like, what is China melt? It was
+
+John_QC  13:09  
+either manufactured or melted in China, okay, and you guys don't use, okay, all of our PO
+
+Kelly  13:15  
+say somewhere, yeah, I've seen
+
+John_QC  13:17  
+that no China melt or no Chinese material. Yeah. So that one was done. That one's done.
+
+Kelly  13:27  
+Those two have to get still open, because they got to come back again to you.
+
+John_QC  13:30  
+Yeah, yeah. So they send us replacements for these. Okay, so that's why there's a new heat number, accepted date.
+
+Kelly  13:38  
+So delivery happens. This stuff is here. Somebody in receiving receives it. I don't know how they do that yet. And then I guess I'm wondering how, how do you know? Okay, I need to go check these, this material for this job.
+
+John_QC  14:04  
+So that's Albert. Once they receive the material, he gets a copy of the Po,
+
+Kelly  14:10  
+okay, okay, okay,
+
+John_QC  14:13  
+and then then he knows to go look for okay. And the best we can we have that little rope, red roped off area out front. It's like plastic chain. Never Noticed that is our quarantine area. So anything we get is supposed to go there first, and then we do the inspections once everything's checked off and it's accepted. Green dotted it can come out of quarantine and into wherever stack so it can be used in the shop.
+
+Kelly  14:44  
+Yeah, okay, you guys write the job numbers on the like material.
+
+John_QC  14:49  
+Yeah. We do job number Po, number material and grade, and sometimes the size, okay, especially plate, yeah. So that when they go the burn table, people go grab a plate, they can see it, sorry, 48 by 24 right? Quarter inch thick. Yeah, okay. Instead of sitting there trying to, yeah,
+
+Kelly  15:08  
+redoing measurements that we've already done, that's good.
+
+John_QC  15:13  
+Okay, this is something new. I didn't always do that, but David started asking all the material here, I don't know, this is the only way that I without having to go in the job boss all the time and we don't have enough seats. It gets really irritating when I need to go look something up and I log in and it says,
+
+Kelly  15:39  
+yeah, that's funny too, because, like so job boss, I can actually this job boss, they give so click about under password, yeah, then click who's logged in the second tab. That's all.
+
+John_QC  16:01  
+I always just if it kicks me out, I call return, I know he's in. It really bad about just freaking riding it.
+
+Transcribed by https://otter.ai
