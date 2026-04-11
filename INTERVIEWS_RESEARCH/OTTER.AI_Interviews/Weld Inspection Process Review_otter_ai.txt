@@ -1,0 +1,1132 @@
+Kelly  0:02  
+Okay, so system being able to take all the information from the drawing would could auto create the weld map. Yes, it could also do test reports. Okay, so this is a hydro.
+
+John_QC  0:15  
+Oh, no. We swapped to a pneumatic, okay, but we did a pneumatic at 22 psi, so it could, I guess, potentially fill out the test report. Because, is this something that you guys created in house? That's what I you did this document. Okay, I'll make this while I'm making all of these, okay? And these, again, these are the fit up. Okay, anything that needs to be fit.
+
+Kelly  0:45  
+Do you use the drawing to Yeah, figure that out too. Oh, okay, the way I
+
+John_QC  0:49  
+do it right now kind of slow because I have one monitor, so I gotta swap back and forth between drawing and,
+
+Kelly  0:57  
+yeah, you need another monitor. Or if, what is this? It's a the whole thing called not just fit up, but this
+
+John_QC  1:09  
+is a QC check sheets. Okay? He's the one that Scott and Sammy use for fit up. So parts fit up, okay? And then after that, that's when mine takes over the actual welding inspection portion of
+
+Kelly  1:22  
+it, okay? And all this info is in the drawing. Get all that from the drawing. Okay, all right, and then the rest of these, right, yeah, three fat stuff.
+
+John_QC  1:36  
+Which one we don't this one. We didn't fab the heads. We ordered them, but there were two piece heads, so I still look at the welds, even though somebody else did them. Okay. Saddles with pre fab.
+
+Kelly  1:50  
+Not yet. I haven't seen him. I don't know.
+
+John_QC  1:57  
+This would be the prefab on the nozzles, cut the pipe, put the flanges on them, the inside and outside welds, okay. And then this is when it rolls into the tank itself. But when we built this, we put one head on it and all the shells, and leave the other head off. So once all the inside welds are done, that's when this is checked, okay, and then that's
+
+Kelly  2:20  
+okay to fit second head. I got you
+
+John_QC  2:23  
+closure head on. Okay. From there goes to this sheet, which is all the outside external. So that's checking all these wells from the outside. And then you have your final internal, final external, which is after nozzles are in and everything's attached. Just another sanity check. Make sure nothing happened to the wells that were already done. And make sure all these nozzles and saddles and lift lugs, everything is attached properly.
+
+Kelly  2:51  
+Did you say internal on here too? How? Um, how do you do the internal once the closures are you get in it. Oh, man ways, okay, I see this before, right, okay,
+
+John_QC  3:05  
+if it doesn't have a man way, then I do the internal before we close it, right, okay. And then that last head to Shell is kind of a spot check, because I can put my camera in a nozzle, but,
+
+Kelly  3:19  
+oh, I got you. Okay,
+
+John_QC  3:20  
+this big would be hard to check all the way around. So it's as good of an inspection as
+
+Kelly  3:24  
+we can do, yeah, without a man line.
+
+John_QC  3:27  
+Yeah, that's same sheet again for the outside. This is all the nozzles attached to the tank, inside and out.
+
+Kelly  3:37  
+So auto, or a system, reads the drawings. There's obviously, there's one, maybe not obviously, but there's some logic that goes with it, right? Like, something that the system would have to know outside of. Just take this, put it on here, or not really, well,
+
+John_QC  3:55  
+I guess it would need to know, like,
+
+Kelly  3:56  
+what it was tubes.
+
+John_QC  3:59  
+So that's why these are marked out because they're dip tubes, so it's not going to be welded to the vessel that's bolted to another nozzle. Okay, so your B is a dip tube, and your
+
+Kelly  4:18  
+D is a dip tube, okay. But yeah. And I wonder if it says that in the calc.
+
+John_QC  4:25  
+I mean, technically I could, I guess, fill these out, because there is another flange that was welded to it. But I kind of classified that in the prefab section I got you, because it's laying there. So I'll look at all the welds,
+
+Kelly  4:40  
+yeah, okay,
+
+John_QC  4:42  
+because this says actually two vessel warheads,
+
+Kelly  4:45  
+yeah, I gotcha.
+
+John_QC  4:47  
+Okay. This is just the final stuff, making sure the pressure test was done. Ai did their stuff. We cleaned it. The Fed Up check sheet was done. If there was any ship loose, we got them together, and then everything was loaded on the truck.
+
+Kelly  5:06  
+Okay, okay.
+
+John_QC  5:08  
+And then this one's just a blank sheet that we write repairs needed
+
+Kelly  5:14  
+as you're doing the other inspections. Or there's
+
+John_QC  5:17  
+I do all these other steps. If I find anything, I write it here. Okay, there's no way to remember, yeah, all the tanks that are out there, yeah, yeah, my place, yeah. This is just a log. As you go, I keep going, I'll go back to this one and see if any of this stuff was done. Okay. And when I do my final, final, I have to go back to this. Something's still open,
+
+Kelly  5:38  
+yeah, yeah, the tanks. So there would need to be operations. If the scanning, scanner situation happens, there would need to be operations for repairs that they would scan, I'm doing a repair, but I don't
+
+John_QC  5:51  
+know if you'd be able to tie it if somebody just scanned saying I'm doing repairs, yeah, then it would just assume, I guess that all repairs were done,
+
+Kelly  6:02  
+yeah, it would have to be Yeah. Would have to know this Exactly, yeah.
+
+John_QC  6:10  
+So as far as logging in, in the system that repairs
+
+Kelly  6:13  
+were made, unless you also had a scanner and you could scan where repairs needed to be done that
+
+John_QC  6:21  
+would get pretty complicated. Well, every tank is different,
+
+Kelly  6:25  
+and you could have a pin hole here, but this is, this is this would already be an operation, not the repair, but the actual this, right, like, whatever this is,
+
+John_QC  6:37  
+of course, one or two serve internal fill and blend
+
+Kelly  6:41  
+that would already be an operation. So you would scan that operation, and then it would be like repair, like you could put in a note or something or not, or you just keep doing that that way. But this all gets automatically done, the checklists
+
+John_QC  6:57  
+and that I can see you doing,
+
+Kelly  6:59  
+yeah, would be tricky.
+
+John_QC  7:01  
+Yeah, you'd have to add another physical step to create a operation for every single repair,
+
+Kelly  7:10  
+unless it was just a general this is I'm I'm QC, I'm putting in, I'm creating an operation by scanning this and typing repair needed, or something, or whatever you would need to type in. But that might not be worth it. If you can just
+
+John_QC  7:27  
+do this, that would be physically having to create, yeah, that would end up taking time, yeah? But, I mean, this works just fine, yeah? So I can go through and if it's not, the welders are really bad about this one which isn't that important. This is the one that's important. QC was checked. Okay, then I can actually take that column out, because I do run out of room sometimes, depending on what it is and where it is, yeah. So I may just delete this and
+
+Kelly  7:58  
+just have QC, yeah. So then it could also create the that would be helpful, just print it, and then in the event, like this one, where, if it literally, which it would take it from the drawing, it would have said hydro test, but you would there be human in the loop situation with all of it anyway, where it gets automatically created, but now all you have to do is scan it, make sure it's right. Like, just look at it, and then you would be able to make changes. Like, well, it's happened
+
+John_QC  8:32  
+before, where they pulled this number out of the calculations and they actually pulled the wrong pressure. So, oh, I got you Justin's here looking through everything he scans that he's actually brought up, like, Hey, you pulled the wrong pressure higher than what we thought because it wasn't reviewed correctly from engineering.
+
+Kelly  8:58  
+Yeah, just does change. So if the system has this and the calcium,
+
+John_QC  9:12  
+yeah, it could catch to be trained on how that calculation is done properly. So it's typically just your design pressure. And then a hydro is 1.3 times that, and a pneumatic is 1.1 times that. You also have to factor in your lowest stress ratio. And Alex pull, there's all kinds of different stress ratios. Yeah. So the stress ratio for a saddle is going to be different than the tank. And the saddle doesn't determine test pressure because it's outside, so it would have to also know, okay, what is relevant you
+
+Kelly  9:55  
+said, and what is that? It's called test pressure, right? The pressure that is used to decide which test Yeah, the pressure, it needs to be so test pressure, because the XML has a lot of a lot of info in it that is not in the I mean, I guess It could be in those PDFs. But like a lot of times, there's stuff in the XML that's not in the PDF. So it could literally say test pressure.
+
+John_QC  10:29  
+No, because it does. But there's a sheet that actually says pressure test I
+
+Kelly  10:43  
+Oh, I guess it would be home. I think
+
+John_QC  10:45  
+it automatically reverts to a hydro, and then we can physically, we can manually change it to a pneumatic as long as it meets the requirements. Yes,
+
+Kelly  11:00  
+the calc's not in here. I here. They
+
+John_QC  11:15  
+probably don't have it saved as a PDF. That's another thing that typically when I go running around looking for the PDF, because they're supposed to put one in those folders, and it's either old or they just didn't do one. So then I'll have to bother we're Tong to print out a copy. Oh, you broke it. This
+
+Kelly  11:41  
+happened to our tongue yesterday. That's not good.
+
+You said that there's a table in there that tells it, yeah.
+
+John_QC  11:54  
+So when you go to the table of contents, there's a section in there for pressure test. Okay, and it'll actually show
+
+did you know I don't know how to work that program.
+
+Kelly  12:26  
+Pneumatic test. Okay, so the check, the QC checklist, the test document, thing, the world map, so it was all
+
+John_QC  12:42  
+actually on that same document, the one that you had pulled up, it has the weld map in it. That's also where I get the pressure test. If you scroll past code, oh yeah, there it is, hydro and pneumatic. Just key in this PO. And then the pressure
+
+Kelly  13:05  
+is, that's
+
+John_QC  13:07  
+equipment number, yeah, that would be the vessel number, which is typically this one has one, but it's typically na.
+
+Kelly  13:19  
+And then you key in this stuff. Is that what you're
+
+John_QC  13:21  
+saying the test pressure, I'll physically write in the date and the gage that we used results. So that comes off of that first sheet. So I just erase it, type in, or I'll leave it blank. And then I write in whichever gage we used,
+
+Kelly  13:43  
+would this, this? Would this be? Is this like the same every time?
+
+John_QC  13:47  
+Yeah, that's the old one. Though it's an hour. Oh, okay, so the one that I pull from says an hour Oh,
+
+Kelly  14:01  
+where do you pull from?
+
+John_QC  14:04  
+I have one saved in the it's the same thing. But I just updated that to say an hour minimum, and then also the pneumatic says an hour minimum.
+
+Kelly  14:15  
+And then is it still in the same thing? Revision 1017, yes. 11, I didn't update that. And then this, all of this is always the same ring procedure. It would know the job number.
+
+John_QC  14:37  
+Pneumatic actually has three forms, or pneumatics, only one, so coil or jacket,
+
+we don't ever pneumatic the coils or jackets, those are always hydro Okay, so there's no point in having, I gotcha three pneumatic forms.
+
+Kelly  15:02  
+Okay? Chris also puts this in the estimation and the proposal. What is it in the proposal? What type of test like he had to have a drop down with two options, hydro or pneumatic, because all of them get tested something like every vessel, every tank,
+
+John_QC  15:27  
+yeah, yeah, we pressure that well, unless we can so that bottom cone that we shipped, we did a vacuum box and a dive in, and we hydro the coil that was attached to it. But with a big, giant cone, there was no way we
+
+Kelly  15:41  
+could pressure tested, yeah, and then the water fill that sometimes happens, yeah?
+
+John_QC  15:48  
+Like, that's typically API, yeah, to do a test for API, it's a 24 hour hydro, so we just fill it and let it sit, yeah.
+
+Kelly  15:58  
+So is there anything else that it could automatically create if it can read the text from the John, I'd
+
+John_QC  16:12  
+have to sit down and go through all my paperwork. Off the top of my head, I have to physically figure out what the AI whole point is. So it wouldn't be able to figure that out. Justin has to tell me, and then I have to run the calculations to figure out how many RT shots we have to do, if it's not 100% and then figure out where we're going to do them. So it wouldn't be able to do that. That's X ray,
+
+Kelly  16:43  
+yes, okay. It is in the XML, actually.
+
+John_QC  16:49  
+Well, it said, it'll say spot RT on there, but you have to do the one spot in every 50 feet or and then every 50 feet after that, or whatever it is, and then you have to figure out your Category A and Category B, weld seam. So that
+
+Kelly  17:09  
+gets a little so in the XML, how do I get go away? I wanted the tank.
+
+I wanted the tank. Broke it again. So in the XML, it'll say, what is the XML? It's such as this. It's, it is, but it's looks like. Stay tuned.
+
+John_QC  18:02  
+Do Oh, okay, there's just
+
+Kelly  18:14  
+code, yeah, it's um, this one had spot, yeah, yeah, so,
+
+so left ish,
+
+I would different one. How would they say full long seam circle? So would it is this? Would it be that RT was done, a full RT was done on the long seam and a spot was done on the Cirque seam? No, that
+
+John_QC  19:01  
+is probably pulling off of the head.
+
+Kelly  19:04  
+This is the left or right dish. Yeah, you get a
+
+John_QC  19:09  
+two piece head that's always supplied with 100% RT on from the supplier.
+
+Kelly  19:16  
+And then is the Cirque seam, talking about the head to the shell. Yes. So would that have been spot, or that would be full too? No, that would be spot. Okay, so that's what this is. But it
+
+John_QC  19:29  
+doesn't it didn't necessarily need to be on the head to the shell. You have to add all ears. So that would be a Category B, weld, that Cirque seam, the long seams on the tank itself for Category A, oh, it does say A and B, so well that uw 11 A and B is that's something different. That's not Category A and Category B. That's just code talk, where in Section Eight you would look up uw 11 a or uw 11 B,
+
+Kelly  20:01  
+and then what would that tell you? In Section Eight,
+
+John_QC  20:04  
+I'd have to read it I memorized. That's like, freaking books
+
+Kelly  20:07  
+on top of books. Do you? Do you look that up? Yeah, that's where. So generally speaking, what does it tell you? Like, that's gonna
+
+John_QC  20:15  
+be how many shots you have to do per linear foot. That's why I have this on here. So doing the math, the A welds, which aren't that long, I needed to do one shot, because all these added up, were less than 50 feet, okay, and then doing that, all these circ seams was more than 50 feet. So it ended up being three shots, okay,
+
+Kelly  20:41  
+how roughly, how many types are there, like UW, dash, 11 a, UW, 11 B,
+
+John_QC  20:49  
+there's bunch it's just for the RT on where to shoot. You can really just use those two, okay. But then that already has subsections, so there's a section in there, which is a pain to butt. I mean, Justin always argue over it, but there's a UW, 11, a, dash five, dash b, okay, so it's like sub columns, yeah, and that one is confusing.
+
+Kelly  21:18  
+Do you ever do you use those or you just
+
+John_QC  21:21  
+go with the A, well, we have to Okay, depending on the joint efficiency that they want. So with those Rico tanks, we had to meet uw 11 a, 5b because they wanted to use the 100% joint efficiency for the heads to get the thickness down. So we had to shoot both heads.
+
+Kelly  21:42  
+Okay? Because
+
+John_QC  21:43  
+they were they're seamless heads, which gives it an 85% joint efficiency. But to make it one, you have to at least spot shoot that Cirque seam from the head to the shell. Okay? So to meet the top and the bottom head, we had to shoot both, I gotcha, which was an additional shot outside of
+
+Kelly  22:04  
+the the regular
+
+John_QC  22:05  
+debt that spot doesn't satisfy the one and in every 50 feet, so there's a lot of Yeah, choose your Fate, kind of right?
+
+Kelly  22:16  
+Because so so 100% is not the usual. It could be 85 it
+
+John_QC  22:27  
+could be, if there's no RT, then it's 70% okay, if it's spot RT, typically it's 85 okay, one okay.
+
+Kelly  22:36  
+I got you so, but
+
+John_QC  22:38  
+that also has caveats. Oh, good. Well, if we if it's got a backing ring, then it's 60% unless you shoot it. There's all kinds that would be difficult to make a program to just read and understand and tell us where everything is shot. Yeah? Justin, I argue about it, and he deals with this every day, Yeah,
+
+Kelly  23:03  
+yeah, and the document or the giant binder you
+
+John_QC  23:20  
+Yeah, so a is full RT
+
+Kelly  23:30  
+and it has ambiance, okay, this, these are the kind of pictures I was talking about that
+
+John_QC  23:38  
+I saw. I mean, they're on the but
+
+Kelly  23:42  
+it was like, I think it's maybe the data sheet. It's one of the experts this right here.
+
+John_QC  23:53  
+Oh, that's off of our well procedures. So that's just given the information for each joint. Yeah, do
+
+Kelly  24:00  
+you type this all in
+
+John_QC  24:02  
+when I'm creating the WPS? Yes, but it stays the same regardless. So when I create this document
+
+Kelly  24:13  
+in shop floor, correct?
+
+John_QC  24:14  
+Yes, I put these in, yeah, if you're doing a single bevel, then these are the gaps that you need to keep, as far as Max. And if you have a single V, use this.
+
+Kelly  24:28  
+So I've seen like WPS, and then it'll be like st, dash, something, something something or whatever.
+
+John_QC  24:37  
+So st is how we name our procedures. So this just means Savannah tank. That's why I figured that GTA w. So it's a take procedure, okay? And then number 11, this convert means it's a still 11th procedure. We started at
+
+Kelly  24:55  
+one, yeah, okay.
+
+John_QC  24:56  
+And 11 is eight to eight. So that's stainless to stainless. Do you have this?
+
+Kelly  25:05  
+I mean, do you have it saved somewhere like this? And then what that would apply to so let me what I'm wondering is, like, in my head, it would be great if it was st dash letters, dash one all the way through, and then the other columns would be like this. This WPS applies to this. So when this shows up in a calc or in a drawing, the system automatically knows and matches it with the correct weld scene, or just shop floor. Do that
+
+John_QC  25:46  
+because, well, I mean, I have a Excel spreadsheet, but, like, your calc shows that that is sa, 243, 16, the sheet that I have is based off of P numbers because there's more than one material. That's a p8 so three, four is a p8 316, is a p8 and it's a list on top of the list.
+
+Kelly  26:09  
+Okay, can I see that? Remember where it's at?
+
+John_QC  26:15  
+Go to my folder. QC, i i
+
+Kelly  26:26  
+Go to your stuff backwards because I sort it by the welding by date so I can find the most up to date. It's a folder.
+
+John_QC  26:39  
+Oh, okay, great. There. Scroll down. It's not this, right? That's just up all of our WPS,
+
+yeah, WPS and PQR, nope. So I'm still working on getting all these procedures into shop floor, but so you have the number, and then if you go over, you got the P number and the group number, and then,
+
+Kelly  27:19  
+so this is because I was trying to figure out how to automate that, like assigning the correct WPS to the correct thingy.
+
+John_QC  27:32  
+Just to show you, if you scroll up, there was a list for P numbers, P number that one might work with the PDF will work too. Okay, so three or 4l 316, alloy, six Mo is a p8 I love 310. Is a p8
+
+Kelly  27:55  
+so this is right here. Yes, okay, and group number is
+
+John_QC  28:04  
+not on here? No, that is a whole new headache. What does it mean? So certain numbers are different group numbers, so like sa 36 versus sa 516, 75. 1670 is a group one. Essay. 36 is a group two.
+
+Kelly  28:26  
+So is three or four a group one, and they're both group one, yeah. And where does that info
+
+John_QC  28:35  
+come from? The code book. One of the code books, not this one. Okay, that's out of 2d I think 2d
+
+Kelly  28:47  
+that's what the code book is called. Okay, so
+
+John_QC  28:51  
+two a and two A and 2b is, or not to be, where you look up your requirements for your material. Then you have a 2c
+
+Kelly  29:01  
+Oh, the heat ratings and stuff is that we're talking about the
+
+John_QC  29:04  
+chemical composition and tensile strengths, yes, that we talked about last time. Yeah, that's in two A into b2, A, 2b and actually 2c but 2c is specialty material, okay, so anything that's not an SA that shows up as a SB is a specialty that's in C and then in D. Action of d is your stress ratios.
+
+Kelly  29:32  
+Is any of that digital? Or it's all just,
+
+John_QC  29:35  
+and we only have them hard copy. We could get them digitally, yeah, from, from the people that we buy our books from, it's just more expensive to get the hard copy and the digital copy. I don't like reading
+
+Kelly  29:48  
+these on the computer. No, I wouldn't want to either. I would rather have that. But if
+
+John_QC  29:53  
+I mean just reading these, it would probably be easier digitally, because you can use the Find button.
+
+Kelly  29:58  
+That's true.
+
+John_QC  29:58  
+Yeah? Flipping through when I'm doing the compositions. I like having my ruler,
+
+Kelly  30:02  
+yeah, okay,
+
+John_QC  30:03  
+which, I guess technically, you could temporarily highlight the line that you're looking at. I only have one monitor, so I don't do much, yeah, on the computer, yeah, yeah.
+
+Kelly  30:15  
+And then also, if we're training a system on the code, we could just put the code into the system,
+
+John_QC  30:23  
+be teaching it for a while.
+
+Kelly  30:27  
+Well, it just, it would just store all that data in it, and
+
+John_QC  30:33  
+it's brain, just upload this. No, in my head, I thought you got to physically key in all this information
+
+Kelly  30:41  
+10 years, I wouldn't do this job. I would leave. Okay, so how did we get here?
+
+John_QC  30:50  
+You're wondering if you could, oh, that's tie that into what it knows from the XML, yeah. Well, and also, okay, if you could upload the code, then it could cross reference 516, 70, and know that it's a p8 or p1 group one, and if it sees three or four, it could reference that it's a p8 group
+
+Kelly  31:16  
+one, right? And it would also the thing you said something about there's a phrase you just use that you figure out, maybe it's in D or C. What's in C? No, C's specialty. It's probably
+
+John_QC  31:38  
+actually in Section nine. I'm getting all confused now. You asked me too many questions. I've already used all my allotted brain power for today, so I'm screwed for the rest of the day.
+
+Kelly  31:48  
+That's how I feel. The end of the day, I'm like, I've got no more brain left, especially to your stuff, like, just because I well, I because I don't know I'm it's all basically like, obviously, I know what a fucking tank is and parts and stuff, but go up here, go
+
+John_QC  32:19  
+to forms, nine. Forms nine. No, that's eight, nine.
+
+Forms nine WPS. So that gives us all of our wpss that doesn't, doesn't, unless you open each one, it doesn't show you p8 p1
+
+Kelly  32:46  
+Yeah, what are those called? Is it any of these options over here?
+
+John_QC  32:54  
+That's just process. So that'd be TIG or flux core. P number, you can type in one, and it should give you just our carbon procedures.
+
+Kelly  33:09  
+Oh, why can't? Why doesn't just shove it up there? This is filtering, yes,
+
+John_QC  33:17  
+and these all mean different things, too.
+
+Speaker 1  33:20  
+I so to
+
+John_QC  33:26  
+keep it a little more simple, so HT means it's high temp. C is because I didn't want to make it more complicated for them out there. Yeah. So GM, oh, one is a hard wire carbon process. So with the C, that is for the cobot, okay, so, but then also made it a little more confusing, because there is a CB, which is a column and boom, which we don't use yet, but I mean, it's out there, yeah, if you scroll through there, there's, well, no, I haven't created the wpss for that yet, and it's just PQRS for the boom, yeah. But it's, it's a sub arc procedure. Okay, so there should be a sub arc sa, 37 dash CB, which is just a carbon sub arc for the column, and boom.
+
+Kelly  34:25  
+Okay, so this is all all around that she reaps, are you stepping outside us?
+
+John_QC  34:33  
+Sugars, it's stinky. Good lord, like there's a place in there that you can walk through and your footprints catch on fire.
+
+Chris  34:42  
+The place I went through fucking you couldn't step without just stepping in sludge, like I've been in there in different places, but there was always like somewhere you could kind of walk to get through no your shoes, about getting pushed. Luckily, I didn't wear these or the, yeah,
+
+John_QC  34:59  
+they probably made you wear still toes, pretty neat. So it gives you your pee number, gives you your thickness qualified.
+
+Kelly  35:11  
+I went here and did toggle report,
+
+John_QC  35:14  
+finding out stuff that I didn't even some of these are ones on that list that I haven't Yeah, I need to fix
+
+Kelly  35:27  
+what do you mean?
+
+John_QC  35:28  
+So when we converted from Pro write to shop floor, the people that are free will upload all your documents. Yeah, I saw that they uploaded them, but they didn't key in all the information they should. It's like somebody was just freaking clicking buttons and moving on. Yeah, so I'm still having to go through and key in missing information that
+
+Kelly  35:58  
+should have been, that should have already been in there and where? What did you give? Did you give them documents that were from the old system? What did you switch from Pro right, pro, right? How long have you had shop floor? A year or two, a little bit more. Do you still have the Pro right documents somewhere?
+
+John_QC  36:21  
+If you go back to my folder, go to welding, same place we were at a
+
+Kelly  36:27  
+few 1000.
+
+John_QC  36:31  
+Go up to WPS. Just pick one. You did see these? I see, yeah, so if it says shop floor at the end, that's the new one. If you go to one of these other ones, then it's the old one.
+
+Kelly  36:46  
+What does it mean split? What does
+
+John_QC  36:48  
+signed mean? That means it's official.
+
+Kelly  36:51  
+Okay, so,
+
+John_QC  36:53  
+so if you open this one, that's what it used to look like. Oh, IT shop floor looks nicer because it's got our logo on it and blah, blah, blah, blah, blah,
+
+Kelly  37:07  
+yeah. So
+
+all of these, you
+
+John_QC  37:17  
+can open that first one and you can compare. That's the same procedure. Put in shop floor
+
+Kelly  37:29  
+doesn't have the pretty picture either.
+
+John_QC  37:37  
+Made all of that is listed up there. I see a single V, single bill, blah, blah, blah, blah, blah. That just has pictures.
+
+Kelly  37:43  
+Do you have, like, a list of which ones you still have to Yeah,
+
+John_QC  37:49  
+anything that's on that sheet? Oh, that doesn't say shop floor. If it's completely blank, that means, when I was going through the paperwork, there's information missing. Either I can't find the old procedure or the tensile test reports weren't there, like right here, so any of those that are blank across so like this, one and six and 10, yeah, there's some kind of documents missing.
+
+Kelly  38:22  
+I gotcha. I gotcha. I thought that this was like, Okay, these are all one. No one's okay, yeah, and Huck. So how come it doesn't have any they don't have any letters or anything, because they're not created WPS as yet
+
+John_QC  38:39  
+they were, I just don't know where there's certain paperwork to make it official.
+
+Kelly  38:45  
+I gotcha that
+
+John_QC  38:46  
+binders in there from
+
+Kelly  38:49  
+97 Yeah,
+
+John_QC  38:51  
+from their first go around of making procedures, but there's stuff missing.
+
+Kelly  38:57  
+So these are specific to here, like each every one out there, every company out there, has their own welding procedures or weld
+
+John_QC  39:07  
+procedures, and there are generic ones that you can use from AWS or as me, but we haven't done that. Why? It's just more of a pain in the butt. I Yeah, okay,
+
+Kelly  39:25  
+so and you got to pay for I did see that like you can add them to your cart and shop floor store.
+
+John_QC  39:40  
+They're pre qualified procedures. Wow,
+
+that is for complete, yeah, yeah. That's when I sent them to code where so they could upload them into shop floor.
+
+Kelly  40:09  
+Are these scanned pictures, or were they
+
+John_QC  40:13  
+they're scanned Actually, no, sorry, they're PDF from that old software. Okay, yeah, that's old pro write software.
+
+Kelly  40:22  
+Okay, well, this is good because it's easily easier read by systems, opposed to being a scanned document where it's a it's essentially to the system, it would be a picture, so it's easier to extract the text from
+
+John_QC  40:41  
+it, all of our wpss are all PDFs generated from the computer, either shop floor or pro right?
+
+Kelly  40:49  
+So is so this is all of Savannah tanks. WPS is right here. Not anymore,
+
+John_QC  40:55  
+okay, I've created new ones from just strictly shop floor since.
+
+Kelly  41:01  
+Okay, yeah, I was like. I was wondering, can I export it like the old list? Yeah, the WPS list? Oh, my God, I don't. You're using me clicking all kinds of stuff. I need 12 monitors. You need two, though, for sure,
+
+John_QC  41:29  
+shop floor is an internet based diagram. You
+
+Kelly  41:44  
+This is what I wanted earlier, like when I was like, why can't it just show it on there?
+
+John_QC  41:53  
+Pretty sure I don't know how you got to that window. I
+
+the PQR number is always going to be the same. Okay? You
+
+turn on the P number one, yeah, base metal 1p, number. Base metal 2p number. Because that is relevant, because we have procedures that are p1 to p8 Okay, which is you're welding something stainless to something
+
+Kelly  43:00  
+carbon, base metal. One is that like stainless and this is carbon. What does it mean by base metal?
+
+John_QC  43:07  
+So test plates always two pieces base metal.
+
+Kelly  43:10  
+Oh, okay, I got you.
+
+John_QC  43:15  
+And then it should always be the lower number is base metal one, the higher number is base metal two. That's why you have like, eight to 10. H, yeah,
+
+Kelly  43:32  
+okay, 87 pages. So if it doesn't have a status right here.
+
+John_QC  43:41  
+Those are ones I still need to go through and fix telegram. Why it's gotten
+
+Kelly  43:52  
+probably had something to do with Yeah, yeah.
+
+John_QC  43:56  
+It wasn't as good as I was hoping. Yeah, when they did it, though, trying we're finally getting some help. Hopefully I can eventually go back and focus on this and finish getting that spreadsheet completely filled out where everything is in shop floor and accurate.
+
+Kelly  44:16  
+Yeah. So if I Yeah, so Can this? Well, it's, I guess it does it as a PDF. This is the only option
+
+John_QC  44:39  
+that could probably be great. I mean, I just created, or am creating 102, but there's a bunch that are not kind
+
+of wonder if it's actually giving you the whole document, and not the list, like every single WPS document.
+
+Kelly  45:05  
+I think it is because it said creating 87 WPS forms.
+
+John_QC  45:16  
+I would take most of those with a grain of salt, because
+
+Kelly  45:19  
+they're not all, yeah, if I had something to compare it to, but you have, like, you have that complete, the one that says Complete. So that would help with any of the old, because this is old and new ones that you've it's new ones you've created and whatever they uploaded, right? So the new ones you created, you know are correct, right because you created them. So if I could compare this entire, all of this that's in here to that complete, the one you sent them, you see what I'm saying, it would be able to I could be able to tell what is wrong in here compared to the complete one. Does that make sense here? If I compared this packet to all of this, obviously your new ones are fine anyway, and they won't be on this one, but this has the correct old ones that makes sense.
+
+John_QC  46:28  
+That would help if I know what's what's
+
+Kelly  46:31  
+wrong needs to be fixed.
+
+John_QC  46:32  
+Yeah. Now it's basically comparing new and old, comparing pro right to the original, because they had pro right when I got here. So somebody already did that. So I'm making sure that all the way back to hard copies, yeah, make sure that these things are right.
+
+Kelly  46:51  
+So the only thing then, if we compared these, you would know what in here is wrong compared to this. And then you would check also the length of 97 when
+
+John_QC  47:09  
+I was doing it, I was I'd pull up the PQR, first, compare it all the way back to the hard copy, save it. Then go to the WPS version. Make sure, update it, save it, PDF it, and then go to that spreadsheet.
+
+Kelly  47:25  
+And when you say the would you say the PR or something, P Q R,
+
+John_QC  47:31  
+P Q R, so that's what you have to have first. Your p q r is your performance qualification report. So that is specific numbers.
+
+Kelly  47:41  
+Is that in here too?
+
+John_QC  47:43  
+We're just in the WPS section
+
+Kelly  47:44  
+right now. Oh, okay, I've seen that,
+
+John_QC  47:46  
+okay, but that is literally what you did to the test. And then we cut it and send it off and pull it and yada, yada, yada, okay. And then that WPS, which is your, well,
+
+Kelly  47:58  
+the procedure, okay, that must be the thing I was thinking of. Because I was like, I know that there's something else you track in here, other than the continuity for welders. And I was trying to say to Chris. I was like, it's two forms or something, and then those come together, and that makes another thing. And he's like, I have no idea.
+
+John_QC  48:21  
+WPS has ranges. They know they can for their amps and their volts. They have to be between this and this based off of wire size. The P Q R is specific. That is exactly what we did. Okay, tested that procedure. I gotcha. So when customers ask for stuff, they typically want the p q r, just to make sure we did the testing, because that's what shows the tensile testing and blah, blah, blah, okay, the WPS just shows them the range that we're supposed to be welding in.
+
+Kelly  48:49  
+I gotcha a little bit. I think I get it enough, maybe, but I do get that the the PQRS is literally what was done, yeah, that's yeah. And then that makes a WPS. Yeah. Okay. So that gets tested, and then it's like, okay, that passes. Cool. Now we have a new weld procedure,
+
+John_QC  49:08  
+yeah, P Q R, that's the test. Once that passes, then you can make the WPS, and that's what you actually weld off of.
+
+Kelly  49:16  
+So are the p q R's. I don't know what this is like, uncheck it, but it stopped at 82 and there's five errors. So okay, let me just get those stops. Downloads it. The PQRS that are in here are those, yeah,
+
+John_QC  49:41  
+so you go to place where you went to forms section nine, yeah, and then go to PQR instead of WPS, yeah, bring up another tab,
+
+Kelly  49:49  
+and I have seen that. But are those all up to date and matching? No, okay,
+
+John_QC  49:54  
+you had to pull up that spreadsheet that you had, yeah. So I always did PQR and then WPS for the same procedure. Instead of doing just focusing on PQRS, yeah, I do one set of documents. So if it says shop floor on date entered, that means I did the PQR and the WPS for that. Now, if you scroll down so you have those two columns are blank, yeah, those I have not done
+
+Kelly  50:30  
+yet, so you don't put the PQR in here. Is there like, a? Is it an? Can I have you done? I think I
+
+John_QC  50:47  
+four, nine PQ and that's the PQ bar list, see? So you won't have 101 or 102 in the WPS side yet, because we just sent those pieces off. Okay, once I get the test results back, then I can create wpss. Okay, so these two are just PQRS at this point.
+
+Kelly  51:08  
+So, okay, the PQR number is that gonna end up being the WPS? Yes, okay.
+
+John_QC  51:19  
+To keep it simple, we name it. It's the same,
+
+Kelly  51:23  
+yeah, but yeah, that makes sense.
+
+John_QC  51:41  
+GT, 84 GT 84 it's always the same number.
+
+Kelly  51:44  
+So if there's nothing over here, then we know that either. Yeah, so
+
+John_QC  51:48  
+that's the column, and boom I was talking about. So I still need to finish creating WPS. They just it felt kind of to the wayside, because at first, I think was hot. We needed to get it usable, and then it got pushed off to the side and not collecting dust. I don't understand that I didn't put more time into it, right? Because, yeah, maybe would take me a couple minutes to finish creating the WPS. It doesn't take long, okay, didn't seem like it was
+
+Kelly  52:22  
+necessary anymore. Yeah, you don't know. So I
+
+guess this tells us which ones still need to be made into WPS, but
+
+John_QC  52:41  
+it's in the hundreds of it, I think I'm caught up to like 98 or 99 so there's only a handful of procedures that need. Yeah, yeah, as far as I remember. I mean, with these things being blank, I have tried to use numbers that are still open. So we don't have 500 wpss, but yeah, if you take out the ones that aren't any good, we actually have 80. I've been trying to fill in these blanks too.
+
+Kelly  53:15  
+What makes them not any good?
+
+John_QC  53:18  
+Either I can't find documentation or I don't have test reports, okay? And some of these, like 61 it could have been that there is no hard copy. I can't find it in the P drive, okay. I mean, all of this went through a owner change, yeah.
+
+Kelly  53:40  
+This is a 9292 rose.
+
+92 PQRS.
+
+John_QC  53:54  
+At some point I will be able to get back to Oh, yeah, that's where some of these extra ones. So sa, 37 regular is a just a sub arc, but this is the column and, boom, okay, well, that's why some of these numbers,
+
+Kelly  54:09  
+I gotcha. So then I know I'm wrong. So tell me. How am I if I'm looking at this, I think I'm gonna think like, okay, so this is the, this is all the, this is the database. There's just some that are missing the wpss. But then this looks like it's pretty much complete, you know, obviously, because there's what, there's three, there's only, like, a handful that still need the WPS, right? Yeah, there's not that. So, you know, I was talking about comparing the two and all that stuff. Is that necessary? Because I feel like you're almost done. You just have these, right? Or no?
+
+John_QC  54:52  
+Well, these are all uploaded from the code where people I'm going through and looking at what they uploaded to make sure that the system read everything correctly. Okay, because, like, I've pulled up where they uploaded it, but for some reason I don't know if I had trouble reading the pro write version, yeah, and it just left stuff blank I see
+
+Kelly  55:22  
+that's actually
+
+John_QC  55:23  
+in the document. It just didn't get transferred. So that's why I started doing this, was I had to physically go through and figure out what their system didn't put
+
+Kelly  55:37  
+in there, yes. So I gotcha, yep. So if it says yeah, so
+
+John_QC  55:45  
+anything that says shop floor, yeah, I've gone through it, and from what I've noticed, they're now correct, okay, but hell, I'm still learning these freaking documents, yeah, come from a PQ or WPS background. I learned stuff pretty much every time I open one of those and then, like, dang it, and I gotta go back and check that on. All the other ones.
+
+Kelly  56:11  
+Need to check two deficiencies,
+
+John_QC  56:13  
+yeah, so you can actually go to deficiencies. So the I don't have the tensile tests back, and I haven't put in, but the bend tests were fine, so that would be under testing. So I'll fill this out and put in the tests.
+
+Kelly  56:33  
+This here, like in a job, it's it doesn't really matter anymore. But attachments,
+
+John_QC  56:51  
+technically, you could attach the well procedures to it under the well procedure, PQR one, I can take the test report from ATS and attach it. Yeah, so it'll always
+
+Kelly  57:05  
+be tied together. Okay, so does it read it? If you upload it as an attachment, does it fill in anything for you that? And that's what I was gonna say about this is like
+
+John_QC  57:17  
+I was just key it in. It's not that much information. Okay?
+
+Two columns of numbers.
+
+Kelly  57:34  
+I uploaded the drawing to see if anything
+
+John_QC  57:37  
+would we could test it whenever I get the results back. Yeah, okay, the one that we're getting back for, the two that we just sent, they're going to be a little bit more complicated, because it's going to have tensile, it's going to have corrosion, ferrite, it's going to have a bunch of extra stuff that we typically don't have.
+
+Kelly  57:56  
+This is where I uploaded the Compress XML, and it created these, which you said, they just create a really, like, the system can be this, and then all the other things they can do, because I really like, That's it, because you still have to go into each one and choose the weld procedure, like I just chose one and put in the welder. But you can delete. Can delete them. I don't know why you would care about moving them up or down. Some of those,
+
+John_QC  58:41  
+some of those probably aren't 100% right. Like Shell stuff is typically a double bubble, not a single Oh,
+
+Kelly  58:50  
+actually, I do know 24 of this year. Job Number 24 of this year.
+
+John_QC  59:04  
+Man, it could be right on. If it's a really small tank or a really, really thin tank, we might do just a smooth level.
+
+Kelly  59:22  
+Okay, did I just say 24
+
+Unknown Speaker  59:28  
+Yeah, 2426 one
+
+John_QC  59:36  
+and two. I usually go to the TR folder and get the PDF version. Page one is going to be your main tank page, and Page Two is usually the attachments, single bevel. Well, that's showing the leg. You go back to the folder and pick drawing one
+
+so that actually shows a square. I mean, a square butt joint there.
+
+And it's a single, single bevel for the heads. Okay,
+
+so both of these long seams are gonna be square to say, but you guys change single to square square
+
+Kelly  1:00:50  
+root. I wouldn't do that right, because I didn't input any of this stuff here. The only thing I did was this, this automatically comes up. So I didn't update your picture. Yeah, I didn't save it as Oh.
+
+Still, didn't look that's single,
+
+John_QC  1:01:27  
+yeah, it's a single double. I mean,
+
+Kelly  1:01:31  
+single V, they all look the same, don't they?
+
+John_QC  1:01:38  
+Yeah, it's probably just a
+
+Kelly  1:01:41  
+generic picture. That's what I'm
+
+thinking. I got Test, test welder.
+
+John_QC  1:01:59  
+It's cool that it can. It knows a Category A from Category B. I just noticed that, what else you can
+
+Kelly  1:02:12  
+and then I don't, couldn't tell if this was just generic. Like, is it the same? No, I guess it's not generic.
+
+John_QC  1:02:26  
+It's for each one. It just has extra
+
+Kelly  1:02:33  
+curious what stamp
+
+John_QC  1:02:39  
+was too slow, grew, weld. SW, that's a good question. I don't know what they would. They don't know table with contents, or, oh, like,
+
+Kelly  1:02:56  
+yeah, like a hover thing, or something, well, something,
+
+John_QC  1:02:59  
+they let you know what the s and the W means,
+
+Kelly  1:03:06  
+so it's this,
+
+John_QC  1:03:12  
+yeah, see, it's a filler world, but
+
+Kelly  1:03:15  
+So if I click this, it just takes off the
+
+John_QC  1:03:24  
+you made it kind of hot or Uh Oh, hot, two exclamation points. So w I guess you'd be able to put in your welder.
+
+Kelly  1:03:41  
+Yeah, so actually, over here see this
+
+one, Mr. Test.
+
+John_QC  1:03:52  
+But did you give him a number? Let me know. I
+
+Kelly  1:04:07  
+What did I just do?
+
+John_QC  1:04:10  
+The Shell. Shell, course, too long seam, I think, is what you updated. Too long seam
+
+Speaker 1  1:04:22  
+was weird. Weird,
+
+Kelly  1:04:31  
+right? There Was it too bad, where's that process? No stamp, okay, no sample. Well, you may not have given them a number. Yeah, clearly not well, because when I clicked it up here, it changes. It puts your name in, freaking welded it. We were screwed. And then okay, click sign it puts your name in. But so there's too many things on here. It's doing too much.
+
+John_QC  1:05:05  
+No, I mean, you got nozzle four to show. So the fit up,
+
+lower groove, like the thing with the inside weld root weld inspection, which I don't check roots, all the time. Your fill it is your outside cap. And then I don't like it saying external weld inspection I'm gonna do inside and outside.
+
+Kelly  1:05:33  
+Is that what the center is?
+
+John_QC  1:05:36  
+No that's welded and who welded it, just like to fill it. So when the nozzle goes into the shell, you have your outside weld and your inside weld, your lower groove. Think was the No, that was the outside world and the fill. It was the inside weld. Oh, we're talking about the last time, yeah, sat down. We're trying to figure out what's lower and what's fill it. Yeah, yeah. So that's just these two are just the welding. Okay, that's inspection. That's inspection, and that's inspection. Which the setup would be more Scott and Sammy.
+
+Kelly  1:06:13  
+This is the traveler, traveler.
+
+John_QC  1:06:21  
+So technically, I could give Justin access to this with his own login, and then he can but, I mean, this is what our code book says that we use, or our manual says that we use. But if we could get it where that is as accurate as this, yeah, technically, we could just update our manual to say that we're using shop for say that again, our actual QC manual has this in it, saying that this is the code traveler that we use, okay, but if we can get this, yeah, to work As well as this, at the very least, yeah, we could update our QC manual. And we showed
+
+Kelly  1:07:07  
+that when you say our QC manual, do you mean Savannah tanks manual?
+
+John_QC  1:07:12  
+We have a manual of minimum requirements for anything stamped okay, that we have to meet. Okay, that's what got audited last week. Okay, the whole freaking system front to back, outside looking, well, it wasn't fun either, but it definitely wasn't boring. Yeah,
+
+Kelly  1:07:40  
+so you said, if this was as accurate as what you guys are already doing, I mean, I
+
+John_QC  1:07:44  
+would have to sit down with Justin and we would discuss it, yeah, but I mean, that would make stuff probably easier for him as well, if he always has his laptop, if I can create a position for him which I can, yeah, give him his own login, kind of not administrator, but give him access, yeah, to sign the travelers. Then we could just it. Would just create this and print it and
+
+Kelly  1:08:18  
+put it in the folder. So that's the thing is, I wish that it would read. For some reason, I feel like the drawings are I get, probably also, because that's what you use, is the drawings. I wish I would read the drawings, but I don't. I'm not. I don't know how to tell if it's accurate.
+
+John_QC  1:08:44  
+The way it just spells that out is weird. Yeah, it's really all I needed to say is inside well and outside, well, man, I don't know if you can modify how it's classifying everything there.
+
+Kelly  1:08:59  
+This isn't this I don't understand either traveler vessel groups.
+
+John_QC  1:09:08  
+Maybe, if you have a slew of identical Yeah, thanks, you can create
+
+Kelly  1:09:14  
+travel vessels together when editing and printing the traveler groups,
+
+John_QC  1:09:19  
+she really needs to quit changing all the time. Meetings,
+
+Kelly  1:09:26  
+edit traveler configuration.
+
+John_QC  1:09:29  
+Include cover, include material. So I would take material traveler out, include weld. What's the difference between a shop traveler and a well traveler?
+
+Kelly  1:09:43  
+I don't think there is shop traveler template, inspection checklist. I wonder if you can
+
+to exclude design conditions. Do not print the Bessel design conditions on the cover page. Cover Page, I've never seen a fucking cover page. I think that's lying. And I've exported a lot of these packaged things. Include hydro test report. I
+
+Unknown Speaker  1:10:24  
+guess we could what's the rest of this stuff testing so
+
+John_QC  1:10:37  
+it's got internal, final weld, final visual inspection and final will. Then my book is the same flipping thing.
+
+Kelly  1:10:47  
+So, internal inspection,
+
+final world, yeah, so you could, what do you call it visual or depends
+
+John_QC  1:11:04  
+on who I'm talking to. We're visually inspecting the welds.
+
+Kelly  1:11:10  
+Yeah. Why doesn't say what that like? Why doesn't say final inspection type? Okay, so description, names? Okay, data report.
+
+John_QC  1:11:26  
+I think shop floor can also create data reports.
+
+Kelly  1:11:30  
+It did, but I did have, like, one of the packages I exported, did have a data report,
+
+John_QC  1:11:39  
+the EDT system that we will use. It's just easier, because I fill it out, and then I can sign it, and it automatically gets emailed to Justin, and he can open it up, and he can sign it, and then it comes back to me, and I can submit it right there to ASME. It's all, oh,
+
+Kelly  1:11:58  
+okay, controlled on its own. So if he can sign off on it in here,
+
+John_QC  1:12:06  
+data reports are gonna keep going through.
+
+Kelly  1:12:09  
+EDT, okay, what is EDT? I was at the Asma, yeah,
+
+John_QC  1:12:13  
+it's electronic
+
+Kelly  1:12:17  
+transmission, transfer, um, for
+
+John_QC  1:12:23  
+just what we we signed up for for ASME. I mean, it wouldn't be bad if we can get this thing to make like an API data report, because right now, we don't give, I don't create data reports or API banks.
+
+Kelly  1:12:49  
+You don't because you don't have to. So do you want to if
+
+John_QC  1:12:55  
+you don't have, I mean, it wouldn't be bad, or the customers would probably appreciate, okay, instead of having to read a drawing, they'll have a sheet that has all your thicknesses and stuff, assuming that that reports like ASME ones. It tells you the size of the shelf, horses, the thicknesses, corrosion allowance, efficiencies, what it was designed to, what it was pressure tested to. Where do
+
+Kelly  1:13:30  
+you get this? This is from that. This is from that. EDT. EDT, okay,
+
+John_QC  1:13:36  
+gives you nozzles and schedules and thicknesses. So, I mean, it's good information, but because we don't stamp our API, we don't have to do the reports for all
+
+of our API stuff. Basically says API 650 as relevant, or whatever the heck it says
+
+Kelly  1:14:16  
+as specified by it's not, oh, shoot, I guess I just did an API fucking company. Was
+
+Unknown Speaker  1:14:39  
+it Sterling? I Okay,
+
+Kelly  1:14:52  
+so it only knows how to read XML, three Ds, so we're just gonna call it one and see if it'll and take it all that works pretty good. It works for auto the that's
+
+John_QC  1:15:15  
+because you made it. You made it.
+
+Kelly  1:15:17  
+Know It? No, I didn't. Well like it reads XMLs, and so does this already, but when I put in the 3d one, it was like, No, I can't. And so I just changed it to XML instead of XML 3d and it read,
+
+John_QC  1:15:32  
+it, did you name that? No, I didn't name it, but you created it, yeah, and what was not in existence anywhere, right? And he named it auto, yeah.
+
+Kelly  1:15:45  
+He named it when they were going through the other company, Otto. Have you seen it? You see my auto, like automatic? I think that was the idea behind it. It's cleverness. Chris wants to set us wants to
+
+John_QC  1:16:08  
+set this in EVE light up. What in the heck did You just spell it? You
+
+Unknown Speaker  1:16:54  
+the shit was dripping on me, fucking pissed off, dripping
+
+Chris  1:17:02  
+shit at shit at the sugar mill.
+
+I'll show you the pictures like, literally, there's a river of fucking shit. that has like eaten away at the fucking concrete to the drain well,
+
+supposed to go to Mississippi or Alabama, Alabama, he went to Mississippi, and I'm supposed to go to Alabama next week to go see the dissolving tank in Place. He
+
+Unknown Speaker  1:17:59  
+said something about it fucking weeks ago.
+
+Unknown Speaker  1:18:12  
+Operation.
+
+Unknown Speaker  1:18:17  
+Why do you need
+
+Speaker 2  1:18:26  
+to see it? I don't. Here. Why do you need to see it? They're doing this like a project, little ribbon cutting kind of deal. I won't be a ribbon cutting, but so I was invited. Fucking. Was invited like 13 projects across the country. So gotta build that
+
+Unknown Speaker  1:19:03  
+relationship. Don't mean shits gonna get done today.
+
+Kelly  1:19:12  
+I mean you should be here now, because each one's been
+
+Unknown Speaker  1:19:21  
+taking my arms.
+
+Chris  1:19:26  
+I cannot save a PDF from an email to my computer. It will freeze the fucking computer. You can't open and then save it. I'll see save it. So I have to open it and then say, everybody's doing
+
+John_QC  1:20:03  
+it fine. Another gray coverage, ton of them covered in dust.
+
+Unknown Speaker  1:20:21  
+Direction I found her front. I have no way to confirm that these are the right Behind
+
+Unknown Speaker  1:20:46  
+into into the coupling the Heat number,
+
+Unknown Speaker  1:21:06  
+better, The not injured. I
+
+Kelly  1:21:44  
+it just sludge. Yeah, it's like the runoff of the molasses, so it's sticky. Yeah, I looking back out. See the
+
+Speaker 2  1:22:16  
+puddle and everything down here. That's where the tank is going to go. It's right back in there, and that's where They have to get through.
+
+Kelly  1:22:25  
+That's All just, yeah, pretty
+
+Speaker 1  1:23:04  
+much Good. Hello,
+
+Unknown Speaker  1:23:25  
+thank you. Last
+
+Kelly  1:23:35  
+year, yeah, that's so did I help you? I
+
+thank you. You're welcome. I
+
+Unknown Speaker  1:23:56  
+have no idea what I was doing. You i i
+
+Unknown Speaker  1:26:06  
+I I do I need to go back and come back?
+
+Kelly  1:27:17  
+You know what it what? Go out and come back.
+
+Unknown Speaker  1:27:51  
+I Full compared to can't.
+
+Speaker 1  1:28:26  
+Like see, stupid
+
+Kelly  1:28:35  
+that you can export it. Were you in the welders? Put them all
+
+it's still popping Up in the Bottom. That's Weird. I I peace, I Believe? Yeah, I You You You.
+
+Transcribed by https://otter.ai

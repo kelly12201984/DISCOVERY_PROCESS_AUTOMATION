@@ -1,0 +1,138 @@
+Sherri  0:00  
+So anybody who gets here gets here at 601, or later at six, yeah, they get docked 15 minutes.
+
+Kelly  0:11  
+So our time clock, when I was a teacher, it did weird things, like it would bump you up to the next, I think it was, like seven minutes, or bump you back right?
+
+Sherri  0:22  
+And initially it did that, but no, they didn't want that, because they wanted to be punitive. You're holding up the meeting with this,
+
+Kelly  0:29  
+so you're not there if you don't clock in by six.
+
+Sherri  0:32  
+So I couldn't have two rules that said, Make everybody start at six, because then you still have to go in and change those people that come in later they had a doctor's appointment or whatever, versus the three that get here at five in the morning that want to clock in before 546 and clearly there's a sign that says, Don't fucking clock in before 546
+
+Kelly  0:57  
+so if they do,
+
+Sherri  0:58  
+I have to go In and change the pump punch, because it puts them at 10.25 or 10 and a half hours, which, if it goes over to paychecks, they get paid that way. When we had just a regular time card situation, yeah, were they hammer or they just punched in? It was all done by hand, so you it didn't come over automatic, so you could control it this, they need to get focused on do what you're supposed to do. Yeah, so three people that I have to and changes they get here at four or five,
+
+Kelly  1:36  
+so then they don't get paid for that time, though? No, okay, well, I mean, that's
+
+Sherri  1:44  
+but we can't have, I mean, we were trying to have it, we couldn't have one rule, like, cancels out the other. So you have to pick and choose what. Okay, what's the most important rule you want? Right? And I was like, we only have three people then o'clock in early so they need to get on, get on the ball, yeah, and do what they're supposed to. But I still check it, because even though you can make them responsible, they
+
+Kelly  2:07  
+don't, well, yeah, it's human, yeah, yeah. So the the rule, thing you're talking about that's in paycheck,
+
+Sherri  2:13  
+yes, when they set it up, we had the implementation. They did all that. They said paycheck people, yes. And we have their sick, vacation, balances, all those kind of things got set up. Okay, so that part was the hard part up front. That's over,
+
+Kelly  2:28  
+yeah, okay, and so this is, this report is from paycheck, okay? And that is job boss. That stuff is job boss, right? Yes.
+
+Sherri  2:38  
+Okay, so for example,
+
+Kelly  2:43  
+oh, so you check the job boss like that. I mean the hours per operation.
+
+Sherri  2:49  
+So here is where. Here's a time audit report. He's entered all these timesheets. And here's the report that reflects all the time sheets entered, and they have to go back and check and make sure that they what do they entered it, right?
+
+Kelly  3:08  
+Oh, okay, so they this
+
+Sherri  3:09  
+job at this operation these many hours, percent complete. Okay? Because if you don't enter it right, and you don't have a report to go back on what you entered now, what's physically in front of you, because how do you know somebody entered it? Right? Right? This is the data that was entered. Yeah, this is what you have to check against. And because there's been a lot of
+
+Kelly  3:31  
+scripts, well, I can see that that's because human,
+
+Sherri  3:36  
+yeah, humans make mistakes. Yeah. I mean, nobody's barred from that? No, I'm sure. Okay.
+
+Kelly  3:44  
+So then would say you take this time audit report and you compare it with this. Or you
+
+Sherri  3:50  
+don't have to know, I don't do any of that. I also, before any of this came up, I have this little spreadsheet I created.
+
+Speaker 1  4:02  
+It is breakdown
+
+Sherri  4:13  
+for them. And I've still been doing it, but I will definitely get away from doing it, because that should take the place of it. Yeah, okay, yeah. So this is what I did up front to make sure that when I process payroll, in addition to, here's the old time cards, this is what we used to
+
+Kelly  4:41  
+use. Okay, okay, wow. And then you would take that and enter that into job class
+
+Sherri  4:48  
+back in the day. So I would get the time cards at the end of the week, because they keep the time cards out there to punch in it now daily, okay, but I was taking the daily time sheets that were keyed in, and I was doing the spreadsheet so that I didn't have to do all this shit the morning of payroll. Oh, God, so I would do a little out of date, right? Worth it I got, because I like to be organized, right? My office may not look like it better, you know,
+
+Kelly  5:15  
+my husband never would. Okay? So that is basically this, yeah, just, oh yeah. That's just per day. Okay, okay, oh. Schedule doesn't populate because you don't need it to really, honestly.
+
+Sherri  5:34  
+So what this report does? This has your your work regular and overtime, and here's your non work. So, okay, there's a person like, if the anybody who has sick time, which I think was, okay, non work sick, okay, it goes in these columns. Gotcha. So he actually has a total total paid hours would be 39 okay? And then this breaks out. There's no overtime, because he only has 37 hours. Anything over 40, right? Unless there's non work, hours will be calculated as
+
+Kelly  6:12  
+overtime, right? Okay, and that all gets done automatically. So that's cool, okay, well, so the so once it's working, is it working like all the time? No, it was working all the time. Okay, great. Ever since we got that new time clock, that's what it was, we had a bad time clock. Oh, I got to, okay, just the actual mission.
+
+Sherri  6:35  
+Ever since they installed the second one has been fine, easy, people.
+
+Kelly  6:39  
+That's good. So then there was another it was Windows thing, Microsoft Access database. What do you do? Do you still have to use
+
+Sherri  6:52  
+that or no? Oh, and this was the safety manager used to do this. And then
+
+Kelly  6:59  
+I safety manager when I
+
+Sherri  7:01  
+first started here nine years ago, there was a guy that was here that was kind of like quasi Operations Manager, slash safety. Oh, okay.
+
+Kelly  7:16  
+And then for the non hourly employees, are they in? They're just in paycheck as well,
+
+Sherri  7:23  
+yes, or something. But then when I go to do payroll, so when I do the time and attendance, and I send the hours over, then I go into payroll, and all the hourly people's there's time is already built in, regular time over time, sick, yeah, maybe. And then when it comes to the eight salary people, I have to do is click the Pay
+
+Kelly  7:43  
+button on that okay.
+
+Sherri  7:48  
+But so if I go to
+
+really drive, it's not under finance, it's under safety.
+
+So if I go to this, it's a database, it's Microsoft Access. I
+
+This is a way to assign employee members. Because we do assign employee numbers to people, especially like the welders. They enter it by whatever their employee number is okay if I go by, let me just click on you see all of it's got name, address, city phone, emergency phone, Social Security, start date, employee number, whether they work in my office or not, status, and That's so that I can run a current employee report that only picks up the current it. They're like queries, yeah, yep, yep, and then all of these things.
+
+But if I go to so you, here's the employee number. If I click on this sort it. This won't be an employee name order, but it's typically left like this, so that when the next new hire, I know that, okay, that employee number is going to be 567, right? Because this one right there is that.
+
+Kelly  9:36  
+So in in paycheck, do they have an employee number two? Does it came from this, or is it a separate number?
+
+Sherri  9:43  
+I have to enter it. Oh, I got you.
+
+Kelly  9:46  
+Oh, okay. Do you have to enter in all that stuff too, their address and all that stuff.
+
+Sherri  9:51  
+I have to enter in three fucking places, no where, paycheck, job, boss here, and paychecks and paychecks.
+
+Kelly  10:00  
+Okay, no, well, is that recording?
+
+Sherri  10:08  
+Oh, my curse. I'm sorry. Are you kidding?
+
+Transcribed by https://otter.ai

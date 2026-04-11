@@ -1,0 +1,334 @@
+John_QC  0:00  
+This is just keeps track of all of our welders.
+
+Kelly  0:04  
+Yeah, okay, I was in it a little bit yesterday. But What? What? How are you able to get in it?
+
+Speaker 1  0:10  
+Ratongs for Tong, you get in the shop floor, yeah?
+
+Kelly  0:15  
+If you go to Yeah, employees right here. So, so are you on just welders or something?
+
+John_QC  0:23  
+Well, that's all I use it for. I've got in here, but they're all set to not, yeah.
+
+Kelly  0:30  
+So returns doesn't say inactive. It says active, and yours says admin, yeah.
+
+John_QC  0:37  
+So I can make changes. We're talking just get in here, I guess. And look,
+
+Kelly  0:42  
+yeah, that's all. And I had a feeling that his what he can view is probably different from what you can view. I'm not sure what he can do in here. It's not a lot.
+
+John_QC  0:53  
+But yeah, every wallet we have, I create
+
+Speaker 1  0:57  
+a profile, okay, and
+
+John_QC  1:02  
+then keeps track of what they're certified in, and then I
+
+can run a continuity log, which I need To update. But yeah, yeah, they have to use a process every once, every six months or it expires.
+
+Kelly  1:30  
+So they have to do certain weld things.
+
+John_QC  1:33  
+I just have to watch them welding. Okay, okay, so I'll go through like Jason. I'll go find a date before one seven. And she's always using flux core. That's our main thing, yeah, and then I can just chase you, see what he's
+
+Kelly  2:01  
+certified in what is create? Can you get down a little bit create? What? What is create new WP?
+
+John_QC  2:08  
+Q, oh, that's a welder performance qualification. Okay. He's already done flux core. If he did TIG, I would create a new welder performance, okay? And then I wouldn't make them qualified to weld, and
+
+Kelly  2:22  
+then you would then have to track that every six months. Yes. So the way you track right now, you just go into here and you look and see who Yeah,
+
+John_QC  2:30  
+needs keep trying to run the log. Before we got stupid busy. I'd pull it at least once a month and just go through and yeah, keep it all up to date. But there's a way to
+
+Speaker 1  2:47  
+well the continuity. Yeah, you
+
+Kelly  2:48  
+have way more options on the side. Then
+
+John_QC  2:51  
+I just search what welder and then create a continuity. So I'd go in there and give it a job number, give it the well procedure when it was done, okay, okay, and then from there. So, like, with a brand.
+
+Kelly  3:14  
+So if you have you heard about I'm sure Dustin's probably said it or talked about it or talked about it before, but like this scanning where they can, it's called travelers, they scan what they're about to do on a certain job, like it follows the job all the way through, and then the information gets sent digitally to Job boss. But if they can scan what they're about to do and it can auto update this automatically, right? I mean, if
+
+Speaker 1  3:47  
+we can get it to talk with right floor,
+
+Kelly  3:48  
+yeah, exactly, yeah. But even if we can't, we might be able to
+
+John_QC  3:54  
+Well, the problem with that is that logger will have to know what kind of welding is used on what job
+
+Kelly  4:06  
+right, wouldn't it? I think that they have,
+
+John_QC  4:10  
+depending on how deep this thing goes, I don't know if it's going to know. Okay, job Oh, 61 is carbon steel, so it's gonna need flux core, 38 or GT, 90 or and,
+
+Kelly  4:24  
+no, yeah, I'll have to, I'll look into the traveler thing. But I do think it's very specific to whatever. Yeah, okay, so you do that in here. Is that really, like pretty much, all you use this for, is just to keep track of just my Boulder, really, okay, but there any other, yeah,
+
+John_QC  4:48  
+I haven't messed with it that much.
+
+Kelly  4:57  
+Yeah. What is that? What's the project manager?
+
+John_QC  5:00  
+So, jobs. So these are ones that I just created quickly the continuity, but it'll go as far as if we would have had that program where I could pull the drawings in, I could actually see what this tank looks like and what welder welded on, what seam. Okay, because we don't have that when I do a continuity update and the job isn't in there, I just create the job number. That way it
+
+Kelly  5:30  
+logs it, yeah, because you have to have a job number, right? Obviously, yes.
+
+John_QC  5:34  
+So like with Randall, I can pull his log for the last 48 months, that's as far as back as I can go, and it'll pull up what he did. So this is sub arc, the dates that he did it, the jobs he was on, or the procedures he used the jobs. These are PQRS. So those are well, tests, okay, there's a WP Q when he came back from that stint at Michael John, and it just
+
+Speaker 1  6:11  
+logs it. Can you
+
+Kelly  6:15  
+save that? And, I mean, yeah. I mean, can you save it and then put it in a folder that I tell you to put it in on the P drive all the way up at the top, I Use your exclamation point idea.
+
+Speaker 1  6:34  
+It helps out. Yeah. I um,
+
+Kelly  6:49  
+so really shop floors just to track their welding. Okay, so, what else do you do? Look pretty. I know, I know. Can you show me your solitary? You don't want to see that score.
+
+John_QC  7:12  
+The one that takes most of my time is creating these folders. So I have my own here that just have, like, the drawings and stuff in them, but this goes out into the shop, so I make a sheet that AI fit UPS what they are if they were done in the nd, whether we r t or u t or P T, it's all listed
+
+Kelly  7:43  
+N D, E is, don't tell me. Go ahead and tell me it's taking too long, but that's just a Word document. No, this non destructive examination, there you go. Okay, got it, and I actually know what that is.
+
+John_QC  7:55  
+It's either N D E or n d t, okay. I guess tester is the new way to say it, but it but used to be non destructive testing, okay? I put all the well procedures in there. I put the hell this one called operations. Oh, okay, yeah, yes. Numbers mean whatever well outside seems as 645,
+
+Kelly  8:23  
+where do you get this from? Each job?
+
+John_QC  8:35  
+Master pool plan,
+
+Kelly  8:38  
+okay, so then those operations are from job. Boss, yes, okay,
+
+John_QC  8:43  
+got it, yeah, of course. I put the drawings in there. And then here's where it starts taking time. This is the fit up sheet for the shop. So Scott and Sammy fill this
+
+Speaker 1  8:54  
+one out. Can I see it?
+
+John_QC  8:59  
+I mean, I've created right? They're the ones that fill this in, yeah? Who did it? Who checked it when it was done?
+
+Kelly  9:08  
+A lot of tracking in this place,
+
+John_QC  9:11  
+well more now than it was when I got here. It was pretty sad. Yeah. And then this is my main nine page document. This one didn't really have anything for prefab, so there's nothing in here, like ladders, platforms, legs, blah, blah, blah would go in here, stuff that's built down there. Yeah, okay, and when it's checked it's initial and dated all of our nozzles for prefab. So when we put the flanges to the pipe, uh huh, okay, this is the internal before we put the second head on. So when it's on its side, it's got the bottom head and all the shells, uh huh, okay, and the insides are welded. It's a whole point. We'll look at it initial and date it.
+
+Kelly  9:58  
+Go ahead. Oh, and then, and
+
+John_QC  10:01  
+then you me. Initialing here means it's okay to fit the topic.
+
+Kelly  10:04  
+Okay, gotcha. So how do you how? What is the communication between the shop and you with hold points on a job,
+
+Speaker 1  10:13  
+either the welder or Scott
+
+Kelly  10:15  
+and Sammy, they just tell you, yeah, come get me. Okay, so you don't, you don't know until they come and tell you, or is there some sort of like, you're like, Okay, I know that job six is out there. I know that this was done yesterday, so tomorrow I'm gonna have to do a thing. Now we're
+
+John_QC  10:35  
+not that fancy. No, not yet. Now, Dustin was talking about that scanner thing, that it will have a system where I'll get notification saying hey,
+
+Kelly  10:44  
+and it'll Yeah, and they'll stop, because they literally won't be able to Yeah. That would be a good system, right? Yes. Now you're the third person who said that, just so you know, that's just
+
+John_QC  10:57  
+because they've blown through. I've done finals like the whole tank was done and I didn't fill out a damn thing yet, right? Yeah, that small tanks is not a big deal, because I can still easily get around the whole thing, yeah, but big, giant tanks, and they're locked in place because the nozzles, like on a JLG or whatever, trying to forget, yeah, over this thing, the
+
+Kelly  11:18  
+man left. Oh, Okay, gotcha, yeah, yeah. So in the end, it ends up taking longer, yes, if you Yeah, okay,
+
+John_QC  11:27  
+so that's the first hold point. Then we have the same for the outside after the heads attached.
+
+Kelly  11:33  
+So is it? It's basically the same hold points for every, every tank, yes, okay, and only ASME, right? No, we do this for API as well. Okay, so you you felt with some API tanks, good to know. I don't know why I thought it was just a ask me
+
+John_QC  11:50  
+more about API than I do ask me Yeah.
+
+Kelly  11:56  
+So second whole point, yes. So this
+
+John_QC  11:59  
+will be before they put any nozzles in so it can still spin 360 okay. Look at all the shell seams. And then from there, you start having the final internal, final external, and nozzles to the vessel, okay?
+
+Kelly  12:13  
+And when you, when you're doing this, you're literally just checking welds, right?
+
+John_QC  12:18  
+Okay, during the final is when I pull the drawings and then I start highlighting that stuff is where it's supposed to be.
+
+Kelly  12:28  
+I gotcha. But
+
+John_QC  12:31  
+it doesn't physically state in here, dimensions, right? Yeah. This is just the welded portion of it. This will be so final internal make sure that the head to Shell seam was done. The first time I was on the inside, it didn't have a head. This is just from the outside. Okay, here's making sure that the head to shell on the top was good. Making sure there's no dents or dings, no spatter.
+
+Kelly  12:59  
+At this point, both heads are on, nozzles are in, everything is on, yes. How do you do it internal then get
+
+Speaker 1  13:06  
+back in the tank? Okay, most of my man ways, yeah, man.
+
+John_QC  13:12  
+So if it's a small tank that doesn't have a man way, then the internal really has to be done before. Yeah, done. The same time. This is done, right? Okay, these have ways to get in them, that one and that one. I prefer that one than that one. All right. So, anything we find right up, so we know to go back and double check any repairs.
+
+Kelly  13:46  
+What do you mean find? So let's
+
+John_QC  13:49  
+add, during the inspection, we found, like, a lack of fusion, some undercut. There's some blending,
+
+Kelly  13:55  
+filling and blending, okay, so this, this is ongoing, while you're doing all the other ones, yes, okay, I'm doing the
+
+John_QC  14:05  
+inside, and I find some porosity. I would write internal wherever it was, and I try to give degrees if I can. Yeah, okay. And then it stays open until I find that it's been repaired and then initially dated.
+
+Kelly  14:22  
+I wonder how the how the scanners, how much info? You know what I mean like.
+
+John_QC  14:30  
+I don't know how deep it'll go, but I think there's a spot for
+
+Kelly  14:37  
+PC inspection. Do you know if these operations were created by someone here or these standard I think so. Think there
+
+John_QC  14:49  
+was a spot in there for repairs, or at
+
+least state I a lot time for repairs, I guess not. I thought there was actually one that said repairs
+
+somewhere. Yeah, somewhere in here, it should freaking say, Yeah, repair. But, I mean, it's hard to put an estimated time on something that you don't
+
+Speaker 1  15:30  
+Yeah, you don't know how many planning on having, right?
+
+John_QC  15:35  
+And typically, this kind of stuff. I mean, this one took quite a bit of time because that was a lot of lack of fusion that they needed to fix, but the list typically isn't that long, so maybe 30 minutes to fix everything. Okay, yeah, okay. Pressure Test,
+
+Kelly  15:53  
+yeah, and they all get either pneumatic or hydro, right? Yes, yeah.
+
+John_QC  15:59  
+I prefer hydro air is dangerous, and ASME is actually going to crack down on air, so it's harder to do a pneumatic versus a hydro. What decides that
+
+Kelly  16:15  
+this type of tank?
+
+John_QC  16:18  
+So here it's size, okay, because we're limited on the amount of water that we can pull on a well, or if it's carbon steel, we typically don't do Hydros, because carbon will rust. And then if the customer says the end product that's going in it is volatile with water, then obviously we can't do a hydro. Okay? So there's certain stipulations, yeah, being allowed to swap to air. Typically. Here, it's size, yeah, those Ricos trying to fill those that's 25,000 gallons of water that's emptying garbage city. Okay, yeah, that's my testing
+
+Kelly  17:01  
+machine, yeah. So where is it? Is any of this in there you drive or anything do this? Does it go in the folders, the job folders, or No? No, okay. I
+
+John_QC  17:20  
+keep all of my stuff, QA, QC, folder listed out by jobs, so 66 so that's the shop layout. That's the one that's gotten Sam you do, then you have the QA QC checklist and steps. Okay, this one whole point ASME requirements is this one,
+
+Kelly  17:47  
+what I feel like you and I talked about QA, QC, like this folder, for some reason, are the mtrs in there? No mtrs go in the job folder. Yeah. So you make these folders and then what do you do with them?
+
+John_QC  18:01  
+My copy sits in here. And then this one in Scott and sammy's office, there's two trays of file holders, and they just go in there.
+
+Kelly  18:12  
+So you make two every for every job. Yes, I do
+
+John_QC  18:15  
+now that we have these. I used to not What did you just had my folder, okay, but then they kept complaining. Oh, I didn't excuses. I didn't know it hadn't so I gotcha, and they still I didn't know, like, what can you read?
+
+Kelly  18:31  
+So, so if the scanner system gets enacted, they won't need it out there, right? Because, oh, they still well, yeah, no, they can do it digitally, like in the computer, yeah, does that make sense?
+
+John_QC  18:50  
+That'd be hard to do. I mean, they'd still have to make notes, because we never inspect everything at one
+
+Kelly  18:56  
+time, right? Yeah. But when you said I didn't know I was thinking, like, they were like, well, I didn't know that you had to check it at this point. Well, yeah, that what they're saying.
+
+John_QC  19:08  
+No, say I didn't know we had to do X amount of X ray, or they typically know if it's stamped, there's a whole point, right? Okay, that's kind of hard to say. I didn't know, but how much it used to be, hey, we've got RT, and then they would do whatever. What is our team?
+
+Kelly  19:28  
+Sorry, radar, Oh, yeah. Okay. So X ray, yes, so I know it's either full or spot. This one was spot, yes, um, and these are the places, yeah, okay.
+
+John_QC  19:38  
+And what's this one? So, it used to be just telling me at RT, but now I made this, yeah, no, exactly. Hey, we're doing not bad. We're doing the bottom head.
+
+Kelly  19:52  
+We're doing this or that. So this would be in the system, though, too, so they would know exactly what when the hold points are for spot X ray.
+
+John_QC  20:02  
+Well, they would tell me when they're ready. Oh, I mean, they would know. They would need to know to stop. But, like, this came about because these particular tanks, they have these insulation rings at the top and the bottom, and they can't be on when we shoot, I got X ray because they're it's too close to the scene and the film is
+
+Kelly  20:26  
+too wide, right? So if they put it on and this spot X ray hasn't been done, then they're gonna take it off, then I have to cut it back off. Yes. How often does that happen? I it
+
+John_QC  20:45  
+not often, often they have tried to push the envelope. So one of these, they fit this ring, but left one section of it off so we could shoot the X ray, and then we completely failed the head. So we had to cut the head back off. So they had to cut this back off, uh huh, because obviously we had to re weld it. Yeah. Every time they try to save some time and get ahead of the game, it usually bites us in the butt, yeah, and then takes more time we lose. Yeah, we lose more time, okay.
+
+Kelly  21:17  
+But if the scanner thing is keep like it's gonna be, it would keep track of what part of the tank is getting fucked with, so you both would know at the same time, job six is at this point. Does that make sense? Yeah, yeah. And then what do they Oh, they just put the date that it's done. I do this. Okay, I have it on this one, but yeah, okay, so you said they would need to make notes or something, yeah,
+
+John_QC  21:50  
+so, well, the inspection portion of it, okay, like this was done, 252, 12,
+
+Kelly  21:57  
+211, but the scanner would know what the date is.
+
+John_QC  22:02  
+And when you walk out to the tank, you might look at four or five different tanks, especially Sammy. You'd have to remember, well, yeah, I guess he'd be scans,
+
+Kelly  22:14  
+yeah, so inspection, so he would have his own little Yeah, I'm spitballing here just so, you know, but inspection, inspection would need to be in the scanner system, like, and I don't know enough about it yet, but, I mean, I know, like the digital part, but I don't know the things so they would it would say, like, okay, the we're about to put this insulation ring, or whatever the fuck is, and that would be a whole point, and then they would scan and do the inspection. Does that make sense? So it would track who did it, who did the inspection, and who did the fit up, and it would know the date, so it's just fucking scanning instead of this.
+
+John_QC  23:05  
+So with the X ray thing, if they they would have to scan in before they perform the task and when they're done, right, right. So if the X ray portion hadn't been done and they go to scan in for putting the insulation ring on it, it would say, Whoa, yeah, exactly.
+
+Kelly  23:24  
+And of course, there's always, I'm just gonna fucking do this, and not scanner but, but hopefully that, I mean, because the fucking scanner thing, it would cut down on like Scott putting in the hour that time for every operation,
+
+John_QC  23:44  
+every fucking day. Well, it would, for the first time, actually let us see how long it takes to do something. Uh huh, yeah. Because right now they just, Oh, I did
+
+Speaker 1  23:53  
+eight hours. Yeah,
+
+Kelly  23:55  
+that sucks, because I could could do some,
+
+John_QC  23:59  
+see if there's that sheer wave guy, yellow, yes, sir. I.
+
+Transcribed by https://otter.ai

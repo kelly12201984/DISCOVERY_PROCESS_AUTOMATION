@@ -1,0 +1,141 @@
+Sherri  0:00  
+Said invoice comes in, I match it up to the receiving paperwork. Okay, so it should be the way we get invoices should be per delivery, right? So there'd be multiple invoices from the vendor, okay, multiple receiving paperwork. When they come in, they usually list the POS on the paperwork from the vendor, okay, but it comes in, so I have to match it up, okay? And then once I match it up, the system, it will, when I bring up an invoice, okay?
+
+Kelly  0:38  
+Because you guys, you say, you know, we need this material. And then it comes in. You got a match that it came in with, I see, I was thinking that was called a purchase order.
+
+Sherri  0:49  
+So, like, if you go to material control, okay, so job, boss, material to PO, receiving, from the receiving side, okay, they're gonna just find one.
+
+They're gonna put in the document number for the receiving paperwork. Okay? They're gonna go to the line item. Sometimes it could be a parcel. These have 100% been received, right? So the reason why I say it's closed is because I all always invoiced it, so it takes it out of it, matches it together, and then it can go to payables, okay? But see if there's a problem with the paperwork, it's not going to match it. They put in the wrong they set up the PO under the wrong vendor, and they don't notice it when it comes in.
+
+Kelly  1:53  
+Who sets up a PO under vendors
+
+Sherri  1:56  
+that does all the ordering is Raton and Nick Okay. And not only that, they have to have the make sure the GL numbers are correct. GL number, that's the account that it gets coded against.
+
+Kelly  2:11  
+Okay. What does GL stand for?
+
+Sherri  2:12  
+General Ledger? Oh, okay,
+
+Kelly  2:16  
+okay, so if that's wrong, so if they
+
+Sherri  2:20  
+and it'll come out, or if they didn't enter one, because when I get ready to post invoice, it won't let me post it okay.
+
+Kelly  2:26  
+Because when you would search for it, like how you just did, it wouldn't come up with anything. Is that what you're saying? No, it would.
+
+Sherri  2:38  
+I wish I had an example to show you. All right, so let's just say I'm receiving this, yeah, and then say save, okay, all right. So then, and this is air gas, okay, so under Accounts Payable, I'm
+
+I have the air gas, so I enter the
+
+Kelly  3:09  
+Okay, okay. You put in the binder ID, okay.
+
+Sherri  3:12  
+I will enter the invoice, and then I go to details, and I click on this button. You
+
+I on the detail button. When I click on this button, it's either a miscellaneous item or it's a PO
+
+Kelly  3:31  
+item, okay, or a job item,
+
+Sherri  3:35  
+yeah, but I only use these two, okay. So, so POS, the yes and um, because POS also encompass, they can spread it to jobs like,
+
+Kelly  3:47  
+Oh, I gotcha, because one po might have material for multiple jobs.
+
+Sherri  3:52  
+So look, yes, okay, and there's the job number, okay, so it will cost, will go to that job once it's received, yeah, okay, it's set up that way.
+
+Kelly  4:03  
+Okay. Do you have one right now that has that you have to do anything with? Or no, because I just did everything. That's fine. No big deal. I can see it next week or something,
+
+Sherri  4:17  
+because the goal is, like, I get these things daily, and I put them in the backup paperwork, like from the receiving person.
+
+Kelly  4:25  
+Okay, backup paperwork literally mean a backup, like an extra copy.
+
+Sherri  4:32  
+No, it's a backup. Meaning, I don't know why they call it that, but they call it that. It is receiving paperwork?
+
+Kelly  4:41  
+Really? Okay. Okay,
+
+Sherri  4:44  
+yes, so when I should back up for physical receiving paperwork? Oh, excuse me. Then gets turned in when I come in in the morning, usually I have all these emails waiting for me when you get here, you know, and they come out all throughout the day, yeah, and I print them out, and I try to match them up, you know, a couple times a week, so I'm not sitting there like the day of when I'm supposed to do all of the invoice payments, payments, yeah, for the week.
+
+Kelly  5:22  
+And does any of this get scanned into
+
+Sherri  5:25  
+because I don't want that, yeah, that'd be another
+
+Kelly  5:28  
+job. No, I know. I know. I know, yeah, because
+
+Sherri  5:32  
+Now what'll be nice that we're working on and which we've gotten through this time intense, the next big, major project on my list is to set up for payments to our vendors, suppliers, by Ach,
+
+Kelly  5:51  
+yes. So how is it done? Now,
+
+Sherri  5:53  
+by check, you get a check. I know. Okay, and then,
+
+Kelly  6:00  
+yeah, I don't know why I didn't like because obviously, if you were able to do it, yeah, just, I guess I assumed credit card or something, no.
+
+Sherri  6:07  
+And then I have to wait for David to sign the checks. He brings them back to me. Then I have to tear the check off, put in an envelope, stamp it, put it out for mail. There's a bucket load of them, right there.
+
+Kelly  6:23  
+So when, when materials are ordered, though, is that a credit card or is that also No,
+
+Sherri  6:29  
+we have credit. We have credit with credit with these vendors.
+
+Kelly  6:33  
+Okay, so periodically, then you, you pay on your tab, so to speak. Yeah.
+
+Sherri  6:39  
+So we have terms with each vendor some because we've been dealing with them for quite some time, and the volume is so high, is if we pay within 10 days, we get a half percent, up to 2% discount. So we like to take advantage of that.
+
+Kelly  6:58  
+Yeah, yeah. Okay, okay, that's crazy. Oh, my God,
+
+Sherri  7:07  
+so that'll be the next thing, because we bought this little utility that's supposed to work with,
+
+and I'm gonna have to find this. I am
+
+Kelly  7:21  
+so sorry. Oh, so job boss has
+
+Sherri  7:23  
+a it's, yeah, because it's not even set up yet. I have to get all the information from the vendors. That's the next project. Oh, to where we can do ACH payments. But right now, we pay by check. We have a lot of vendors from India that I have to pay my wire, but then I have to create a manual check for the wire that comes out of the bank.
+
+Kelly  7:49  
+Like I'm like a voided check.
+
+Sherri  7:52  
+Yes, sir,
+
+Speaker 1  7:55  
+I got light bulbs and fixtures, probably about three to $400 on, there you go.
+
+Sherri  8:12  
+Okay, so I've got this somewhere.
+
+Kelly  8:17  
+Yeah, that I'm like, I'll look and like, do some research on that separately, so you don't think it all.
+
+Transcribed by https://otter.ai

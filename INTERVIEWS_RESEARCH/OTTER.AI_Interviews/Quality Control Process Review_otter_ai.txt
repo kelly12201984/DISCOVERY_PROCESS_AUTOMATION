@@ -1,0 +1,298 @@
+Kelly  0:13  
+These are called check sheets. Yes, I
+
+John_QC  0:40  
+so it actually says in here, I mean this right now, says the quality control inspector, but is to verify that it meets section two.
+
+Kelly  0:58  
+So right I see what you're saying. If we have a
+
+John_QC  1:01  
+program that's reading and checking then we'll have to have human in the loop, some kind of way to every code update verify that all of the numbers are correct and that it's doing what it's supposed to be doing right. But I can do that by picking a couple that it's done and physically checking
+
+Kelly  1:27  
+it right. And you would do that for a little while anyway. Like, I mean, it may be forever, because there is, there's automation, but there's also automation with human in the loop. And, like, pretty much everything here, it's like, it can be automated, but of course, you're gonna have to check and make sure yeah.
+
+John_QC  1:43  
+My ASME is really big on verifying Trust, but verify Yes, exactly, yeah. And then I mean, I still have my little stamp that has to go on it, initial and dated, saying
+
+Kelly  1:54  
+it was all good, yeah. And it would be like the materials are not green dotted to be used until you physically do something in there, like saying, you know, checking it. And then you can go, except, and then it prints out, and you stamp it and put it in your things, or whatever you have to do. Do you have to keep paper copies of everything, right? I mean, of certain things,
+
+John_QC  2:21  
+technically, no, man, there's certain things like RT film. We can't scan that into the computer, right? What is that? Oh,
+
+Kelly  2:34  
+sorry. Then a third party does that right
+
+Unknown Speaker  2:39  
+ATS comes in and shoots RT, just
+
+John_QC  2:53  
+like any other x ray, looks like weld seam. That's plate, plate. That's the wilt, yeah.
+
+Kelly  2:58  
+So what would it look like if it was fucked up? Would it be like there would be a line?
+
+So they give you a report? Yeah, I'm assuming right.
+
+John_QC  3:19  
+Get a RT reader sheet. So this happened, this was a screw up. So we had a repair shot and two tracers.
+
+Kelly  3:35  
+These, do these go in the drop folders. You don't scan them in, right?
+
+John_QC  3:39  
+I save the PDF when they send it to me, okay,
+
+Kelly  3:45  
+so they send you a PDF, all right,
+
+John_QC  3:56  
+the best example, but you can see there's a lack of fusion line there. That
+
+Kelly  4:06  
+was no good. If I was them, I would totally like do a skeleton one or something like somebody's rib cage, just so when you had to look at it, like, what the fuck is this? Okay? Yeah, so obviously, the film sheets are not ever going to be digital, but there's a
+
+John_QC  4:30  
+way to do it. It's just expensive. They make a scanner for
+
+Kelly  4:36  
+RT film, yeah, and they don't, they don't send you, they just send you a PDF of the report. They don't send you digital pictures of it.
+
+John_QC  4:45  
+We talked about going there is actual digital RT process, but we just hadn't
+
+Kelly  4:52  
+What's that called
+
+John_QC  4:54  
+CR instead of, well, you have conventional RT, which is film, and then you have. Computer radiography, okay, which is, they have this big plate that sits on the backside, and you shoot in it, and it basically records it, I got you, and you plug it into the computer, and that film shows up on the computer.
+
+Kelly  5:14  
+So because, like, I know you guys have failed X rays before. Oh, is there anything you guys can do to prepare for I mean, once they do the weld, it's just like, fucking done. But you couldn't, well, you never really
+
+John_QC  5:30  
+know the main things that we fail the sub arc, and you're not really even watching it. I mean, you're watching to make sure it's tracking down the seam, but it's not like somebody with the gun in their hand and actually,
+
+Kelly  5:45  
+oh, what a sub mark this
+
+John_QC  5:46  
+detractor, it drives and just dumps a whole bunch of flux. So it's he wants it to be like 99.9% accurate, but it's not because you can't watch it that close.
+
+Kelly  5:58  
+It's freaking because what it's doing is underneath itself and yeah, so it
+
+John_QC  6:05  
+drives, it has the wire that comes out, and then it's dumping flux, which is what protects the molten metal, so there is no way of seeing exactly what it's doing. Yeah. Now, when your settings are right and the machines running right and your bill, everything's perfect, then it's gonna pass every time. But what
+
+Kelly  6:25  
+is the machine called? Is it called
+
+John_QC  6:26  
+sub arc? No, that's the process. It's sub art, but it's a tractor, is what we call it.
+
+Kelly  6:32  
+Do you know that? Like, what it's like? How you showed me the brain? Oh, the brand and all that. Yeah. Think it's an Esau. I can probably go out there and look at it.
+
+Unknown Speaker  7:02  
+No, that's the one I wanted to get, but we
+
+John_QC  7:07  
+didn't. No, it's Lincoln,
+
+yeah, but we have an old,
+
+Kelly  7:22  
+old, old version. You had it for a while, the LT seven. Can you right click that? No, right click
+
+Unknown Speaker  7:31  
+it. I can left click it. I can't right
+
+Kelly  7:33  
+click it. Okay? And then, yeah, I I
+
+see you guys have had this one for a long time.
+
+John_QC  7:50  
+We have six of them, but every one of them is oldest. All Get out.
+
+Kelly  7:58  
+So you said when it's do you say when it's programmed correctly?
+
+John_QC  8:03  
+Well, we also don't use them like they're supposed to be used. Okay? Finding that a lot. So we manually steer these things, and it's not supposed to do that. It's supposed to run on rails like this.
+
+Kelly  8:15  
+Oh, right. So it's
+
+Unknown Speaker  8:17  
+always running perfectly straight, right?
+
+Kelly  8:18  
+Do we not have the rails or something.
+
+John_QC  8:21  
+We the way we use it. We can't do that because we're usually welding on a round tank. So we set them up there, and it's held by the crane. And this is just freaking janky. But anyways,
+
+Kelly  8:32  
+oh, so what would be the correct process?
+
+John_QC  8:36  
+Then that column and boom, that we have out there that's not operational
+
+Kelly  8:41  
+yet. Oh, what is that common?
+
+John_QC  8:50  
+It's that big cross that's outside as the machine, but it's on the end of an arm, and you run it out, oh,
+
+Kelly  9:01  
+and you, but you spin, the
+
+John_QC  9:02  
+spins just like it always does. But instead of having that other tractor up here driving, it has this arm that just goes out, and ours actually has a monitor, a screen down here. There's a camera up
+
+Kelly  9:17  
+here, okay, and they can, so you can actually, so it's not operational yet.
+
+John_QC  9:23  
+No, we have the procedures for it. We've run it. It's just not in service yet. I don't
+
+Kelly  9:28  
+know what's holding that up.
+
+Unknown Speaker  9:31  
+Yeah, that's an operations question. Definitely bug him about it. He will enjoy that. Yeah, okay,
+
+Kelly  9:40  
+is this one of the things he was like, one of the robots he was trying to get, and then got or no?
+
+John_QC  9:47  
+Well, yes and no, we have a cobot That actually is a full blown like you map out right track, and it does everything on its own with this.
+
+Kelly  9:58  
+You said, we have the procedure. Procedures. What do you mean by that?
+
+John_QC  10:02  
+So, because this is machine and remote, which means we're not physically right there welding, it needed brand new procedures. We can't use our old tractor procedures, because this is more extensive. Yeah.
+
+Kelly  10:21  
+Okay, so when you say procedure, procedures, is that like, just something, like, if I'm going to use it, I have to follow that these procedures?
+
+John_QC  10:30  
+Well, we have PQRS, which is a performance qualification report, okay, so anytime we want either materials we've never used or a different kind of machine, you have to make a PQR that document then creates a WPS, which is your welding procedure. Okay, so the PQR has exactly what you did, the material, your amps, your volts, your speed, exactly. And that
+
+Kelly  11:00  
+comes from that computer situation there, that comes
+
+John_QC  11:03  
+from the welding machine and the rollers.
+
+Kelly  11:06  
+Oh, okay, does that get printed out? Or you've never, you guys haven't used it. You fucked with it a little, right? I have PQRS, yeah,
+
+John_QC  11:14  
+created WPS as yet because we just got them put on hold.
+
+Kelly  11:19  
+And I think I'm definitely cut you off, but so it creates the PQR, and then that creates the WPS, yes,
+
+John_QC  11:27  
+so we see you make that test plate, send it off to ATS, and then they pull it, and then we get all Those other numbers, okay, and then that actually makes I
+
+so we have test reports. This
+
+is still the old form, so it's a GT 11 high temp. So this would be stainless to stainless high temp, TIG. That's your PQR. So exactly what we did. And then you have the tensile this actually was stress tested, too. And you have your tensiles, which is off of the ATS report. So this document goes on to this document, which in turn makes this document okay.
+
+Kelly  12:20  
+And ATS sends you this, yes, and then you create this. Well, I'll
+
+John_QC  12:29  
+have this already created. Okay, this will be blank. And this will be blank until they give me their
+
+Kelly  12:34  
+test results. And then you go in and type all that in. And once
+
+John_QC  12:39  
+that's in, then I can actually publish this PQR, and I try to do without this, it'll say warning you can't because you're missing your tensile
+
+Kelly  12:49  
+tests and whatnot. What tells you, warning you can't the shop floor. Okay, so this is also done in shop floor, yes, okay, yeah, I forgot to mention that. Okay. And so this is none of this is on the P drive,
+
+John_QC  13:04  
+yeah, well, in my
+
+Unknown Speaker  13:06  
+folder, yeah, oh, in your
+
+John_QC  13:09  
+in my hidden Don't touch my stuff folder,
+
+Kelly  13:14  
+okay, I definitely did, but I made copies.
+
+John_QC  13:17  
+So under welding, I've got a PR folder
+
+Kelly  13:25  
+and a WPS folder 14,
+
+John_QC  13:31  
+and I've been updating to the, this is the shop floor one.
+
+Kelly  13:35  
+Okay, so it looks nicer. So you put those numbers in to shop floor, and then it creates up. Yes, this is the pdfr i
+
+John_QC  14:00  
+That's PQR. Okay, main page was just what you're numbering it and date if you join what you did your base, middle, this was three or four stainless plate, half inch thick. We didn't have to do any post world heat treat. Okay, that's who did it? Okay?
+
+Kelly  14:21  
+So you you click through all these tabs and input all this stuff, yes, and is this? You do this for every job? No, okay, just if you guys have a new type of metal or a new machine, we've got procedures
+
+John_QC  14:39  
+that were done mid 90s that we're still using. I mean, I've had to Doctor them because whoever made those procedures was an idiot. But that's beyond the point. So you're welcome to read that if you want to. There's a whole bunch of tasty information. In there.
+
+Kelly  15:00  
+Yeah. Okay, so you send ATS, the plate mount, or the metal, whatever that you
+
+John_QC  15:16  
+do something like this sharp, but it's kind of cut in on both sides, and then they put this in a machine and pull it and where it breaks, and at what strength it breaks is whether it passed or not. That's neat, okay? And that's where these books come in. So they're stainless steel.
+
+That's so that's where I get my percentages, carbon, manganese, phosphorus, blah, blah, that's all the
+
+Kelly  15:59  
+so I was under the impression they just give you a report. Do you have to do some I have to verify when you get it back? Did they send you the metal back? No, broken.
+
+John_QC  16:11  
+They throw it away. But 304, has to pull at 75,000 KSI or 75,000 pounds.
+
+Kelly  16:21  
+So you verify by looking at the report that they give you, yes. Okay, so you take this, you look at all those fun books so you
+
+Unknown Speaker  16:33  
+got your ultimate you
+
+John_QC  16:44  
+i so this was 360 snapped at 82 and a half 1000. It needed to be above 75,000
+
+Kelly  16:55  
+Okay, so how often do you do this shit?
+
+John_QC  17:01  
+I didn't really do it much until we decided to buy all new shit. So co bought and column and boom and all that. Yes, the column and
+
+Kelly  17:09  
+boom is up and working. Are you like? Is it a continuous thing? Or you do this one time for it, and then it's
+
+John_QC  17:14  
+like, per material number? So stainless steel is considered a p8 carbon is a p1 and you have all kinds of different numbers right now we have carbon and stainless so anything p1 and p8 will be covered. But if we ever try to do 22 or five or whatever, it's a 10 H, then new procedures have to be made. Okay?
+
+Kelly  17:38  
+So not super often depends
+
+John_QC  17:41  
+on how far he wants to use the column and boom, there'll be a.
+
+Transcribed by https://otter.ai

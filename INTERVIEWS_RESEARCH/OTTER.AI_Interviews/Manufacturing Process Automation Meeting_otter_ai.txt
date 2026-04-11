@@ -1,0 +1,427 @@
+Dustin  0:00  
+Yes, we're gonna hire a receiving person for consumables. So Oh yeah, right. That's not really gonna be on my plate. It just is temporarily. I mean, the schedules, yeah, but I don't know how you're gonna automate that, yeah, just don't know how we would do that.
+
+Kelly  0:24  
+So how does it? How does a job get put on there? Manually? I do it, yeah, where did so? Chris tells you correct. We got a PO Correct. He starts a job folder.
+
+Dustin  0:34  
+Correct. Job entry form gets filled out. Or he'll just bring me a sticky note, like ahead of time, if he hasn't even done it
+
+yet, okay, whoa.
+
+Kelly  0:46  
+So then you put it on here. Can I see this one?
+
+Dustin  0:49  
+Yep, goes on there first. Okay,
+
+we put in the quoted hours here. Okay, but then what gets mapped out here is 85% of that,
+
+okay, so 1213, I'm just looking at go, oh, okay, okay, gotcha.
+
+And then it tallies off of personnel. So like, right now we're tracking, you know we're planning for 22 we actually have 24 currently. Okay, and so everything in this top block is what is currently in the shop, okay, everything down here is what's sold but hasn't been released to the shop yet.
+
+Kelly  1:35  
+Okay, and you said planning for 22 but there's actually 24 is. That 24 are you've gotten certified drawings
+
+Dustin  1:43  
+for no, okay, this is personnel. Oh, okay, this is person I got you. And this is man hours through the week. What we plan, how many hours we plan to put on it? Okay? It doesn't go that way all that often, but, yeah, we plan
+
+Kelly  2:01  
+it that way, yeah. So you get a job, you take the estimated hours, which come from Chris's estimation correct.
+
+Dustin  2:09  
+It comes from Correct. Yeah, that's what goes in this block. Qt is quoted, okay. But when I'm mapping out here, I'm now only using 85%
+
+Kelly  2:20  
+of that. Why is that?
+
+Dustin  2:23  
+Because we've been coming in at finishing jobs 85% of quoted. Okay, so instead of putting it all in there and planning for it, and clogging the schedule up, right, making it over inflated, right? Like, well, we're typically doing stuff in about 85% of what we quote, let's just map it that way. Yeah, okay, we have the buffer back here, like there's the differences in there. You know what I mean? If we go over a little bit, like, the hours are there, they're just not being mapped.
+
+Kelly  2:49  
+Okay, so this is required, and then this is the balance you have left from the quoted correct to what's actually required,
+
+Dustin  2:57  
+or vice versa, something like that. Okay, something
+
+Kelly  3:00  
+okay. So,
+
+so this is a very zoomed out schedule. This is just the overall hours
+
+Dustin  3:10  
+that that is that okay?
+
+Mine is the
+
+Kelly  3:15  
+deep dive. Is this the production schedule?
+
+Dustin  3:17  
+That is the production Okay, so if you look under production schedules. That's where you'd find it. Yeah, yeah. And I have this. Then if you go to mine on the Peter Ivan priority list, this is mine. This is what is actually in the shop. And this is a deeper dive. So then I'm putting in, like, on Monday. I update this every Monday. If it has galvanizing. What is galvanized has paint. What is painted? Okay, the material it takes to build it. Okay, that's my deeper dive. Break though. Okay.
+
+Kelly  3:45  
+And then the status, this is exactly what's going on
+
+Dustin  3:49  
+as of Monday, right? Okay, right, every week. And then ship date, the test date I've been trying to keep up with, but that's been a struggle here lately, too. And then John has his whole separate that's
+
+Kelly  4:03  
+a deeper dive. Yes, this I've seen too. Okay, so his is, like
+
+Dustin  4:07  
+his is more testing forward,
+
+Kelly  4:09  
+yeah, okay, mtrs are done.
+
+Okay, so you said testing is it's,
+
+Dustin  4:24  
+I don't, yeah, when I want to, like, test the date, the test date I hope for, but that's not, it's not the Bible, right, right? Just kind of have to put something in there.
+
+Kelly  4:35  
+I gotcha. So with your I guess. Okay, so it goes from this to this,
+
+Dustin  4:42  
+correct, except for I manually pull from there to here.
+
+Kelly  4:52  
+And then do you pull anything from
+
+Dustin  4:54  
+here? I don't do anything from there. That's all Jones.
+
+Kelly  4:59  
+Does he have your no hope for test date.
+
+Dustin  5:02  
+Okay, well, he gets a copy of this every Monday. What would
+
+Kelly  5:05  
+make this be able to stick better if you were psychic?
+
+Dustin  5:09  
+Yeah, pretty, pretty much. Like, could see what problems, what people aren't gonna be here? Like, yeah. I mean, that's right, not being funny, but yeah, what issues we're gonna run into, do we fill an x ray somewhere, like,
+
+Kelly  5:23  
+so, like, I don't know. I mean, I know where his problem is. Is we,
+
+Dustin  5:30  
+we get through some of these, it's gonna should get better, but the Kimberly Clark delay in the nozzle screwed us up. Then take it on the first bed of suburb of as tight as we did, yeah. Like, everything's so condensed. So everything is like, to the minute, right? If one domino falls, it's like, oh my god, this is screwed up. Everything. Yeah, we're playing reactionary on everything right now. We cannot be proactive until we get some of this cleared out. That's just what it is, the vein we're living in. Yeah.
+
+Kelly  6:00  
+And then too, like, I mean,
+
+Dustin  6:03  
+so you see that one, that one on the wall, that is the vertive project that is basically that laid out, yeah, for just vertiv, for just that, yeah. And I haven't even hardly been updating it, because it's just, it's chaos, trying to track on here and track on there, and, like, it's just we, I told Dave, we set it up wrong. When we did it, we just did, yeah, we set it up like we would. We've always done. The problem is, is, we can't treat that project that way. We're gonna, we are, and we're gonna continue to do it, but it's making so much more work for so many people. Yeah, like Scott is, he used to be able to enter time in an hour in the morning. Now it's taking like two and a half, three hours. Why? Because they're running. There's so many, there's like 50 operations per tank. So they're recording, like I did, an hour on this, an hour on that, instead of us saying, hey, these vertive tanks put in one or two operations for the whole damn thing, yeah, because at the end of day, it doesn't really freaking matter. We just need to see the overall hours. Are we under or over? We don't need to know they were over by an hour on this one. But for like, Who gives a shit, right?
+
+Kelly  7:12  
+Here's and the thing too, is, like, literally, right now I couldn't I get where you're like, that makes sense. There's no value.
+
+Dustin  7:19  
+There's no end of it, but the ones and twos, where it's a ton operations and they're lengthy, yeah, then there is value in that you can kind of deep dive on these. It's, it was, it's wasting so many people's
+
+Kelly  7:30  
+time, yeah? Because really,
+
+Dustin  7:33  
+it's taken me forever on Monday to try to make the 130 meeting. I have to fly through shit on Monday morning. I have to print the report. And then the report used to be three pages, now 16 pages, but I have to sit there and like, what is calculate across stuff, what's the report you're talking about? Well, so it is. This
+
+is my filing system.
+
+Speaker 1  8:00  
+It's like mine too. Do you need anything on the fridge? No, no, they're under here.
+
+Kelly  8:22  
+What? Real thirsty. But I also was like, feel like if I walked out of
+
+Dustin  8:27  
+the room, well, I was under this. It was hiding. So this is our efficiency. Here our time audit. So I pull three reports every Monday. One is employee time audit that comes from job boss, and it's just what hours they put in. Was it direct hours? Was it indirect hours or overhead hours? What is indirect? So indirect would be overhead, like they didn't work on any they weren't working on anything job related. They were cleaning or doing this or doing some
+
+Speaker 1  9:01  
+on job related tasks, right? And something, yeah, that I have
+
+Dustin  9:04  
+the efficiency report, which takes every operation against what we put in the build plan, against how long they actually took, okay,
+
+Kelly  9:12  
+efficiency, okay. And this is per job that correct. So it's job number,
+
+Dustin  9:19  
+and then this is the operation. Now, some jobs have shit. They could have 100 operations, okay, right? Most don't have that many, like 3040, 50 is kind of the ballpark.
+
+Kelly  9:31  
+So job number, and
+
+man, was it called Operation, operation. So I should so I would see 25, dash, 007, I elsewhere, because there's not only one operation, obviously correct, right? Yeah.
+
+Dustin  9:48  
+So okay, like this the first the first section here is the finishing department, which is testing and
+
+Unknown Speaker  9:55  
+Okay, right?
+
+Dustin  9:57  
+And then you can get into fit, which is like, Sammy side, it's actually when we're building the tank, okay? And then, well, you might only see one operation, depending on where it's at, exactly, yeah. Usually, if it's popping up on here, it's, it's towards the end,
+
+Kelly  10:10  
+yeah. And you're answering my question,
+
+Dustin  10:14  
+Sammy section. And then
+
+then you've got Scott section prefab, and then it does put in shipping in here is its own column. But then it's everything's weighted too. So there's some convoluted equation that goes into this, into how it's weighted, correct, okay, which David can't even give me the answer, of how it is the
+
+efficiency, the overall shop efficiency last week, was 111%
+
+Kelly  10:41  
+Yeah, I've seen your efficiency numbers. They're great.
+
+Dustin  10:45  
+Nothing to complain about. Yeah, I mean, hydro and shipping are my problem children.
+
+Kelly  10:49  
+If I have problem children, hydro and shipping, yeah,
+
+Dustin  10:52  
+which is basically the same department. But then this, so this is the big report. This is the job report. Okay, so this is the job, and then whatever hours were run on it.
+
+Kelly  11:04  
+So what's crazy? Like the verdict tanks, they're all exactly the same. Uh huh. So essentially, and so how many tanks have you guys already
+
+Dustin  11:18  
+completed? 24
+
+Kelly  11:21  
+so you've 24 tanks worth of our data correct for each operation.
+
+Dustin  11:28  
+Correct. So I can go back and I can pull the job. I can break this down so it's just a job with every operation. How many hours we can start factoring averages? We were probably two weeks in when I really started pulling this and then putting it into this. But that's how these numbers in this yellow from the week are, are, get, are received. The issue comes in like, it's not big, but then you get down to the vertive tanks, right? Because I'm not listing out this thing would be miles long if I list it all to 24 Yeah, so I just put it as a vertive block. Yes. Gotcha. The issue comes in. Then when I'm doing this report is, then I get into these damn things, like, here, right? The first week or two, I was literally sitting there with my calculator going, 12 plus 13, well, plus like, and I'm like, This is fucking madness, yeah. So now I have an Excel spreadsheet so I can at least put it in that and it in that, and it just shits out the total at the bottom. But it takes me forever. I mean, that's, there's 11 pages, and I got to go through and make sure I got everyone and then make sure the job number is right when I'm tracking. And so
+
+Kelly  12:33  
+you're taking, you're taking hours from here, and they're putting it into an excel sheet, okay,
+
+Dustin  12:39  
+that I had to make quickly so that I didn't have to sit there, because can you do it with a calculator? And then somebody walks in? Yeah. Why does it happen? I was like, I have to fucking
+
+Kelly  12:48  
+start over. No idea where I left off. Can these reports be exported as or as Excel sheets that I don't know we can look I because I was just in Job, boss, I can't get into it on my computer. I've always got to do a fucking thing. But wouldn't it be crazy if these reports just automatically came to you every Monday morning, and you didn't even have to, and they were already all figured out for you? Yeah. I mean, if that can be done,
+
+1,000% can be done? Yes,
+
+Dustin  13:21  
+so this is what I had to do. But, like, and the problem is, we're still working, like, we're not dumb. Done with the first 24 I mean, they're testing and cleaning the last four today. Okay, yeah, but you can take the first however many here. And I mean, I'm just doing average. I
+
+Speaker 1  13:45  
+51 hours, which we gave way more you gave.
+
+Speaker 1  13:53  
+We thought like, 70, oh, yeah, yeah, oh,
+
+Dustin  13:58  
+which is still under, I think, and that's under what Chris quote, so like, yeah, we're okay, incredibly.
+
+Kelly  14:04  
+Well, yeah, yeah, well, yeah. And it's cool because they're not as huge.
+
+Dustin  14:11  
+It's gonna help our year end efficiency. Big time. Yeah.
+
+Kelly  14:15  
+Okay. And so, like,
+
+my point two with the 24 of them, as you you know he's spending all that time putting in
+
+Dustin  14:27  
+it wasn't just a 24 because we're working on we've started. There's some of it that's parts are done and operations done for all 224 now.
+
+Kelly  14:36  
+So there, oh, I got you. Yeah, okay. I mean, okay, so,
+
+Dustin  14:41  
+so work. Tank 34 tank 35 tank 71 I mean, last week we worked things all the way to tank 80. But each week it bounces around. He had a quick question. Dustin, okay. I just was hoping if you could come out make sure I'm hitting the top of that. Picking eye. Yeah, yeah. I can walk out real quick. Two seconds. That's exactly how
+
+Speaker 1  15:18  
+we set every single do
+
+Speaker 1  15:31  
+that's all, sorry, no, it's fine. It's places in automation, hotspot,
+
+Speaker 2  15:46  
+lot of redundancy
+
+Kelly  15:50  
+and figuring just like figuring stuff out, Looking at reports and then Adding up totals. I The You
+
+Speaker 2  17:22  
+I I didn't
+
+Speaker 2  18:22  
+have To Pray.
+
+Kelly  19:11  
+Um, so
+
+are the hours
+
+put into JOBBOSS every day, like daily
+
+Speaker 1  19:29  
+good I didn't possibly are put in every day
+
+Kelly  19:34  
+for every job, for every operation, correct?
+
+And so is it a handwritten
+
+Yes, handwritten timesheet. Okay,
+
+Dustin  19:44  
+what I would like? What? One quick question. Job, 66 and 67 Rico buffer, tanks, 11 and 12. Are they complete? Well, 11 you left yesterday, and 12 is on the truck about to pull out here. Okay, so, yes, good to go. I (this is sheri asking Dustin about some jobs)
+
+Unknown Speaker  20:08  
+Yes, got a paperwork for me. I (Julian asking Dustin about jobs) 
+
+Dustin  20:10  
+think it's 56 look at the drawing. I think it's 56 psi is what we're testing to should be on drawing highlighted. Okay. I got should say coil, yep, 56 Okay, all right.
+
+Kelly  20:23  
+So I asked if it was written on paper, and you said yes. And then you said, what you would like to
+
+Dustin  20:28  
+well, what? And I've used it other places. We need a damn ERP traveler scanners. So basically, what we're building is a traveler, but it's in prehistoric sense, yeah, yeah, yeah. They could just scan the operation at the start of their day, yeah, and the end of their scanning, it would automatically generate, boom, goes in the system. Nobody has to enter shit, yeah. Now Scott would maybe want to still go back in and like, validate, right?
+
+I've worked places. We've done this, and it's seamless. 
+
+Kelly  21:02  
+So yeah, cuz David brought that up,
+
+but he was like,
+
+Dustin  21:09  
+even our current job, Boss, can do it
+
+Kelly  21:12  
+I saw a traveler on there as when I was looking I don't
+
+Dustin  21:15  
+know how to do it. I don't know anything about it. I know we have a job, boss, rep, yeah, that I could get you Yeah, the email for
+
+Kelly  21:24  
+So David's thing was that he thought that nobody would
+
+use it do it
+
+Dustin  21:30  
+okay, but no one did handwritten timesheets before he did them, either. So that mentality in my mind is this absolutely asinine. So like, he owns the fucking place. I manage it. If I walk out there and say, we are done doing this, we are now doing this. Yeah, it's no different than time clock. They bitched about it, but we're
+
+Kelly  21:51  
+doing it to a shop worker. Do they write their own correct hours for every operation Correct? What would they not want to of course, they're gonna want to scan it instead, wouldn't they? I would think so that's way easier. Where's the like? Is it? Because they have to walk over to a
+
+Dustin  22:07  
+scanner, correct? And you can put in four or five little computers and scan stations, right? You would consolidate one location for all the travelers at the end of the day. Yeah. And even if multiple people have to scan it, multiple people can scan in on the same operation. Say it takes three people to do that, yeah, three fucking people scan in at the other three people scan
+
+Kelly  22:28  
+out because they would have their own number that's tied to who to them, right? Like an ID, correct?
+
+Dustin  22:34  
+Yeah, they already do. They're already so that's this reward,
+
+this one, right? Yeah. I mean, they're already entered under their names, and I'm pretty sure there's a damn number that's attached to them too. Yeah, all that. I'm sure it is all in there. We're just not, we're using job loss to 10% of what it can do. Yeah, yeah, at best, at absolute best.
+
+Kelly  22:58  
+And the thing is, is that this, honestly, the legacy, the legacy version that you guys have, they have a software developers kit.
+
+Dustin  23:05  
+Well, they have a better version. Job boss square is really what I want us to use. Yes, I.
+
+Job boss bought that from a company called shop tech.
+
+Kelly  23:16  
+But Job boss to correct, it was called,
+
+Speaker 3  23:19  
+it was called e2 shop tech, and they just bought that whole company out and then consumed it and re branded it as John Paul square. I know that software, I know like I tried to get it pitched at other places I worked one place that had not it, but pretty close. It's perfect. It would take so many headaches away. We could stop doing this, yeah? Like, because you would build it in in JavaScript doing this, and then it would record and work against us, so your production schedule would just be in the name software, Yeah, mine. I could even stop doing because you can do some forward planning and notes and put all that like, everything that we're all having to run, even John his could be put in there. It can all be done. There's modules and everything for all of it, yeah. And then everyone's working in one area, yeah? And I've told you this, like, when you're in India, you're curious about where we're at on X job, you log in correct. There's have a  square. It has a freaking, like, a tablet module, yeah, you pull it up, you can see who's logged in, who's on what, how long they've been running, because this time has been what we've run over on time, on operation before, not known. You can set it in there where, yeah, I get a notification, yeah, hour out, yeah. If we're done or not, I walk out there and be like, well, we're not done. We're in trouble. Or, yeah, we're almost done. We'll be fine, yeah? Like, all everything is there, yeah, so, and we sat in a meeting, and the sales guy, they had pitch it did a piss poor frickin job, but I don't think he even knew the software. So it's like, well, you fucked this up.
+
+Kelly  24:55  
+Yeah, what it what was like the if you remember, what was leaving the meeting, I guess, if you were David, what was the man, I don't think so. Like, what were the things?
+
+Dustin  25:08  
+Well, yeah, I mean, he was struggling to see that, but he's, like, we already have some of that job, awesome. Like, okay, just because we don't fucking use it, yeah, and this is an even better version of that.
+
+Kelly  25:18  
+The thing, the only other, the only thing I know, certainly is that the legging
+
+Dustin  25:23  
+cost, like, he didn't want to have. He's like, we already paid for job loss, or we've already, we've already bought it on it.
+
+Kelly  25:28  
+I'm like, we don't use, oh, so you don't have to pay for job boss. I think we've
+
+Dustin  25:34  
+bought it out right now. I think we've owned it for so long we've bought it. I could be
+
+Kelly  25:38  
+wrong, yeah, but, but the legacy one has it, has it set up to where developers can automate stuff, because we can access it through code. That's the only other. That's the only thing between the two that I can try
+
+Dustin  25:58  
+either one. I'm just I just know that there's a system. I mean, even our name consumables and I have a meeting set up for in April, for our consumable vendor to come in with Lindy, who's their parent company, one of their reps, to do an automation of our tool to get just have a conversation, see what that would look like. Well, so what do you scan in? Right? Like, I could pull it up and no inventory, and then they would see it, and they'll just come stock it. I would say, here's a fucking minimum. Yeah, we get in that friggin area, back to the friggin Max, and I don't ever even have to think about it.
+
+Kelly  26:38  
+Yeah, okay, I did see a tool room, inventory, maybe the spreadsheet or something.
+
+Dustin  26:45  
+That's this freaking conglomerate of shit that I start to deal with today. What do you do with that? I have to literally walk out there with Sammy and go through we need this. We need this. We need this. We need this. We need this.
+
+It's it's material like
+
+it's welding, wire grinding, it's, yeah, it's everything, okay, everything that's could be out in that tool.
+
+Speaker 4  27:07  
+And you guys, there's only inventory for consumables, right, correct, okay,
+
+Dustin  27:12  
+yeah, we don't, we don't do any inventory for stuff, because it's all this job specific,
+
+Kelly  27:18  
+yeah, custom tanks.
+
+Okay, all right, so,
+
+Dustin  27:29  
+yeah, my thing is, I don't know what you can automate on my hand, other than helping convince him that we need a EMP system, whether it's start damn using what we actually have properly,
+
+Kelly  27:41  
+or get what we need. Literally everything you just showed me could be automated.
+
+Dustin  27:45  
+Most of it can just go on it. Yeah,
+
+Kelly  27:47  
+you know, there's like,
+
+1,000% wouldn't it? Yeah, I got that's funny. This is fun. Okay, so I'm
+
+Dustin  28:02  
+glad you think it's fun. It's a nightmare for me.
+
+Kelly  28:04  
+Yeah, I know. But that's what's fun for me, is like to be able to clean all this shit up. So like, this is fucking bananas. Anyway, it's bonkers bananas.
+
+Dustin  28:17  
+And what kills me is it used to be he him and I wouldn't have to have to have this stuff done till Tuesday afternoon, when him and I sat down for production meeting, and he knew there were weeks I was struggling get it done by Tuesday. Now we have our meeting on fucking 130 on a Monday. Yeah, and I'm like, I could barely get it done by Tuesday. Now I have to have it done by Mondays are have always been chaotic. Now we're 10 times more chaotic.
+
+Kelly  28:42  
+I wanted to sit in on that, on a project meeting, because my one of my thoughts was, I wonder what everybody has to prepare for that. Because it can be, that can be automated immediately. It could be, I mean, not immediately.
+
+Dustin  28:56  
+Part of the problem we're having right now is
+
+we brought April in, which I think is good, but David wants her doing things that are crossing my lane, and from her own job, she needs to be just doing whatever he wants. But the problem is now we're crossing lanes, and now it's I'm frustrated. I was frustrated when we left yesterday, to the point like this, fuck it. Then you take it. You still need one shit to get all figured out from there, yeah, because that doesn't seem to be working well, right?
+
+Kelly  29:25  
+So I was talking with her yesterday, and I'm like, Jesus. I was thinking, like, you guys, you put in your stuff, in your trackers, and there's a tracker for the trackers, and she's got trackers for just each, you know, job, project, not job, but, and it's, and I told, I just said to Chris, I was like, this place, isn't it's an automation hot zone, the whole like Subject engineering, probably, I don't
+
+Transcribed by https://otter.ai
