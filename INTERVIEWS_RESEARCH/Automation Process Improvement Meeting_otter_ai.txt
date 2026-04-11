@@ -1,0 +1,298 @@
+Kelly  0:08  
+Okay,
+
+David  0:22  
+racing, the chair up again.
+
+Do this right now. If you can handle it, I'd rather go in there. Go on there. You
+
+Kelly needs to escape. I want to have that door open.
+
+Kelly  0:56  
+Okay, okay, so what did you learn?
+
+David  1:02  
+I first off, just tell me what your process was.
+
+Kelly  1:07  
+Well, I interviewed everybody, I recorded them, and I used otter.ai so I could go back and say, What did John say about QC, QA packets? And and then I did a lot of research. Like, what was, what do you guys already have that could be built upon? Or, like, especially with job boss, there's a lot and what is off the shelf, kind of stuff that could be used. And that was like, I mean, probably the almost the worst, because if something isn't customizable, it almost doesn't really work here, like Job boss. We can customize it, and we can use it how we see fit. I got super excited about shop floor because I learned you can put in the XMLs and it'll build the weld map and the travelers for the shop, but they're not quite right. And then it was like, I learned that it can get integrated with inventor. Well, it used to be able to. I learned that yesterday, when we talked to code, where it was like, so I got to this point, but see how it says WPS there. Why can't I? Why doesn't? Why doesn't that come from shop floor over to it like it says it's supposed to just link. And that was the fuzzy part. And all the research that I did on it, nothing would just flat out say, Okay, do this to link these two together. Yeah? And the code word, I was like, yeah, it actually doesn't do that anymore. So, yeah, the inventor compress thing took a good bit of time, but really we need to talk to Autodesk. Yeah. So I don't know, ratong and I were talking about it. I think he thinks it's too, too good to be true, because he's thrown me off a couple times, like, I'm like, okay, okay, I gave it. Oh, how it's saying. I did the research. I was like, Okay, I feel like I understand it. And then he'd say something, and I'm like, wait a minute, though, this is what I understood. And even yesterday, he said something about not even probably being able to use it, because if a customer goes to change something on a tank, there's the constraints, I think, yeah, you were talking about that yesterday. Yeah, make it so you can't just move stuff. And I'm like, but we need it out to Autodesk, because you there's, like, actual coding you can do in Autodesk, like they make it customized, so people can customize it, or companies can So, but there was, I mean, like, there was something pretty big for Sherry that is off the shelf, and you look at Maker sub, no, no, okay, what is that?
+
+David  4:29  
+So you should look at Maker sub, okay, so that is a an automation tool uses
+
+AI to among other things. I'm not an expert on this. I you know
+
+you can give it your invoices that your customers send to you, right? Not customers vendors, your vendors send you invoices and you scan them in, and then it can tell you whether you received the material and whether you should pay it or not pay it, or whatever. So there's like a whole automation to your accounts payable function.
+
+Kelly  5:15  
+So I didn't do a lot into the accounts payable situation, okay, because her biggest thing? Well, well, definitely her biggest thing was dealing with applications and the HR, all right, recruitment. So I did a lot of research on that and found a really, seemingly pretty great option, and we did she, and I did a demo with the guy, and I got a free trial. But the free trial doesn't do all the things that I would want to check out, but so that was kind of the that, and then automating, like the inputting the build plans and creating jobs into job boss, like almost anything that deals with job boss is doable and not too crazy, because they give you the SDK so that, and that's the thing too. Like I watched Nick do that. So part of the process, like interviewing, is pretty vague. I was like, so show me what you're working on right now. What are you doing? So watching Nick input the purchase orders was painful, and we went over, over the B O M, which, like inventor, I talked a little bit to her tongue about it, to inventor, will do the B O M, it just needs to be tweaked. Like, take a few columns out that you guys don't need or use, right? And I looked into like, you know, inputting, automating the build plan input into job. Boss, it's pretty straightforward. The purchase orders is a little different, just because of how the information is kept in job. Boss, still doable. It's just not as easy as automating build plans and new jobs and putting those in so,
+
+David  7:28  
+yeah, okay, so you went around, talk to everybody, watch them do some of the things that they do, yeah, okay. And then did some research on job boss and off the shelf applications and so forth. Alright, so based on your
+
+Kelly  7:48  
+two three, this is
+
+David  7:50  
+week three, nearly three weeks, two and a half weeks worth of observations and interviews. Okay. What were your findings?
+
+Kelly  8:02  
+Generally, overall, there are a lot of trackers going on. Like, everybody has a tracker, and they take info from this one and put it on theirs. Or so. I also did a survey too. That was like yesterday and the day before, because I was like, I want to make sure I got everybody's like, pain points, and that's in here. So we can talk about that in a minute. But the most general, biggest thing is, what is going on with the job right now? Where do I get information about job, a job, the jobs, all the jobs that are happening, people don't know where to go to get the information. It's, it's where it's kept. Like, a lot of the times they're going, they're either calling or going to another person or looking on whatever tracker they have, or it's, it's not that they don't know how to get the information. It's how long it takes them, how much time it takes to so you times that also by however many drugs. Give me an example of what you're seeing there. So Well,
+
+it should have probably put some quotes. So look at this third page. This one back one, okay, go back one. Yeah. Yeah, so moving info in between systems that one's not that surprising, like taking numbers from one thing to another. But where do you go for job status? Ask, call, walk around, I guess, like so if you look at Job boss, there's one person that goes to Job boss to look up, to look up, what's going on with the job? Um, otherwise email, but most of it is looking at different spreadsheets and go asking or going to someone to find out information. And so, yeah, it's time consuming. And I think I mean, it came off as frustrating. And yeah, yeah. So acquiring includes waiting on other departments, searching for documents, getting a clear picture of a job status, or chasing revised, well, revised drawings. That's that wasn't a huge thing. It just was really like any aspect of the job, I think, well, I know if it was in front of if that's the other thing too. Is like it lives in Job, boss, a lot of it, especially like the, you know, where is, where are we out on job, you know, 54 you technically could see it, because the info is there. You can see that it's done with prefab, and now it's on whatever else is in there for it. But you can see that for one job. And I think maneuvering through job boss, I mean, I showed April how to find exactly this, the job status and job boss, it's just not it's clunky. It's like, what you know, like even Nick inputting a PO is like right clicking and changing, having to change the little details in it. And that could all be made so much easier and quicker by a better UI, or like, putting it into auto, and auto goes, puts it into job, boss. So that was a big thing. And, like, trackers, not, or maybe schedules, yeah, the trackers. But, I mean, it's hard for every tracker to be correct if, like, one of them is off, or, like, you know, the shop schedule,
+
+David  12:31  
+when you talk to the folks around the office, did you ask them, you know, how they spend their time? Like, what fraction of their time they spend doing, you know, this versus this, versus like. So if you go to subjective John, right and say, Okay, John, how do you spend your day or your weekend, and how much of that is spent on the floor, you know, inspecting things, and how much of that is, you know, dealing with shop floor and how much that is dealing with, you know, mtrs, did you get a sense of, you know, how that all breaks down for each person, so
+
+Kelly  13:12  
+the amount of time they spend on each thing every day, not so much. It was more like, okay, so what do you do? Show me what you do and figuring out the pain points, like, for example, John, which Qc is? Qc is Qc is a lot. There's a lot. I told him a few times. I was like, You're the hardest one. I don't even know there's so much going on there. But, like his, his biggest thing was the QA QC packets. And so after interviewing and figuring out, like, okay, so I know what can be done here, simply by auto reading the XML, it can do like all of this, I said, How long? So how much time would that save you? Like, a week or per job or and so the QA, QC packets, like 45 minutes per job. I was like, okay, that's valuable. Plus it's something that he knows could just well now knows could just be done with Sherry, like going through resumes and filing those and printing them and handing them over. She said, when there's like three to five jobs, it's seven to 10 hours a week. Oh, and then logging them into a spreadsheet. And actually, well, so for automating drawings, I asked Raton, and he was like, so it would normally take us, like, three days to do a drawing. If this works like it's supposed to, and we can automate it, then we can do a drawing in a day. I didn't ask Sherry how long it takes her to put in the build plans and put in the, you know, new job stuff, but I figured if it's 10 minutes per job, and then I did times 350 because you guys had like, 354 jobs last year. It's not normally that much, but yeah, then, like a little over an hour a week. And that was me guessing on the I have no idea how long it takes you to put in a build plan BLMs hour and a half to two hours per job. And so one of the things that was brought up in three of the interviews was the scanners, like we had talked about before. Actually, yeah, you talked about it, and I didn't know anything about them. But Scott, I think inputs the hours per operation every morning. Sure does. Yeah, and Dustin said that that would be like two hours a day, which is bananas. The scanners were also brought up.
+
+David  16:14  
+I don't remember, stop. Doesn't spend two hours a day putting the time in. He doesn't
+
+Kelly  16:21  
+do that so well, and that's what Dustin said, but he did say, like, it's gone up a lot since the 30 jobs. And I thought they're all the same. The tanks are all the same. They're not a copy and paste thing or something like that, where it can just go, like, times 200 what is it? How many bird 24 Yeah, like, times by that, like, but
+
+David  16:51  
+we're not working on all 224
+
+Kelly  16:52  
+at the same time. Yeah, so, yeah. So he did say it like it's gone up since, like, keeping track of that too. But John brought him up because of him being able to know where the jobs are in relation to QC hold points and Dustin, I think had told him about how like and Dustin told me this too. I think I don't remember at this point, but how you know, if a shop person goes to work on the next thing but the QC hold wasn't done yet, then it'll not let them scan the next thing to move forward. So the QC thing has to get done, which, of course, somebody can just still do the work and just not scan so, but it's like first line of defense, because John talked about how, like, that has happened before, and then it costs time, and things have to be redone, and that kind of thing. So when we were talking about the scanners, I was like, yeah, so I don't know yet, because I haven't researched, but if it'll hold them up, and also, if you can see on the screen, like, okay, these three jobs, or however, many are out there right now, 1012, I have this whole point. I gotta do that tomorrow, because they'll be there tomorrow or whatever, and this one and this one, yeah, that would be incredibly helpful. So, yeah,
+
+David  18:39  
+all right, so I don't
+
+Kelly  18:42  
+remember why April brought up the scanners, probably for job status, like, where jobs are she Yeah, she was talking about how she will, like, count how many nozzles are done on a tank, and how the current process would be quicker, easier with scanners.
+
+David  19:06  
+So what are our biggest wins? Or what potential wins for automation is that what my appendix is here
+
+Kelly  19:19  
+actually the very first well, second page to the so we got the quick wins there. Okay, and so jazz. HR, it's 3480 a year. Okay, it honestly would be easier to show you, but it's an ATS. It'll it. You can, for free, post on 18 or more job boards out there, the big ones like LinkedIn and all that stuff, actually. So these other pages back here are more detailed on each of the things. But the biggest thing I found with this whole scenario is that what's crazy is while Sherry and I were talking, and she was showing me indeed and showing me her process and what she does. An indeed guy called while we were sitting there looking at Indeed. And I was like, that's weird. And he called because, I think it was the engineering position. He was like, we should revise this because, like, you know that the job description was super detailed, and that was cool, but there were no, like, required questions. And he said, you know, for like, the title point is optimizing the job post so that there's not 3000 clicks and resumes being sent. I Yeah. And the jazz HR has these knockout questions, so you can put you know, like, Do you have experience with AutoCAD or compress or what have you? And if the answer is no, you flag it as a knockout, so that person automatically leaves, like, can't finish the application, and then they'll or maybe they can, I don't really know. Maybe it lets it finish them, but it automates sending a rejection email. But it's nicer than that. And then there's AI map. Match like, and this is the part I don't I couldn't see in the free trial, which is like the part I wanted to see, but it'll look at the each person's resume and like, rate them compared to the job description and what you're looking for. I don't know there's a slew of things, but the biggest thing was, like, realize like, and, you know, partially because that's also what Sherry said, but it was kind of glaringly obvious. She doesn't know what the engineer position like. She doesn't know all the things that need to happen or what that person should be. So scanning through resumes, she doesn't need a scanner. Heading up
+
+David  22:27  
+doesn't need to scan. That's, that's what I do. Okay, all she has to do is print them out and send them to me, put them on my desk. I do the scanning.
+
+Kelly  22:37  
+I think, I think what it is is like an initial scanning, because anybody can apply. So she'd be printing out, you know, I don't know there's actually metrics somewhere of how many applications per job posting. Same thing for
+
+David  22:55  
+the welder. She doesn't need to scan them or, like, review them, you know, Dustin and Scott
+
+Kelly  23:00  
+do that, yeah?
+
+David  23:02  
+So if she's doing that, that's a waste of
+
+Kelly  23:04  
+time, yeah, yeah. She has. She also files them digitally and then adds them to a spreadsheet. But what she has found is like, maybe specifically Dustin, I don't know, but that they kind of just throw them away anyway. And I don't know that, I think too is like. So I was under the understanding that she, you know, she gets the job description paper, and then she said that she hand types it in. Maybe, I guess, because she gets it handed to her, I didn't think about that. I know because she said that you can't upload it anymore. And we did ask the indeed guy that like they won't just let you up to upload the
+
+David  23:51  
+copy and paste. That's
+
+Kelly  23:53  
+what I thought, too. Yeah, so, so she said she was typing in but why? I don't know, but there's another massive waste of time. But like, so the questions that could be set up or, I mean, like the job title, we changed a little bit to include something press pressure vessels and heat exchangers, I don't know, but that guy was tough on the phone. Was like, no, no, we got it. We're good. Okay, next thing, let's go. But this would be for all hiring managers to use, like they would have, so we $3,500
+
+David  24:45  
+per year subscription, and then that gets us posted on Indeed, and a number of other job boards. And
+
+Kelly  24:55  
+so, like, if, if I can look into that, yeah. And then each person would, when they log in their dashboard would just show the jobs that they're actually hiring for. Yeah. And I do have a demo video. I had the guy send me a demo video because I was like, I'm not finding that the AI talent matching is what it was. Yeah. He's like, Yeah, you won't on the free trial. I'm like, it's what I've kind of figured but I'm trying to show what this thing can do. So do you have a demo video so I can send you that? I said, you have a quick one? He said, Yes, since it and I think it's like, 15 minutes, so not so quick. I also didn't watch it because I did the actual demo with him. But it also, if you have questions, I recorded it so I can ask otter, Hey, what did that guy say about this? So then auto, automatically adding jobs and build plans into job. Boss, less than a week. That'd be easy. I was gonna ask her today, like, hey, how long does that normally take you? I asked daughter. I was like, Did she mention how long it takes her to do that? And it was like, no, but she seemed busy today. So QA, QC, packet automation, that's a big one. I think John would, I think, did he
+
+David  26:21  
+tell you about you know, reviewing the material or the mill test reports?
+
+Kelly  26:24  
+He talked about that. Yeah, we did talk about it. The, this is, like, a bigger priority. Was it okay? Yeah. And then the think, whatever, he checks it against, I would need to like, that can be done? Yeah, absolutely. I think what, what kept coming up was like, not kept coming up, but with a couple of things was what he like, the books that he uses that has whatever information that he's supposed to be checking. Yeah? Are not digital. They're the paper copies I was gonna look into I had three weeks less than and his his situation. There's a lot going on there, yeah, but this was, like, a big deal because of how long it takes him, because it's not just, you know, printing out these papers, it's he also, like, we looked at, I looked at an XML, but we talked about, like, oh, is this in the XML? And I searched it, and there's a lot of stuff in there that's not you know, that normally he has to get off the drawings. And so I meant to bring one of his packets. I'm sure you know what I'm talking about, though. But like, yeah, listing. So each one of the checklists, yeah, all that being done, and the pneumatic and hydro test reports being done, and the world maps. And there's other stuff in that packet too that can also be automated. But this so it says here full packets, it needs additional scoping, because I have to see about like the WPS stuff. It exists. It needs to be cleaned up a little, though, I think whenever you guys switch to shop floor, they did like this, you know, automatic populating of it for you, yeah, but it's not all exactly correct. So he's been slowly trying to go through what's in there and what was in the packet and see what's right and what needs to be fixed or updated or added. So yeah, spent a lot of time in shop floor. I was so excited when I uploaded an XML once, at first I saw it, I was like, Oh, my God, what this is possible. Then I did it, and it wasn't exactly how they do it, and also it only does the world map, and really the rest of it can be automated to the checklist and stuff. So this job Charter,
+
+the surveys are confidential, so I'll tell you, somebody mentioned that it would be great if all of the initial job documents, so the estimate, the proposal, the calculation, and any customer information like there, if they have drawings, emails, all that stuff, if that can all be checked to make sure that all of those things match each other and then create like one source of truth. So right now in there, there's also the design data sheet and the UDR one form and I yes, there's a third one I feel like, job entry one, which may not, I don't know what's on it completely. I mean, I have a good idea, because I did pull some information from those, but I feel like it's the metadata for each customer, and then, like, the, you know, total hours and or estimated hours and costs and that kind of stuff. But I think a thing with, if I'm going to do a drawing, having one sheet of paper, or, like, one document that has all of the information that I need, so that don't have to look and look at all the other things and try to pull all the information together and verifying that all of those things match each other, so we don't order the wrong head or something else. That's an example that was given. And so I asked, okay, well, what should that? What should the title of that paper be? I was told, maybe project charter. And I was like, maybe job charter, because it's her job.
+
+Okay, yeah. And five is not here because I moved it over here, but then I was gonna have to change all the other numbers, and later on, there's numbers that would have needed change, so just ignore the fact that there's no five. Okay, it's intentional, okay, so drawing automation, you know about that? Yep, pretty straightforward there. So procurement, RFQ, and then the PO creation, BLM. So BLM automation isn't on here because it's up there with drawing automation, yeah, okay. Right now for Chris, when he does an estimation, auto will automatically say, you know, there's a little RFQ generator thing, yeah. Then when he goes back into the job, he'll know what RFQs he sent, and all that kind of stuff. So a similar thing here, where Otto would keep track of the RFQs that he has sent, that Nick has sent, and what materials Haven't you know, there's no RFQ for yet. Also, he was telling me how, you know, if there's three jobs that I'll need the same pipe, yeah, he's not gonna get 320 foot pipes, yeah, you know he's gonna mix them together, right? Exactly. So that whole situation, we can see if it's detailed nicely. Here might be so doing what Nick does already, but doing it for him. So, yeah, here are all the materials that are needed for the jobs. You told me, Nick, I'm auto putting them together, knowing what has to get sent to which vendors, and drafting the RFQs. And then he decides which which materials he wants from each of the vendors, and then it makes the art or the PO and pushes it into job boss. And that's it.
+
+David  34:11  
+So, so they're pushing it into job boss. Part, straightforward or difficult.
+
+Kelly  34:20  
+It's just a little more difficult than could be. Maybe a little it's more difficult than, like, build plans and jobs.
+
+David  34:35  
+Why is that? So if you think as a purchase order is
+
+basically just, it's a form, but there's a table behind it with line one, line two, line three, line four, line five, or whatever. And it's on line one, there's a, you know, item description, and then there's a secondary description or whatever, and then there's a quantity and whatever price, right?
+
+Kelly  34:58  
+So it has, yes, yeah, but I think if you picture like a table for build plans, it's, I'll just say this, the biggest difference is what the st SDK provides for it. There's not an actual SDK XML that can be used. So there's, like, a work around, and there's a safe way to do it. It's just, I think that is the biggest thing, and that's why that's the biggest issue, which also, I haven't met with anybody from job boss. I haven't talked to anybody. I've literally just used the SDK and the dictionary that they give so, I mean, they could have some more insight. Maybe they have a brand new SDK. I mean, I logged in and got it from there, but not a newer one. But, you know, coming from
+
+David  36:06  
+bosses, you know, tech support group might be able to assist just a little bit more than,
+
+Kelly  36:10  
+yeah, than just the documents going by the documents themselves, right? Yeah. And I, like, with So, with the scanners, like Job boss is already, there's already a data collection module, so it's set, and it's also set up to create the travelers with the barcodes and everything. It's just not, you know, enabled, because there's no scanners to go along with it. And so that I already, like, even if that is the situation that we that you go down, then I'm gonna have to talk to them anyway.
+
+David  36:46  
+But let's leave that to one side. I'm just Yeah, think about the person here for a minute. So, so inventor generates Bill materials, which is not exactly in the form that we normally work with. Now, whether that needs to change or whether we need to change, I don't know, okay, but you know, what inventor generates is a bill of materials. You know, for every single includes every single piece in the assembly?
+
+Kelly  37:19  
+Yeah. It is super, super, super similar to what you guys already do,
+
+David  37:27  
+that then would need to be sort of put into job boss language, okay? Because our job boss language doesn't match exactly what comes out of inventor, or whatever. So we have material database within job boss, where things are described in a particular way, which is not the same as how inventor is. So there need to be some sort of mapping.
+
+Kelly  37:57  
+Yeah, absolutely right, yeah.
+
+David  37:59  
+So we get something out of job, out of inventor, need to map the item, you know, into job boss lingo. Okay? And then once it's in Job boss lingo, then it seems to me, it'd be pretty straightforward to populate the fields, you know, Po, we generate a PO, and then, you know, populate the fields on line one, line two, line three, and whatever it seems like that would be, but it's the translating from what comes out of inventor or what's Already in auto or whatever, right?
+
+Kelly  38:41  
+That actually boss language? Yeah, I don't think that that'll be very challenging, because, like, I already have clouds that are trained on the there could be even script written already that I haven't even seen, because they like to get ahead of themselves. But trained on the SDK and the dictionary, and the dictionary too, is super, super helpful, so that I don't think should be, I really don't think that any of it is going to be. So my
+
+David  39:09  
+my vision for the purchasing part is for each tank or vessel, each project. You can call it each tank or vessel. There's an automated bill of materials that's generated, whether it's coming from auto after the rights. We have a an estimation, yeah, out of comes from that XML. We have that's sort of a one starting point, or, you know that XML goes into, out of compress and into inventor, yeah, right, and that's our starting point, right? Okay, so either one of those places compares jumping off place. Then there's a bill of materials automatically generated. And then these bills of materials are structured somehow that an agent or a bot or whatever can go through and do what Nick was saying, which is, okay, I got, you know, this much three inch schedule 40 pipe on this one, and I got this much three inch schedule 40 pipe on this one, yeah, so it can do all the combinations. Yeah, right, yeah. Okay, then, so say this is how much three inch schedule 40 pipe we need. And here's how many three inch 150 pound class flanges we need, and so forth. Generate some sort of buy list. Okay, things to buy? Yeah, right,
+
+Kelly  40:53  
+yeah, like a general Yeah, buy list. That's what I was thinking, too.
+
+David  40:57  
+Here's our shopping list. Yeah. Okay, take the shopping list. Okay, then for each grouping of items, right? Plates and flange, or pipes and flanges, they go to these three vendors. The plates, here's these four vendors. Yeah, right. Gaskets, there's two vendors here, boom, right. And auto will already know who those are, yeah, right, yep. And so sends out these automated emails, right, and it can look at them, right? Does this is this correct all the jobs in here? Right?
+
+Kelly  41:28  
+Right? Yeah, yep, yep. And I was thinking to, like, keeping it tally over here, like, either just Yep, all of them, you got all of you already sent Vera cues for all of them, or we still got these that need to be sent, Yep, exactly. There's also then those go out, yeah, right.
+
+David  41:44  
+And then as the replies come in, right, ideally, Nick would give those back to auto, yeah, okay, and auto would do the math, right, yeah.
+
+Kelly  42:01  
+I thought about that part too, and I thought like,
+
+David  42:07  
+that's icing on the cakes. Not right? Yeah, it'd be nice to have, not a need to have, yeah, okay. But then once you figure out okay, in the pipes and flanges group, RJ sales is the preferred vendor here because their pricing is better than everybody else, and the lead time is only one week longer than the next guy, whatever. Yeah, right, right. So Nick makes the decision, right? Or auto recommends, yeah right, and Nick makes the final decision, yes or no, let's go with, you know, yeah?
+
+Kelly  42:37  
+Like no, I'm going with this one.
+
+David  42:39  
+Yeah, yeah. And then, okay, then we generate a purchase order automatically, right? Yep, right. So once you decide the vendor, you've already got your laundry list, your shopping list, right? Then putting that into job boss lingo, yeah, right. You've got the vendor, you've got to generate an automatic purchase order number, and then just populate the lines, yep.
+
+Kelly  43:01  
+Okay. So I was thinking, yeah, yeah. The only thing that I was like, I thought, I'm gonna talk to Nick because I wonder what that decision process is, like, for him. Like, is it a, would it be a huge help to or does he go, No, yeah, that's good. Like, it could be a quick thing for him, and then it doesn't need to get built, and he just clicks. That's right. This is what I want. That's right. But, yeah, that's what I was thinking, too. Also, you said, like for him to review. These little magnifying glasses are because, you know, drawing automation, the drawing will have to be obviously reviewed, yeah, right, like all, so remember, that is, it's like, Yes, this is being automated, but it's human in the loop. Yeah, got to be reviewed. So, yeah.
+
+David  43:49  
+So, so that's what I was envisioning for the procurement piece. Same here, and to be honest with you, I wasn't thinking about the QC job packages, although John's priority list. You know, John's relevant relative, you know, prioritization of that over the mtrs, whatever. I'm open to that right, in my mind, the MTR is really big problem, because they sometimes keep us from starting a job because we don't have a single piece of paper filled out. Yeah, yeah. Okay, so, you know, lunacy, that you can't start work on a half a million dollar project because there's a piece of paper
+
+Kelly  44:25  
+that we don't have, yeah, and I think, I think that this like 45 minutes, you know, per tank, it's like, then he can prioritize that stuff, because that, I can't remember exactly, you know, what we talked about, but I knew going into it that, you know, you talked to me about the mtrs, but my remembering of his vibe about it was kind of like, this really isn't that big of a deal. Plus, I want to say it's like, what he checks it against, like, is in a binder. I don't know
+
+David  44:59  
+what I know, whatever you know what I mean, all of our charts and tables for the you know, estimator were on paper at one time. We put them in a worksheet, and now they're, you know, yeah, and believe me, they were a piece of paper
+
+Kelly  45:12  
+and pencil I am because, wasn't it? Ron had spent a while, like, keeping track of how long things took, like, literally, there was that.
+
+David  45:23  
+And we had, when I bought the company, I made the guy who wrote it before me write down, how is he, you know, what's his rules? Right? He wrote about a piece of paper with a pencil, yeah.
+
+Kelly  45:33  
+And I remember too, because there were several different scenarios where we talked about John is so it
+
+David  45:43  
+would be so simple to make little database. Yeah, okay, with things in John's books. Yeah, right, because for each
+
+Kelly  45:53  
+of them, I think he said can be digital also, it's just it costs more and he doesn't. He'd rather not look at it on the screen. Because I remember us sitting in my, my office, like, going over some of the stuff. And the point is, he didn't have to look at it at all, right, you know, I know, but, like, that's why it's doesn't exist yet digitally. And so I'd have to, this is, like, he's gonna scan
+
+David  46:15  
+those things in there, yeah, looking at a, you know, MCR for a piece of 2205 duplex, 2205 Yep. Here's where I go to see the chemistry for that, right? Here's my
+
+Kelly  46:28  
+chemical composition, absolutely, because they're tables, yeah, and it's very database like. And then I guess
+
+David  46:35  
+what I find, okay, this MTR looks different than the last I saw, yeah, but I still know what I'm looking for here. I'm still not looking for iron or nickel or chromium or Millennium or whatever. I just know I'm looking for these things. Looking for a percentage, yep, for a fact, these AI chat bots can find those things. Yeah, yeah, in like a blink of an eye,
+
+Kelly  47:00  
+yeah, yeah, so, and that's the thing too, is like, in three weeks, I think John's whole department would have needed a week or more on its own. But he also, he had the ASME, yeah, he did, yeah, but, but, yeah, that's why I was like, let me get the biggest hitting thing. He that was on his survey too. It's like, so where were we? So we have the same, I have this, had the same thoughts about procurement, yeah. Then the material tracking part is like, Nick, every about 15 days, he goes through and looks at what they haven't received yet, and then call it makes calls and that kind of thing. There is also Sherry talked about receiving, and, you know, she's like, not all the material comes in at the same time, of course, on a PO. And she's like, can we make it so that there's some way that the receiving person knows what we're still waiting on for each Po? And honestly, there are reports and job box has that. It's just like, I I guess they're all, of course, busy, obviously. And is there a receiving person? I don't know. I don't think
+
+David  48:31  
+we have a temporary right, okay, and so, but he wasn't working out. So, yeah, that guy go and we got temps in now.
+
+Kelly  48:39  
+Yeah, the um, the scanner thing too. I'm going to mention it wherever it comes up, because it was like, it kept coming up. Job boss. Can print POs that have the barcodes on them for each line item, so that they can be scanned. Like, hey, it's in and then, then it's in Job, boss, and so, you know, John would know, okay, this stuff's here. These have mtrs. He can know anyway, whenever, I don't know how he knows, I don't know how he gets told, I think he said that there's a an area, quarantine area, and then he goes and him or Alberto, check it, and that kind of thing. Yeah, I think you know earlier, when we were talking about to like, what my general observation was, it's like, if, if I wanted to, if I had a question about something in the world right now I wanted to know right now, I would Google it, or I'd ask chatgpt or clock. I wouldn't call my great aunt and be like, hey, what was? What is this or whatever? Like, I wouldn't it would just be right? Aunt was the subject matter expert, right? Yeah, I haven't talked to her in a long time, weird. But what I'm saying is, like, right here is the info. Click, easy, bam. And so when you know when a customer needs to know something, or a schedule needs to be given to a customer, or really, a lot of the times, I feel like it's like people are trying to figure out what's going on, because it, in the end, affects the customer or a potential, potential customer, or QC?
+
+Yeah, I don't know. I think quicker information to them and accurate, like, reliable, not that, like none of it's accurate and reliable. It's just strenuous to get to and not always, not always quite up to date. Like, well, somebody doesn't update the tracker. Then when I go to look at the tracker, I'm looking at incorrect information. I get frustrated. I don't
+
+but the eight, nine and 10, I
+
+there those have a black line above them because, well, also, they can all be done without scanners. It's just it. They wouldn't be. They could all be done without scanners. It's just that we would be relying on the information that's already in job loss and its accuracy and then, and then that same going forward. So the only difference with, well, I guess the big difference
+
+David  52:29  
+job, boss already has a scheduling module, which we don't use.
+
+Kelly  52:33  
+I did, I did a I did click schedule to see what would happen. And I was like, I hope that doesn't mess up anything. But I think it should be fine, because I don't think anybody uses that. It's not gonna mess up anything else, right? It? I didn't mess with it too much. I really didn't have time. But from the initial thing I saw, and I also, I mean, I literally just, I think I picked a range of maybe a date range or something, and then I clicked schedule, and it put it on there. But I guess it wasn't realistic. I don't know what it was even, I mean, other than open jobs, I don't know what it was, basing any of it on, so I didn't, I didn't dig into it much, but it was cool. Had colors and the raging, but I could tell it wasn't super realistic. There were some yellow, there was some red, there was some green. Seemed like a lot of things happening at too many things,
+
+David  53:45  
+yeah, but we, you know, I'm not, you know, the biggest proponent of sort of tackling the automated scheduling first, because we already have a tool that could, could help. Yeah, and no one is no one. I looked at it eight years ago, yeah, and haven't picked it up since. Yeah, and Dustin has never expressed any interest in Hey, let me show. Let me see how the job while scheduling thing works. Yeah, everyone so, so let's not even waste our time with that. We're not to the place where, okay, there's not an appetite for so I think there was an appetite to improve that. There would be, there'd be some picking around at that, but there's not,
+
+Kelly  54:37  
+well, I think this was like from in conversations where the shop schedule not being useful, the current one, yeah, because it's inaccurate and like, I'm just gonna speak freely. It's like the current system worked with fewer jobs per year. And now that there's this big influx of production happening, it's like, okay, this doesn't really work anymore, and more and more customers wanting up to date, accurate schedule, and what's going on with my projects, my project, it's like, like, a car speeding into a brick wall. Like, okay, well, I don't have any solid information to give to customers and when I needed it. And I feel like in our conversation, it's like, well, so I asked, like, so where do you how do you come up with this? Like, how do you come up with the build plan? Because I know that the build plan, like, informs the I'm doing this, because it's that giant Long Shot schedule, and it's a lot of like, kind of shot in the dark here, and then, well, I just do, it's, you know, 50. I don't know exactly what said. Think it was like 50 per project, 50 hours per project, or per tank per job. My in my data brain, it was like, Oh, yeah. Okay. So if you had a bunch of, if you had, like, actual hard facts to work with, that would help a lot.
+
+David  56:50  
+What would those facts be then? Sorry, what?
+
+Kelly  56:54  
+So you guys, you guys do have a crap ton of data and job, boss, I looked at just the most recent five years, things like, 1800 jobs. Does that sound right? Just got numbers rattling around.
+
+David  57:16  
+Like, seems high for five years, but there was a lot. So yeah,
+
+Kelly  57:22  
+because I could, I feel like there's like 3400, plus hours like operations that were maybe hours for operations, but then, I don't know bunch of numbers, but there's a plethora of data. So using that data to say, Okay, here's where you've underestimated the most, which I think might be fit. I don't remember now, but here's what the estimated. Here's what the actual was, and I'm told I should take maybe the actuals too, with a little grain of salt tube, but it's like a good starting point. Just a little bit of skimming the data, which I really didn't have time to do. And I was like, Okay, I want to get deep into all this, but I'm going to stay focused. There were a few of the work centers that were, I mean, half that's made the estimated time was like half of what it actually was. So I think it feels like a shot in the dark right now for trying to create the shop schedule, I don't think that's what I've sold, but it feels like so I and Even if this was here, here's a suggestion based in some good data, look over it kind of thing, and even for the build plan, and then. So this pretty thing back here is talking that's what this is talking about. It's do. On which it's a lot of words, but starting with just the historical data, okay, and then scanners would feed in to the model. So first we train a model. Here we go. Scanners would feed into that, and it would get smarter and smarter and smarter as time gets tracked for her jobs. And then it could eventually predict, not eventually, then that would be phase three. But that is why those had the black line. I mean, that's what I mean. It's like, it could happen without the scanners. It just would be the historical data, and not getting smarter as it goes. And also, you know, putting a lot of trust in the historical data.
+
+Yeah, and there's also the taking into consideration what each operation is it
+
+might have taken, you know, three hours to weld this nozzle on this type of material, on this type of tank, and that same size nozzle would take six hours on a different tank, with different material, or with a jacket, or, I don't, I don't know, but like the Different things that, because you guys are custom, so bringing in the actual tank metadata from each job, yeah, so these would be hefty, but the initial, The initials, so build plans, yeah, and schedule, this initial stuff, I mean, can be done. And I could tell you with what certainty that you know the suggested schedule or suggested build plan. It can tell you with what percentage of accuracy it
+
+David  1:01:41  
+would be, how would it auto create a build plan? How do you think that
+
+Kelly  1:01:46  
+would work? It would what would it
+
+David  1:01:50  
+look at to what would look at?
+
+Kelly  1:01:54  
+Well, it would have to take the drilling or the design. It could be the charter, or, like, the design data sheet, or a combination of things, because the XML isn't going to have, well, yeah, it's not going to have any internal stuff. So it would have to look at the drawing. I mean, the drawing, the drawings are the source of truth, keeps. It was like, yeah, for procurement, for UC, for the shop. I thought it. I was like, I feel like, this won't be too tricky, because it's all the text, you know, the system wouldn't have to know how to read a drawing and build the tank. It just needs to take, yeah, yeah.
+
+David  1:02:51  
+Why? Because that's what your build plan is actually doing. It's a roadmap of how we're going to build this tank, right? Yeah. So it has to know what work needs to be done. Then it breaks it down, operation by operation by operation, right? And then assigns estimated hours to each of those operations.
+
+Kelly  1:03:16  
+So then the build plan, and so think then of the past, or we'll throw out 1800 whatever, but the most recent five years, every job has a drawing and it has a build plan, right? So training the model to be able to route the learn from, hey, this is the build plan for this drawing match each of The things up.
+
+Like when I gave a system I 35,000 images, and I first had to train it to know if it's a shipping or if it's a full tank, or if it's just the shipping pieces or in process. And then it could I trained it, and then it ran through well, and then it ran through all of the images to decide and put them into groups. It would be the same thing, except it would be taking these two go together, this build plan and this drawing go together. Now time's up by all of the different ones. That's like, the phase one is okay. We're going to train the model on what the data already with, the data that already exists, and then add The scanners, and then it'll be able to predict do of
+
+fun, but I didn't mess with it. I literally had build plans in the repo and drawings and, well, the shop schedule, I mean, all of my discovery documents that I took, that is what I did first, too, is I went through their their folders that are on the P drive, and took, I went for what is the most recent stuff that's been used, and took that, put it in the repo, and had pre discovery. So I went into the interviews knowing what was up a little bit. So, yeah, I don't know.
+
+David  1:05:51  
+All right. Well, let me look through this, and I'm starting to come back with questions, but let me look through This, and
+
+Kelly  1:06:02  
+I this, anything else that was super you?
+
+David  1:06:23  
+So your thinking is based on what John, you know, showed you you could automate his QC packet in two to three weeks.
+
+Kelly  1:06:31  
+Yeah, because that's just not the entire packet, though, but the world maps the QC checklist and the test forms, because it's just parsing the that is so these are estimates. Well, jazz, HR is not an estimate that would take about a week, auto adding jobs and build plans that'll take about a week. These two are estimates, but that can be done in two to three weeks. It's parsing the information from the calc i Okay,
+
+yeah, drawing automation, I feel like I'll know more about how long that would take after meeting with Autodesk, because if you got something scheduled, you were talking about something scheduled, not yet. We talked with code where yesterday, but they don't pull a coder. Nah, not really, not like, I mean, you showed us how to put the XML in, which we already knew how to do that. And I did ask him a few questions. Like, I was like, you know, so right. So if you just, just today, you took the XML, you put it in auto or inventor, would you have to change anything or do anything in inventor? And he was like, no, because he started with it, just starting in there. I was like, hold on. We were having trouble getting it to even pull up. It would just give us an error. But I figured that out. We need
+
+to talk to him. He didn't. He didn't know. So he wrote yesterday, and I said, this is aside from, like, the inventory things we have another reason why we need so it doesn't have to be a whole like thing. And he said they are going to, but he doesn't know when you
+
+Thank you. Yes, applause.
+
+Transcribed by https://otter.ai
