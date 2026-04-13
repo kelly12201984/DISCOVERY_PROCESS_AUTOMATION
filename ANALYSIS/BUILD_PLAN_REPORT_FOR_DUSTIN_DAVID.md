@@ -112,7 +112,7 @@ Every MOVE TANK and SHIPPING operation is estimated at 2-8 hours, but actuals re
 
 ## What the Inline Notes Tell Us
 
-The MASTER BUILD PLAN's most valuable feature is the inline fabrication notes — the text added by the engineer after reading the drawing. Examples:
+The MASTER BUILD PLAN's most valuable feature is the inline fabrication notes — the text added to operations during build plan creation. Examples:
 
 - "BUILD TOP IN (2) SECTIONS" — tells the shop the head is too large for single-piece fabrication
 - "ROLL (8) SHELL SECTIONS" — quantifies the work for the shell roller
@@ -122,10 +122,10 @@ The MASTER BUILD PLAN's most valuable feature is the inline fabrication notes �
 - "***MAKE SURE LADDER DOES NOT COVER NOZZLES***" — fit-up warning
 
 ### Which Operations Always Get Notes (100% of the time):
-- Fabricate miscellaneous parts — always needs specifics
-- Install dip pipe supports — usually "INCL HOLE WATCH"
-- Install internals — specific internals to install
-- Miscellaneous Fabrication — always custom scope
+- Fabricate miscellaneous parts — example: "BUILD (4) LIFT LUGS, (2) GROUND LUGS"
+- Install dip pipe supports — example: "INCL HOLE WATCH"
+- Install internals — example: "INSTALL (3) BAFFLES PER DWG"
+- Miscellaneous Fabrication — example: "BUILD N9 CABLE SUPPORT; CLIP FOR N2"
 
 ### Which Operations Never Get Notes:
 - All QC Inspection checkpoints (standardized gates)
@@ -133,7 +133,7 @@ The MASTER BUILD PLAN's most valuable feature is the inline fabrication notes �
 - Install name tag, Clean tank complete, Load on truck
 
 ### What This Means:
-The notes are where the engineer translates the drawing into shop instructions. About half the operations sometimes need notes, and the content falls into clear categories:
+The notes are where job-specific context gets added to the routing — whether that context comes from the drawing, from shop-floor knowledge, or from whoever is writing the build plan is a question for Dustin and David. About half the operations sometimes get notes, and the content falls into clear categories:
 1. **Quantity/scope**: "INCL (4) LIFT LUGS", "ROLL (2) DOUBLE SHELLS"
 2. **Method**: "WELD OUTSIDE SEAM W/COBOT", "MAKE FULL PEN WELD FROM OUTSIDE"
 3. **Caution**: "CHECK BEFORE BURNING", "CHECK WITH QC FOR TEST PRESSURE"
@@ -143,7 +143,7 @@ The notes are where the engineer translates the drawing into shop instructions. 
 
 ## How Work Actually Flows Through the Shop
 
-The build plan sequence numbers suggest operations run in order. **They don't.** The actual data shows massive parallel execution:
+The build plan sequence numbers suggest operations run in order. The data suggests massive parallel execution:
 
 ### Job 24-003 (571 est hrs, 81 ops, 93 calendar days)
 
