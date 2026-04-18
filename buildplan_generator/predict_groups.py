@@ -39,6 +39,8 @@ SPEC_FEATURES = [
     "max_plate_thickness", "plate_count", "nozzle_count", "flange_count",
     "max_flange_size", "head_count", "has_code_stamp", "total_material_cost",
     "Total_Price", "Est_Total_Hrs",
+    "total_plate_qty", "total_plate_cost", "n_plate_lines",
+    "max_plate_width", "avg_plate_thickness", "n_distinct_thicknesses",
 ]
 
 MATERIAL_CODES = {

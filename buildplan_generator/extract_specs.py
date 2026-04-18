@@ -192,6 +192,57 @@ def parse_description(desc: str) -> dict:
     }
 
 
+# --- Plate dimension parsing from Material column ---
+
+PLATE_DIM_RE = re.compile(
+    r'(\d+/\d+|\d+\.\d+|\d+)\s*"?\s*[Xx]\s*(\d+(?:\.\d+)?)\s*"?\s*(?:[Xx]\s*(\d+(?:\.\d+)?))?',
+    re.IGNORECASE
+)
+
+
+def parse_plate_dimensions(bom: pd.DataFrame) -> dict:
+    """Extract plate quantities, widths, and thicknesses from BOM."""
+    plates = bom[bom["Material"].fillna("").str.upper().str.contains(r"\bPLT\b|\bPLATE\b", regex=True)]
+    plates = plates[~plates["Material"].fillna("").str.upper().str.contains("NAMEPLATE|PLATED|TEMPLATE")]
+
+    if plates.empty:
+        return {
+            "total_plate_qty": 0, "total_plate_cost": 0, "n_plate_lines": 0,
+            "max_plate_width": 0, "avg_plate_thickness": 0, "n_distinct_thicknesses": 0,
+        }
+
+    total_qty = plates["Est_Qty"].fillna(0).sum()
+    total_cost = plates["Est_Total_Cost"].fillna(0).sum()
+
+    widths = []
+    thicknesses = []
+    for _, r in plates.iterrows():
+        mat = str(r.get("Material", "")).upper()
+        m = PLATE_DIM_RE.search(mat)
+        if not m:
+            continue
+        try:
+            t_str = m.group(1)
+            thickness = parse_fraction(t_str)
+            thicknesses.append(thickness)
+        except (ValueError, ZeroDivisionError):
+            pass
+        if m.group(2):
+            try:
+                widths.append(float(m.group(2)))
+            except ValueError:
+                pass
+
+    return {
+        "total_plate_qty": total_qty,
+        "total_plate_cost": total_cost,
+        "n_plate_lines": len(plates),
+        "max_plate_width": max(widths) if widths else 0,
+        "avg_plate_thickness": sum(thicknesses) / len(thicknesses) if thicknesses else 0,
+        "n_distinct_thicknesses": len(set(round(t, 4) for t in thicknesses)),
+    }
+
+
 # --- Main spec extraction ---
 
 def extract_all_specs() -> pd.DataFrame:
@@ -226,6 +277,9 @@ def extract_all_specs() -> pd.DataFrame:
         # Material cost
         mat_cost = bom["Est_Total_Cost"].sum() if len(bom) > 0 else 0
 
+        # Plate dimensions (steel volume proxy)
+        plate_dims = parse_plate_dimensions(bom)
+
         # Description parsing
         desc_info = parse_description(job.get("Description"))
 
@@ -253,6 +307,13 @@ def extract_all_specs() -> pd.DataFrame:
             "has_code_stamp": has_code,
             "total_material_cost": mat_cost,
             "certs_required_count": certs_count,
+            # Plate dimensions (shell/steel volume proxy)
+            "total_plate_qty": plate_dims["total_plate_qty"],
+            "total_plate_cost": plate_dims["total_plate_cost"],
+            "n_plate_lines": plate_dims["n_plate_lines"],
+            "max_plate_width": plate_dims["max_plate_width"],
+            "avg_plate_thickness": plate_dims["avg_plate_thickness"],
+            "n_distinct_thicknesses": plate_dims["n_distinct_thicknesses"],
             # Description-derived
             "capacity_gal": desc_info["capacity_gal"],
             "tank_type": desc_info["tank_type"],
