@@ -14,8 +14,42 @@ import pandas as pd
 import numpy as np
 from config import (
     JOBS_CSV, JOB_OPS_CSV, TIME_ENTRIES_CSV, OPERATIONS_CSV,
-    CLEAN_JOBS, CLEAN_OPS, DATA_DIR
+    CLEAN_JOBS, CLEAN_OPS, DATA_DIR, JOBBOSS_DIR
 )
+
+
+# Tank identification op codes.
+# A job is considered a "tank" if its routing shows evidence of both a head
+# and a shell being present (whether fabricated in-house or purchased).
+SHELL_FAB_OPS    = {".300", ".305", ".310", ".315", ".320", ".325"}
+HEAD_FAB_OPS     = {".350", ".355", ".360", ".365", ".366", ".450", ".455", ".460", ".465", ".466"}
+SHELL_DETAIL_OPS = {".620", ".725", ".726"}          # layout shell, set/weld nozzles in shell
+ASSEMBLY_OPS     = {".600", ".640", ".645", ".641"}  # fit bottom/top head to shell, weld seams
+
+
+def identify_tank_jobs() -> set:
+    """Find job numbers that are real tanks (have heads + shells in routing)."""
+    ops_file = JOBBOSS_DIR / "Operations.csv"
+    if not ops_file.exists():
+        print(f"  Warning: {ops_file} not found, tank filter disabled")
+        return None
+
+    ops = pd.read_csv(ops_file, header=None, encoding="utf-8-sig",
+                      names=["Job", "Sequence", "op_code", "Description",
+                             "Work_Center", "Est_Hrs", "Act_Hrs", "Status", "Date"])
+    ops["op_code"] = ops["op_code"].astype(str).str.strip()
+
+    tanks = set()
+    for job, group in ops.groupby("Job"):
+        codes = set(group["op_code"])
+        has_shell = bool(codes & (SHELL_FAB_OPS | SHELL_DETAIL_OPS))
+        has_head = bool(codes & HEAD_FAB_OPS)
+        has_assembly = bool(codes & ASSEMBLY_OPS)
+        # Tank = (head fab + shell fab/detail) OR (assembly ops prove both exist)
+        if (has_shell and has_head) or has_assembly:
+            tanks.add(job)
+
+    return tanks
 
 
 def clean_jobs(df: pd.DataFrame) -> pd.DataFrame:
@@ -85,7 +119,14 @@ def main():
 
     print("\nCleaning jobs...")
     jobs = clean_jobs(jobs_raw)
-    print(f"  After cleaning: {len(jobs)} jobs ({len(jobs_raw) - len(jobs)} removed)")
+    print(f"  After date/status filtering: {len(jobs)} jobs ({len(jobs_raw) - len(jobs)} removed)")
+
+    print("\nApplying tank filter (must have heads + shells in routing)...")
+    tank_jobs = identify_tank_jobs()
+    if tank_jobs is not None:
+        before = len(jobs)
+        jobs = jobs[jobs["Job"].isin(tank_jobs)].copy()
+        print(f"  Tank filter: {len(jobs)} tanks kept ({before - len(jobs)} non-tanks removed)")
 
     print("\nCleaning operations...")
     valid_jobs = set(jobs["Job"])
