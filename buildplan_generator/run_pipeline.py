@@ -10,6 +10,7 @@ SCRIPTS = [
     ("Step 1: Clean JobBOSS data", "clean_data.py"),
     ("Step 2: Parse build plans", "parse_build_plans.py"),
     ("Step 3: Extract features & routing catalog", "features.py"),
+    ("Step 4: Extract tank specs from BOM + descriptions", "extract_specs.py"),
 ]
 
 

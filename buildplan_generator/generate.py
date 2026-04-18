@@ -16,8 +16,8 @@ import pandas as pd
 
 import config
 from config import CLEAN_JOBS, CLEAN_OPS, PARSED_BUILD_PLANS, JOB_FEATURES, DATA_DIR
-from similarity import JobSimilarityEngine
-from predict_hours import HoursPredictor
+from similarity_v3 import HybridSimilarityEngine
+from predict_hours_v2 import CalibratedPredictor
 from excel_writer import write_build_plan
 
 OUTPUT_DIR = Path(__file__).resolve().parent / "output"
@@ -122,8 +122,8 @@ def get_job_routing(job_no: str, clean_ops: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def generate_for_job(job_no: str, engine: JobSimilarityEngine,
-                     predictor: HoursPredictor, k: int = 5) -> tuple[Path, float]:
+def generate_for_job(job_no: str, engine: HybridSimilarityEngine,
+                     predictor: CalibratedPredictor, k: int = 5) -> tuple[Path, float]:
     """Generate a build plan for a specific job number.
     Returns (output_path, total_predicted_hours)."""
     clean_ops = pd.read_csv(CLEAN_OPS, low_memory=False)
@@ -190,8 +190,8 @@ def generate_for_job(job_no: str, engine: JobSimilarityEngine,
     return output_path, total_predicted
 
 
-def backtest(n_jobs: int, engine: JobSimilarityEngine,
-             predictor: HoursPredictor) -> pd.DataFrame:
+def backtest(n_jobs: int, engine: HybridSimilarityEngine,
+             predictor: CalibratedPredictor) -> pd.DataFrame:
     """Generate plans for the last N completed jobs, compare predicted vs actual."""
     clean_jobs = pd.read_csv(CLEAN_JOBS)
 
@@ -269,9 +269,9 @@ def main():
 
     # Initialize engine and predictor
     print("Loading similarity engine...")
-    engine = JobSimilarityEngine()
+    engine = HybridSimilarityEngine()
     print("Loading hours predictor...")
-    predictor = HoursPredictor()
+    predictor = CalibratedPredictor()
 
     if args.backtest:
         backtest(args.backtest, engine, predictor)
